@@ -6,13 +6,13 @@
         android:title="settings"
         android:orderInCategory="100"
         app:showAsAction="never" />
-    <item android:id="@+id/action_refresh"
-        android:title="Refresh"
-        android:icon="@mipmap/ic_launcher"
+    <item android:id="@+id/action_about"
+        android:title="about"
         android:orderInCategory="200"
-        app:showAsAction="ifRoom" />
-    <item android:id="@+id/action_new"
-        android:title="New"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_info"
+        android:title="info"
         android:orderInCategory="300"
-        app:showAsAction="ifRoom" />
+        app:showAsAction="ifRoom"
+        android:icon="@mipmap/ic_info"/>
 </menu>
