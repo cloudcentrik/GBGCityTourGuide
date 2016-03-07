@@ -12,5 +12,134 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello Android Cloudcentrik" />
+        android:text="Hello Android Cloudcentrik"
+        android:id="@+id/textView" />
+
+
+
+
+    <GridLayout
+        android:layout_width="400dp"
+        android:layout_height="250dp"
+
+        android:rowCount="4"
+        android:columnCount="3"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="#fefdfd"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="true"
+        android:rowOrderPreserved="false"
+        android:useDefaultMargins="false"
+        android:transitionGroup="false"
+        android:touchscreenBlocksFocus="false"
+        android:visibility="visible">
+
+        <Button
+            android:id="@+id/btn_hotel"
+
+            android:text="Hotel"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/btn_touristinfo"
+
+            android:text="TrouristInfo"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btn_restrurant"
+
+            android:text="Restrurent"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:id="@+id/btn_shopingcentre"
+
+            android:text="Shoping Centre"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:id="@+id/btn_touristspot"
+
+            android:text="TouristSpot"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <Button
+            android:id="@+id/btn_travelinfo"
+
+            android:text="Travel Info"
+            android:textColor="#38A9FF"
+            android:textSize="17sp"
+
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+
+    </GridLayout>
 </RelativeLayout>
