@@ -19,7 +19,12 @@
     <!--app colors End-->
 
     <!--button colors start-->
-    <color name="white">#FFFFFF</color>
+    <color name="btn_white">#FFFFFF</color>
+    <color name="btn_shadow">#FFFFFF</color>
+    <color name="btn_bg">#00BCD4</color>
+    <color name="btn_bg_presed">#80DEEA</color>
+    <color name="btn_border">#FFFFFF</color>
+
     <!--button colors End-->
 
 
