@@ -52,4 +52,20 @@
     </style>
     <!--app Theme End-->
 
+    <!---->
+    <style name="gbg_button_style">
+
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">150dp</item>
+
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:shadowColor">#80DEEA</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20dp</item>
+
+    </style>
+
 </resources>

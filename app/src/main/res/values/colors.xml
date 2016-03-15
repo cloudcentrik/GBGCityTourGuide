@@ -18,5 +18,10 @@
     <color name="my_divider">#B6B6B6</color>
     <!--app colors End-->
 
+    <!--button colors start-->
+    <color name="white">#FFFFFF</color>
+    <!--button colors End-->
+
+
 
 </resources>
