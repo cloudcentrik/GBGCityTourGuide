@@ -27,21 +27,46 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
+                <TabWidget android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" />
+
                 <FrameLayout android:id="@android:id/tabcontent"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content">
                     <LinearLayout
                         android:id="@+id/tab_One"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Tab One"/>
+
+                    </LinearLayout>
                     <LinearLayout
                         android:id="@+id/tab_Two"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:background="@color/btn_shadow">
+                        <Button
+                            android:id="@+id/gbg_btn_mesuem4"
+                            style="@style/gbg_button_style_second"
+                            android:text="Stad Musuem"
+                            android:layout_gravity="center_horizontal"/>
+                    </LinearLayout>
                     <LinearLayout
                         android:id="@+id/tab_Three"
                         android:layout_width="fill_parent"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/gbg_btn_mesuem3"
+                        style="@style/gbg_button_style_second"
+                        android:text="Stad Musuem"
+                        android:layout_gravity="center_horizontal"/>
+                    </LinearLayout>
                 </FrameLayout>
             </LinearLayout>
         </TabHost>
