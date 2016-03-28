@@ -45,7 +45,7 @@
                 <Button
                     android:id="@+id/gbg_btn_historical"
                     style="@style/gbg_button_style"
-                    android:text="Hotels"
+                    android:text="H places"
 
 
                     />
@@ -53,7 +53,7 @@
                 <Button
                     android:id="@+id/gbg_btn_restaurent"
                     style="@style/gbg_button_style"
-                    android:text="Hotels"
+                    android:text="Restrent"
 
 
                     />
@@ -61,7 +61,7 @@
                 <Button
                     android:id="@+id/gbg_btn_island"
                     style="@style/gbg_button_style"
-                    android:text="Hotels"
+                    android:text="Island"
 
                     />
 
@@ -89,7 +89,7 @@
                 <Button
                     android:id="@+id/gbg_btn_park"
                     style="@style/gbg_button_style"
-                    android:text="Mesuem" />
+                    android:text="Park" />
 
             </LinearLayout>
 
