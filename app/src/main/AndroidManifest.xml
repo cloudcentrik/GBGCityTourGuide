@@ -15,6 +15,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:theme="@style/AppTheme" android:label="@string/title_activity_museum"
+            android:name=".MuseumActivity"/>
     </application>
 
 </manifest>

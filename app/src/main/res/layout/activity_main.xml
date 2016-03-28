@@ -74,7 +74,7 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/gbg_btn_Mesuem"
+                    android:id="@+id/gbg_btn_mesuem"
                     style="@style/gbg_button_style"
                     android:text="Mesuem" />
 
