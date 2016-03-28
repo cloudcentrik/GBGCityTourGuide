@@ -1,11 +1,15 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+import android.content.Intent;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
@@ -15,10 +19,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Toolbar
+                // Toolbar
         Toolbar topToolBar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("GBG City Tour Guide");
+
+        // BtnMuseum
+        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MainActivity.this, MuseumActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
     }
 
     @Override
@@ -48,5 +64,9 @@ public class MainActivity extends AppCompatActivity {
             Toast.makeText(MainActivity.this, "information", Toast.LENGTH_LONG).show();
         }
         return super.onOptionsItemSelected(item);
+
+
     }
+
+
 }

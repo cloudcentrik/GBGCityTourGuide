@@ -68,6 +68,10 @@
 
     </style>
 
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
     <style name="gbg_button_style_second">
 
         <item name="android:layout_width">85dp</item>
