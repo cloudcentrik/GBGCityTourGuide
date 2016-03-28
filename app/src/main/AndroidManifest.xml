@@ -15,8 +15,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:theme="@style/AppTheme" android:label="@string/title_activity_museum"
-            android:name=".MuseumActivity"/>
+        <activity
+            android:name=".MuseumActivity"
+            android:label="@string/title_activity_museum"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GBG_museum1"
+            android:label="@string/title_activity_gbg_museum1"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
