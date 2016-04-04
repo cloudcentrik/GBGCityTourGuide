@@ -15,72 +15,21 @@
         android:background="@color/my_primary"
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
-    <LinearLayout
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-
-        <TabHost android:id="@+id/tab_host"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content" >
-            <LinearLayout android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TabWidget android:id="@android:id/tabs"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content" />
-
-                <FrameLayout android:id="@android:id/tabcontent"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content">
-                    <LinearLayout
-                        android:id="@+id/tab_One"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content" >
-
-                        <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Tab One"/>
-
-                    </LinearLayout>
-                    <LinearLayout
-                        android:id="@+id/tab_Two"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content"
-                        android:background="@color/btn_shadow">
-                        <Button
-                            android:id="@+id/gbg_btn_mesuem4"
-                            style="@style/gbg_button_style_second"
-                            android:text="Stad Musuem"
-                            android:layout_gravity="center_horizontal"/>
-                    </LinearLayout>
-                    <LinearLayout
-                        android:id="@+id/tab_Three"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content" >
-
-                    <Button
-                        android:id="@+id/gbg_btn_mesuem3"
-                        style="@style/gbg_button_style_second"
-                        android:text="Stad Musuem"
-                        android:layout_gravity="center_horizontal"/>
-                    </LinearLayout>
-                </FrameLayout>
-            </LinearLayout>
-        </TabHost>
-
-
-    </LinearLayout>
-
-    <TabWidget android:id="@android:id/tabs"
-        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="92dp" />
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tab_layout"/>
 
 
 </RelativeLayout>
