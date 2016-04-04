@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">GBGCityTourGuide</string>
+    <string name="title_activity_museum"> GBG Museum </string>
+    <string name="title_activity_park"> GBG Test </string>
+    <string name="title_activity_stad_museum">STAD Museum</string>
 </resources>

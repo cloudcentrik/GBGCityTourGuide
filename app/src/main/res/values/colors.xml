@@ -7,7 +7,7 @@
 
 
     <!--app colors Start-->
-    <color name="window_background">#CC000000</color>
+    <color name="window_background">#E0F7FA</color>
     <color name="my_primary">#00BCD4</color>
     <color name="my_primary_dark">#CC0000</color>
     <color name="my_primary_light">#B3E5FC</color>
@@ -24,6 +24,7 @@
     <color name="btn_bg">#00BCD4</color>
     <color name="btn_bg_presed">#80DEEA</color>
     <color name="btn_border">#FFFFFF</color>
+    <color name="btn_bg_presed_second">#B2EBF2</color>
 
     <!--button colors End-->
 
