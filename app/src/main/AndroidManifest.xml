@@ -20,8 +20,8 @@
             android:label="@string/title_activity_museum"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".GBG_museum1"
-            android:label="@string/title_activity_gbg_museum1"
+            android:name=".StadMuseumActivity"
+            android:label="@string/title_activity_stad_museum"
             android:theme="@style/AppTheme"></activity>
     </application>
 
