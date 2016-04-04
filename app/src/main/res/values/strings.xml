@@ -2,5 +2,47 @@
     <string name="app_name">GBGCityTourGuide</string>
     <string name="title_activity_museum"> GBG Museum </string>
     <string name="title_activity_park"> GBG Test </string>
-    <string name="title_activity_stad_museum">STAD Museum</string>
+    < string name="title_activity_stad_museum">STAD Museum
+        <string-array name="stad_museam_maritiman">
+        <item name="Name"> MARITIMAN</item>
+         <item name="Overview">The Gothenburg Maritime Centre Foundation was established in 1985
+                              with the aim of creating the world’s biggest and best maritime centre.
+                              Climb aboard and leave dry land behind you. Set sail for a brand new
+                              world offering you excitement, adventure and discovery. Climb up the
+                              ladders and become a part of the old tales, with the salty sea spray
+                             in your face and the smell of diesel in your nostrils. Look out over
+                             the harbour entrance. At Maritiman you can go to sea without ever
+                             casting off.</item>
+         <item name="Adress"> Packhusplatsen 12</item>
+         <item name="Contactinfo">Packhusplatsen 12
+                                  Phone: +4631105950
+                                  E-mail: info@maritiman.se
+                                  Website: http://www.maritiman.se</item>
+         <item name="Openninghour"> EASTER HOLIDAY
+                                    April 3-12 :11am - 4pm
+                                    APRIL :11AM - 4PM
+                                    Sat 18 - Sun 19
+                                    Sat 25 - Sun 26
+                                    MAY : 11AM - 5PM
+                                    Open daily
+                                    JUNE-AUGUST :10AM - 6PM
+                                    Open daily except for Midsummer's Eve the 19th of June when we close at 3pm
+                                    SEPTEMBER 11AM - 5PM
+                                    Open daily
+                                    AUTUMN HOLIDAY
+                                    Oct 24-Nov 1 :11am - 4pm</item>
+
+         <item name="Travelinfo"> Take trum no 1,2,3,4,7,11,9 from central
+                                  station and take off Brunnsparken(Just one stoppage).
+                                  Than take trum 5,10  or Buss 55, 19,18,42
+                                  from Platform B.Just take off one stoppage
+                                  later named Lilla Bommen.It is situated after
+                                  next to the Goteborg Opera centre.</item>
+        <item name="Ticketpricr"> Adult 120 SEK
+                                  Children (5-15) 70 SEK
+                                  Family Ticket 350 SEK
+                                  (2 Adults and 2 Children)
+                                  Students and Senior Citizens 90 SEK</item>
+        </string-array>
+    </string>
 </resources>
