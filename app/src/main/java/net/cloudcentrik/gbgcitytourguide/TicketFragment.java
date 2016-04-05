@@ -19,11 +19,11 @@ public class TicketFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_ticket, container, false);
 
-        Resources res = getResources();
-        String[] stadMuseum = res.getStringArray(R.array.stad_museam_maritiman);
+        /*Resources res3 = getResources();
+        String[] stadMuseum3 = res3.getStringArray(R.array.stad_museam_maritiman);
 
-        final TextView textView = (TextView) rootView.findViewById(R.id.stadText);
-        textView.setText(stadMuseum[1]);
+        final TextView textView3 = (TextView) rootView.findViewById(R.id.txtStadMuseumTicket);
+        textView3.setText(stadMuseum3[7]);*/
 
         return rootView;
     }

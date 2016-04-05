@@ -2,18 +2,17 @@
     <string name="app_name">GBGCityTourGuide</string>
     <string name="title_activity_museum"> GBG Museum </string>
     <string name="title_activity_park"> GBG Test </string>
-    < string name="title_activity_stad_museum">STAD Museum
-        <string-array name="stad_museam_maritiman">
-        <item name="Name"> MARITIMAN</item>
-         <item name="Overview">The Gothenburg Maritime Centre Foundation was established in 1985
-                              with the aim of creating the world’s biggest and best maritime centre.
-                              Climb aboard and leave dry land behind you. Set sail for a brand new
+    <string name="title_activity_stad_museum">Stad Museum</string>
+
+    <string-array name="stad_museam_maritiman">
+        <item> MARITIMAN</item>
+         <item>The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand new
                               world offering you excitement, adventure and discovery. Climb up the
                               ladders and become a part of the old tales, with the salty sea spray
                              in your face and the smell of diesel in your nostrils. Look out over
                              the harbour entrance. At Maritiman you can go to sea without ever
                              casting off.</item>
-         <item name="Adress"> Packhusplatsen 12</item>
+        <item name="Adress"> Packhusplatsen 12</item>
          <item name="Contactinfo">Packhusplatsen 12
                                   Phone: +4631105950
                                   E-mail: info@maritiman.se
@@ -26,7 +25,7 @@
                                     MAY : 11AM - 5PM
                                     Open daily
                                     JUNE-AUGUST :10AM - 6PM
-                                    Open daily except for Midsummer's Eve the 19th of June when we close at 3pm
+                                    Open daily except for Midsummers Eve the 19th of June when we close at 3pm
                                     SEPTEMBER 11AM - 5PM
                                     Open daily
                                     AUTUMN HOLIDAY
@@ -43,6 +42,6 @@
                                   Family Ticket 350 SEK
                                   (2 Adults and 2 Children)
                                   Students and Senior Citizens 90 SEK</item>
-        </string-array>
-    </string>
+    </string-array>
+
 </resources>
