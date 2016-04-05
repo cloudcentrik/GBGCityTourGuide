@@ -3,4 +3,12 @@
     <string name="title_activity_museum"> GBG Museum </string>
     <string name="title_activity_park"> GBG Test </string>
     <string name="title_activity_stad_museum">STAD Museum</string>
+
+    <string-array name="stad_museum">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+    </string-array>
+
 </resources>
