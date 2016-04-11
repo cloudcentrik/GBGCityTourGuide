@@ -34,5 +34,6 @@ public class DetailInfoFragment extends Fragment {
         textTravelInfo.setText(stadMuseum2[1]);
 
         return rootView;
+        //
     }
 }
