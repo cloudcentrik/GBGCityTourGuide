@@ -6,12 +6,13 @@
 
     <string-array name="stad_museam_maritiman">
         <item> MARITIMAN</item>
-         <item>The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand new
+         <item>
+             The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand new
                               world offering you excitement, adventure and discovery. Climb up the
                               ladders and become a part of the old tales, with the salty sea spray
                              in your face and the smell of diesel in your nostrils. Look out over
                              the harbour entrance. At Maritiman you can go to sea without ever
-                             casting off.</item>
+                             casting off. </item>
         <item name="Adress"> Packhusplatsen 12</item>
          <item name="Contactinfo">Packhusplatsen 12
                                   Phone: +4631105950
