@@ -21,10 +21,10 @@ public class TabsPagerAdapter extends FragmentStatePagerAdapter {
                 OverviewFragment tab1 = new OverviewFragment();
                 return tab1;
             case 1:
-                HistoryFragment tab2 = new HistoryFragment();
+                DetailInfoFragment tab2 = new DetailInfoFragment();
                 return tab2;
             case 2:
-                TicketFragment tab3 = new TicketFragment();
+                VisitFragment tab3 = new VisitFragment();
                 return tab3;
             default:
                 return null;
