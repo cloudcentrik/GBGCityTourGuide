@@ -3,16 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/fragement_background" >
+    android:background="#fa6a6a"
+    >
 
-    <TextView android:layout_width="fill_parent"
+    <TextView android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
+
+        android:layout_gravity="center_vertical|right"
+
+
+
         android:text="Overview"
         android:textSize="20dp"
         android:layout_centerInParent="true"
-        android:id="@+id/txtStadMuseumOverview"
-        style="@style/fragement_normal_text"/>
+        android:id="@+id/txtStadMuseumOverview"/>
 
 
 </RelativeLayout>

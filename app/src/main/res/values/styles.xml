@@ -58,7 +58,7 @@
         <item name="android:layout_width">85dp</item>
         <item name="android:layout_height">85dp</item>
 
-        <item name="android:background">@drawable/button_background_primary</item>
+        <item name="android:background">@drawable/button_shape</item>
         <item name="android:shadowColor">@color/btn_shadow</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
@@ -77,7 +77,7 @@
         <item name="android:layout_width">85dp</item>
         <item name="android:layout_height">85dp</item>
 
-        <item name="android:background">@drawable/button_background_secondary</item>
+        <item name="android:background">@drawable/button_background</item>
         <item name="android:shadowColor">@color/btn_shadow</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
@@ -85,30 +85,6 @@
         <item name="android:textColor">@color/my_primary</item>
         <item name="android:textSize">15dp</item>
         <item name="android:layout_marginTop">5dp</item>
-
-    </style>
-
-    <style name="fragement_normal_text">
-        <item name="android:textColor">@color/fragement_text_color</item>
-        <item name="android:textSize">12dp</item>
-        <item name="android:textStyle">italic</item>
-    </style>
-
-
-    <style name="fragement_heading_text">
-
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-
-        <item name="android:background">@drawable/textview_heading_text_background</item>
-        <item name="android:shadowColor">@color/btn_shadow</item>
-        <item name="android:shadowDx">0</item>
-        <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">5</item>
-        <item name="android:textColor">@color/my_primary</item>
-        <item name="android:textSize">16dp</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:layout_gravity">center_horizontal</item>
 
     </style>
 
