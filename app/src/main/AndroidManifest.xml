@@ -19,6 +19,16 @@
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"
             android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".IslandActivity"
+            android:label="@string/title_activity_museum"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VrangoIslandActivity"
+            android:label="@string/title_activity_museum"
+            android:theme="@style/AppTheme" />
+
         <activity
             android:name=".StadMuseumActivity"
             android:label="@string/title_activity_stad_museum"

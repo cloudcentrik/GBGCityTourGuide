@@ -35,6 +35,18 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        // BtnMuseum
+        final Button btnIsland = (Button) findViewById(R.id.gbg_btn_island);
+        btnIsland.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intentIsland = new Intent(MainActivity.this, IslandActivity.class);
+                startActivity(intentIsland);
+
+
+            }
+        });
     }
 
     @Override
