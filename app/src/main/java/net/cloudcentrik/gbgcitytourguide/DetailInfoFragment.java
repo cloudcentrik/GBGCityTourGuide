@@ -21,17 +21,14 @@ public class DetailInfoFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_detail_info, container, false);
 
-        Resources res1 = getResources();
-        String[] stadMuseum2 = res1.getStringArray(R.array.stad_museam_maritiman);
-
         final TextView textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
-        textOpeningHours.setText(stadMuseum2[1]);
+        textOpeningHours.setText(StringsUtils.stadMesuem[3]);
 
         final TextView textTicketPrice = (TextView) rootView.findViewById(R.id.txtStadMuseumTicketPrice);
-        textTicketPrice.setText(stadMuseum2[1]);
+        textTicketPrice.setText(StringsUtils.stadMesuem[5]);
 
         final TextView textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
-        textTravelInfo.setText(stadMuseum2[1]);
+        textTravelInfo.setText(StringsUtils.stadMesuem[4]);
 
         return rootView;
         //

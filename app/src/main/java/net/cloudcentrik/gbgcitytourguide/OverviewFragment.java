@@ -20,11 +20,10 @@ public class OverviewFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_overview, container, false);
 
-        Resources res1 = getResources();
-        String[] stadMuseum1 = res1.getStringArray(R.array.stad_museam_maritiman);
+        final TextView txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
 
-        final TextView textView1 = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
-        textView1.setText(stadMuseum1[1]);
+        txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
+
 
         return rootView;
     }

@@ -45,4 +45,16 @@
                                   Students and Senior Citizens 90 SEK</item>
     </string-array>
 
+    <string-array name="stad_museam">
+        <item>Category one
+        Category two</item>
+        <item>History
+        History two</item>
+        <item>Address</item>
+        <item>Contact Info</item>
+        <item>Opening Hours</item>
+        <item>Travel Info</item>
+        <item>Ticket Price</item>
+    </string-array>
+
 </resources>

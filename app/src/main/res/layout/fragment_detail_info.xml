@@ -28,7 +28,8 @@
             android:gravity="center"
             android:text="Ticket Price"
             android:layout_centerInParent="true"
-            style="@style/fragement_heading_text"/>
+            style="@style/fragement_heading_text"
+            android:textAlignment="center" />
 
         <TextView android:layout_width="fill_parent"
             android:layout_height="wrap_content"
