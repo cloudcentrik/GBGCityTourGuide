@@ -7,6 +7,7 @@ package net.cloudcentrik.gbgcitytourguide;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -22,7 +23,15 @@ public class OverviewFragment extends Fragment {
 
         final TextView txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
 
-        txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
+        String strActivity = getActivity().toString();
+        Log.i("activity", strActivity);
+        //boolean tt =
+        if (strActivity.equals("StadMuseumActivity"))
+
+            txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
+
+        if (strActivity.equals("EastIndiaCompanyHPActivity"))
+            txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
 
 
         return rootView;

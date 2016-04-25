@@ -22,6 +22,14 @@
         <activity
             android:name=".StadMuseumActivity"
             android:label="@string/title_activity_stad_museum"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HistoricalPlaceActivity"
+            android:label="@string/title_activity_historical_place"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EastIndiaCompanyHPActivity"
+            android:label="@string/title_activity_east_india_company_hp"
             android:theme="@style/AppTheme"></activity>
     </application>
 

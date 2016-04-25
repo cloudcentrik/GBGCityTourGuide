@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +25,11 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("GBG City Tour Guide");
 
-        // BtnMuseum
         final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
+
+
+        // BtnMuseum
+
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
@@ -35,6 +39,20 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+
+        // BtnHistoricalPlace
+        final Button buttonHp = (Button) findViewById(R.id.gbg_btn_historical);
+        buttonHp.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent2 = new Intent(MainActivity.this, HistoricalPlaceActivity.class);
+                startActivity(intent2);
+
+
+            }
+        });
+
     }
 
     @Override

@@ -56,5 +56,7 @@
         <item>Travel Info</item>
         <item>Ticket Price</item>
     </string-array>
+    <string name="title_activity_historical_place">GBG Historical Place</string>
+    <string name="title_activity_east_india_company_hp">EastIndiaCompanyHPActivity</string>
 
 </resources>
