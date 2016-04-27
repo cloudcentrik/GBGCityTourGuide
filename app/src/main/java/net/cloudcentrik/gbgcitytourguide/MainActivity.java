@@ -70,12 +70,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_museum) {
             Toast.makeText(MainActivity.this, "Seetings", Toast.LENGTH_LONG).show();
 
             return true;
         }
-        if(id == R.id.action_about){
+        if(id == R.id.action_island){
             Toast.makeText(MainActivity.this, "About", Toast.LENGTH_LONG).show();
         }
         if(id == R.id.action_info){

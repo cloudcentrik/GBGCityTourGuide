@@ -19,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:layout_marginLeft="30dp"
+        android:layout_marginLeft="16dp"
         android:layout_marginTop="75dp">
 
 
@@ -27,7 +27,8 @@
             android:id="@+id/gbg_btn_mesuem1"
             style="@style/gbg_button_style_second"
             android:text="City Musuem"
-            android:layout_gravity="center_horizontal"/>
+            android:layout_gravity="center_horizontal"
+            />
 
         <Button
             android:id="@+id/gbg_btn_mesuem2"

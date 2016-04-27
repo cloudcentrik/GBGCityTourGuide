@@ -22,10 +22,10 @@ public class VisitFragment extends Fragment {
 
 
         final TextView txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
-        txtAddress.setText(StringsUtils.stadMesuem[1]);
+        txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
 
         final TextView txtContactInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumContactInfo);
-        txtContactInfo.setText(StringsUtils.stadMesuem[2]);
+        txtContactInfo.setText(StringsUtils.getStadMesuemValues().get("history"));
 
         return rootView;
     }

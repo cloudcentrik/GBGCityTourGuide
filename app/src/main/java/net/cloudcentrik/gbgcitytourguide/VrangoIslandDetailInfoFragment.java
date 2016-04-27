@@ -22,13 +22,13 @@ public class VrangoIslandDetailInfoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_vrango_island_detailsinfo, container, false);
 
         final TextView textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
-        textOpeningHours.setText(StringsUtils.stadMesuem[3]);
+        textOpeningHours.setText("NOTHING");
 
         final TextView textTicketPrice = (TextView) rootView.findViewById(R.id.txtStadMuseumTicketPrice);
-        textTicketPrice.setText(StringsUtils.stadMesuem[5]);
+        textTicketPrice.setText("NOTHING");
 
         final TextView textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
-        textTravelInfo.setText(StringsUtils.stadMesuem[4]);
+        textTravelInfo.setText("NOTHING");
 
         return rootView;
         //

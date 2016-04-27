@@ -34,6 +34,7 @@ public class OverviewFragment extends Fragment {
         return rootView;
     }
 
+    //set history text
     private void setTextHistory(String activity){
 
         switch (activity) {
@@ -43,7 +44,7 @@ public class OverviewFragment extends Fragment {
             case "EastIndiaCompanyHPActivity":
                 txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
                 break;
-            default: txtOverview.setText("History");
+            default: txtOverview.setText("History is Not Defined");
                 break;
         }
 

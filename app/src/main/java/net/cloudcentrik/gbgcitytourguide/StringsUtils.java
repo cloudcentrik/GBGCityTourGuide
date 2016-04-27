@@ -27,14 +27,7 @@ public class StringsUtils {
         );
 
         values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
+
 
         return values;
     }
@@ -52,14 +45,7 @@ public class StringsUtils {
         );
 
         values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
-        values.put("key", "value");
+
 
         return values;
     }

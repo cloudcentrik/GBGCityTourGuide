@@ -20,7 +20,7 @@ public class MuseumActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG City Museum");
+        topToolBar.setTitle("Gothenburg Museum");
 
         // Stad museum btn
         final Button button = (Button) findViewById(R.id.gbg_btn_mesuem3);

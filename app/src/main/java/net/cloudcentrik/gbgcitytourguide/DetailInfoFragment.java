@@ -22,13 +22,13 @@ public class DetailInfoFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_detail_info, container, false);
 
         final TextView textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
-        textOpeningHours.setText(StringsUtils.stadMesuem[3]);
+        textOpeningHours.setText(StringsUtils.getStadMesuemValues().get("history"));
 
         final TextView textTicketPrice = (TextView) rootView.findViewById(R.id.txtStadMuseumTicketPrice);
-        textTicketPrice.setText(StringsUtils.stadMesuem[5]);
+        textTicketPrice.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
 
         final TextView textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
-        textTravelInfo.setText(StringsUtils.stadMesuem[4]);
+        textTravelInfo.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
 
         return rootView;
         //
