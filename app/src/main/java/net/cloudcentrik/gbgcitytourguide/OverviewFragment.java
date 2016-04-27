@@ -15,25 +15,39 @@ import android.widget.TextView;
 
 public class OverviewFragment extends Fragment {
 
+    private TextView txtOverview;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_overview, container, false);
 
-        final TextView txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
+        txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
 
+        //get activity name
         String strActivity = getActivity().toString();
-        Log.i("activity", strActivity);
-        //boolean tt =
-        if (strActivity.equals("StadMuseumActivity"))
-
-            txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
-
-        if (strActivity.equals("EastIndiaCompanyHPActivity"))
-            txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+        //set history text
+        this.setTextHistory(strActivity);
 
 
         return rootView;
+    }
+
+    private void setTextHistory(String activity){
+
+        switch (activity) {
+            case "StadMuseumActivity":
+                txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
+                break;
+            case "EastIndiaCompanyHPActivity":
+                txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                break;
+            default: txtOverview.setText("History");
+                break;
+        }
+
+
+
     }
 }
