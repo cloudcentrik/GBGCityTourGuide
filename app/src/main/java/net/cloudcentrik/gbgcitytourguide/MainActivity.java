@@ -53,6 +53,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Btn Island
+        final Button buttonIsland = (Button) findViewById(R.id.gbg_btn_island);
+        buttonIsland.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent3 = new Intent(MainActivity.this, IslandActivity.class);
+                startActivity(intent3);
+
+
+            }
+        });
+
     }
 
     @Override

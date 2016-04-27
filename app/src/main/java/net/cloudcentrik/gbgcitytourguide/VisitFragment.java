@@ -10,6 +10,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 public class VisitFragment extends Fragment {
@@ -18,6 +20,10 @@ public class VisitFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_visit, container, false);
+
+        /*final TextView txtContactInfoHeading = (TextView) rootView.findViewById(R.id.contact_info_heading);
+        Animation fadeInAnimation = AnimationUtils.loadAnimation(getActivity().getApplicationContext(), R.anim.fade_in_animation);
+        txtContactInfoHeading.startAnimation(fadeInAnimation);*/
 
 
 

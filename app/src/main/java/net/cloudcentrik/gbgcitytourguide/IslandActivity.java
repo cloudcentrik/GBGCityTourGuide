@@ -20,7 +20,7 @@ public class IslandActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG City Museum");
+        topToolBar.setTitle("Islands");
 
         // Stad museum btn
         final Button button = (Button) findViewById(R.id.btn_vrango_island);

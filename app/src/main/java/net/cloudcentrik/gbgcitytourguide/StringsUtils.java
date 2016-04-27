@@ -25,9 +25,13 @@ public class StringsUtils {
                         " with the salty sea spray in your face and the smell of diesel in your nostrils. Look out over the harbour" +
                         " entrance. At Maritiman you can go to sea without ever casting off."
         );
+        values.put("address", "value");
+        values.put("contactInfo", "value");
+        values.put("openingHours", "value");
+        values.put("travelInfo", "value");
+        values.put("ticketPrice", "value");
 
-        values.put("key", "value");
-
+        values.put("picture", "value");
 
         return values;
     }

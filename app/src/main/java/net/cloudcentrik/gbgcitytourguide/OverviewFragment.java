@@ -38,7 +38,7 @@ public class OverviewFragment extends Fragment {
     private void setTextHistory(String activity){
 
         switch (activity) {
-            case "StadMuseumActivity":
+            case "MaritimanMuseumActivity":
                 txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
                 break;
             case "EastIndiaCompanyHPActivity":
