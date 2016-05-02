@@ -26,31 +26,31 @@
         <Button
             android:id="@+id/btn_vrango_island"
             style="@style/gbg_button_style_second"
-            android:text="Vrangå"
+            android:text="Vrångö"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_place2"
+            android:id="@+id/btn_vinga_island"
             style="@style/gbg_button_style_second"
-            android:text="place 2"
+            android:text="Vinga"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_place3"
+            android:id="@+id/btn_hönö_island"
             style="@style/gbg_button_style_second"
-            android:text="place 3"
+            android:text="Hönö"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_place4"
+            android:id="@+id/btn_Rörö_island"
             style="@style/gbg_button_style_second"
-            android:text="Place 4"
+            android:text="Rörö"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_place5"
+            android:id="@+id/btn_styrsö_island"
             style="@style/gbg_button_style_second"
-            android:text="Place 5"
+            android:text="Styrsö"
             android:layout_gravity="center_horizontal"/>
 
 

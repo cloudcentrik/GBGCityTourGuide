@@ -10,23 +10,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class VrangoIslandActivity extends AppCompatActivity {
+public class VingaIslandActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vrango_island);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_vrango);
+        setContentView(R.layout.activity_vinga_island);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_vinga);
         setSupportActionBar(toolbar);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout_vrango);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout_vinga);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Details Info"));
         tabLayout.addTab(tabLayout.newTab().setText("Visit"));
         tabLayout.addTab(tabLayout.newTab().setText("Gallery"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager_vrango);
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager_vinga);
         final PagerAdapter adapter = new TabsPagerAdapter
                 (getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
@@ -63,5 +63,10 @@ public class VrangoIslandActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public String toString() {
+        return "VingaIslandActivity";
     }
 }
