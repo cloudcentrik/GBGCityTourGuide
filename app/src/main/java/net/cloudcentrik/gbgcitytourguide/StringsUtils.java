@@ -94,8 +94,8 @@ public class StringsUtils {
         );
 
         values.put(
-                "key",
-                "value"
+                "address",
+                "Vinga,Göteborg"
         );
 
         values.put(

@@ -12,9 +12,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 public class VisitFragment extends Fragment {
+
+    private TextView txtAddress;
+    private TextView txtContactInfo;
+    private ImageView mapImage;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -27,13 +33,40 @@ public class VisitFragment extends Fragment {
 
 
 
-        final TextView txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
+        txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
         txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
 
-        final TextView txtContactInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumContactInfo);
+        txtContactInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumContactInfo);
         txtContactInfo.setText(StringsUtils.getStadMesuemValues().get("history"));
 
+        mapImage=(ImageView) rootView.findViewById(R.id.map);
+
+        //get activity name
+        String strActivity = getActivity().toString();
+        this.setTextDetailsInfo(strActivity);
+
         return rootView;
+    }
+
+    //set history text
+    private void setTextDetailsInfo(String activity) {
+
+        switch (activity) {
+            case "MaritimanMuseumActivity":
+                txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
+                break;
+            case "EastIndiaCompanyHPActivity":
+                txtAddress.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                break;
+            case "VingaIslandActivity":
+                txtAddress.setText(StringsUtils.getVingaIslandValues().get("address"));
+                txtContactInfo.setText(StringsUtils.getVingaIslandValues().get("contact"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
+            default:
+                txtAddress.setText("Value is Not Defined");
+                break;
+        }
     }
 
 }
