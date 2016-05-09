@@ -6,18 +6,45 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by Johir on 4/18/2016.
- */
-public class GallaryFragment extends Fragment {
+public class GalleryFragment extends Fragment {
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
+        View rootView = inflater.inflate(R.layout.fragment_gallery, container, false);
+
+        galleryImage=(ImageView) rootView.findViewById(R.id.image_gallery);
+
+        //get activity name
+        String strActivity = getActivity().toString();
+        this.setGalleryImage(strActivity);
+
         View rootView = inflater.inflate(R.layout.fragment_gallary, container, false);
         return rootView;
+    }
+
+    private void setGalleryImage(String activity){
+
+        switch (activity) {
+            case "MaritimanMuseumActivity":
+                galleryImage.setImageResource(R.drawable.gothenburg_stad_museum);
+                break;
+            case "EastIndiaCompanyHPActivity":
+                galleryImage.setImageResource(R.drawable.gothenburg_stad_museum);
+                break;
+            case "VingaIslandActivity":
+                galleryImage.setImageResource(R.drawable.vinga_island);
+
+                break;
+            default:
+                galleryImage.setImageResource(R.drawable.gothenburg_city);
+                break;
+        }
+
     }
 
 }

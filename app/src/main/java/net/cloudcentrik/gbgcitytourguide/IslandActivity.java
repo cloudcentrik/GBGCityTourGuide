@@ -22,9 +22,9 @@ public class IslandActivity extends AppCompatActivity {
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("Islands");
 
-        // Stad museum btn
-        final Button button = (Button) findViewById(R.id.btn_vrango_island);
-        button.setOnClickListener(new View.OnClickListener() {
+        // vrango Island
+        final Button buttonVrangoIsland = (Button) findViewById(R.id.btn_vrango_island);
+        buttonVrangoIsland.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
@@ -33,6 +33,54 @@ public class IslandActivity extends AppCompatActivity {
 
             }
         });
+
+        // vinga Island
+        final Button buttonVingaIsland = (Button) findViewById(R.id.btn_vinga_island);
+        buttonVingaIsland.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(IslandActivity.this, VingaIslandActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        /*// vrango Island
+        final Button button = (Button) findViewById(R.id.btn_vrango_island);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+               *//* Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
+                startActivity(intent);*//*
+
+
+            }
+        });
+
+        // vrango Island
+        final Button button = (Button) findViewById(R.id.btn_vrango_island);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                *//*Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
+                startActivity(intent);*//*
+
+
+            }
+        });
+
+        // vrango Island
+        final Button button = (Button) findViewById(R.id.btn_vrango_island);
+        button.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                *//*Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
+                startActivity(intent);*//*
+
+
+            }
+        });*/
 
 
     }

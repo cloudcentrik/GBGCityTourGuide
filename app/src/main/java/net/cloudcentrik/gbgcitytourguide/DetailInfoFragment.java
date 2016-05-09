@@ -15,22 +15,51 @@ import android.widget.TextView;
 
 public class DetailInfoFragment extends Fragment {
 
+    private TextView textOpeningHours;
+    private TextView textTicketPrice;
+    private TextView textTravelInfo;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_detail_info, container, false);
 
-        final TextView textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
-        textOpeningHours.setText(StringsUtils.getStadMesuemValues().get("history"));
+        textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
 
-        final TextView textTicketPrice = (TextView) rootView.findViewById(R.id.txtStadMuseumTicketPrice);
-        textTicketPrice.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
 
-        final TextView textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
-        textTravelInfo.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+        textTicketPrice = (TextView) rootView.findViewById(R.id.txtStadMuseumTicketPrice);
+
+
+        textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
+
+        //get activity name
+        String strActivity = getActivity().toString();
+        this.setTextDetailsInfo(strActivity);
+
 
         return rootView;
         //
+    }
+
+    //set history text
+    private void setTextDetailsInfo(String activity) {
+
+        switch (activity) {
+            case "MaritimanMuseumActivity":
+                textOpeningHours.setText(StringsUtils.getStadMesuemValues().get("history"));
+                break;
+            case "EastIndiaCompanyHPActivity":
+                textOpeningHours.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                break;
+            case "VingaIslandActivity":
+                textOpeningHours.setText(StringsUtils.getVingaIslandValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getVingaIslandValues().get("ticket"));
+                textTravelInfo.setText(StringsUtils.getVingaIslandValues().get("travel"));
+                break;
+            default:
+                textOpeningHours.setText("Value is Not Defined");
+                break;
+        }
     }
 }

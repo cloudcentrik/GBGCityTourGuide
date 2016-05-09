@@ -26,7 +26,11 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".VrangoIslandActivity"
-            android:label="varngo Island"
+            android:label="Varngo Island"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VingaIslandActivity"
+            android:label="Vinga Island"
             android:theme="@style/AppTheme" />
 
         <activity
