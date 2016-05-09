@@ -11,6 +11,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/contact_info_heading"
             android:gravity="center"
             android:text="Contact info"
             android:layout_centerInParent="true"

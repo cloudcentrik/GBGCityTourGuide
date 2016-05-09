@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Btn_Island
+        // Btn Island
         final Button buttonIsland = (Button) findViewById(R.id.gbg_btn_island);
         buttonIsland.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -82,12 +82,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_museum) {
             Toast.makeText(MainActivity.this, "Seetings", Toast.LENGTH_LONG).show();
 
             return true;
         }
-        if(id == R.id.action_about){
+        if(id == R.id.action_island){
             Toast.makeText(MainActivity.this, "About", Toast.LENGTH_LONG).show();
         }
         if(id == R.id.action_info){
@@ -97,6 +97,5 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
-
 
 }

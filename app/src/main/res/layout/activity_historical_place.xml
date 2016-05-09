@@ -32,7 +32,7 @@
             <Button
                 android:id="@+id/gbg_btn_historicalplace2"
                 style="@style/gbg_button_style_second"
-                android:text="Gustaf Adolf&apos;s square"
+                android:text="Gustaf Adlofs square"
                 android:layout_gravity="center_horizontal"/>
 
             <Button

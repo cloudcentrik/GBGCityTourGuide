@@ -20,14 +20,14 @@ public class MuseumActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG City Museum");
+        topToolBar.setTitle("Gothenburg Museum");
 
         // Stad museum btn
-        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem3);
+        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem1);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(MuseumActivity.this, StadMuseumActivity.class);
+                Intent intent = new Intent(MuseumActivity.this, MaritimanMuseumActivity.class);
                 startActivity(intent);
 
 

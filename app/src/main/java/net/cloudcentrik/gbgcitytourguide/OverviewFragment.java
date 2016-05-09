@@ -15,25 +15,56 @@ import android.widget.TextView;
 
 public class OverviewFragment extends Fragment {
 
+    private TextView txtOverview;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.fragment_overview, container, false);
 
-        final TextView txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
+        txtOverview = (TextView) rootView.findViewById(R.id.txtStadMuseumOverview);
 
+        //get activity name
         String strActivity = getActivity().toString();
-        Log.i("activity", strActivity);
-        //boolean tt =
-        if (strActivity.equals("StadMuseumActivity"))
-
-            txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
-
-        if (strActivity.equals("EastIndiaCompanyHPActivity"))
-            txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+        //set history text
+        this.setTextHistory(strActivity);
 
 
         return rootView;
+    }
+
+    //set history text
+    private void setTextHistory(String activity){
+
+        switch (activity) {
+            case "MaritimanMuseumActivity":
+                txtOverview.setText(StringsUtils.getStadMesuemValues().get("history"));
+                break;
+            case "EastIndiaCompanyHPActivity":
+                txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                break;
+            case "AlvsborgCastleHPActivity":
+                txtOverview.setText(StringsUtils.getAlvsborgCastleHPActivity().get("history"));
+                break;
+
+            case "CarlstenFortHPActivity":
+                txtOverview.setText(StringsUtils.getCarlstenFortHPActivity().get("history"));
+                break;
+            case "GustafAdlofsSquareHPActivity":
+                txtOverview.setText(StringsUtils.getGustafAdlofsSquareHPActivity().get("history"));
+                break;
+
+            case "SkansenKronanHPActivity":
+                txtOverview.setText(StringsUtils.getSkansenKronanHPActivity().get("history"));
+                break;
+
+
+            default: txtOverview.setText("History is Not Defined");
+                break;
+        }
+
+
+
     }
 }

@@ -10,6 +10,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.TextView;
 
 public class VisitFragment extends Fragment {
@@ -19,13 +21,17 @@ public class VisitFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_visit, container, false);
 
+        /*final TextView txtContactInfoHeading = (TextView) rootView.findViewById(R.id.contact_info_heading);
+        Animation fadeInAnimation = AnimationUtils.loadAnimation(getActivity().getApplicationContext(), R.anim.fade_in_animation);
+        txtContactInfoHeading.startAnimation(fadeInAnimation);*/
+
 
 
         final TextView txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
-        txtAddress.setText(StringsUtils.stadMesuem[1]);
+        txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
 
         final TextView txtContactInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumContactInfo);
-        txtContactInfo.setText(StringsUtils.stadMesuem[2]);
+        txtContactInfo.setText(StringsUtils.getStadMesuemValues().get("history"));
 
         return rootView;
     }

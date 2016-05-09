@@ -26,6 +26,10 @@ public class TabsPagerAdapter extends FragmentStatePagerAdapter {
             case 2:
                 VisitFragment tab3 = new VisitFragment();
                 return tab3;
+            case 3:
+                GalleryFragment tab4 = new GalleryFragment();
+                return tab4;
+
             default:
                 return null;
         }
@@ -36,3 +40,4 @@ public class TabsPagerAdapter extends FragmentStatePagerAdapter {
         return mNumOfTabs;
     }
 }
+

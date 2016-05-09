@@ -21,7 +21,7 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG City Museum");
+        topToolBar.setTitle("GBG Historical Places");
 
         // Stad museum btn   --- Change HERE !!!
         final Button button = (Button) findViewById(R.id.gbg_btn_historicalplace3);
@@ -35,6 +35,48 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
             }
         });
 
+        final Button btn_Alvsborg = (Button) findViewById(R.id.gbg_btn_historicalplace1);
+        btn_Alvsborg.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HistoricalPlaceActivity.this, AlvsborgCastleHPActivity.class);
+                startActivity(intent);
 
+
+            }
+        });
+
+        final Button btn_Gustaf = (Button) findViewById(R.id.gbg_btn_historicalplace2);
+        btn_Gustaf.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HistoricalPlaceActivity.this, GustafAdlofsSquareHPActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        final Button btn_CarlstenF = (Button) findViewById(R.id.gbg_btn_historicalplace4);
+        btn_CarlstenF.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        final Button btn_SKronan = (Button) findViewById(R.id.gbg_btn_historicalplace5);
+        btn_SKronan.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
     }
 }

@@ -9,13 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-
-public class StadMuseumActivity extends AppCompatActivity {
-
+public class AlvsborgCastleHPActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_stad_museum);
+        setContentView(R.layout.activity_alvsborg_castle_hp);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -23,6 +21,7 @@ public class StadMuseumActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Details Info"));
         tabLayout.addTab(tabLayout.newTab().setText("Visit"));
+        tabLayout.addTab(tabLayout.newTab().setText("Gallery"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -57,14 +56,17 @@ public class StadMuseumActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_place) {
             return true;
         }
 
         return super.onOptionsItemSelected(item);
     }
+
     @Override
     public String toString() {
-        return "StadMuseumActivity";
+        return "AlvsborgCastleHPActivity";
     }
 }
+
+

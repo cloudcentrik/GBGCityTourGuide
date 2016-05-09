@@ -9,11 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class EastIndiaCompanyHPActivity extends AppCompatActivity {
+public class CarlstenFortHPActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_east_india_company_hp);
+        setContentView(R.layout.activity_carlsten_fort_hp);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -48,7 +48,6 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
@@ -65,6 +64,6 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
 
     @Override
     public String toString() {
-        return "EastIndiaCompanyHPActivity";
+        return "CarlstenFortHPActivity";
     }
 }

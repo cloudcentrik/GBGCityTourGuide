@@ -9,11 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-public class EastIndiaCompanyHPActivity extends AppCompatActivity {
+public class GustafAdlofsSquareHPActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_east_india_company_hp);
+        setContentView(R.layout.activity_gustaf_adlofs_square_hp);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -21,6 +21,7 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Details Info"));
         tabLayout.addTab(tabLayout.newTab().setText("Visit"));
+        tabLayout.addTab(tabLayout.newTab().setText("Gallery"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
@@ -48,7 +49,6 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
@@ -56,7 +56,7 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_museum) {
+        if (id == R.id.action_place) {
             return true;
         }
 
@@ -65,6 +65,6 @@ public class EastIndiaCompanyHPActivity extends AppCompatActivity {
 
     @Override
     public String toString() {
-        return "EastIndiaCompanyHPActivity";
+        return "GustafAdlofsSquareHPActivity";
     }
 }
