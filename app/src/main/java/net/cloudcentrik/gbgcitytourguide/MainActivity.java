@@ -65,6 +65,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+
+        // Btn resturent
+        final Button buttonResturent = (Button) findViewById(R.id.gbg_btn_restaurent);
+        buttonResturent.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent4 = new Intent(MainActivity.this, ResturentActivity.class);
+                startActivity(intent4);
+
+
+            }
+        });
+
     }
 
     @Override
@@ -92,6 +105,10 @@ public class MainActivity extends AppCompatActivity {
         }
         if(id == R.id.action_info){
             Toast.makeText(MainActivity.this, "information", Toast.LENGTH_LONG).show();
+        }
+
+        if(id == R.id.action_restuarent){
+            Toast.makeText(MainActivity.this, "resturent", Toast.LENGTH_LONG).show();
         }
         return super.onOptionsItemSelected(item);
 

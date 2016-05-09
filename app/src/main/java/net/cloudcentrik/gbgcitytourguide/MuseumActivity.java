@@ -23,7 +23,7 @@ public class MuseumActivity extends AppCompatActivity {
         topToolBar.setTitle("Gothenburg Museum");
 
         // Stad museum btn
-        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem1);
+        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click

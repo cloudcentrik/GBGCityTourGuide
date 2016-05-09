@@ -40,7 +40,21 @@
         <activity
             android:name=".EastIndiaCompanyHPActivity"
             android:label="@string/title_activity_east_india_company_hp"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".GallaryActivity"
+            android:label="@string/title_activity_gallary"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ResturentActivity"
+            android:label="@string/title_activity_resturent"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".OlearysResturentActivity"
+            android:label="@string/title_activity_olearys_resturent"
+            android:theme="@style/AppTheme" />
     </application>
+
 
 </manifest>

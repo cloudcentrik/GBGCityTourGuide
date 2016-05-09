@@ -53,7 +53,7 @@
                 <Button
                     android:id="@+id/gbg_btn_restaurent"
                     style="@style/gbg_button_style"
-                    android:text="Restrent"
+                    android:text="Restaurent"
 
 
                     />

@@ -27,7 +27,7 @@ public class TabsPagerAdapter extends FragmentStatePagerAdapter {
                 VisitFragment tab3 = new VisitFragment();
                 return tab3;
             case 3:
-                GalleryFragment tab4 = new GalleryFragment();
+                GallaryFragment tab4 = new GallaryFragment();
                 return tab4;
 
             default:
