@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 public class GalleryFragment extends Fragment {
 
+    private ImageView galleryImage;
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -23,7 +26,7 @@ public class GalleryFragment extends Fragment {
         String strActivity = getActivity().toString();
         this.setGalleryImage(strActivity);
 
-        View rootView = inflater.inflate(R.layout.fragment_gallary, container, false);
+
         return rootView;
     }
 
