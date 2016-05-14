@@ -58,6 +58,10 @@
             android:name=".OlearysResturentActivity"
             android:label="@string/title_activity_olearys_resturent"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HardRockCafeActivity"
+            android:label="@string/title_activity_hardrockcafe"
+            android:theme="@style/AppTheme" />
     </application>
 
 

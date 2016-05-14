@@ -42,7 +42,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_restaurent4"
+            android:id="@+id/gbg_btn_hardrockcafe"
             style="@style/gbg_button_style_second"
             android:text="HardRock Cafe"
             android:layout_gravity="center_horizontal"/>

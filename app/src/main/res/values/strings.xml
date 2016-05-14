@@ -15,13 +15,22 @@
         <item>Travel Info</item>
         <item>Ticket Price</item>
     </string-array>
+
+    <string-array name="olearys_resturent">
+
+        <item>Contact Info</item>
+        <item>Opening Hours</item>
+        <item>Travel Info</item>
+    </string-array>
+
     <string name="title_activity_historical_place">GBG Historical Place</string>
     <string name="title_activity_east_india_company_hp">EastIndiaCompanyHPActivity</string>
     <string name="title_activity_island">Island</string>
     <string name="title_activity_stad_museam">GBG Historical Place</string>
     <string name="title_activity_gallary">Stad museam</string>
     <string name="title_activity_resturent">Resturent</string>
-    <string name="title_activity_olearys_resturent">olearrys Resturent</string>
+    <string name="title_activity_olearys_resturent">Olearrys Resturent</string>
+    <string name="title_activity_hardrockcafe">HardRockCafe Resturent</string>
 
     <string-array name="image_ids">
         <item>@drawable/image_1</item>

@@ -63,6 +63,15 @@ public class VisitFragment extends Fragment {
                 txtContactInfo.setText(StringsUtils.getVingaIslandValues().get("contact"));
                 mapImage.setImageResource(R.drawable.vinga_island_map);
                 break;
+
+            case "OlearysResturentActivity":
+                txtContactInfo.setText(StringsUtils.getOlearysValues().get("contact"));
+                txtAddress.setText(StringsUtils.getOlearysValues().get("address"));
+                break;
+            case "HardRockCafeActivity":
+                txtContactInfo.setText(StringsUtils.getHardRockCafeValues().get("contact"));
+                txtAddress.setText(StringsUtils.getHardRockCafeValues().get("address"));
+                break;
             default:
                 txtAddress.setText("Value is Not Defined");
                 break;

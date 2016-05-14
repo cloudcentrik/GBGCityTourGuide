@@ -33,6 +33,8 @@ public class DetailInfoFragment extends Fragment {
 
         textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
 
+
+
         //get activity name
         String strActivity = getActivity().toString();
         this.setTextDetailsInfo(strActivity);
@@ -56,6 +58,14 @@ public class DetailInfoFragment extends Fragment {
                 textOpeningHours.setText(StringsUtils.getVingaIslandValues().get("opening_hours"));
                 textTicketPrice.setText(StringsUtils.getVingaIslandValues().get("ticket"));
                 textTravelInfo.setText(StringsUtils.getVingaIslandValues().get("travel"));
+                break;
+            case "OlearysResturentActivity":
+                textOpeningHours.setText(StringsUtils.getOlearysValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getOlearysValues().get("ticket"));
+            case "HardRockCafeActivity":
+                textOpeningHours.setText(StringsUtils.getHardRockCafeValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getHardRockCafeValues().get("ticket"));
+                textTravelInfo.setText(StringsUtils.getHardRockCafeValues().get("travel"));
                 break;
             default:
                 textOpeningHours.setText("Value is Not Defined");
