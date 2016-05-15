@@ -46,41 +46,43 @@ public class IslandActivity extends AppCompatActivity {
             }
         });
 
-        /*// vrango Island
-        final Button button = (Button) findViewById(R.id.btn_vrango_island);
-        button.setOnClickListener(new View.OnClickListener() {
+        // Hönö Island
+        final Button buttonHohoIsland = (Button) findViewById(R.id.btn_hönö_island);
+        buttonHohoIsland.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-               *//* Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
-                startActivity(intent);*//*
+                Intent intent = new Intent(IslandActivity.this, HonoIslandActivity.class);
+                startActivity(intent);
 
 
             }
         });
 
-        // vrango Island
-        final Button button = (Button) findViewById(R.id.btn_vrango_island);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        // Roro Island
+        final Button buttonRoro = (Button) findViewById(R.id.btn_Rörö_island);
+        buttonRoro.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                *//*Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
-                startActivity(intent);*//*
+               Intent intent = new Intent(IslandActivity.this, RoroIslandActivity.class);
+                startActivity(intent);
 
 
             }
         });
 
-        // vrango Island
-        final Button button = (Button) findViewById(R.id.btn_vrango_island);
-        button.setOnClickListener(new View.OnClickListener() {
+        // styrso Island
+        final Button buttonStyrsoIsland = (Button) findViewById(R.id.btn_styrsö_island);
+        buttonStyrsoIsland.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                *//*Intent intent = new Intent(IslandActivity.this, VrangoIslandActivity.class);
-                startActivity(intent);*//*
+                Intent intent = new Intent(IslandActivity.this, StyrsoIslandActivity.class);
+                startActivity(intent);
 
 
             }
-        });*/
+        });
 
 
     }

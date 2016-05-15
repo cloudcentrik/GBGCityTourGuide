@@ -20,6 +20,7 @@
             android:label="@string/title_activity_museum"
             android:theme="@style/AppTheme" />
 
+        <!-- ISLAND START -->
         <activity
             android:name=".IslandActivity"
             android:label="@string/title_activity_island"
@@ -32,6 +33,19 @@
             android:name=".VingaIslandActivity"
             android:label="Vinga Island"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HonoIslandActivity"
+            android:label="Hönö Island"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RoroIslandActivity"
+            android:label="Rörö Island"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StyrsoIslandActivity"
+            android:label="Styrsö Island"
+            android:theme="@style/AppTheme" />
+        <!-- ISLAND END -->
 
         <activity
             android:name=".MaritimanMuseumActivity"

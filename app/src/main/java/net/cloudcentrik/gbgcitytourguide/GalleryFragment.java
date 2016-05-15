@@ -41,6 +41,12 @@ public class GalleryFragment extends Fragment {
                 break;
             case "VingaIslandActivity":
                 galleryImage.setImageResource(R.drawable.vinga_island);
+            case "HonoIslandActivity":
+                galleryImage.setImageResource(R.drawable.vinga_island);
+            case "RoroIslandActivity":
+                galleryImage.setImageResource(R.drawable.vinga_island);
+            case "StyrsoIslandActivity":
+                galleryImage.setImageResource(R.drawable.vinga_island);
 
                 break;
             default:

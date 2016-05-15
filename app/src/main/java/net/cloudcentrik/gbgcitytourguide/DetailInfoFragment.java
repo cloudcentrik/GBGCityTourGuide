@@ -59,6 +59,21 @@ public class DetailInfoFragment extends Fragment {
                 textTicketPrice.setText(StringsUtils.getVingaIslandValues().get("ticket"));
                 textTravelInfo.setText(StringsUtils.getVingaIslandValues().get("travel"));
                 break;
+            case "HonoIslandActivity":
+                textOpeningHours.setText(StringsUtils.getHonoIslandValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getHonoIslandValues().get("ticket"));
+                textTravelInfo.setText(StringsUtils.getHonoIslandValues().get("travel"));
+                break;
+            case "RoroIslandActivity":
+                textOpeningHours.setText(StringsUtils.getRoroIslandValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getRoroIslandValues().get("ticket"));
+                textTravelInfo.setText(StringsUtils.getRoroIslandValues().get("travel"));
+                break;
+            case "StyrsoIslandActivity":
+                textOpeningHours.setText(StringsUtils.getStyrsoIslandValues().get("opening_hours"));
+                textTicketPrice.setText(StringsUtils.getStyrsoIslandValues().get("ticket"));
+                textTravelInfo.setText(StringsUtils.getStyrsoIslandValues().get("travel"));
+                break;
             case "OlearysResturentActivity":
                 textOpeningHours.setText(StringsUtils.getOlearysValues().get("opening_hours"));
                 textTicketPrice.setText(StringsUtils.getOlearysValues().get("ticket"));

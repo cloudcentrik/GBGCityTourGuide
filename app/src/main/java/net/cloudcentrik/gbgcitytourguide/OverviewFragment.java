@@ -47,6 +47,18 @@ public class OverviewFragment extends Fragment {
             case "VingaIslandActivity":
                 txtOverview.setText(StringsUtils.getVingaIslandValues().get("Overview"));
                 break;
+            case "VrangoIslandActivity":
+                txtOverview.setText(StringsUtils.getVingaIslandValues().get("Overview"));
+                break;
+            case "HonoIslandActivity":
+                txtOverview.setText(StringsUtils.getHonoIslandValues().get("Overview"));
+                break;
+            case "RoroIslandActivity":
+                txtOverview.setText(StringsUtils.getRoroIslandValues().get("Overview"));
+                break;
+            case "StyrsoIslandActivity":
+                txtOverview.setText(StringsUtils.getStyrsoIslandValues().get("Overview"));
+                break;
             case "OlearysResturentActivity":
                 txtOverview.setText(StringsUtils.getOlearysValues().get("Overview"));
                 break;

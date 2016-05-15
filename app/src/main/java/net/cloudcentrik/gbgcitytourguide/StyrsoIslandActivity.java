@@ -10,23 +10,23 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class VrangoIslandActivity extends AppCompatActivity {
+public class StyrsoIslandActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vrango_island);
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_vrango);
+        setContentView(R.layout.activity_styrso_island);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_styrso);
         setSupportActionBar(toolbar);
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout_styrso);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Details Info"));
         tabLayout.addTab(tabLayout.newTab().setText("Visit"));
         tabLayout.addTab(tabLayout.newTab().setText("Gallery"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
 
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
+        final ViewPager viewPager = (ViewPager) findViewById(R.id.pager_styrso);
         final PagerAdapter adapter = new TabsPagerAdapter
                 (getSupportFragmentManager(), tabLayout.getTabCount());
         viewPager.setAdapter(adapter);
@@ -67,6 +67,6 @@ public class VrangoIslandActivity extends AppCompatActivity {
 
     @Override
     public String toString() {
-        return "VrangoIslandActivity";
+        return "StyrsoIslandActivity";
     }
 }
