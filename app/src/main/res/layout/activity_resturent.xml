@@ -30,7 +30,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_restaurent2"
+            android:id="@+id/gbg_btn_Fiskekrogen"
             style="@style/gbg_button_style_second"
             android:text="Fiskekrogen"
             android:layout_gravity="center_horizontal"/>

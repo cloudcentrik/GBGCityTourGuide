@@ -107,4 +107,25 @@ public class StringsUtils {
         return values;
     }
 
+
+    //Fiskekrogen_Restaurant values
+    public static HashMap<String, String> getFiskekrogen_RestaurantValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "history",
+                "The Gothenburg Fiskekrogen_Restaurant " +
+                        " go to sea without ever casting off."
+        );
+        values.put("address", "value");
+        values.put("contactInfo", "value");
+        values.put("openingHours", "value");
+        values.put("travelInfo", "value");
+        values.put("ticketPrice", "value");
+
+        values.put("picture", "value");
+
+        return values;
+    }
+
 }

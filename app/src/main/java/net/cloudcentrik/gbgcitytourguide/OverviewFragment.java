@@ -44,6 +44,9 @@ public class OverviewFragment extends Fragment {
             case "EastIndiaCompanyHPActivity":
                 txtOverview.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
                 break;
+            case "Fiskekrogen_RestaurantActivity":
+                txtOverview.setText(StringsUtils.getFiskekrogen_RestaurantValues().get("history"));
+                break;
             case "VingaIslandActivity":
                 txtOverview.setText(StringsUtils.getVingaIslandValues().get("Overview"));
                 break;

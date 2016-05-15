@@ -29,5 +29,6 @@
         <item>@drawable/image_3</item>
 
     </string-array>
+    <string name="title_activity_fiskekrogen__restaurant">Fiskekrogen Restaurant</string>
 
 </resources>

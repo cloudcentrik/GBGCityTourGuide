@@ -35,6 +35,17 @@ public class ResturentActivity extends AppCompatActivity {
             }
         });
 
+        final Button btn_Fiskekrogen = (Button) findViewById(R.id.gbg_btn_Fiskekrogen);
+        btn_Fiskekrogen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intentFisk = new Intent(ResturentActivity.this, Fiskekrogen_RestaurantActivity.class);
+                startActivity(intentFisk);
+
+
+            }
+        });
+
 
     }
 }

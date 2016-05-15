@@ -19,7 +19,6 @@
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".IslandActivity"
             android:label="@string/title_activity_island"
@@ -32,7 +31,6 @@
             android:name=".VingaIslandActivity"
             android:label="Vinga Island"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".MaritimanMuseumActivity"
             android:label="@string/title_activity_stad_museum"
@@ -44,12 +42,11 @@
         <activity
             android:name=".EastIndiaCompanyHPActivity"
             android:label="@string/title_activity_east_india_company_hp"
-            android:theme="@style/AppTheme"/>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".GallaryActivity"
             android:label="@string/title_activity_gallary"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".ResturentActivity"
             android:label="@string/title_activity_resturent"
@@ -58,7 +55,10 @@
             android:name=".OlearysResturentActivity"
             android:label="@string/title_activity_olearys_resturent"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Fiskekrogen_RestaurantActivity"
+            android:label="@string/title_activity_fiskekrogen__restaurant"
+            android:theme="@style/AppTheme"></activity>
     </application>
-
 
 </manifest>
