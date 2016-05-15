@@ -31,8 +31,6 @@ public class VisitFragment extends Fragment {
         Animation fadeInAnimation = AnimationUtils.loadAnimation(getActivity().getApplicationContext(), R.anim.fade_in_animation);
         txtContactInfoHeading.startAnimation(fadeInAnimation);*/
 
-
-
         txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
         txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
 
