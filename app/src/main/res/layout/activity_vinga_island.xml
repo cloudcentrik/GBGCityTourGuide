@@ -17,18 +17,20 @@
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tab_layout_vinga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/toolbar_vinga"
-        app:tabMode="scrollable"
+        android:background="?attr/colorPrimary"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
         app:tabGravity="center"
-        style="@style/TabStyle"/>
-
+        app:tabMode="scrollable"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager_vinga"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
         android:layout_below="@id/tab_layout_vinga"/>
-
-
 
 </RelativeLayout>
