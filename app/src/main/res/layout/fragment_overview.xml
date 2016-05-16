@@ -2,18 +2,32 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="#fa6a6a"
-    >
+    android:background="@color/fragement_background"
+    android:orientation="vertical">
 
-    <TextView android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical|right"
-        android:text="Overview"
-        android:textSize="20dp"
-        android:layout_centerInParent="true"
-        android:id="@+id/txtStadMuseumOverview"
-        android:textAlignment="center" />
 
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+        >
+        <WebView
+            android:id="@+id/textOverviewContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"/>
+
+        <!--<TextView
+            android:id="@+id/txtStadMuseumOverview"
+            style="@style/OverviewTextStyle"
+            android:text="Overview" />-->
+
+    </LinearLayout>
+    </ScrollView>
 
 </RelativeLayout>

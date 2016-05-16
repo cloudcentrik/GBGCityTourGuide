@@ -31,8 +31,6 @@ public class VisitFragment extends Fragment {
         Animation fadeInAnimation = AnimationUtils.loadAnimation(getActivity().getApplicationContext(), R.anim.fade_in_animation);
         txtContactInfoHeading.startAnimation(fadeInAnimation);*/
 
-
-
         txtAddress = (TextView) rootView.findViewById(R.id.txtStadMuseumAddress);
         txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
 
@@ -61,6 +59,21 @@ public class VisitFragment extends Fragment {
             case "VingaIslandActivity":
                 txtAddress.setText(StringsUtils.getVingaIslandValues().get("address"));
                 txtContactInfo.setText(StringsUtils.getVingaIslandValues().get("contact"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
+            case "HonoIslandActivity":
+                txtAddress.setText(StringsUtils.getHonoIslandValues().get("address"));
+                txtContactInfo.setText(StringsUtils.getHonoIslandValues().get("contact"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
+            case "RoroIslandActivity":
+                txtAddress.setText(StringsUtils.getRoroIslandValues().get("address"));
+                txtContactInfo.setText(StringsUtils.getRoroIslandValues().get("contact"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
+            case "StyrsoIslandActivity":
+                txtAddress.setText(StringsUtils.getStyrsoIslandValues().get("address"));
+                txtContactInfo.setText(StringsUtils.getStyrsoIslandValues().get("contact"));
                 mapImage.setImageResource(R.drawable.vinga_island_map);
                 break;
 

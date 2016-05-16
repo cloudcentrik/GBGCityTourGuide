@@ -9,17 +9,17 @@
 
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar_vinga"
+        android:id="@+id/toolbar_styrso"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:background="@color/my_primary"
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
     <android.support.design.widget.TabLayout
-        android:id="@+id/tab_layout_vinga"
+        android:id="@+id/tab_layout_styrso"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/toolbar_vinga"
+        android:layout_below="@+id/toolbar_styrso"
         android:background="?attr/colorPrimary"
         android:elevation="6dp"
         android:minHeight="?attr/actionBarSize"
@@ -27,10 +27,11 @@
         app:tabMode="scrollable"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
+
     <android.support.v4.view.ViewPager
-        android:id="@+id/pager_vinga"
+        android:id="@+id/pager_styrso"
         android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:layout_below="@id/tab_layout_vinga"/>
+        android:layout_below="@id/tab_layout_styrso"/>
 
 </RelativeLayout>

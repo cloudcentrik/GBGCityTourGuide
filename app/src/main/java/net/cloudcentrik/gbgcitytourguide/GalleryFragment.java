@@ -1,13 +1,11 @@
 package net.cloudcentrik.gbgcitytourguide;
 
 import android.support.v4.app.Fragment;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.TextView;
 
 public class GalleryFragment extends Fragment {
 
@@ -39,8 +37,20 @@ public class GalleryFragment extends Fragment {
             case "EastIndiaCompanyHPActivity":
                 galleryImage.setImageResource(R.drawable.gothenburg_stad_museum);
                 break;
+            case "VrangoIslandActivity":
+                galleryImage.setImageResource(R.drawable.vrango_island);
+                break;
             case "VingaIslandActivity":
                 galleryImage.setImageResource(R.drawable.vinga_island);
+                break;
+            case "HonoIslandActivity":
+                galleryImage.setImageResource(R.drawable.hono_island);
+                break;
+            case "RoroIslandActivity":
+                galleryImage.setImageResource(R.drawable.roro_island);
+                break;
+            case "StyrsoIslandActivity":
+                galleryImage.setImageResource(R.drawable.styrso_island);
 
                 break;
             default:
