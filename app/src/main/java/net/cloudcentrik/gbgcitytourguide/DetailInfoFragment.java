@@ -52,7 +52,19 @@ public class DetailInfoFragment extends Fragment {
                 textOpeningHours.setText(StringsUtils.getStadMesuemValues().get("history"));
                 break;
             case "EastIndiaCompanyHPActivity":
-                textOpeningHours.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                textOpeningHours.setText(StringsUtils.getEastIndiaCompanyHPValues().get("openingHours"));
+                textTicketPrice.setText(StringsUtils.getEastIndiaCompanyHPValues().get("ticketPrice"));
+                textTravelInfo.setText(StringsUtils.getEastIndiaCompanyHPValues().get("travelInfo"));
+                break;
+            case "AlvsborgCastleHPActivity":
+                textOpeningHours.setText(StringsUtils.getAlvsborgCastleHPActivity().get("openingHours"));
+                textTicketPrice.setText(StringsUtils.getAlvsborgCastleHPActivity().get("ticketPrice"));
+                textTravelInfo.setText(StringsUtils.getAlvsborgCastleHPActivity().get("travelInfo"));
+                break;
+            case "CarlstenFortHPActivity":
+                textOpeningHours.setText(StringsUtils.getCarlstenFortHPActivity().get("openingHours"));
+                textTicketPrice.setText(StringsUtils.getCarlstenFortHPActivity().get("ticketPrice"));
+                textTravelInfo.setText(StringsUtils.getCarlstenFortHPActivity().get("travelInfo"));
                 break;
             case "VingaIslandActivity":
                 textOpeningHours.setText(StringsUtils.getVingaIslandValues().get("opening_hours"));

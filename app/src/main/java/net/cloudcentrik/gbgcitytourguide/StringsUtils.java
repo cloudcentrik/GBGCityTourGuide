@@ -36,20 +36,91 @@ public class StringsUtils {
         return values;
     }
 
+    // East India Company data
     public static HashMap<String, String> getEastIndiaCompanyHPValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
                 "history",
-                "East India Company---- Foundation was established in 1985 with the aim of creating the world’s biggest " +
-                        "and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand newvworld " +
-                        "offering you excitement, adventure and discovery. Climb up the ladders and become a part of the old tales," +
-                        " with the salty sea spray in your face and the smell of diesel in your nostrils. Look out over the harbour" +
-                        " entrance. At Maritiman you can go to sea without ever casting off."
+                "The old East India Company House (now the City Museum) was once the hub of Sweden's trade with the Far East." +
+                        "Most seafaring nations in the 18th century had an East India company which held a monopoly on trade with the East. " +
+                        "Scottish merchants were not part of the lucrative dealings of the English, so Scot Colin Campbell, in association " +
+                        "with Niclas Sahlgren in Gothenburg, devised an idea for a Swedish East India Company, which would be Sweden's " +
+                        "first international trading company.\n\n" +
+                        "The company started up in 1731, and the next year the first ship set off for the Far East. This made Gothenburg " +
+                        "a European centre of trade in products from China and the East. The main goods were silk, tea, furniture, " +
+                        "porcelain, precious stones and other distinctive luxury items."
         );
 
-        values.put("key", "value");
+        values.put("address", "Address: Norra Hamngatan 12, 411 14 Göteborg ");
+        values.put("contactInfo", "Address: Norra Hamngatan 12\n" +
+                "Stop: Brunnsparken\n" +
+                "Phone: +46313683600\n" +
+                "E-mail: stadsmuseum@kultur.goteborg.se\n" +
+                "Website: http://www.stadsmuseum.goteborg.se");
+        values.put("openingHours", "Tuesday and Thursday-Sunday: 10.00-17.00. \n" +
+                "Wednesday: 10.00-20.00\n\n");
+        values.put("travelInfo", "Tran Stop: Brunnsparken \n" +
+                "Or, You can walk for 6/7 minutes from Centralstation to there.\n\n");
+        values.put("ticketPrice", "40 Sek ");
 
+        values.put("picture", "value");
+
+
+        return values;
+    }
+
+    // CarlstenFort HP Activity data
+    public static HashMap<String, String> getCarlstenFortHPActivity() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "history",
+                "At the top of the Marstrand island rests Carlsten Fortress. For more than 300 years, this huge security " +
+                        "guard have protected the wooden town below.Today, the fortress is a fascinating and extraordinary " +
+                        "experience. Welcome to Marstrand's biggest attraction.\n\n The Carlsten Fort and it´s dramatic " +
+                        "history are best experienced on a guided tour. Those who climb up to the roof of the tower are " +
+                        "rewarded by a magnificent view of the whole Marstrand archipelago! During the traditional fort " +
+                        "festival, life in the 1700's is reconstructed with prisoners, soldiers and the firing of cannons. " +
+                        "Dinners, historical meals, conferences, historical re-enactmens etc are also arranged at the fort.\n"
+        );
+        values.put("address", "NA ");
+        values.put("contactInfo", "NA");
+        values.put("openingHours", "NA.\n\n");
+        values.put("travelInfo", "NA.");
+        values.put("ticketPrice", "NA\n\n");
+
+        values.put("picture", "value");
+
+        return values;
+    }
+
+
+    //Alvsborg Castle HP Activity data
+    public static HashMap<String, String> getAlvsborgCastleHPActivity() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "history",
+                "Älvsborg, also Elfsborg Fortress, is a sea fortress situated on the mouth of the Göta Älv river. It served to protect " +
+                        "Sweden's access to the Atlantic Ocean and the nearby settlement of today's Gothenburg and its four predecessors. The " +
+                        "fortress was relocated in the 17th century, this New Älvsborg Fortress is still maintained. Of the Old Älvsborg " +
+                        "Fortress, only few ruins are visible today in the vicinity of the Carnegie-pier. The new fortress was founded " +
+                        "in 1621 by Gustavus Adolphus of Sweden."
+        );
+        values.put("address", "On the mouth of the Göta Älv river. \n" +
+                "413 01 Gothenburg");
+        values.put("contactInfo", "Address: Lilla Bommen\n" +
+                "Stop: Lilla Bommen\n" +
+                "Phone: +4631609670\n" +
+                "E-mail: info@strommaskargardsbatar.se\n" +
+                "Website: http://www.stromma.se/sv/Goteborg/Turer/Stromma-Skargardsbatar/Batutflykter/Alvsborgs-fastning");
+        values.put("openingHours", "Daily 1 July-9 August.\n\n");
+        values.put("travelInfo", "The boat ride takes approximately 30 minutes one way and " +
+                "departs from Lilla Bommen 10.45, 12.00, 13.15, 14.30.");
+        values.put("ticketPrice", "200 Sek\n\n");
+
+        values.put("picture", "value");
 
         return values;
     }

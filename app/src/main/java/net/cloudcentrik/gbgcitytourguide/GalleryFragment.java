@@ -35,7 +35,13 @@ public class GalleryFragment extends Fragment {
                 galleryImage.setImageResource(R.drawable.gothenburg_stad_museum);
                 break;
             case "EastIndiaCompanyHPActivity":
-                galleryImage.setImageResource(R.drawable.gothenburg_stad_museum);
+                galleryImage.setImageResource(R.drawable.east_india_company_house);
+                break;
+            case "AlvsborgCastleHPActivity":
+                galleryImage.setImageResource(R.drawable.avsborgcast);
+                break;
+            case "CarlstenFortHPActivity":
+                galleryImage.setImageResource(R.drawable.carlstenfort);
                 break;
             case "VrangoIslandActivity":
                 galleryImage.setImageResource(R.drawable.vrango_island);

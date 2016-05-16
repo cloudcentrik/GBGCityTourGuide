@@ -54,8 +54,21 @@ public class VisitFragment extends Fragment {
                 txtAddress.setText(StringsUtils.getStadMesuemValues().get("history"));
                 break;
             case "EastIndiaCompanyHPActivity":
-                txtAddress.setText(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
+                txtAddress.setText(StringsUtils.getEastIndiaCompanyHPValues().get("address"));
+                txtContactInfo.setText(StringsUtils.getEastIndiaCompanyHPValues().get("contactInfo"));
+                mapImage.setImageResource(R.drawable.map_east_india_company);
                 break;
+            case "AlvsborgCastleHPActivity":
+                txtAddress.setText(StringsUtils.getAlvsborgCastleHPActivity().get("address"));
+                txtContactInfo.setText(StringsUtils.getAlvsborgCastleHPActivity().get("contactInfo"));
+                mapImage.setImageResource(R.drawable.alvsborg_castle_map);
+                break;
+            case "CarlstenFortHPActivity":
+                txtAddress.setText(StringsUtils.getCarlstenFortHPActivity().get("address"));
+                txtContactInfo.setText(StringsUtils.getCarlstenFortHPActivity().get("contactInfo"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
+
             case "VingaIslandActivity":
                 txtAddress.setText(StringsUtils.getVingaIslandValues().get("address"));
                 txtContactInfo.setText(StringsUtils.getVingaIslandValues().get("contact"));

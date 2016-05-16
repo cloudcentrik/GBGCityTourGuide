@@ -50,8 +50,11 @@ public class OverviewFragment extends Fragment {
             case "EastIndiaCompanyHPActivity":
                 text.append(StringsUtils.getEastIndiaCompanyHPValues().get("history"));
                 break;
-            case "VingaIslandActivity":
-                text.append(StringsUtils.getVingaIslandValues().get("Overview"));
+            case "AlvsborgCastleHPActivity":
+                text.append(StringsUtils.getAlvsborgCastleHPActivity().get("history"));
+                break;
+            case "CarlstenFortHPActivity":
+                text.append(StringsUtils.getCarlstenFortHPActivity().get("history"));
                 break;
             case "VrangoIslandActivity":
                 text.append(StringsUtils.getVingaIslandValues().get("Overview"));
