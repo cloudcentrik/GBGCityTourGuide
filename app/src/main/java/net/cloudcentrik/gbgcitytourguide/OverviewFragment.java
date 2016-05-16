@@ -50,6 +50,12 @@ public class OverviewFragment extends Fragment {
             case "VingaIslandActivity":
                 txtOverview.setText(StringsUtils.getVingaIslandValues().get("Overview"));
                 break;
+            case "OlearysResturentActivity":
+                txtOverview.setText(StringsUtils.getOlearysValues().get("Overview"));
+                break;
+            case "HardRockCafeActivity":
+                txtOverview.setText(StringsUtils.getHardRockCafeValues().get("Overview"));
+                break;
             default: txtOverview.setText("History is Not Defined");
                 break;
         }

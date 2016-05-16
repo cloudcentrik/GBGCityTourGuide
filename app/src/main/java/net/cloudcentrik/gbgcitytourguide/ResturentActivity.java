@@ -46,6 +46,18 @@ public class ResturentActivity extends AppCompatActivity {
             }
         });
 
+        // hardrockcafe  btn
+        final Button hrcbutton = (Button) findViewById(R.id.gbg_btn_hardrockcafe);
+        hrcbutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(ResturentActivity.this, HardRockCafeActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
 
     }
 }

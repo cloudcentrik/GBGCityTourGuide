@@ -59,6 +59,10 @@
             android:name=".Fiskekrogen_RestaurantActivity"
             android:label="@string/title_activity_fiskekrogen__restaurant"
             android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".HardRockCafeActivity"
+            android:label="@string/title_activity_hardrockcafe"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>
