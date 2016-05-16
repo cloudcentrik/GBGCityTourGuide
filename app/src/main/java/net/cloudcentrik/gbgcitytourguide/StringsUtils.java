@@ -452,13 +452,13 @@ public class StringsUtils {
                         " Address:Kungsportsavenyn 9\n"+
                         "Phone: +4631 7304900\n"+
                         "E-mail: avenyn@olearys.se\n"+
-                        "Website: http://www.olearys.se/avenyn\n"
+                        "Website: http://www.olearys.se/avenyn"
         );
 
         values.put(
                 "address",
                 "\n" +
-                        " Address:Kungsportsavenyn 9\n"
+                        " Address:Kungsportsavenyn 9"
 
         );
 
@@ -519,7 +519,7 @@ public class StringsUtils {
         "Kitchen 12:00 - 23:00\n"+
         "Shop 12:00 - 00:00\n"+
         "Restaurant 12:00 - 00:00\n"+
-        "Bowling 12:00 - 21:00\n"
+        "Bowling 12:00 - 21:00"
 
         );
 
@@ -539,12 +539,7 @@ public class StringsUtils {
                         " Kungsportsavenyn 10, 41136 Göteborg\n" );
 
 
-        values.put(
-                        "address",
-                        "\n" +
-                                " NA\n"
 
-        );
         values.put(
                 "travel",
                 "\n" +
@@ -554,6 +549,10 @@ public class StringsUtils {
                         "trum no 3(destination:Marklandsgatan)\n"+
                         "from central station.\n"
 
+        );
+        values.put(
+                "key",
+                "value"
         );
 
         return values;
