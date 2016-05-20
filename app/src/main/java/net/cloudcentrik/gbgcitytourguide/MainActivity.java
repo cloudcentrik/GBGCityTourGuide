@@ -20,46 +20,44 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-                // Toolbar
+        // Toolbar
         Toolbar topToolBar = (Toolbar)findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("GBG City Tour Guide");
 
-        final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
 
-
-        // BtnMuseum
-
-        button.setOnClickListener(new View.OnClickListener() {
+        //travel Infomation Button
+        final Button buttonTravelInfo = (Button) findViewById(R.id.gbg_btn_travel_info);
+        buttonTravelInfo.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(MainActivity.this, MuseumActivity.class);
-                startActivity(intent);
+                //Intent intent = new Intent(MainActivity.this, MuseumActivity.class);
+                //startActivity(intent);
 
 
             }
         });
 
 
-        // BtnHistoricalPlace
-        final Button buttonHp = (Button) findViewById(R.id.gbg_btn_historical);
-        buttonHp.setOnClickListener(new View.OnClickListener() {
+        // Tourist spots button
+        final Button buttonTouristSpot = (Button) findViewById(R.id.gbg_btn_touristspots);
+        buttonTouristSpot.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent2 = new Intent(MainActivity.this, HistoricalPlaceActivity.class);
+                Intent intent2 = new Intent(MainActivity.this, TouristSpotsActivity.class);
                 startActivity(intent2);
 
-
             }
         });
 
-        // Btn Island
-        final Button buttonIsland = (Button) findViewById(R.id.gbg_btn_island);
+        // shoping center button
+        final Button buttonIsland = (Button) findViewById(R.id.gbg_btn_shoping_center);
         buttonIsland.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent3 = new Intent(MainActivity.this, IslandActivity.class);
-                startActivity(intent3);
+                //Intent intent3 = new Intent(MainActivity.this, IslandActivity.class);
+                //startActivity(intent3);
+
 
 
             }

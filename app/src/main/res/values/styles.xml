@@ -27,16 +27,18 @@
     <!---->
     <style name="gbg_button_style">
 
-        <item name="android:layout_width">85dp</item>
-        <item name="android:layout_height">85dp</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">0dp</item>
 
         <item name="android:background">@drawable/button_background_primary</item>
         <item name="android:shadowColor">@color/btn_shadow</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">0</item>
-        <item name="android:shadowRadius">5</item>
+        <item name="android:shadowRadius">0</item>
         <item name="android:textColor">@color/btn_white</item>
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">12dp</item>
 
     </style>
 
@@ -99,6 +101,20 @@
         <item name="android:layout_gravity">center_vertical|right</item>
         <item name="android:layout_centerInParent">true</item>
         <item name="android:layout_margin">16dp</item>
+    </style>
+
+    <style name="gbg_button_style_square">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/button_background_square</item>
+        <item name="android:shadowColor">@color/btn_shadow</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">5</item>
+        <item name="android:textColor">@color/my_primary</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+
     </style>
 
 </resources>
