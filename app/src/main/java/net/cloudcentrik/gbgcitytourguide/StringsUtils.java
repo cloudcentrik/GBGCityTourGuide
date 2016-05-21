@@ -17,20 +17,16 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "This DEMO Centre Foundation was established in 1985 with the aim of creating the world’s biggest " +
-                        "and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand newvworld " +
-                        "offering you excitement, adventure and discovery. Climb up the ladders and become a part of the old tales," +
-                        " with the salty sea spray in your face and the smell of diesel in your nostrils. Look out over the harbour" +
-                        " entrance. At Maritiman you can go to sea without ever casting off."
+                "DEMO overview"
         );
-        values.put("OPENING_HOURS", "opening hours");
-        values.put("TICKET_PRICE", "ticket price");
-        values.put("TRAVEL_INFO", "travel information");
-        values.put("CONTACT_INFO", "contact information");
-        values.put("ADDRESS", "address");
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "map image id");
-        values.put("GALLERY", "pictures");
+        values.put("MAP", "DEMO map image id");
+        values.put("GALLERY", "DEMO pictures");
 
         return values;
     }
