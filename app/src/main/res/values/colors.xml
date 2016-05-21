@@ -37,7 +37,9 @@
     <color name="gallary_border2">#00abea</color>
     <color name="gallary_border3">#000000</color>
 
-
+    <!-- solid colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
 
 
 </resources>

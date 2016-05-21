@@ -28,49 +28,49 @@
 
         <Button
             android:id="@+id/btn_historical_place"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Historical Places"
             android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/btn_garden"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Garden"
             android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/btn_museum"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Museum"
             android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/btn_island"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Islands"
             android:layout_gravity="center_horizontal"/>
 
         <Button
             android:id="@+id/btn_lake"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Lakes"
             android:layout_gravity="center_horizontal"/>
         <Button
             android:id="@+id/btn_amusemen_park"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
             android:text="Amusement Park"
             android:layout_gravity="center_horizontal"/>
         <Button
             android:id="@+id/btn_science_park"
-            style="@style/gbg_button_style_square"
+            style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Historical Places"
+            android:text="Science Park"
             android:layout_gravity="center_horizontal"/>
 
 
