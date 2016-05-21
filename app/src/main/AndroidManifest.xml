@@ -20,6 +20,11 @@
             android:name=".TouristSpotsActivity"
             android:label="@string/title_tourist_spot"
             android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".GardenActivity"
+            android:label="@string/title_tourist_spot"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"

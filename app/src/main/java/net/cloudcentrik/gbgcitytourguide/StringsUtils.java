@@ -12,6 +12,29 @@ import java.util.Set;
  */
 public class StringsUtils {
 
+    public static HashMap<String, String> getTemValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "This DEMO Centre Foundation was established in 1985 with the aim of creating the world’s biggest " +
+                        "and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand newvworld " +
+                        "offering you excitement, adventure and discovery. Climb up the ladders and become a part of the old tales," +
+                        " with the salty sea spray in your face and the smell of diesel in your nostrils. Look out over the harbour" +
+                        " entrance. At Maritiman you can go to sea without ever casting off."
+        );
+        values.put("OPENING_HOURS", "opening hours");
+        values.put("TICKET_PRICE", "ticket price");
+        values.put("TRAVEL_INFO", "travel information");
+        values.put("CONTACT_INFO", "contact information");
+        values.put("ADDRESS", "address");
+
+        values.put("MAP", "map image id");
+        values.put("GALLERY", "pictures");
+
+        return values;
+    }
+
 
     //Stad mesuem values
     public static HashMap<String, String> getStadMesuemValues() {

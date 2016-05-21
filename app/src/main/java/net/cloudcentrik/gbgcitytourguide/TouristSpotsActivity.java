@@ -24,7 +24,7 @@ public class TouristSpotsActivity extends AppCompatActivity {
         topToolBar.setTitle("Tourist Spots");
 
 
-        // btn_AlvsborgCastleHPActivity
+        // Historical place button
         final Button btn_Alvsborg = (Button) findViewById(R.id.btn_historical_place);
         btn_Alvsborg.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -36,18 +36,17 @@ public class TouristSpotsActivity extends AppCompatActivity {
             }
         });
 
-        /*
-        // btn GustafAdlofsSquareHPActivity
-        final Button btn_Gustaf = (Button) findViewById(R.id.gbg_btn_historicalplace2);
+        // Garden Button
+        final Button btn_Gustaf = (Button) findViewById(R.id.btn_garden);
         btn_Gustaf.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, GustafAdlofsSquareHPActivity.class);
+                Intent intent = new Intent(TouristSpotsActivity.this, GardenActivity.class);
                 startActivity(intent);
 
 
             }
-        });   */
+        });
 
         // East India Company btn
         /*final Button button = (Button) findViewById(R.id.gbg_btn_historicalplace3);
