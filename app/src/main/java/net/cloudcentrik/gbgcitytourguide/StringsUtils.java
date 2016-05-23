@@ -154,7 +154,6 @@ public class StringsUtils {
         );
 
 
-
         values.put(
                 "contact",
                 "\n" +
@@ -208,7 +207,6 @@ public class StringsUtils {
                 "Overview",
                 "Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
         );
-
 
 
         values.put(
@@ -266,7 +264,6 @@ public class StringsUtils {
         );
 
 
-
         values.put(
                 "contact",
                 "\n" +
@@ -322,7 +319,6 @@ public class StringsUtils {
         );
 
 
-
         values.put(
                 "contact",
                 "\n" +
@@ -376,7 +372,6 @@ public class StringsUtils {
                 "Overview",
                 " Styrsö Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
         );
-
 
 
         values.put(
@@ -456,21 +451,20 @@ public class StringsUtils {
         values.put(
                 "opening_hours",
                 "\n" +
-                       " Monday:  16.00-24.00\n"+
-                       "Tues-thus:16.00-01.00\n"+
-                       "Fri:      13.00-0100\n"+
-                       "Sat:      13.00-02.00\n"+
-                       "Sun:      16.00-24.00"
+                        " Monday:  16.00-24.00\n" +
+                        "Tues-thus:16.00-01.00\n" +
+                        "Fri:      13.00-0100\n" +
+                        "Sat:      13.00-02.00\n" +
+                        "Sun:      16.00-24.00"
         );
-
 
 
         values.put(
                 "contact",
                 "\n" +
-                        " Address:Kungsportsavenyn 9\n"+
-                        "Phone: +4631 7304900\n"+
-                        "E-mail: avenyn@olearys.se\n"+
+                        " Address:Kungsportsavenyn 9\n" +
+                        "Phone: +4631 7304900\n" +
+                        "E-mail: avenyn@olearys.se\n" +
                         "Website: http://www.olearys.se/avenyn"
         );
 
@@ -492,7 +486,8 @@ public class StringsUtils {
 
         return values;
 
-}
+    }
+
     public static HashMap<String, String> getHardRockCafeValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -505,67 +500,65 @@ public class StringsUtils {
         values.put(
                 "opening_hours",
                 "\n" +
-                        "Monday:"+
-                "\n"+
-        "Kitchen 11:30 - 23:00               Shop 11:30 - 00:00\n"+
-        "Restaurant 11:30 - 00:00         Bowling 18:00 - 23:00\n"+
-        "Tuesday:"+
-                "\n"+
-        "Kitchen 11:30 - 23:00               Shop 11:30 - 00:00\n"+
-        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n"+
+                        "Monday:" +
+                        "\n" +
+                        "Kitchen 11:30 - 23:00               Shop 11:30 - 00:00\n" +
+                        "Restaurant 11:30 - 00:00         Bowling 18:00 - 23:00\n" +
+                        "Tuesday:" +
+                        "\n" +
+                        "Kitchen 11:30 - 23:00               Shop 11:30 - 00:00\n" +
+                        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n" +
 
-        "Wednesday:"+
-                "\n"+
-        "Kitchen 11:30 - 23:00              Shop 11:30 - 00:00\n"+
-        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n"+
-        "Thursday:"+
-                "\n"+
-        "Kitchen 11:30 - 23:00              Shop 11:30 - 00:00\n"+
-        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n"+
-        "Friday:"+
-                "\n"+
-        "Kitchen 11:30 - 23:30               Shop 11:30 - 22:00\n"+
-        "Restaurant 11:30 - 03:00         Nightclub 22:00 - 03:00\n"+
-       " Bowling 18:00 - 01:00"+
-        "Saturday:"+
-                "\n"+
-        "Kitchen 12:00 - 23:30               Shop 12:00 - 22:00\n"+
-        "Restaurant 12:00 - 04:00         Nightclub 22:00 - 04:00\n"+
-        "Bowling 12:00 - 01:00\n"+
+                        "Wednesday:" +
+                        "\n" +
+                        "Kitchen 11:30 - 23:00              Shop 11:30 - 00:00\n" +
+                        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n" +
+                        "Thursday:" +
+                        "\n" +
+                        "Kitchen 11:30 - 23:00              Shop 11:30 - 00:00\n" +
+                        "Restaurant 11:30 - 01:00         Bowling 18:00 - 23:00\n" +
+                        "Friday:" +
+                        "\n" +
+                        "Kitchen 11:30 - 23:30               Shop 11:30 - 22:00\n" +
+                        "Restaurant 11:30 - 03:00         Nightclub 22:00 - 03:00\n" +
+                        " Bowling 18:00 - 01:00" +
+                        "Saturday:" +
+                        "\n" +
+                        "Kitchen 12:00 - 23:30               Shop 12:00 - 22:00\n" +
+                        "Restaurant 12:00 - 04:00         Nightclub 22:00 - 04:00\n" +
+                        "Bowling 12:00 - 01:00\n" +
 
-        "Sunday:"+
-                "\n"+
-        "Kitchen 12:00 - 23:00\n"+
-        "Shop 12:00 - 00:00\n"+
-        "Restaurant 12:00 - 00:00\n"+
-        "Bowling 12:00 - 21:00"
+                        "Sunday:" +
+                        "\n" +
+                        "Kitchen 12:00 - 23:00\n" +
+                        "Shop 12:00 - 00:00\n" +
+                        "Restaurant 12:00 - 00:00\n" +
+                        "Bowling 12:00 - 21:00"
 
         );
-
 
 
         values.put(
                 "contact",
                 "\n" +
-                        "Phone: +46(0) 31 10 23 30\n"+
-                        " Web: www.hardrock.se\n"+
+                        "Phone: +46(0) 31 10 23 30\n" +
+                        " Web: www.hardrock.se\n" +
                         "Email: booking@hardrock.se\n"
         );
 
         values.put(
                 "address",
                 "\n" +
-                        " Kungsportsavenyn 10, 41136 Göteborg\n" );
-
+                        " Kungsportsavenyn 10, 41136 Göteborg\n");
 
 
         values.put(
                 "travel",
                 "\n" +
-                        "Stop: Valand."+
-                        "Take trum no 4(destination:Möndal),\n"+
-                         "trum no 7(destination:Tynnered),\n"+
-                        "trum no 3(destination:Marklandsgatan)\n"+
+                        "Stop: Valand." +
+                        "Take trum no 4(destination:Möndal),\n" +
+                        "trum no 7(destination:Tynnered),\n" +
+                        "trum no 3(destination:Marklandsgatan)\n" +
                         "from central station.\n"
 
         );
@@ -575,7 +568,19 @@ public class StringsUtils {
         );
 
         return values;
+
     }
+
+    public static HashMap<String, String> getInfoCenterValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "history",
+                "HÖNÖ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+        );
+        return values;
+    }
+
 
     // Nordstan Shopping Centre
     public static HashMap<String, String> getNordstanValues() {
@@ -585,9 +590,9 @@ public class StringsUtils {
                 "Overview",
                 "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
                         "The largest collection is in fashion - clothing and shoes." +
-                        "\n"+
-                "\n"+
-                        "\n\n"+ "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
+                        "\n" +
+                        "\n" +
+                        "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
                         "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
                         "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n"
         );
@@ -601,20 +606,18 @@ public class StringsUtils {
         );
 
 
-
         values.put(
                 "contact",
                 "\n" +
                         "Phone: +46317008660\n" +
-                        "E-mail: info@nordstan.se\n"+
+                        "E-mail: info@nordstan.se\n" +
                         "Website: http://www.nordstan.se\n"
         );
 
         values.put(
                 "address",
                 "\n" +
-                        " Norra Hamngatan\n" );
-
+                        " Norra Hamngatan\n");
 
 
         values.put(

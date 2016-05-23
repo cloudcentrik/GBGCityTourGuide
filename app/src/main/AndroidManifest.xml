@@ -118,6 +118,22 @@
             android:label="@string/title_activity_hardrockcafe"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".TravelInfoActivity"
+            android:label="@string/title_activity_travelinfo"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".PublicTransportActivity"
+            android:label="@string/title_activity_publictransport"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AirportTransportActivity"
+            android:label="@string/title_activity_airporttransport"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".InfoCenterActivity"
+            android:label="@string/title_activity_infocenter"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".ShoppingCentreActivity"
             android:label="@string/title_activity_shopping_centre"
             android:theme="@style/AppTheme" />

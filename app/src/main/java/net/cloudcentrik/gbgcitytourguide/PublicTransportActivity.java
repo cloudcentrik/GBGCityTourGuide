@@ -7,12 +7,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class MuseumActivity extends AppCompatActivity {
+public class PublicTransportActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_museum);
+        setContentView(R.layout.activity_public_transport);
 
         //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         //setSupportActionBar(toolbar);
@@ -20,22 +20,11 @@ public class MuseumActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Gothenburg Museum");
-
-        // Stad museum btn
-        /*final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
-        button.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(MuseumActivity.this, MaritimanMuseumActivity.class);
-                startActivity(intent);
+        topToolBar.setTitle("Info Center");
 
 
-            }
-        });*/
+
 
 
     }
 }
-
-

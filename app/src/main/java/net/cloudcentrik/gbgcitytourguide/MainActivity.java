@@ -26,17 +26,6 @@ public class MainActivity extends AppCompatActivity {
         topToolBar.setTitle("GBG City Tour Guide");
 
 
-        //travel Infomation Button
-        final Button buttonTravelInfo = (Button) findViewById(R.id.gbg_btn_travel_info);
-        buttonTravelInfo.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                //Intent intent = new Intent(MainActivity.this, MuseumActivity.class);
-                //startActivity(intent);
-
-
-            }
-        });
 
 
         // Tourist spots button
@@ -77,12 +66,33 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // Btn hotel
-        final Button buttonHotel = (Button) findViewById(R.id.gbg_btn_Hotels);
+        final Button buttonHotel = (Button) findViewById(R.id.gbg_btn_hotel);
         buttonHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent4 = new Intent(MainActivity.this, HotelActivity.class);
                 startActivity(intent4);
+            }
+        });
+
+        // Btn infocenter
+        final Button buttoninfocenter = (Button) findViewById(R.id.gbg_btn_info_center);
+        buttoninfocenter.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent5 = new Intent(MainActivity.this, InfoCenterActivity.class);
+                startActivity(intent5);
+
+
+            }
+        });
+           //
+        final Button travelinfobutton = (Button) findViewById(R.id.gbg_btn_travel_info);
+        travelinfobutton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent6 = new Intent(MainActivity.this, TravelInfoActivity.class);
+                startActivity(intent6);
 
 
             }
@@ -119,6 +129,12 @@ public class MainActivity extends AppCompatActivity {
 
         if(id == R.id.action_restuarent){
             Toast.makeText(MainActivity.this, "resturent", Toast.LENGTH_LONG).show();
+        }
+        if(id == R.id.action_travelinfo){
+            Toast.makeText(MainActivity.this, "travel info", Toast.LENGTH_LONG).show();
+        }
+        if(id == R.id.action_infocenter){
+            Toast.makeText(MainActivity.this, "info center", Toast.LENGTH_LONG).show();
         }
         return super.onOptionsItemSelected(item);
 
