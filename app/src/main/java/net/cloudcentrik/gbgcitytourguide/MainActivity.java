@@ -51,12 +51,12 @@ public class MainActivity extends AppCompatActivity {
         });
 
         // shoping center button
-        final Button buttonIsland = (Button) findViewById(R.id.gbg_btn_shoping_center);
-        buttonIsland.setOnClickListener(new View.OnClickListener() {
+        final Button btnShoppingCentre = (Button) findViewById(R.id.gbg_btn_shoping_center);
+        btnShoppingCentre.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                //Intent intent3 = new Intent(MainActivity.this, IslandActivity.class);
-                //startActivity(intent3);
+                Intent intent3 = new Intent(MainActivity.this, ShoppingCentreActivity.class);
+                startActivity(intent3);
 
 
 

@@ -98,6 +98,11 @@ public class VisitFragment extends Fragment {
                 txtContactInfo.setText(StringsUtils.getHardRockCafeValues().get("contact"));
                 txtAddress.setText(StringsUtils.getHardRockCafeValues().get("address"));
                 break;
+            case "NordstanSCActivity":
+                txtContactInfo.setText(StringsUtils.getNordstanValues().get("contact"));
+                txtAddress.setText(StringsUtils.getNordstanValues().get("address"));
+                mapImage.setImageResource(R.drawable.vinga_island_map);
+                break;
             default:
                 txtAddress.setText("Value is Not Defined");
                 break;

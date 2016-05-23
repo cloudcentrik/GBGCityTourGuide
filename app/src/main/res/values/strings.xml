@@ -17,8 +17,6 @@
     </string-array>
 
 
-
-
     <string name="title_tourist_spot">Tourist Spots</string>
     <string name="title_activity_historical_place">GBG Historical Place</string>
     <string name="title_activity_island">Island</string>
@@ -38,5 +36,7 @@
         <item>@drawable/image_3</item>
 
     </string-array>
+    <string name="title_activity_shopping_centre">Shopping Centres</string>
+    <string name="title_activity_nordstan_sc">Nordstan Shopping Centre</string>
 
 </resources>

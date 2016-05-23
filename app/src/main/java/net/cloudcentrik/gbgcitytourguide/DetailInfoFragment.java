@@ -94,6 +94,13 @@ public class DetailInfoFragment extends Fragment {
                 textTicketPrice.setText(StringsUtils.getHardRockCafeValues().get("ticket"));
                 textTravelInfo.setText(StringsUtils.getHardRockCafeValues().get("travel"));
                 break;
+            case "NordstanSCActivity":
+                textOpeningHours.setText(StringsUtils.getNordstanValues().get("opening_hours"));
+                textTravelInfo.setText(StringsUtils.getNordstanValues().get("travel"));
+                textTicketPrice.setText(StringsUtils.getNordstanValues().get("ticket"));
+                break;
+
+
             default:
                 textOpeningHours.setText("Value is Not Defined");
                 break;

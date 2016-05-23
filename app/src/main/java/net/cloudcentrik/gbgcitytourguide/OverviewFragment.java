@@ -74,6 +74,11 @@ public class OverviewFragment extends Fragment {
             case "HardRockCafeActivity":
                 text.append(StringsUtils.getHardRockCafeValues().get("Overview"));
                 break;
+            // Shopping Centres
+            case "NordstanSCActivity":
+                text.append(StringsUtils.getNordstanValues().get("Overview"));
+                break;
+
             default: text.append("History is Not Defined");
                 break;
         }

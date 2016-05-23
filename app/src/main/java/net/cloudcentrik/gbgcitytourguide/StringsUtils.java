@@ -575,7 +575,69 @@ public class StringsUtils {
         );
 
         return values;
-}
+    }
+
+    // Nordstan Shopping Centre
+    public static HashMap<String, String> getNordstanValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "Overview",
+                "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
+                        "The largest collection is in fashion - clothing and shoes." +
+                        "\n"+
+                "\n"+
+                        "\n\n"+ "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
+                        "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
+                        "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n"
+        );
+
+        values.put(
+                "opening_hours",
+                "\n" +
+                        "Mon-Fri: 10-20\n" +
+                        "Sat-Sun: 10-18\n\n"
+
+        );
+
+
+
+        values.put(
+                "contact",
+                "\n" +
+                        "Phone: +46317008660\n" +
+                        "E-mail: info@nordstan.se\n"+
+                        "Website: http://www.nordstan.se\n"
+        );
+
+        values.put(
+                "address",
+                "\n" +
+                        " Norra Hamngatan\n" );
+
+
+
+        values.put(
+                "travel",
+                "\n" +
+                        "Tram Stop: Brunnsparken  \n" +
+                        "Or, walk for 3 minutes from Centralstation.\n\n"
+
+        );
+
+        values.put(
+                "ticket",
+                "Free Entry!\n" +
+                        "\n"
+        );
+        values.put(
+                "key",
+                "value"
+        );
+
+        return values;
+    }
+
 }
 
 

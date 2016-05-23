@@ -3,7 +3,6 @@
     package="net.cloudcentrik.gbgcitytourguide">
 
     <application
-
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -20,7 +19,6 @@
             android:name=".TouristSpotsActivity"
             android:label="@string/title_tourist_spot"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".GardenActivity"
             android:label="@string/title_tourist_spot"
@@ -92,11 +90,19 @@
         <activity
             android:name=".Fiskekrogen_RestaurantActivity"
             android:label="@string/title_activity_fiskekrogen__restaurant"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".HardRockCafeActivity"
             android:label="@string/title_activity_hardrockcafe"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ShoppingCentreActivity"
+            android:label="@string/title_activity_shopping_centre"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NordstanSCActivity"
+            android:label="@string/title_activity_nordstan_sc"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

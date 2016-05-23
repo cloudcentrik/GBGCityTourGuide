@@ -57,7 +57,9 @@ public class GalleryFragment extends Fragment {
                 break;
             case "StyrsoIslandActivity":
                 galleryImage.setImageResource(R.drawable.styrso_island);
-
+                break;
+            case "NordstanSCActivity":
+                galleryImage.setImageResource(R.drawable.nordstan);
                 break;
             default:
                 galleryImage.setImageResource(R.drawable.gothenburg_city);
