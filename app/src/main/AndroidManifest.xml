@@ -23,6 +23,28 @@
             android:name=".GardenActivity"
             android:label="@string/title_tourist_spot"
             android:theme="@style/AppTheme" />
+
+        <!-- Hotels start -->
+        <activity
+            android:name=".HotelActivity"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AvalonHotelActivity"
+            android:label="@string/title_activity_avalon_hotel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".VanilaHotelActivity"
+            android:label="@string/title_activity_vanila_hotel"
+            android:theme="@style/AppTheme" />
+
+        <!-- Hotels End -->
+
+        <activity
+            android:name=".BaseTestActivity"
+            android:label="@string/title_activity_base_Test"
+            android:theme="@style/AppTheme" />
+
         <activity
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"
