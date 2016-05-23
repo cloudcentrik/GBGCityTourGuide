@@ -25,8 +25,8 @@ public class TouristSpotsActivity extends AppCompatActivity {
 
 
         // Historical place button
-        final Button btn_Alvsborg = (Button) findViewById(R.id.btn_historical_place);
-        btn_Alvsborg.setOnClickListener(new View.OnClickListener() {
+        final Button historicalPlaceButton = (Button) findViewById(R.id.btn_historical_place);
+        historicalPlaceButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent = new Intent(TouristSpotsActivity.this, HistoricalPlaceActivity.class);
@@ -37,8 +37,8 @@ public class TouristSpotsActivity extends AppCompatActivity {
         });
 
         // Garden Button
-        final Button btn_Gustaf = (Button) findViewById(R.id.btn_garden);
-        btn_Gustaf.setOnClickListener(new View.OnClickListener() {
+        final Button gardenButton = (Button) findViewById(R.id.btn_garden);
+        gardenButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent = new Intent(TouristSpotsActivity.this, GardenActivity.class);
@@ -48,30 +48,29 @@ public class TouristSpotsActivity extends AppCompatActivity {
             }
         });
 
-        // East India Company btn
-        /*final Button button = (Button) findViewById(R.id.gbg_btn_historicalplace3);
-        button.setOnClickListener(new View.OnClickListener() {
+        // Island button
+        final Button islandButton = (Button) findViewById(R.id.btn_island);
+        islandButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, EastIndiaCompanyHPActivity.class);
+                Intent intent = new Intent(TouristSpotsActivity.this, IslandActivity.class);
                 startActivity(intent);
 
 
             }
-        });*/
+        });
 
 
-        //CarlstenFortHPActivity btn
-        /*final Button btn_CarlstenF = (Button) findViewById(R.id.gbg_btn_historicalplace4);
-        btn_CarlstenF.setOnClickListener(new View.OnClickListener() {
+        //Mesuem Button
+        final Button mesuemButton = (Button) findViewById(R.id.btn_museum);
+        mesuemButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                Intent intent = new Intent(TouristSpotsActivity.this, MuseumActivity.class);
                 startActivity(intent);
 
-
             }
-        });*/
+        });
 
         /*
 

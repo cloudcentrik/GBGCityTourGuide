@@ -76,6 +76,18 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        // Btn hotel
+        final Button buttonHotel = (Button) findViewById(R.id.gbg_btn_Hotels);
+        buttonHotel.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent4 = new Intent(MainActivity.this, HotelActivity.class);
+                startActivity(intent4);
+
+
+            }
+        });
+
     }
 
     @Override
