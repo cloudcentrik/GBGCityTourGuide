@@ -90,7 +90,7 @@ public class VisitFragment extends Fragment {
                 mapImage.setImageResource(R.drawable.vinga_island_map);
                 break;
 
-            case "OlearysResturentActivity":
+            case "OlearysResturentActivnity":
                 txtContactInfo.setText(StringsUtils.getOlearysValues().get("contact"));
                 txtAddress.setText(StringsUtils.getOlearysValues().get("address"));
                 break;
@@ -101,7 +101,7 @@ public class VisitFragment extends Fragment {
             case "NordstanSCActivity":
                 txtContactInfo.setText(StringsUtils.getNordstanValues().get("contact"));
                 txtAddress.setText(StringsUtils.getNordstanValues().get("address"));
-                mapImage.setImageResource(R.drawable.vinga_island_map);
+                mapImage.setImageResource(R.drawable.nordstanmap);
                 break;
             default:
                 txtAddress.setText("Value is Not Defined");

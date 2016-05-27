@@ -72,7 +72,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Contact Info"
-                style="@style/fragement_heading_text"/>
+                style="@style/fragement_heading_text"
+                android:autoText="false" />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
