@@ -758,9 +758,179 @@ public class StringsUtils {
 
         return values;
     }
+    // Lakes values
+    // Delsjon Lake
+    public static HashMap<String, String> getDelsjonValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "Overview",
+                "Delsjön is a huge area with a variety of lakes and lots of forest. The forest seems never-ending and you " +
+                        "can walk without seeing anyone else once you get off the main tracks. Swim in Delsjön (or ice skate " +
+                        "on it in winter) or rent canoes and kayaks. There are two good cafes - Lyktan which is just near the " +
+                        "main parking area and Bertilssons Cafe which you can also drive to. It is lovely in the spring when " +
+                        "the flowers are in bloom and the trees are just turning green.\n" +
+                        "\n" +
+                        "Delsjön consist of two coherent lakes, Stora Delsjön and Lilla Delsjön, located in eastern Gothenburg, " +
+                        "in the Delsjöområdet nature reserve. They serve as a reservoir for the city, receiving water from the " +
+                        "Göta River. At the shore of Stora Delsjön there is a popular beach.  \n"
+        );
+
+        values.put(
+                "opening_hours",
+                "\n" +
+                        "Any time you can visit there.\n\n"
+        );
+
+        values.put(
+                "contact",
+                "\n" +
+                        "Phone: 010-224 40 00\n"
+        );
+
+        values.put(
+                "address",
+                "\n" +
+                        "Delsjön, 413 04 Göteborg\n"
+        );
+
+        values.put(
+                "travel",
+                "\n" +
+                        "Tram Stop: Töpelsgatan \n" +
+                        "From tram stop you have to walk about 2o minutes to Delsjön\n"+
+                        "Take Tram 5 from Brunnsparken stop to Ästra kjuhuset direction \n"
+
+        );
+
+        values.put(
+                "ticket",
+                "Free Entry!\n" +
+                        "\n"
+        );
+        values.put(
+                "key",
+                "value"
+        );
+
+        return values;
+    }
+
+    // Harlanda Tjarn Lake
+    public static HashMap<String, String> getHarlandaTjarnValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "Overview",
+                "Harlanda Tjarn is a small lake, stretching on the territory of Sävenäs , Kålltorp and Delsjön " +
+                        "in eastern Gothenburg. In the summer, this is a popular swimming spot for families with " +
+                        "children residing in the three neighborhoods listed above.\n" +
+                        "Aside swimming areas, Härlanda Tjärn offers excellent facilities, including beach, showers, " +
+                        "playground, kiosk and public toilets. This shallow swimming area is also known as the “pee Gulf”" +
+                        " as many many families come here with their toddlers, and the small kiddies wee in the water. \n"
+        );
+
+        values.put(
+                "opening_hours",
+                "\n" +
+                        "Any time you can visit there.\n\n"
+        );
+
+        values.put(
+                "contact",
+                "\n" +
+                        "NA\n"
+        );
+
+        values.put(
+                "address",
+                "\n" +
+                        "Härlanda Tjärn\n"
+        );
+
+        values.put(
+                "travel",
+                "\n" +
+                        "Bus Stop: ?? \n" +
+                        "From Bus stop you have to walk about 10 minutes to Härlanda Tjärn\n"+
+                        "Take Bus 17 from centralstation stop to Kålltorp direction \n"
+
+        );
+
+        values.put(
+                "ticket",
+                "Free Entry!\n\n"
+        );
+        values.put(
+                "key",
+                "value"
+        );
+
+        return values;
+    }
 
 
+    //  Aspen Lake
+    public static HashMap<String, String> getAspenValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
 
+        values.put(
+                "Overview",
+                "Aspen is a lake of Botkyrka Municipality, Södermanland, Sweden.[1] The lake is crossed by the European " +
+                        "route E4/European route E20 and is located about 20 kilometres southwest of Stockholm, the Swedish " +
+                        "capital. It has an area of 1,847 km².[citation needed]\n" +
+                        "During the Stone Age, Aspen was in the ocean, but was uplifted by the time of the Bronze Age. " +
+                        "Bronze Age settlements grew up around the lake and for some thousand years Iron Age farms were around " +
+                        "the lake. The area developed during this period.[2] A graveyard from that period is preserved in the area.\n" +
+                        "Skrävsta Ekholmen nature reserve is in the vicinity of the lake with about sixty large oak trees, " +
+                        "half of which are centuries old. There are large bats and many other rare animal and plant species. Around the lake is a nature trail at 7½ km length. The path leads through the woods, high above the marsh.\n" +
+                        "Surface elevation: 18 m\n" +
+                        "Area: 1,847 km²\n" +
+                        "Length: 3.5 km\n" +
+                        "Width: 950 m\n" +
+                        "Catchment area: 7.97 km²\n" +
+                        "Shore length: 11.95 km\n"
+        );
+
+        values.put(
+                "opening_hours",
+                "\n" +
+                        "Any time you can visit there.\n\n"
+        );
+
+        values.put(
+                "contact",
+                "\n" +
+                        "Telephone:0302-711 66\n"
+        );
+
+        values.put(
+                "address",
+                "\n" +
+                        "Seglarvägen 25, 443 30 Lerum\n"
+        );
+
+        values.put(
+                "travel",
+                "\n" +
+                        "By car \n" +
+                        "or by train from Centralstation to Jonsered. " +
+                        "It will take 20 minutes to go there. \n"
+
+        );
+
+        values.put(
+                "ticket",
+                "Train ticket 40 kr. " +
+                        "Centralstation to Jonsered!\n\n"
+        );
+        values.put(
+                "key",
+                "value"
+        );
+
+        return values;
+    }
 }
 
 
