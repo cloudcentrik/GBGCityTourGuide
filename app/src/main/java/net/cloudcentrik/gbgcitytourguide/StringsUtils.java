@@ -581,43 +581,103 @@ public class StringsUtils {
         return values;
     }
 
+    // SHOPPING CENTRES
 
     // Nordstan Shopping Centre
-    public static HashMap<String, String> getNordstanValues() {
+        public static HashMap<String, String> getNordstanValues() {
+            HashMap<String, String> values = new HashMap<String, String>();
+
+            values.put(
+                    "Overview",
+                    "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
+                            "The largest collection is in fashion - clothing and shoes." +
+                            "\n" +
+                            "\n" +
+                            "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
+                            "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
+                            "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n"
+            );
+
+            values.put(
+                    "opening_hours",
+                    "\n" +
+                            "Mon-Fri: 10-20\n" +
+                            "Sat-Sun: 10-18\n\n"
+
+            );
+
+
+            values.put(
+                    "contact",
+                    "\n" +
+                            "Phone: +46317008660\n" +
+                            "E-mail: info@nordstan.se\n" +
+                            "Website: http://www.nordstan.se\n"
+            );
+
+            values.put(
+                    "address",
+                    "\n" +
+                            " Norra Hamngatan\n");
+
+
+            values.put(
+                    "travel",
+                    "\n" +
+                            "Tram Stop: Brunnsparken  \n" +
+                            "Or, walk for 3 minutes from Centralstation.\n\n"
+
+            );
+
+            values.put(
+                    "ticket",
+                    "Free Entry!\n" +
+                            "\n"
+            );
+            values.put(
+                    "key",
+                    "value"
+            );
+
+            return values;
+        }
+
+    // NORDISKA KOMPANIET(NK) Shopping Centre
+    public static HashMap<String, String> getNordiskaValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
                 "Overview",
-                "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
-                        "The largest collection is in fashion - clothing and shoes." +
-                        "\n" +
-                        "\n" +
-                        "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
-                        "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
-                        "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n"
+                "Situated in the heart of the city, NK’s four storeys and 45 departments of fashion, beauty and interior " +
+                        "design is one of Gothenburg's biggest shopping venues. Here you can find a mix of leading Swedish " +
+                        "and international brands.\n" +
+                        "The store has many departments: children, ladies, men, books and stationery, sport, lingerie, " +
+                        "shoes, bags, accessories, foot care, hairdressing, manicure, facial treatments, florist, glassware," +
+                        " chinaware, kitchen, hair and cosmetics, dry cleaning, shoemaker and key service. NK service center on " +
+                        "the lower floor will help with transportation and shipping.\n"
         );
 
         values.put(
                 "opening_hours",
                 "\n" +
-                        "Mon-Fri: 10-20\n" +
-                        "Sat-Sun: 10-18\n\n"
-
+                        "Mon-Fri: 10-19\n" +
+                        "Sat: 10-17\n"+
+                        "Sun: 10-16\n\n"
         );
 
 
         values.put(
                 "contact",
                 "\n" +
-                        "Phone: +46317008660\n" +
-                        "E-mail: info@nordstan.se\n" +
-                        "Website: http://www.nordstan.se\n"
+                        "Phone: +46317101000\n" +
+                        "E-mail: servicecenter.gbg@nk.se\n" +
+                        "Website: http://www.nk.se/sv/nk-goteborg/\n"
         );
 
         values.put(
                 "address",
                 "\n" +
-                        " Norra Hamngatan\n");
+                        " Address: Östra Hamngatan 42\n");
 
 
         values.put(
@@ -640,6 +700,66 @@ public class StringsUtils {
 
         return values;
     }
+
+
+
+    // Frölunda Torg Shopping Centre
+    public static HashMap<String, String> getFrolundaTorgValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "Overview",
+                "At Frölunda Torg shopping center there's a mix of large retailers and small upcoming and trendy " +
+                        "shops selling everything from fashion and home furnishing to sports and cosmetics.\n" +
+                        "For thoes interested in food there's a market square where you'll find italian delicacies, " +
+                        "coffée. fresh fish and seafood. Frölunda Torg has all of this under one roof with free parking just outside.\n"
+        );
+
+        values.put(
+                "opening_hours",
+                "\n" +
+                        "Mon-Fri: 10-20\n" +
+                        "Sat: 10-18\n"+
+                        "Sun: 10-17\n\n"
+        );
+
+        values.put(
+                "contact",
+                "\n" +
+                        "Phone: +46317343560\n" +
+                        "E-mail: info@frolundatorg.se\n" +
+                        "Website: http://frolundatorg.se/\n"
+        );
+
+        values.put(
+                "address",
+                "\n" +
+                        "Address: Frölunda Torg\n"
+        );
+
+        values.put(
+                "travel",
+                "\n" +
+                        "Tram Stop: Frölunda Torg  \n" +
+                        "Take Tram 1, 7, 8 or Buss 50 \n" +
+                        "It will take 40 minutes.\n"
+
+        );
+
+        values.put(
+                "ticket",
+                "Free Entry!\n" +
+                        "\n"
+        );
+        values.put(
+                "key",
+                "value"
+        );
+
+        return values;
+    }
+
+
 
 }
 
