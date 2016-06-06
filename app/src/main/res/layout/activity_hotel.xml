@@ -41,6 +41,17 @@
             android:text="Hotel Vanilla"
             android:layout_gravity="center_horizontal"/>
 
+        <Button
+            android:id="@+id/btn_hotel_radissonblue"
+            style="@style/gbg_button_style_second"
+            android:text="Radisson Blue"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btn_hotel_scandiceuropa"
+            style="@style/gbg_button_style_second"
+            android:text="Scandic Europa"
+            android:layout_gravity="center_horizontal"/>
+
     </LinearLayout>
 
 

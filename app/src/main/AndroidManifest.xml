@@ -37,7 +37,18 @@
             android:name=".VanilaHotelActivity"
             android:label="@string/title_activity_vanila_hotel"
             android:theme="@style/AppTheme" />
-
+        <activity
+            android:name=".VandrarHemHotelActivity"
+            android:label="Vandrarhem"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".RadissonBlueHotelActivity"
+            android:label="Radisson Blue"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".ScandicEuropaHotelActivity"
+            android:label="Scandic Europa"
+            android:theme="@style/AppTheme" />
         <!-- Hotels End -->
 
         <activity
