@@ -42,22 +42,21 @@ public class ShoppingCentreActivity extends AppCompatActivity {
         final Button btnFrolunda = (Button) findViewById(R.id.btn_frolundaTorgSC);
         btnFrolunda.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                // Perform action on click
-               // Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
-                //startActivity(intent);
-
+                 //Perform action on click
+                 Intent intent = new Intent(ShoppingCentreActivity.this, FrolundaTorgActivity.class);
+                 startActivity(intent);
 
             }
         });
 
 
-
+        // Nordiska Kompaniet Shopping centre
         final Button btnNK = (Button) findViewById(R.id.btn_NORDISKAKOMPANIET_SC);
         btnNK.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-              //  Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
-                //startActivity(intent);
+                Intent intent = new Intent(ShoppingCentreActivity.this, NordiskaKompanietActivity.class);
+                startActivity(intent);
 
 
             }

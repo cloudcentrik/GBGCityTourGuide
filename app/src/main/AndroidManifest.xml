@@ -101,6 +101,8 @@
             android:name=".GallaryActivity"
             android:label="@string/title_activity_gallary"
             android:theme="@style/AppTheme" />
+
+        <!-- Restaurant activities Here -->
         <activity
             android:name=".ResturentActivity"
             android:label="@string/title_activity_resturent"
@@ -117,6 +119,17 @@
             android:name=".HardRockCafeActivity"
             android:label="@string/title_activity_hardrockcafe"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JohnScottsRestaurantActivity"
+            android:label="@string/title_activity_johnscotts_restaurant"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JoeFerellisRestaurantActivity"
+            android:label="@string/title_activity_JoeFerellis_restaurant"
+            android:theme="@style/AppTheme" />
+
+
+
         <activity
             android:name=".TravelInfoActivity"
             android:label="@string/title_activity_travelinfo"
@@ -137,10 +150,24 @@
             android:name=".ShoppingCentreActivity"
             android:label="@string/title_activity_shopping_centre"
             android:theme="@style/AppTheme" />
+
+        <!-- Shopping Centres -->
         <activity
             android:name=".NordstanSCActivity"
             android:label="@string/title_activity_nordstan_sc"
             android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".FrolundaTorgActivity"
+            android:label="@string/title_activity_frolundatory_sc"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".NordiskaKompanietActivity"
+            android:label="@string/title_activity_nordiska_sc"
+            android:theme="@style/AppTheme"></activity>
+
+
+
+
     </application>
 
 </manifest>

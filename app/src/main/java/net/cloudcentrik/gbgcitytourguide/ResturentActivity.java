@@ -58,6 +58,30 @@ public class ResturentActivity extends AppCompatActivity {
             }
         });
 
+        // johnScott's btn
+        final Button johnScottbtn = (Button) findViewById(R.id.gbg_btn_johnScottsRestaurant);
+        johnScottbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(ResturentActivity.this, JohnScottsRestaurantActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        // Joe Ferellis Restaurant Activity btn
+        final Button joeFerellisbtn = (Button) findViewById(R.id.gbg_btn_joeFerellis);
+        joeFerellisbtn.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(ResturentActivity.this, JohnScottsRestaurantActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
 
     }
 }

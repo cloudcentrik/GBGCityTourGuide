@@ -26,13 +26,20 @@
     <string name="title_activity_island">Island</string>
     <string name="title_activity_stad_museam">GBG Historical Place</string>
     <string name="title_activity_gallary">Stad museam</string>
+
+    <!-- Restaurant -->
     <string name="title_activity_resturent">Resturent</string>
     <string name="title_activity_olearys_resturent">Olearrys Resturent</string>
     <string name="title_activity_hardrockcafe">HardRockCafe Resturent</string>
+    <string name="title_activity_fiskekrogen__restaurant">Fiskekrogen Restaurant</string>
+    <string name="title_activity_johnscotts_restaurant">John Scotts Restaurant</string>
+    <string name="title_activity_JoeFerellis_restaurant">Joe Ferellis Restaurant</string>
+
+
     <string name="title_activity_alvsborgCastle_hp">Alvsborg Castle</string>
     <string name="title_activity_east_india_company_hp">East India Company</string>
     <string name="title_activity_carlsten_fort_hp">Carlsten Fort</string>
-    <string name="title_activity_fiskekrogen__restaurant">Fiskekrogen Restaurant</string>
+
     <string name="title_activity_base_Test">Base Test</string>
     <string name="title_activity_travelinfo">Travel Information </string>
     <string name="title_activity_publictransport">Public Transport </string>
@@ -51,5 +58,7 @@
     </string-array>
     <string name="title_activity_shopping_centre">Shopping Centres</string>
     <string name="title_activity_nordstan_sc">Nordstan Shopping Centre</string>
+    <string name="title_activity_frolundatory_sc">Frolunda Torg Shopping Centre</string>
+    <string name="title_activity_nordiska_sc">Nordiska Kompaniet Shopping Centre</string>
 
 </resources>

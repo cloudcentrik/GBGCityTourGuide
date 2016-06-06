@@ -36,7 +36,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_restaurent3"
+            android:id="@+id/gbg_btn_joeFerellis"
             style="@style/gbg_button_style_second"
             android:text="Joe Farelli’s"
             android:layout_gravity="center_horizontal"/>
@@ -48,7 +48,7 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_restaurent5"
+            android:id="@+id/gbg_btn_johnScottsRestaurant"
             style="@style/gbg_button_style_second"
             android:text="John Scott's"
             android:layout_gravity="center_horizontal"/>
