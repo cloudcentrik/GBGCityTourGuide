@@ -18,7 +18,7 @@ public class GalleryFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.fragment_gallery, container, false);
 
-        galleryImage=(ImageView) rootView.findViewById(R.id.image_gallery);
+        galleryImage=(ImageView) rootView.findViewById(R.id.image_gallery1);
 
         //get activity name
         String strActivity = getActivity().toString();

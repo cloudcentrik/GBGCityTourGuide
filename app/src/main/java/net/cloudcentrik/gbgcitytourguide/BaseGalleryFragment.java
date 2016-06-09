@@ -3,6 +3,7 @@ package net.cloudcentrik.gbgcitytourguide;
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,8 +11,9 @@ import android.widget.ImageView;
 
 public class BaseGalleryFragment extends Fragment {
 
-    private ImageView galleryImage;
+    private ImageView galleryImage1,galleryImage2,galleryImage3;
     private String galleryImageId;
+    private String[] images;
 
     public static BaseGalleryFragment newInstance(String imageId) {
         BaseGalleryFragment fragment = new BaseGalleryFragment();
@@ -29,9 +31,16 @@ public class BaseGalleryFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.fragment_gallery, container, false);
 
         this.galleryImageId = getArguments().getString("GALLERY", "");
+        this.images= TextUtils.split(this.galleryImageId," ");
 
-        galleryImage=(ImageView) rootView.findViewById(R.id.image_gallery);
-        galleryImage.setScaleType(ImageView.ScaleType.CENTER_CROP);
+        galleryImage1=(ImageView) rootView.findViewById(R.id.image_gallery1);
+        galleryImage1.setScaleType(ImageView.ScaleType.CENTER_CROP);
+
+        galleryImage2=(ImageView) rootView.findViewById(R.id.image_gallery2);
+        galleryImage2.setScaleType(ImageView.ScaleType.CENTER_CROP);
+
+        galleryImage3=(ImageView) rootView.findViewById(R.id.image_gallery3);
+        galleryImage3.setScaleType(ImageView.ScaleType.CENTER_CROP);
 
         this.setGalleryImage();
 
@@ -41,7 +50,12 @@ public class BaseGalleryFragment extends Fragment {
 
     private void setGalleryImage(){
 
-                galleryImage.setImageResource(this.convertStringToId(this.galleryImageId));
+        if(this.images.length>2){
+            galleryImage1.setImageResource(this.convertStringToId(this.images[0]));
+            galleryImage2.setImageResource(this.convertStringToId(this.images[1]));
+            galleryImage3.setImageResource(this.convertStringToId(this.images[2]));
+
+        }
 
     }
 

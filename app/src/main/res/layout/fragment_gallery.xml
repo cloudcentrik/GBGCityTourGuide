@@ -14,10 +14,27 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/image_gallery"
+            android:id="@+id/image_gallery1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:scaleType="fitXY"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+
+            />
+        <ImageView
+            android:id="@+id/image_gallery2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+
+            />
+        <ImageView
+            android:id="@+id/image_gallery3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
 
             />
 
