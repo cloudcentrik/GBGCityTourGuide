@@ -33,33 +33,34 @@ public class GardenActivity extends AppCompatActivity {
 
             }
         });
+
+        // botanical garden
+        final Button btnBotanicalGarden = (Button) findViewById(R.id.btn_botanical_garden);
+        btnBotanicalGarden.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(GardenActivity.this, BotanicalGardenActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
+        // TradgardsforeningenActivity
+        final Button btnTradgardsforeningen = (Button) findViewById(R.id.btn_tradgardsforeningen);
+        btnTradgardsforeningen.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(GardenActivity.this, TradgardsforeningenActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+
         /*
-        // vinga Island
-        final Button buttonVingaIsland = (Button) findViewById(R.id.btn_vinga_island);
-        buttonVingaIsland.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(IslandActivity.this, VingaIslandActivity.class);
-                startActivity(intent);
-
-
-            }
-        });
-
-        // Hönö Island
-        final Button buttonHohoIsland = (Button) findViewById(R.id.btn_hönö_island);
-        buttonHohoIsland.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(IslandActivity.this, HonoIslandActivity.class);
-                startActivity(intent);
-
-
-            }
-        });
-
-
-
         // Roro Island
         final Button buttonRoro = (Button) findViewById(R.id.btn_Rörö_island);
         buttonRoro.setOnClickListener(new View.OnClickListener() {

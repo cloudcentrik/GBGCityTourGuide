@@ -223,6 +223,16 @@
             android:label="@string/title_activity_nordiska_sc"
             android:theme="@style/AppTheme"></activity>
 
+        <!-- Garden Activities-->
+
+        <activity
+            android:name=".BotanicalGardenActivity"
+            android:label="@string/title_activity_botanical_garden"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".TradgardsforeningenActivity"
+            android:label="@string/title_activity_tradgardsforeningen"
+            android:theme="@style/AppTheme"></activity>
 
 
 

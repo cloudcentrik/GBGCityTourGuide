@@ -65,4 +65,8 @@
     <string name="title_activity_frolundatory_sc">Frolunda Torg Shopping Centre</string>
     <string name="title_activity_nordiska_sc">Nordiska Kompaniet Shopping Centre</string>
 
+    <!-- Garden Activity-->
+    <string name="title_activity_botanical_garden">Botanical Garden</string>
+    <string name="title_activity_tradgardsforeningen">Tradgardsforeningen</string>
+
 </resources>

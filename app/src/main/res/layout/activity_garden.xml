@@ -30,15 +30,15 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/btn_garden2"
+            android:id="@+id/btn_botanical_garden"
             style="@style/gbg_button_style_second"
-            android:text="Garden 2"
+            android:text="Botanical Garden"
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/btn_garden3"
+            android:id="@+id/btn_tradgardsforeningen"
             style="@style/gbg_button_style_second"
-            android:text="Garden 3"
+            android:text="Tradgardsforeningen"
             android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
