@@ -72,6 +72,17 @@ public class TouristSpotsActivity extends AppCompatActivity {
             }
         });
 
+        //Lake Button
+        final Button lakeButton = (Button) findViewById(R.id.btn_lake);
+        lakeButton.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(TouristSpotsActivity.this, LakesActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
         /*
 
         final Button btn_SKronan = (Button) findViewById(R.id.gbg_btn_historicalplace5);

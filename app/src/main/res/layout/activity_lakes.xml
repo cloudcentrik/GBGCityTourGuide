@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@color/window_background"
+    tools:context=".MainActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/my_primary"
+        android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="75dp">
+
+
+        <Button
+            android:id="@+id/btn_lake_delsjon"
+            style="@style/gbg_button_style_second"
+            android:text="Delsjon"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_lake_Surtesjon"
+            style="@style/gbg_button_style_second"
+            android:text="Surtesjön"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_lake_svartemosse"
+            style="@style/gbg_button_style_second"
+            android:text="Svarte mosse"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
+            android:id="@+id/btn_lake_Bergsjön"
+            style="@style/gbg_button_style_second"
+            android:text="Bergsjön"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btn_lake_Harlanda"
+            style="@style/gbg_button_style_second"
+            android:text="Härlanda tjärn"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
