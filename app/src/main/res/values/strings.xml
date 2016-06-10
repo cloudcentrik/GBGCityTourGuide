@@ -1,8 +1,17 @@
 <resources>
     <string name="app_name">Gothenburg City Tour Guide</string>
-    <string name="title_activity_museum"> GBG Museum </string>
     <string name="title_activity_park"> GBG Test </string>
+
+    <!--GBG Museum-->
+    <string name="title_activity_museum"> GBG Museum </string>
     <string name="title_activity_stad_museum">Stad Museum</string>
+    <string name="title_activity_maritiman_museum">Maritiman Museum</string>
+    <string name="title_activity_natural_history_museum">Natural History Museum</string>
+    <string name="title_activity_city_museum">City Museum</string>
+
+
+
+
 
     <string-array name="stad_museam">
         <item>Category one

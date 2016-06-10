@@ -121,10 +121,21 @@
 
         <!-- LAKE END-->
 
+        <!--Museum activities-->
         <activity
             android:name=".MaritimanMuseumActivity"
-            android:label="@string/title_activity_stad_museum"
+            android:label="@string/title_activity_maritiman_museum"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".NaturalHistoryMuseumActivity"
+            android:label="@string/title_activity_natural_history_museum"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CityMuseumActivity"
+            android:label="@string/title_activity_city_museum"
+            android:theme="@style/AppTheme" />
+
+        <!--Museum activities END-->
 
 
         <activity

@@ -22,9 +22,9 @@ public class MuseumActivity extends AppCompatActivity {
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("Gothenburg Museum");
 
-        // Stad museum btn
-        /*final Button button = (Button) findViewById(R.id.gbg_btn_mesuem);
-        button.setOnClickListener(new View.OnClickListener() {
+        // Maritiman Museum
+        final Button btnMaritimanMuseum = (Button) findViewById(R.id.gbg_btn_maritiman_museum);
+        btnMaritimanMuseum.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent = new Intent(MuseumActivity.this, MaritimanMuseumActivity.class);
@@ -32,8 +32,29 @@ public class MuseumActivity extends AppCompatActivity {
 
 
             }
-        });*/
+        });
 
+        //NaturalHistoryMuseum
+        final Button btnNaturalHistoryMuseum = (Button) findViewById(R.id.gbg_btn_natural_history_museum);
+        btnNaturalHistoryMuseum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, NaturalHistoryMuseumActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        //CityMuseumActivity
+        final Button btnCityMuseum = (Button) findViewById(R.id.gbg_btn_city_museum);
+        btnCityMuseum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, CityMuseumActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }
