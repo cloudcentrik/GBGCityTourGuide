@@ -56,6 +56,16 @@ public class MuseumActivity extends AppCompatActivity {
             }
         });
 
+        //Volvo Museum
+        final Button btnVolvo_Museum = (Button) findViewById(R.id.gbg_btn_volvo_museum);
+        btnVolvo_Museum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, VolvoMuseumActivity.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
 

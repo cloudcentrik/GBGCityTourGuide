@@ -43,9 +43,9 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_mesuem4"
+            android:id="@+id/gbg_btn_volvo_museum"
             style="@style/gbg_button_style_second"
-            android:text="NO DATA"
+            android:text="Volvo Museum"
             android:layout_gravity="center_horizontal"/>
 
         <Button
