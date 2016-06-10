@@ -88,6 +88,39 @@
             android:theme="@style/AppTheme" />
         <!-- ISLAND END -->
 
+        <!-- LAKE START-->
+        <activity
+            android:name=".LakesActivity"
+            android:label="Lakes"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".DelsjonLakeActivity"
+            android:label="Delsjön"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".BerjsonLakeActivity"
+            android:label="Berjön"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".SurtesjonLakeActivity"
+            android:label="Suresjön"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".HarlandaLakeActivity"
+            android:label="Härlanda"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".SvarteMosseLakeActivity"
+            android:label="Svarte Mosse"
+            android:theme="@style/AppTheme" />
+
+        <!-- LAKE END-->
+
         <activity
             android:name=".MaritimanMuseumActivity"
             android:label="@string/title_activity_stad_museum"
