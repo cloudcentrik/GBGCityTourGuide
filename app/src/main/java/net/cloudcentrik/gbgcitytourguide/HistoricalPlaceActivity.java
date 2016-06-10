@@ -36,7 +36,7 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
             }
         });
 
-        /*
+
         // btn GustafAdlofsSquareHPActivity
         final Button btn_Gustaf = (Button) findViewById(R.id.gbg_btn_historicalplace2);
         btn_Gustaf.setOnClickListener(new View.OnClickListener() {
@@ -47,7 +47,7 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
 
 
             }
-        });   */
+        });
 
         // East India Company btn
         final Button button = (Button) findViewById(R.id.gbg_btn_historicalplace3);
@@ -67,24 +67,24 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
         btn_CarlstenF.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                Intent intent = new Intent(HistoricalPlaceActivity.this, GustafAdlofsSquareHPActivity.class);
                 startActivity(intent);
 
 
             }
         });
 
-        /*
 
+        //SkansenKronaHPActivity
         final Button btn_SKronan = (Button) findViewById(R.id.gbg_btn_historicalplace5);
         btn_SKronan.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                Intent intent = new Intent(HistoricalPlaceActivity.this, SkansenKronaHPActivity.class);
                 startActivity(intent);
 
 
             }
-        });   */
+        });
     }
 }

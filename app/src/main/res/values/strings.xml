@@ -39,6 +39,10 @@
     <string name="title_activity_alvsborgCastle_hp">Alvsborg Castle</string>
     <string name="title_activity_east_india_company_hp">East India Company</string>
     <string name="title_activity_carlsten_fort_hp">Carlsten Fort</string>
+    <string name="title_activity_GustafAdlofsSquare_hp">Gustaf Adlofs Square</string>
+    <string name="title_activity_skansenkrona_hp">Skansen Krona</string>
+
+
 
     <string name="title_activity_base_Test">Base Test</string>
     <string name="title_activity_travelinfo">Travel Information </string>

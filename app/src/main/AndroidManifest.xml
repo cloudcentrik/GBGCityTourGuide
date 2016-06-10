@@ -92,6 +92,8 @@
             android:name=".MaritimanMuseumActivity"
             android:label="@string/title_activity_stad_museum"
             android:theme="@style/AppTheme" />
+
+
         <activity
             android:name=".HistoricalPlaceActivity"
             android:label="@string/title_activity_historical_place"
@@ -108,6 +110,18 @@
             android:name=".CarlstenFortHPActivity"
             android:label="@string/title_activity_carlsten_fort_hp"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GustafAdlofsSquareHPActivity"
+            android:label="@string/title_activity_GustafAdlofsSquare_hp"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SkansenKronaHPActivity"
+            android:label="@string/title_activity_skansenkrona_hp"
+            android:theme="@style/AppTheme" />
+
+
+
+
         <activity
             android:name=".GallaryActivity"
             android:label="@string/title_activity_gallary"
