@@ -38,6 +38,11 @@
     <color name="gallary_border2">#00abea</color>
     <color name="gallary_border3">#000000</color>
 
+    <!-- Toolbar colors -->
+    <color name="toolbar_background">#00838F</color>
+    <color name="toolbar_textColour">#FFFFFF</color>
+    <color name="toolbar_accentColour">#0000FF</color>
+
     <!-- solid colors -->
     <color name="black">#000000</color>
     <color name="white">#FFFFFF</color>
