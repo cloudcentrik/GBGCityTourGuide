@@ -49,9 +49,9 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
-            android:id="@+id/gbg_btn_mesuem5"
+            android:id="@+id/gbg_btn_world_culture_museum"
             style="@style/gbg_button_style_second"
-            android:text="NO DATA"
+            android:text="Museum of World Culture"
             android:layout_gravity="center_horizontal"/>
 
 

@@ -66,6 +66,15 @@ public class MuseumActivity extends AppCompatActivity {
             }
         });
 
+        //Museum of World Culture
+        final Button btnWorldCulture_Museum = (Button) findViewById(R.id.gbg_btn_world_culture_museum);
+        btnWorldCulture_Museum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, WorldCultureMuseumActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 

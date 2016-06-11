@@ -138,6 +138,11 @@
             android:name=".VolvoMuseumActivity"
             android:label="@string/title_activity_volvo_museum"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".WorldCultureMuseumActivity"
+            android:label="@string/title_activity_world_culture_museum"
+            android:theme="@style/AppTheme" />
+
 
 
         <!--Museum activities END-->
