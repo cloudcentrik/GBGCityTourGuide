@@ -61,5 +61,17 @@ public class ShoppingCentreActivity extends AppCompatActivity {
 
             }
         });
+
+        // ARKADEN Shopping centre
+        final Button buttonArkadenShopingCenter = (Button) findViewById(R.id.btn_shopingcenter_arkaden);
+        buttonArkadenShopingCenter.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(ShoppingCentreActivity.this, ArkadenShopingCenterActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
     }
 }

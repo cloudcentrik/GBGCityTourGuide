@@ -35,6 +35,12 @@
             android:text="Airport Tranport"
             android:layout_gravity="center_horizontal"/>
 
+        <Button
+            android:id="@+id/gbg_btn_taxi"
+            style="@style/gbg_button_style_second"
+            android:text="Taxi"
+            android:layout_gravity="center_horizontal"/>
+
     </LinearLayout>
 
 

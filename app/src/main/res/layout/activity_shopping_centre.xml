@@ -20,7 +20,9 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="75dp">
+        android:layout_marginTop="75dp"
+        android:layout_centerInParent="true"
+        android:gravity="center">
 
 
         <Button
@@ -39,6 +41,11 @@
             android:id="@+id/btn_NORDISKAKOMPANIET_SC"
             style="@style/gbg_button_style_second"
             android:text="NK - NORDISKA KOMPANIET"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/btn_shopingcenter_arkaden"
+            style="@style/gbg_button_style_second"
+            android:text="ARKADEN"
             android:layout_gravity="center_horizontal"/>
 
 
