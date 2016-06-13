@@ -10,6 +10,10 @@
     <string name="title_activity_city_museum">City Museum</string>
     <string name="title_activity_volvo_museum">Volvo Museum</string>
     <string name="title_activity_world_culture_museum">Museum of World Culture</string>
+    <string name="title_activity_museum_of_art">Museum of Art</string>
+    <string name="title_activity_universeum">Universeum</string>
+
+
     <!--GBG Museum End-->
 
     <string-array name="stad_museam">

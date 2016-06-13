@@ -7,13 +7,18 @@
     android:background="@color/window_background"
     tools:context=".MainActivity">
 
-
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:background="@color/my_primary"
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -49,13 +54,25 @@
             android:layout_gravity="center_horizontal"/>
 
         <Button
+            android:id="@+id/gbg_btn_universeum"
+            style="@style/gbg_button_style_second"
+            android:text="Universeum"
+            android:layout_gravity="center_horizontal"/>
+
+        <Button
             android:id="@+id/gbg_btn_world_culture_museum"
             style="@style/gbg_button_style_second"
             android:text="Museum of World Culture"
+            android:layout_gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/gbg_btn_museum_of_art"
+            style="@style/gbg_button_style_second"
+            android:text="Museum of Art"
             android:layout_gravity="center_horizontal"/>
 
 
     </LinearLayout>
 
+    </ScrollView>
 
 </RelativeLayout>

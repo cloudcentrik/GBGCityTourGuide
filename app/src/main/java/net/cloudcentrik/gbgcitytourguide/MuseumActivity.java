@@ -75,6 +75,27 @@ public class MuseumActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
+        //Museum of Art
+        final Button btnMuseum_of_Art = (Button) findViewById(R.id.gbg_btn_museum_of_art);
+        btnMuseum_of_Art.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, MuseumOfArtActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        //Universeum
+        final Button btnUniverseum = (Button) findViewById(R.id.gbg_btn_universeum);
+        btnUniverseum.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(MuseumActivity.this, UniverseumActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
 
