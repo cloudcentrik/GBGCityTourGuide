@@ -10,7 +10,11 @@
     <string name="title_activity_city_museum">City Museum</string>
     <string name="title_activity_volvo_museum">Volvo Museum</string>
     <string name="title_activity_world_culture_museum">Museum of World Culture</string>
+    <string name="title_activity_museum_of_art">Museum of Art</string>
+    <string name="title_activity_universeum">Universeum</string>
 
+
+    <!--GBG Museum End-->
 
     <string-array name="stad_museam">
         <item>Category one
@@ -43,13 +47,13 @@
     <string name="title_activity_johnscotts_restaurant">John Scotts Restaurant</string>
     <string name="title_activity_JoeFerellis_restaurant">Joe Ferellis Restaurant</string>
 
-
+    <!--GBG Historical Places-->
     <string name="title_activity_alvsborgCastle_hp">Alvsborg Castle</string>
     <string name="title_activity_east_india_company_hp">East India Company</string>
     <string name="title_activity_carlsten_fort_hp">Carlsten Fort</string>
     <string name="title_activity_GustafAdlofsSquare_hp">Gustaf Adlofs Square</string>
-    <string name="title_activity_skansenkrona_hp">Skansen Krona</string>
-
+    <string name="title_activity_skansenkrona_hp">Skansen Kronan</string>
+    <!--GBG Historical Places End-->
 
 
     <string name="title_activity_base_Test">Base Test</string>
@@ -68,6 +72,8 @@
         <item>@drawable/image_3</item>
 
     </string-array>
+
+    <!-- Shopping Centres Activity-->
     <string name="title_activity_shopping_centre">Shopping Centres</string>
     <string name="title_activity_nordstan_sc">Nordstan Shopping Centre</string>
     <string name="title_activity_frolundatory_sc">Frolunda Torg Shopping Centre</string>
@@ -76,5 +82,5 @@
     <!-- Garden Activity-->
     <string name="title_activity_botanical_garden">Botanical Garden</string>
     <string name="title_activity_tradgardsforeningen">Tradgardsforeningen</string>
-
+    <!-- Garden Activity End-->
 </resources>

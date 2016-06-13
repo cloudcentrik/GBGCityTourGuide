@@ -161,8 +161,15 @@
             android:name=".WorldCultureMuseumActivity"
             android:label="@string/title_activity_world_culture_museum"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".MuseumOfArtActivity"
+            android:label="@string/title_activity_museum_of_art"
+            android:theme="@style/AppTheme" />
 
-
+        <activity
+            android:name=".UniverseumActivity"
+            android:label="@string/title_activity_universeum"
+            android:theme="@style/AppTheme" />
 
         <!--Museum activities END-->
 

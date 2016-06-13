@@ -55,6 +55,35 @@ public class StringsUtils {
         return values;
     }
 
+
+    // Gustaf Adlofs Square HPActivity
+    public static HashMap<String, String> getGustafAdlofsSquareHPHPValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Gustaf Adlofs Square ------------" +
+                        "chants were not part of the lucrative dealings of the English, so Scot Colin Campbell, in association " +
+                        "with Niclas Sahlgren in Gothenburg, devised an idea for a Swedish East India Company, which would be Sweden's " +
+                        "first international trading company.\n\n" +
+                        "The company started up in 1731, and the next year the first ship set off for the Far East. This made Gothenburg " +
+                        "a European centre of trade in products from China and the East. The main goods were silk, tea, furniture, " +
+                        "porcelain, precious stones and other distinctive luxury items."
+        );
+
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "map");
+        values.put("GALLERY", "image_1 image_2 image_3");
+
+        return values;
+    }
+
+
     // East India Company data
     public static HashMap<String, String> getEastIndiaCompanyHPValues() {
         HashMap<String, String> values = new HashMap<String, String>();
