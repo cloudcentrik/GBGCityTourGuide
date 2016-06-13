@@ -14,25 +14,10 @@ public class GardenActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_garden);
 
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("Garden");
-
-        // vrango Island
-        final Button buttonVrangoIsland = (Button) findViewById(R.id.btn_garden1);
-        buttonVrangoIsland.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(GardenActivity.this, BaseTestActivity.class);
-                startActivity(intent);
-
-
-            }
-        });
 
         // botanical garden
         final Button btnBotanicalGarden = (Button) findViewById(R.id.btn_botanical_garden);

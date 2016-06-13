@@ -22,13 +22,6 @@
         android:layout_marginLeft="30dp"
         android:layout_marginTop="75dp">
 
-
-        <Button
-            android:id="@+id/btn_garden1"
-            style="@style/gbg_button_style_second"
-            android:text="Garden 1"
-            android:layout_gravity="center_horizontal"/>
-
         <Button
             android:id="@+id/btn_botanical_garden"
             style="@style/gbg_button_style_second"
