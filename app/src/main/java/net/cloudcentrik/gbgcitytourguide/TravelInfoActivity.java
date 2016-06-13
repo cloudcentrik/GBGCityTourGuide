@@ -15,13 +15,12 @@ public class TravelInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travelinfo);
 
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
-
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("GBG Travel Info");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         // airport transport btn
         final Button airporttravelbutton = (Button) findViewById(R.id.gbg_btn_airporttran);
@@ -47,55 +46,17 @@ public class TravelInfoActivity extends AppCompatActivity {
             }
         });
 
-       /*
-
-       // olearys resturent btn
-        final Button taxibutton = (Button) findViewById(R.id.gbg_btn_taxi);
-        taxibutton.setOnClickListener(new View.OnClickListener() {
+        // Taxi Button
+        final Button buttonTaxi = (Button) findViewById(R.id.gbg_btn_taxi);
+        buttonTaxi.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(TravelInfoActivity.this, TaxiTravelActivity.class);
+                Intent intent = new Intent(TravelInfoActivity.this, TaxiActivity.class);
                 startActivity(intent);
 
 
             }
         });
-
-        final Button btn_Fiskekrogen = (Button) findViewById(R.id.gbg_btn_bus);
-        btn_Fiskekrogen.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intentbus = new Intent(TravelInfoActivity.this, BusTravelActivity.class);
-                startActivity(intentbus);
-
-
-            }
-        });
-
-        // hardrockcafe  btn
-        final Button airbutton = (Button) findViewById(R.id.gbg_btn_air);
-        airbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intentair = new Intent(TravelInfoActivity.this, AirTravelActivity.class);
-                startActivity(intentair);
-
-
-            }
-        });
-
-        // hardrockcafe  btn
-        final Button boatbutton = (Button) findViewById(R.id.gbg_btn_boat);
-        airbutton.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intentboat = new Intent(TravelInfoActivity.this, BoatTravelActivity.class);
-                startActivity(intentboat);
-
-
-            }
-        });   */
-
 
     }
 }

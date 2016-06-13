@@ -248,6 +248,10 @@
             android:label="@string/title_activity_airporttransport"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".TaxiActivity"
+            android:label="Taxi"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".InfoCenterActivity"
             android:label="@string/title_activity_infocenter"
             android:theme="@style/AppTheme" />
@@ -266,8 +270,13 @@
             android:label="@string/title_activity_frolundatory_sc"
             android:theme="@style/AppTheme"></activity>
         <activity
-            android:name=".NordiskaKompanietActivity"
-            android:label="@string/title_activity_nordiska_sc"
+        android:name=".NordiskaKompanietActivity"
+        android:label="@string/title_activity_nordiska_sc"
+        android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name=".ArkadenShopingCenterActivity"
+            android:label="Arkaden Shoping Center"
             android:theme="@style/AppTheme"></activity>
 
         <!-- Garden Activities-->
