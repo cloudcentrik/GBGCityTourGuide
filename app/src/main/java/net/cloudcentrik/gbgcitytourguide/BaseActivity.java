@@ -1,5 +1,6 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
@@ -72,14 +73,30 @@ public class BaseActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle item selection
         switch (item.getItemId()) {
-            case R.id.action_info:
-
+            case R.id.action_infocenter:
+                Intent infoCenter = new Intent(this,InfoCenterActivity.class);
+                startActivity(infoCenter);
                 return true;
             case R.id.action_hotel:
-
+                Intent hotel = new Intent(this,HotelActivity.class);
+                startActivity( hotel);
                 return true;
             case R.id.action_restuarent:
+                Intent restaurant = new Intent(this,ResturentActivity.class);
+                startActivity(restaurant);
+                return true;
+            case R.id.action_tourist_spots:
+                Intent touristSpot = new Intent(this,TouristSpotsActivity.class);
+                startActivity(touristSpot);
+                return true;
 
+            case R.id.action_travelinfo:
+                Intent travelInfo = new Intent(this,TravelInfoActivity.class);
+                startActivity(travelInfo);
+                return true;
+            case R.id.action_shoping_center:
+                Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
+                startActivity(shopingCenter);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
