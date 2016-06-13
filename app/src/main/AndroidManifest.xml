@@ -121,6 +121,25 @@
 
         <!-- LAKE END-->
 
+        <!-- Park START-->
+        <activity
+            android:name=".ParkActivity"
+            android:label="Park"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LindholmenParkActivity"
+            android:label="Lindholmen Science Park"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LisabergParkActivity"
+            android:label="Lisaberg Amusement Park"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SlotsskogenParkActivity"
+            android:label="Slotsskogen Park"
+            android:theme="@style/AppTheme" />
+        <!-- PARK END-->
+
         <!--Museum activities-->
         <activity
             android:name=".MaritimanMuseumActivity"

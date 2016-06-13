@@ -83,17 +83,17 @@ public class TouristSpotsActivity extends AppCompatActivity {
             }
         });
 
-        /*
 
-        final Button btn_SKronan = (Button) findViewById(R.id.gbg_btn_historicalplace5);
-        btn_SKronan.setOnClickListener(new View.OnClickListener() {
+        // park button
+        final Button parkButton = (Button) findViewById(R.id.btn_park);
+        parkButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
+                Intent intent = new Intent(TouristSpotsActivity.this, ParkActivity.class);
                 startActivity(intent);
 
 
             }
-        });   */
+        });
     }
 }

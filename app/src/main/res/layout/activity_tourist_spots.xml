@@ -24,7 +24,8 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:padding="16dp">
+        android:padding="16dp"
+        android:layout_gravity="center">
 
         <Button
             android:id="@+id/btn_historical_place"
@@ -61,18 +62,11 @@
             android:text="Lakes"
             android:layout_gravity="center_horizontal"/>
         <Button
-            android:id="@+id/btn_amusemen_park"
+            android:id="@+id/btn_park"
             style="@style/gbg_button_style_solid"
             android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Amusement Park"
+            android:text="Park"
             android:layout_gravity="center_horizontal"/>
-        <Button
-            android:id="@+id/btn_science_park"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Science Park"
-            android:layout_gravity="center_horizontal"/>
-
 
     </LinearLayout>
 

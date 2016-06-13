@@ -12,15 +12,17 @@
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
-        android:background="@color/my_primary"
+        android:theme="@style/ToolbarTheme"
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/toolbar"
-        android:layout_marginLeft="16dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
         android:layout_marginTop="250dp"
+        android:gravity="center"
         android:orientation="vertical">
 
         <LinearLayout
@@ -31,19 +33,29 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/gbg_btn_touristspots"
                     style="@style/gbg_button_style"
-                    android:text="Tourist Spots"
-                    />
+                    android:text="Tourist Spots" />
 
                 <Button
                     android:id="@+id/gbg_btn_restaurent"
                     style="@style/gbg_button_style"
-                    android:text="Restaurent"
-                    />
+                    android:text="Restaurent" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center">
 
                 <Button
                     android:id="@+id/gbg_btn_shoping_center"
@@ -52,18 +64,21 @@
 
                     />
 
+                <Button
+                    android:id="@+id/gbg_btn_travel_info"
+                    style="@style/gbg_button_style"
+                    android:text="Travel information" />
+
             </LinearLayout>
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_centerInParent="true"
+                android:gravity="center">
 
-                <Button
-                    android:id="@+id/gbg_btn_travel_info"
-                    style="@style/gbg_button_style"
-                    android:text="Travel information" />
 
                 <Button
                     android:id="@+id/gbg_btn_hotel"
@@ -74,7 +89,7 @@
                     android:id="@+id/gbg_btn_info_center"
                     style="@style/gbg_button_style"
                     android:text="Info Center" />
-                    android:text="Infomation center" />
+                android:text="Infomation center" />
 
             </LinearLayout>
 
