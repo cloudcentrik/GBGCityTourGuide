@@ -48,5 +48,13 @@
     <color name="white">#FFFFFF</color>
     <color name="blue">#0000FF</color>
 
+    <!-- Button colors-->
+    <color name="button_colour_blue">#0091ea</color>
+    <color name="button_colour_green">#33691e</color>
+    <color name="button_colour_pink">#c51162</color>
+    <color name="button_colour_teal">#00bfa5</color>
+    <color name="button_colour_orange">#dd2c00</color>
+    <color name="button_colour_purple">#aa00ff</color>
+
 
 </resources>
