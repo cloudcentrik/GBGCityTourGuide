@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_sample_one);
 
         // Toolbar
         Toolbar topToolBar = (Toolbar)findViewById(R.id.toolbar);
@@ -111,36 +111,36 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_infocenter:
+                Intent infoCenter = new Intent(this,InfoCenterActivity.class);
+                startActivity(infoCenter);
+                return true;
+            case R.id.action_hotel:
+                Intent hotel = new Intent(this,HotelActivity.class);
+                startActivity( hotel);
+                return true;
+            case R.id.action_restuarent:
+                Intent restaurant = new Intent(this,ResturentActivity.class);
+                startActivity(restaurant);
+                return true;
+            case R.id.action_tourist_spots:
+                Intent touristSpot = new Intent(this,TouristSpotsActivity.class);
+                startActivity(touristSpot);
+                return true;
 
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_museum) {
-            Toast.makeText(MainActivity.this, "Seetings", Toast.LENGTH_LONG).show();
-
-            return true;
+            case R.id.action_travelinfo:
+                Intent travelInfo = new Intent(this,TravelInfoActivity.class);
+                startActivity(travelInfo);
+                return true;
+            case R.id.action_shoping_center:
+                Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
+                startActivity(shopingCenter);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        if(id == R.id.action_island){
-            Toast.makeText(MainActivity.this, "About", Toast.LENGTH_LONG).show();
-        }
-        if(id == R.id.action_info){
-            Toast.makeText(MainActivity.this, "information", Toast.LENGTH_LONG).show();
-        }
-
-        if(id == R.id.action_restuarent){
-            Toast.makeText(MainActivity.this, "resturent", Toast.LENGTH_LONG).show();
-        }
-        if(id == R.id.action_travelinfo){
-            Toast.makeText(MainActivity.this, "travel info", Toast.LENGTH_LONG).show();
-        }
-        if(id == R.id.action_infocenter){
-            Toast.makeText(MainActivity.this, "info center", Toast.LENGTH_LONG).show();
-        }
-        return super.onOptionsItemSelected(item);
-
-
     }
 
 
