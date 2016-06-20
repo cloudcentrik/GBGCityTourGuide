@@ -2,6 +2,7 @@ package net.cloudcentrik.gbgcitytourguide;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
@@ -18,6 +19,16 @@ public class GardenActivity extends AppCompatActivity {
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("Garden");
+
+        //  Change here
+        // Get a support ActionBar corresponding to this toolbar
+        // Up Button added here ---
+
+        ActionBar ab = getSupportActionBar();
+        // Enable the Up button
+        ab.setDisplayHomeAsUpEnabled(true);
+
+
 
         // botanical garden
         final Button btnBotanicalGarden = (Button) findViewById(R.id.btn_botanical_garden);

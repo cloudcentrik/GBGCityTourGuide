@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 import java.util.HashMap;
 
@@ -33,12 +34,24 @@ public class BaseActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
         tabLayout.addTab(tabLayout.newTab().setText("Details Info"));
         tabLayout.addTab(tabLayout.newTab().setText("Visit"));
         tabLayout.addTab(tabLayout.newTab().setText("Gallery"));
         tabLayout.setTabGravity(TabLayout.GRAVITY_FILL);
+
+        //Back arrow
+
 
         final ViewPager viewPager = (ViewPager) findViewById(R.id.pager);
         final PagerAdapter adapter = new BaseTabsPagerAdapter
@@ -97,6 +110,10 @@ public class BaseActivity extends AppCompatActivity {
             case R.id.action_shoping_center:
                 Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
                 startActivity(shopingCenter);
+                return true;
+            case R.id.action_home:
+                Intent mainScreen = new Intent(this,MainActivity.class);
+                startActivity(mainScreen);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

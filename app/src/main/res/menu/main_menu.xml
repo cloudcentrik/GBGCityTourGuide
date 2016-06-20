@@ -26,5 +26,9 @@
         android:title="Information Center"
         android:orderInCategory="200"
         app:showAsAction="never" />
+    <item android:id="@+id/action_home"
+        android:title="Home"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
 
 </menu>

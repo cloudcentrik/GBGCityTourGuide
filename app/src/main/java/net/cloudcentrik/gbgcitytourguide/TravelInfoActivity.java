@@ -15,12 +15,19 @@ public class TravelInfoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_travelinfo);
 
-        // Toolbar
+                // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
         topToolBar.setTitle("GBG Travel Info");
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
+        topToolBar.setNavigationOnClickListener(new View.OnClickListener(){
+            @Override
+        public void onClick( View v) {
+            onBackPressed();
+            }
+        });
 
         // airport transport btn
         final Button airporttravelbutton = (Button) findViewById(R.id.gbg_btn_airporttran);
