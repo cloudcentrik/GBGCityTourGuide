@@ -21,8 +21,9 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".GardenActivity"
-            android:label="@string/title_tourist_spot"
-            android:theme="@style/AppTheme" />
+            android:label="@string/title_activity_garden"
+            android:theme="@style/AppTheme"
+            android:parentActivityName="net.cloudcentrik.gbgcitytourguide.TouristSpotsActivity" />
 
         <!-- Hotels start -->
         <activity

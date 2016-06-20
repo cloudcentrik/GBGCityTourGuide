@@ -111,6 +111,10 @@ public class BaseActivity extends AppCompatActivity {
                 Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
                 startActivity(shopingCenter);
                 return true;
+            case R.id.action_home:
+                Intent mainScreen = new Intent(this,MainActivity.class);
+                startActivity(mainScreen);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
