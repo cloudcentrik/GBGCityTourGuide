@@ -37,7 +37,7 @@ public class BaseDetailInfoFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_detail_info, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_base_detail_info, container, false);
 
         this.openingHours = getArguments().getString("OPENING_HOURS", "");
         this.ticketPrice = getArguments().getString("TICKET_PRICE", "");
