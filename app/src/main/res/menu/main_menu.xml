@@ -29,6 +29,7 @@
     <item android:id="@+id/action_home"
         android:title="Home"
         android:orderInCategory="200"
-        app:showAsAction="never" />
+        android:icon="@drawable/ic_home_white_18dp"
+        app:showAsAction="always" />
 
 </menu>

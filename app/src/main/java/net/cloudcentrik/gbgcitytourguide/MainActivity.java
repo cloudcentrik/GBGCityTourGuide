@@ -22,14 +22,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_sample_one);
 
-        // Toolbar
-        Toolbar topToolBar = (Toolbar)findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG City Tour Guide");
-
-
-
-
         // Tourist spots button
         final Button buttonTouristSpot = (Button) findViewById(R.id.gbg_btn_touristspots);
         buttonTouristSpot.setOnClickListener(new View.OnClickListener() {

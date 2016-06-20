@@ -14,13 +14,21 @@ public class HotelActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hotels_sample_one);
 
-        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        //setSupportActionBar(toolbar);
+
 
         // Toolbar
-        Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Hotel");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Hotel");
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         // avalon hotel
         final Button buttonAvalonHotel = (Button) findViewById(R.id.btn_hotel_avalon);
