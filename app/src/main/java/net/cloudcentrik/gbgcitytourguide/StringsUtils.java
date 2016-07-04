@@ -25,7 +25,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "lan lad titel decription");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
         values.put("GALLERY", "image_1 image_2 image_3");
 
         return values;

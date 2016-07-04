@@ -7,6 +7,7 @@ package net.cloudcentrik.gbgcitytourguide;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,7 @@ public class BaseMapFragment extends Fragment{
     private ScaleBarOverlay mScaleBarOverlay;
     private ItemizedIconOverlay<OverlayItem> currentLocationOverlay;
     private DefaultResourceProxyImpl resourceProxy;
+    private String mapInfo;
 
     public static BaseMapFragment newInstance(String address, String contactInfo, String mapId) {
         BaseMapFragment fragment = new BaseMapFragment();
@@ -69,15 +71,18 @@ public class BaseMapFragment extends Fragment{
         IMapController mapController = map.getController();
         mapController.setZoom(15);
 
-        Double lad=Double.parseDouble("57.7067050");
-        Double lan=Double.parseDouble("11.9690680");
+        this.mapInfo = getArguments().getString("MAP", "");
+        String mapDetails[]= TextUtils.split(this.mapInfo," ");
+
+        Double lad=Double.parseDouble(mapDetails[0]); //lad
+        Double lan=Double.parseDouble(mapDetails[1]);
 
         GeoPoint startPoint = new GeoPoint(lad,lan);
         mapController.setCenter(startPoint);
 
         //your items
         ArrayList<OverlayItem> items = new ArrayList<OverlayItem>();
-        items.add(new OverlayItem("Title", "Description", new GeoPoint(lad,lan))); // Lat/Lon decimal degrees
+        items.add(new OverlayItem(mapDetails[2], mapDetails[3], new GeoPoint(lad,lan))); // Lat/Lon decimal degrees
         DefaultResourceProxyImpl mResourceProxy = new DefaultResourceProxyImpl(getContext());
 
         //the overlay
