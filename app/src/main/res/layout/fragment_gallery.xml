@@ -19,7 +19,8 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:scaleType="fitCenter"
-
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
             />
         <ImageView
             android:id="@+id/image_gallery2"
@@ -27,6 +28,8 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
 
             />
         <ImageView
@@ -35,6 +38,8 @@
             android:layout_height="wrap_content"
             android:padding="5dp"
             android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_centerInParent="true"
 
             />
 

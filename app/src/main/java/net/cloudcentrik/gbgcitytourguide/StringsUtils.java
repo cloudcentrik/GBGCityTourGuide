@@ -26,7 +26,7 @@ public class StringsUtils {
         values.put("ADDRESS", "DEMO address");
 
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "image_1 image_2 image_3");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
 
         return values;
     }
