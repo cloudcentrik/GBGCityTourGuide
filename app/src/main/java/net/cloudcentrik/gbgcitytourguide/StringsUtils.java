@@ -25,7 +25,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "map");
+        values.put("MAP", "lan lad titel decription");
         values.put("GALLERY", "image_1 image_2 image_3");
 
         return values;

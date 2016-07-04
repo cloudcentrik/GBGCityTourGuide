@@ -53,7 +53,8 @@ public class BaseTabsPagerAdapter extends FragmentStatePagerAdapter {
                 BaseDetailInfoFragment tab2 = BaseDetailInfoFragment.newInstance(this.openingHours,this.ticketPrice,this.travelInfo);
                 return tab2;
             case 2:
-                BaseVisitFragment tab3 = BaseVisitFragment.newInstance(this.address,this.contactInfo,this.mapId);
+                //BaseVisitFragment tab3 = BaseVisitFragment.newInstance(this.address,this.contactInfo,this.mapId);
+                BaseMapFragment tab3 = BaseMapFragment.newInstance(this.address,this.contactInfo,this.mapId);
                 return tab3;
             case 3:
                 BaseGalleryFragment tab4 = BaseGalleryFragment.newInstance(this.galleryImageId);
