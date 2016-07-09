@@ -66,12 +66,6 @@
     <string name="title_activity_avalon_hotel">Avalon Hotel</string>
     <string name="title_activity_vanila_hotel">Vanila Hotel</string>
 
-    <string-array name="image_ids">
-        <item>@drawable/image_1</item>
-        <item>@drawable/image_2</item>
-        <item>@drawable/image_3</item>
-
-    </string-array>
 
     <!-- Shopping Centres Activity-->
     <string name="title_activity_shopping_centre">Shopping Centres</string>

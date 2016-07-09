@@ -34,13 +34,13 @@ public class BaseGalleryFragment extends Fragment {
         this.images= TextUtils.split(this.galleryImageId," ");
 
         galleryImage1=(ImageView) rootView.findViewById(R.id.image_gallery1);
-        galleryImage1.setScaleType(ImageView.ScaleType.CENTER);
+        //galleryImage1.setScaleType(ImageView.ScaleType.FIT_XY);
 
         galleryImage2=(ImageView) rootView.findViewById(R.id.image_gallery2);
-        galleryImage2.setScaleType(ImageView.ScaleType.CENTER);
+        //galleryImage2.setScaleType(ImageView.ScaleType.FIT_CENTER);
 
         galleryImage3=(ImageView) rootView.findViewById(R.id.image_gallery3);
-        galleryImage3.setScaleType(ImageView.ScaleType.CENTER);
+        //galleryImage3.setScaleType(ImageView.ScaleType.FIT_CENTER);
 
         this.setGalleryImage();
 
