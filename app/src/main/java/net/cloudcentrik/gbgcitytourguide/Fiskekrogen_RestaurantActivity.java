@@ -1,5 +1,20 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+/**
+ * Created by Packard Bell on 2016-06-11.
+ */
+public class Fiskekrogen_RestaurantActivity extends BaseActivity {
+
+    public Fiskekrogen_RestaurantActivity(){
+        super("Fiskekrogen_RestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+/*
+package net.cloudcentrik.gbgcitytourguide;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -107,6 +122,7 @@ public class Fiskekrogen_RestaurantActivity extends AppCompatActivity {
         }
 
 
+*/
 /*
         @Override
         public boolean onCreateOptionsMenu(Menu menu) {
@@ -122,9 +138,11 @@ public class Fiskekrogen_RestaurantActivity extends AppCompatActivity {
             }
 
             return super.onOptionsItemSelected(item);
-        }*/
+        }*//*
+
         @Override
         public String toString() {
             return "Fiskekrogen_RestaurantActivity";
         }
     }
+*/

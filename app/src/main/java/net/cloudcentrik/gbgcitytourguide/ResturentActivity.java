@@ -84,7 +84,7 @@ public class ResturentActivity extends AppCompatActivity {
         joeFerellisbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(ResturentActivity.this, JohnScottsRestaurantActivity.class);
+                Intent intent = new Intent(ResturentActivity.this, JoeFerellisRestaurantActivity.class);
                 startActivity(intent);
 
 

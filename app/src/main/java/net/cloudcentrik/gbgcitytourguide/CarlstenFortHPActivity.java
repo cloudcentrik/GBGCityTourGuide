@@ -1,5 +1,22 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+/**
+ * Created by Packard Bell on 2016-06-10.
+ */
+public class CarlstenFortHPActivity extends BaseActivity {
+
+    public CarlstenFortHPActivity(){
+        super("CarlstenFortHPActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+
+
+/*
+package net.cloudcentrik.gbgcitytourguide;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -92,4 +109,4 @@ public class CarlstenFortHPActivity extends AppCompatActivity {
     public String toString() {
         return "CarlstenFortHPActivity";
     }
-}
+}*/

@@ -77,7 +77,7 @@ public class HistoricalPlaceActivity extends AppCompatActivity {
         btn_CarlstenF.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HistoricalPlaceActivity.this, GustafAdlofsSquareHPActivity.class);
+                Intent intent = new Intent(HistoricalPlaceActivity.this, CarlstenFortHPActivity.class);
                 startActivity(intent);
 
 

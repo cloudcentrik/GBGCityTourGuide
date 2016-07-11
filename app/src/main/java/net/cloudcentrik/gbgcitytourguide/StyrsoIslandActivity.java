@@ -1,5 +1,20 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+/**
+ * Created by Packard Bell on 2016-06-11.
+ */
+public class StyrsoIslandActivity extends BaseActivity {
+
+    public StyrsoIslandActivity(){
+        super("StyrsoIslandActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+/*
+package net.cloudcentrik.gbgcitytourguide;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -94,4 +109,4 @@ public class StyrsoIslandActivity extends AppCompatActivity {
     public String toString() {
         return "StyrsoIslandActivity";
     }
-}
+}*/

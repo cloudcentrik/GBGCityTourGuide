@@ -1,5 +1,23 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+/**
+ * Created by Packard Bell on 2016-06-11.
+ */
+public class AlvsborgCastleHPActivity extends BaseActivity {
+
+    public AlvsborgCastleHPActivity(){
+        super("AlvsborgCastleHPActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+
+
+
+/*
+package net.cloudcentrik.gbgcitytourguide;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -95,3 +113,4 @@ public class AlvsborgCastleHPActivity extends AppCompatActivity {
 }
 
 
+*/

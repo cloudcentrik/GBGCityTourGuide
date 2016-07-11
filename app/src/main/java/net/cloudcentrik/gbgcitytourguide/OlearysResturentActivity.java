@@ -1,5 +1,24 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+/**
+ * Created by Packard Bell on 2016-06-11.
+ */
+public class OlearysResturentActivity extends BaseActivity {
+
+    public OlearysResturentActivity(){
+        super("OlearysResturentActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+
+
+
+
+/*
+package net.cloudcentrik.gbgcitytourguide;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
@@ -106,6 +125,7 @@ public class OlearysResturentActivity extends AppCompatActivity {
         }
     }
 
+*/
 /*
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -121,7 +141,8 @@ public class OlearysResturentActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
-    }*/
+    }*//*
+
 
 
     @Override
@@ -129,3 +150,4 @@ public class OlearysResturentActivity extends AppCompatActivity {
         return "OlearysResturentActivity";
     }
 }
+*/
