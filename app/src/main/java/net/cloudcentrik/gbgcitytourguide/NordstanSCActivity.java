@@ -1,3 +1,21 @@
+
+package net.cloudcentrik.gbgcitytourguide;
+
+/**
+ * Created by Packard Bell on 2016-06-06.
+ */
+public class NordstanSCActivity extends BaseActivity {
+
+    public NordstanSCActivity(){
+        super("NordstanSCActivity",R.layout.base_layout,StringsUtils.getTemValues());
+    }
+
+}
+
+
+
+
+/*
 package net.cloudcentrik.gbgcitytourguide;
 
 import android.content.Intent;
@@ -21,6 +39,15 @@ public class NordstanSCActivity extends AppCompatActivity {
         setContentView(R.layout.activity_nordstan_sc);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
@@ -87,6 +114,10 @@ public class NordstanSCActivity extends AppCompatActivity {
                 Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
                 startActivity(shopingCenter);
                 return true;
+            case R.id.action_home:
+                Intent mainScreen = new Intent(this,MainActivity.class);
+                startActivity(mainScreen);
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
@@ -100,3 +131,4 @@ public class NordstanSCActivity extends AppCompatActivity {
 }
 
 
+*/

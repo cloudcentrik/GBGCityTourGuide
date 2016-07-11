@@ -1,5 +1,6 @@
 package net.cloudcentrik.gbgcitytourguide;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.PagerAdapter;
@@ -8,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class HardRockCafeActivity extends AppCompatActivity {
@@ -18,6 +20,15 @@ public class HardRockCafeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_hardrockcafe);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
         tabLayout.addTab(tabLayout.newTab().setText("Overview"));
@@ -57,13 +68,43 @@ public class HardRockCafeActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        if (id == R.id.action_restuarent) {
-            return true;
-        }
+        // Handle item selection
+        switch (item.getItemId()) {
+            case R.id.action_infocenter:
+                Intent infoCenter = new Intent(this,InfoCenterActivity.class);
+                startActivity(infoCenter);
+                return true;
+            case R.id.action_hotel:
+                Intent hotel = new Intent(this,HotelActivity.class);
+                startActivity( hotel);
+                return true;
+            case R.id.action_restuarent:
+                Intent restaurant = new Intent(this,ResturentActivity.class);
+                startActivity(restaurant);
+                return true;
+            case R.id.action_tourist_spots:
+                Intent touristSpot = new Intent(this,TouristSpotsActivity.class);
+                startActivity(touristSpot);
+                return true;
 
-        return super.onOptionsItemSelected(item);
+            case R.id.action_travelinfo:
+                Intent travelInfo = new Intent(this,TravelInfoActivity.class);
+                startActivity(travelInfo);
+                return true;
+            case R.id.action_shoping_center:
+                Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
+                startActivity(shopingCenter);
+                return true;
+            case R.id.action_home:
+                Intent mainScreen = new Intent(this,MainActivity.class);
+                startActivity(mainScreen);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
+
+
     @Override
     public String toString() {
         return "HardRockCafeActivity";

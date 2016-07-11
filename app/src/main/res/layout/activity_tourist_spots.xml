@@ -1,74 +1,288 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:background="@color/window_background"
-    tools:context=".MainActivity">
-
-
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="16dp"
+    android:gravity="center"
+    android:weightSum="5"
+    >
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
         android:layout_height="64dp"
         android:background="@color/my_primary"
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar">
 
+    <!-- 1 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:gravity="center"
-        android:padding="16dp"
-        android:layout_gravity="center">
-
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
         <Button
             android:id="@+id/btn_historical_place"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
             android:text="Historical Places"
-            android:layout_gravity="center_horizontal"/>
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_teal"/>
 
-        <Button
-            android:id="@+id/btn_garden"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Garden"
-            android:layout_gravity="center_horizontal"/>
-
-        <Button
-            android:id="@+id/btn_museum"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Museum"
-            android:layout_gravity="center_horizontal"/>
-
-        <Button
-            android:id="@+id/btn_island"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Islands"
-            android:layout_gravity="center_horizontal"/>
-
-        <Button
-            android:id="@+id/btn_lake"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Lakes"
-            android:layout_gravity="center_horizontal"/>
-        <Button
-            android:id="@+id/btn_park"
-            style="@style/gbg_button_style_solid"
-            android:drawableTop="@drawable/ic_tourist_spots"
-            android:text="Park"
-            android:layout_gravity="center_horizontal"/>
 
     </LinearLayout>
 
-    </ScrollView>
-</RelativeLayout>
+    <!-- 2 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_garden"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Garden"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_pink"/>
+
+
+    </LinearLayout>
+
+    <!-- 3 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_museum"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Museum"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_blue"/>
+
+
+    </LinearLayout>
+
+    <!-- 4 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_island"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Islands"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_green"/>
+
+
+    </LinearLayout>
+
+    <!-- 5 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_lake"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Lakes"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_orange"/>
+
+
+    </LinearLayout>
+
+    <!-- 6 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:elevation="4sp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/btn_park"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:text="Park"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="1dp"
+            android:elevation="4sp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+            android:textColor="@color/white"
+            android:background="@color/button_colour_teal"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/window_background"
+        tools:context=".MainActivity">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/my_primary"
+            android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btn_historical_place"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Historical Places"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btn_garden"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Garden"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btn_museum"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Museum"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btn_island"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Islands"
+                android:layout_gravity="center_horizontal"/>
+
+            <Button
+                android:id="@+id/btn_lake"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Lakes"
+                android:layout_gravity="center_horizontal"/>
+            <Button
+                android:id="@+id/btn_park"
+                style="@style/gbg_button_style_solid"
+                android:drawableTop="@drawable/ic_tourist_spots"
+                android:text="Park"
+                android:layout_gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        </ScrollView>
+    </RelativeLayout>-->
