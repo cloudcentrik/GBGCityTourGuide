@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class StyrsoIslandActivity extends BaseActivity {
 
     public StyrsoIslandActivity(){
-        super("StyrsoIslandActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("StyrsoIslandActivity",R.layout.base_layout,StringsUtils.getStyrsoIslandValues());
     }
 
 }

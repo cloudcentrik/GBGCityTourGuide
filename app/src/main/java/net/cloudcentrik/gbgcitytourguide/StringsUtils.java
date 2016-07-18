@@ -37,20 +37,21 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest " +
                         "and best maritime centre. Climb aboard and leave dry land behind you. Set sail for a brand newvworld " +
                         "offering you excitement, adventure and discovery. Climb up the ladders and become a part of the old tales," +
                         " with the salty sea spray in your face and the smell of diesel in your nostrils. Look out over the harbour" +
                         " entrance. At Maritiman you can go to sea without ever casting off."
         );
-        values.put("address", "value");
-        values.put("contactInfo", "value");
-        values.put("openingHours", "value");
-        values.put("travelInfo", "value");
-        values.put("ticketPrice", "value");
+        values.put("ADDRESS", "value");
+        values.put("CONTACT_INFO", "value");
+        values.put("OPENING_HOURS", "value");
+        values.put("TRAVEL_INFO", "value");
+        values.put("TICKET_PRICE", "value");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
 
-        values.put("picture", "value");
+        values.put("GALLERY", "value");
 
         return values;
     }
@@ -77,8 +78,8 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "map");
-        values.put("GALLERY", "image_1 image_2 image_3");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "gustav_adolf_square1 gustav_adolf_square2 gustav_adolf_square3");
 
         return values;
     }
@@ -89,7 +90,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "The old East India Company House (now the City Museum) was once the hub of Sweden's trade with the Far East." +
                         "Most seafaring nations in the 18th century had an East India company which held a monopoly on trade with the East. " +
                         "Scottish merchants were not part of the lucrative dealings of the English, so Scot Colin Campbell, in association " +
@@ -100,19 +101,20 @@ public class StringsUtils {
                         "porcelain, precious stones and other distinctive luxury items."
         );
 
-        values.put("address", "Address: Norra Hamngatan 12, 411 14 Göteborg ");
-        values.put("contactInfo", "Address: Norra Hamngatan 12\n" +
+        values.put("ADDRESS", "Address: Norra Hamngatan 12, 411 14 Göteborg ");
+        values.put("CONTACT_INFO", "Address: Norra Hamngatan 12\n" +
                 "Stop: Brunnsparken\n" +
                 "Phone: +46313683600\n" +
                 "E-mail: stadsmuseum@kultur.goteborg.se\n" +
                 "Website: http://www.stadsmuseum.goteborg.se");
-        values.put("openingHours", "Tuesday and Thursday-Sunday: 10.00-17.00. \n" +
+        values.put("OPENING_HOURS", "Tuesday and Thursday-Sunday: 10.00-17.00. \n" +
                 "Wednesday: 10.00-20.00\n\n");
-        values.put("travelInfo", "Tran Stop: Brunnsparken \n" +
+        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken \n" +
                 "Or, You can walk for 6/7 minutes from Centralstation to there.\n\n");
-        values.put("ticketPrice", "40 Sek ");
+        values.put("TICKET_PRICE", "40 Sek ");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
 
-        values.put("picture", "value");
+        values.put("GALLERY", "east_india_company_house1 east_india_company_house2 east_india_company_house3");
 
 
         return values;
@@ -123,7 +125,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "At the top of the Marstrand island rests Carlsten Fortress. For more than 300 years, this huge security " +
                         "guard have protected the wooden town below.Today, the fortress is a fascinating and extraordinary " +
                         "experience. Welcome to Marstrand's biggest attraction.\n\n The Carlsten Fort and it´s dramatic " +
@@ -132,13 +134,14 @@ public class StringsUtils {
                         "festival, life in the 1700's is reconstructed with prisoners, soldiers and the firing of cannons. " +
                         "Dinners, historical meals, conferences, historical re-enactmens etc are also arranged at the fort.\n"
         );
-        values.put("address", "NA ");
-        values.put("contactInfo", "NA");
-        values.put("openingHours", "NA.\n\n");
-        values.put("travelInfo", "NA.");
-        values.put("ticketPrice", "NA\n\n");
+        values.put("ADDRESS", "NA ");
+        values.put("CONTACT_INFO", "NA");
+        values.put("OPENING_HOURS", "NA.\n\n");
+        values.put("TRAVEL_INFO", "NA.");
+        values.put("TICKET_PRICE", "NA\n\n");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
 
-        values.put("picture", "value");
+        values.put("GALLERY", "carlstenfort1 carlstenfort2 carlstenfort3");
 
         return values;
     }
@@ -149,26 +152,27 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "Älvsborg, also Elfsborg Fortress, is a sea fortress situated on the mouth of the Göta Älv river. It served to protect " +
                         "Sweden's access to the Atlantic Ocean and the nearby settlement of today's Gothenburg and its four predecessors. The " +
                         "fortress was relocated in the 17th century, this New Älvsborg Fortress is still maintained. Of the Old Älvsborg " +
                         "Fortress, only few ruins are visible today in the vicinity of the Carnegie-pier. The new fortress was founded " +
                         "in 1621 by Gustavus Adolphus of Sweden."
         );
-        values.put("address", "On the mouth of the Göta Älv river. \n" +
+        values.put("ADDRESS", "On the mouth of the Göta Älv river. \n" +
                 "413 01 Gothenburg");
-        values.put("contactInfo", "Address: Lilla Bommen\n" +
+        values.put("CONTACT_INFO", "Address: Lilla Bommen\n" +
                 "Stop: Lilla Bommen\n" +
                 "Phone: +4631609670\n" +
                 "E-mail: info@strommaskargardsbatar.se\n" +
                 "Website: http://www.stromma.se/sv/Goteborg/Turer/Stromma-Skargardsbatar/Batutflykter/Alvsborgs-fastning");
-        values.put("openingHours", "Daily 1 July-9 August.\n\n");
-        values.put("travelInfo", "The boat ride takes approximately 30 minutes one way and " +
+        values.put("OPENING_HOURS", "Daily 1 July-9 August.\n\n");
+        values.put("TRAVEL_INFO", "The boat ride takes approximately 30 minutes one way and " +
                 "departs from Lilla Bommen 10.45, 12.00, 13.15, 14.30.");
-        values.put("ticketPrice", "200 Sek\n\n");
-
-        values.put("picture", "value");
+        values.put("TICKET_PRICE", "200 Sek\n\n");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+     //   values.put("GALLERY", "value");
+        values.put("GALLERY", "avsborgcast1 avsborgcast2 avsborgcast3");
 
         return values;
     }
@@ -178,13 +182,13 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
-                "VRANGÅ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "OVERVIEW",
+                "Vrango is the most southerly island of the Gothenburg archipelago. Around 380 people live there the whole year round. The island contains a post office, shops, and schools, among other things. Fishing is still an important industry and the there are six working fishing boats on the island. The island is most famous for its beautiful nature reserves and excellent sandy beaches."
         );
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Address: Skeppsbron\n" +
                         "Stop: Lilla Torget\n" +
@@ -194,7 +198,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "Take a boat trip to the most westerly outpost of the Gothenburg Archipelago.\n" +
                         "\n" +
                         "30 June - 23 August. Day trips Tuseday-Sunday (10.00-16.30) and evening trips Wednesday-Saturday (18.00-22.15)"
@@ -202,7 +206,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "adult:  220:- SEK\n" +
                         "Child (7-16 år): 140:- SEK\n" +
                         "Departure Gothenburg  10:00\n" +
@@ -210,19 +214,17 @@ public class StringsUtils {
                         "Back in Gothenburg 16:30"
         );
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "NA"
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "Vinga,Göteborg"
         );
 
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "vrango1 vrango2 vrango3");
 
 
         return values;
@@ -233,15 +235,15 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
-                "Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "OVERVIEW",
+                "Vinga, Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
         );
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
-                        "Address: Skeppsbron\n" +
+                        "ADDRESS: Skeppsbron\n" +
                         "Stop: Lilla Torget\n" +
                         "Phone: +46317113450\n" +
                         "E-mail: info@walona.se\n" +
@@ -249,7 +251,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "Take a boat trip to the most westerly outpost of the Gothenburg Archipelago.\n" +
                         "\n" +
                         "30 June - 23 August. Day trips Tuseday-Sunday (10.00-16.30) and evening trips Wednesday-Saturday (18.00-22.15)"
@@ -257,7 +259,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "adult:  220:- SEK\n" +
                         "Child (7-16 år): 140:- SEK\n" +
                         "Departure Gothenburg  10:00\n" +
@@ -265,19 +267,17 @@ public class StringsUtils {
                         "Back in Gothenburg 16:30"
         );
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "NA"
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "Vinga,Göteborg"
         );
 
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "vinga1 vinga2 vinga3");
 
 
         return values;
@@ -288,13 +288,14 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
-                "HÖNÖ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "OVERVIEW",
+                "A popular island with restaurants, shops and activities.\n" +
+                        "In the northern part of the archipelago lies Hönö which has a popular marina and a wide range of activities such as scuba diving and kayaking. For those who are interested in fishing history a visit to the Fishing Museum is recommended. There are several dining options, both pizzerias, cafes and restaurants."
         );
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Address: Skeppsbron\n" +
                         "Stop: Lilla Torget\n" +
@@ -304,7 +305,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "Take a boat trip to the most westerly outpost of the Gothenburg Archipelago.\n" +
                         "\n" +
                         "30 June - 23 August. Day trips Tuseday-Sunday (10.00-16.30) and evening trips Wednesday-Saturday (18.00-22.15)"
@@ -312,7 +313,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "adult:  220:- SEK\n" +
                         "Child (7-16 år): 140:- SEK\n" +
                         "Departure Gothenburg  10:00\n" +
@@ -320,19 +321,17 @@ public class StringsUtils {
                         "Back in Gothenburg 16:30"
         );
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "NA"
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "Vinga,Göteborg"
         );
 
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono1 hono2 hono3");
 
 
         return values;
@@ -343,13 +342,13 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
-                "RÖRÖ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "OVERVIEW",
+                "Rörö is located at the northern end of the archipelago. The island's beautiful nature reserves invite you to walk along their trails. The harbor is one of the better among the islands. In the summer, there is a café, supermarket and marina. You can rent sea kayaks by the hour, day or week. Fishing has characterized Rörö since the 1600s."
         );
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Address: Skeppsbron\n" +
                         "Stop: Lilla Torget\n" +
@@ -359,7 +358,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "Take a boat trip to the most westerly outpost of the Gothenburg Archipelago.\n" +
                         "\n" +
                         "30 June - 23 August. Day trips Tuseday-Sunday (10.00-16.30) and evening trips Wednesday-Saturday (18.00-22.15)"
@@ -367,7 +366,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "adult:  220:- SEK\n" +
                         "Child (7-16 år): 140:- SEK\n" +
                         "Departure Gothenburg  10:00\n" +
@@ -375,19 +374,17 @@ public class StringsUtils {
                         "Back in Gothenburg 16:30"
         );
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "NA"
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "Vinga,Göteborg"
         );
 
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "roro1 roro2 roro3");
 
 
         return values;
@@ -398,13 +395,13 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 " Styrsö Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
         );
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Address: Skeppsbron\n" +
                         "Stop: Lilla Torget\n" +
@@ -414,7 +411,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "Take a boat trip to the most westerly outpost of the Gothenburg Archipelago.\n" +
                         "\n" +
                         "30 June - 23 August. Day trips Tuseday-Sunday (10.00-16.30) and evening trips Wednesday-Saturday (18.00-22.15)"
@@ -422,7 +419,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "adult:  220:- SEK\n" +
                         "Child (7-16 år): 140:- SEK\n" +
                         "Departure Gothenburg  10:00\n" +
@@ -430,19 +427,17 @@ public class StringsUtils {
                         "Back in Gothenburg 16:30"
         );
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "NA"
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "Vinga,Göteborg"
         );
 
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "styrso1 styrso2 styrso3");
 
 
         return values;
@@ -454,17 +449,17 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "The Gothenburg Fiskekrogen_Restaurant " +
                         " go to sea without ever casting off."
         );
-        values.put("address", "value");
+        values.put("ADDRESS", "value");
         values.put("contactInfo", "value");
-        values.put("openingHours", "value");
-        values.put("travelInfo", "value");
-        values.put("ticketPrice", "value");
+        values.put("OPENING_HOURS", "value");
+        values.put("TRAVEL_INFO", "value");
+        values.put("TICKET_PRICE", "value");
 
-        values.put("picture", "value");
+        values.put("GALLERY", "value");
 
         return values;
     }
@@ -473,7 +468,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "O'Learys is one of Sweden's strongest and most well-known brands with satisfied staff members and profitable franchise operators. Up to 3 million people visit our restaurants every year."
         );
 
@@ -498,14 +493,14 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         " Address:Kungsportsavenyn 9"
 
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "NA"
         );
         values.put(
@@ -521,7 +516,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "\n" +
                         "With a massive global presence, Hard Rock International is one of the world's most globally recognized brands. Hard Rock is also known for its collectible fashion and music-related merchandise, memorable dining experiences, Hard Rock Live performance venues.\n"
         );
@@ -576,13 +571,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         " Kungsportsavenyn 10, 41136 Göteborg\n");
 
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "Stop: Valand." +
                         "Take trum no 4(destination:Möndal),\n" +
@@ -604,7 +599,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "history",
+                "OVERVIEW",
                 "HÖNÖ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
         );
         return values;
@@ -645,13 +640,13 @@ public class StringsUtils {
             );
 
             values.put(
-                    "address",
+                    "ADDRESS",
                     "\n" +
                             " Norra Hamngatan\n");
 
 
             values.put(
-                    "travel",
+                    "TRAVEL_INFO",
                     "\n" +
                             "Tram Stop: Brunnsparken  \n" +
                             "Or, walk for 3 minutes from Centralstation.\n\n"
@@ -659,7 +654,7 @@ public class StringsUtils {
             );
 
             values.put(
-                    "ticket",
+                    "TICKET_PRICE",
                     "Free Entry!\n" +
                             "\n"
             );
@@ -676,7 +671,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "Situated in the heart of the city, NK’s four storeys and 45 departments of fashion, beauty and interior " +
                         "design is one of Gothenburg's biggest shopping venues. Here you can find a mix of leading Swedish " +
                         "and international brands.\n" +
@@ -704,13 +699,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         " Address: Östra Hamngatan 42\n");
 
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "Tram Stop: Brunnsparken  \n" +
                         "Or, walk for 3 minutes from Centralstation.\n\n"
@@ -718,7 +713,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "Free Entry!\n" +
                         "\n"
         );
@@ -737,7 +732,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "At Frölunda Torg shopping center there's a mix of large retailers and small upcoming and trendy " +
                         "shops selling everything from fashion and home furnishing to sports and cosmetics.\n" +
                         "For thoes interested in food there's a market square where you'll find italian delicacies, " +
@@ -761,13 +756,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         "Address: Frölunda Torg\n"
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "Tram Stop: Frölunda Torg  \n" +
                         "Take Tram 1, 7, 8 or Buss 50 \n" +
@@ -776,7 +771,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "Free Entry!\n" +
                         "\n"
         );
@@ -793,7 +788,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "Delsjön is a huge area with a variety of lakes and lots of forest. The forest seems never-ending and you " +
                         "can walk without seeing anyone else once you get off the main tracks. Swim in Delsjön (or ice skate " +
                         "on it in winter) or rent canoes and kayaks. There are two good cafes - Lyktan which is just near the " +
@@ -818,13 +813,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         "Delsjön, 413 04 Göteborg\n"
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "Tram Stop: Töpelsgatan \n" +
                         "From tram stop you have to walk about 2o minutes to Delsjön\n"+
@@ -833,7 +828,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "Free Entry!\n" +
                         "\n"
         );
@@ -850,7 +845,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "Harlanda Tjarn is a small lake, stretching on the territory of Sävenäs , Kålltorp and Delsjön " +
                         "in eastern Gothenburg. In the summer, this is a popular swimming spot for families with " +
                         "children residing in the three neighborhoods listed above.\n" +
@@ -872,13 +867,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         "Härlanda Tjärn\n"
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "Bus Stop: ?? \n" +
                         "From Bus stop you have to walk about 10 minutes to Härlanda Tjärn\n"+
@@ -887,7 +882,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "Free Entry!\n\n"
         );
         values.put(
@@ -904,7 +899,7 @@ public class StringsUtils {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
-                "Overview",
+                "OVERVIEW",
                 "Aspen is a lake of Botkyrka Municipality, Södermanland, Sweden.[1] The lake is crossed by the European " +
                         "route E4/European route E20 and is located about 20 kilometres southwest of Stockholm, the Swedish " +
                         "capital. It has an area of 1,847 km².[citation needed]\n" +
@@ -934,13 +929,13 @@ public class StringsUtils {
         );
 
         values.put(
-                "address",
+                "ADDRESS",
                 "\n" +
                         "Seglarvägen 25, 443 30 Lerum\n"
         );
 
         values.put(
-                "travel",
+                "TRAVEL_INFO",
                 "\n" +
                         "By car \n" +
                         "or by train from Centralstation to Jonsered. " +
@@ -949,7 +944,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "ticket",
+                "TICKET_PRICE",
                 "Train ticket 40 kr. " +
                         "Centralstation to Jonsered!\n\n"
         );

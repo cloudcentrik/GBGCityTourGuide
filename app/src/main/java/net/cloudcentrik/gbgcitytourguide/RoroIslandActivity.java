@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class RoroIslandActivity extends BaseActivity {
 
     public RoroIslandActivity(){
-        super("RoroIslandActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("RoroIslandActivity",R.layout.base_layout,StringsUtils.getRoroIslandValues());
     }
 
 }

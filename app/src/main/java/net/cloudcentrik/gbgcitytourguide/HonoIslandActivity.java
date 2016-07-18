@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class HonoIslandActivity extends BaseActivity {
 
     public HonoIslandActivity(){
-        super("HonoIslandActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("HonoIslandActivity",R.layout.base_layout,StringsUtils.getHonoIslandValues());
     }
 
 }

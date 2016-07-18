@@ -61,7 +61,7 @@ public class VisitFragment extends Fragment {
             case "AlvsborgCastleHPActivity":
                 txtAddress.setText(StringsUtils.getAlvsborgCastleHPActivity().get("address"));
                 txtContactInfo.setText(StringsUtils.getAlvsborgCastleHPActivity().get("contactInfo"));
-                mapImage.setImageResource(R.drawable.alvsborg_castle_map);
+               // mapImage.setImageResource(R.drawable.alvsborg_castle_map);
                 break;
             case "CarlstenFortHPActivity":
                 txtAddress.setText(StringsUtils.getCarlstenFortHPActivity().get("address"));
