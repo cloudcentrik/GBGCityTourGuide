@@ -961,7 +961,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Any time you can visit there.\n\n"
         );
@@ -992,10 +992,8 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "delsjonlake1 delsjonlake2 delsjonlake3");
 
         return values;
     }
@@ -1015,7 +1013,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Any time you can visit there.\n\n"
         );
@@ -1045,14 +1043,13 @@ public class StringsUtils {
                 "TICKET_PRICE",
                 "Free Entry!\n\n"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "harlandatjarn1 harlandatjarn2 harlandatjarn3");
 
         return values;
     }
 
+/*
 
     // 3 Aspen Lake
     public static HashMap<String, String> getAspenValues() {
@@ -1077,7 +1074,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Any time you can visit there.\n\n"
         );
@@ -1108,13 +1105,71 @@ public class StringsUtils {
                 "Train ticket 40 kr. " +
                         "Centralstation to Jonsered!\n\n"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
 
         return values;
     }
+*/
+    //3 Berjson Lake
+    public static HashMap<String, String> getBerjsonLakeValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Update Values"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "berjsonlake1 berjsonlake2 berjsonlake3");
+
+        return values;
+    }
+    //4 Surtesjon Lake
+    public static HashMap<String, String> getSurtesjonLakeValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Update Values"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "surtesjonlake1 surtesjonlake2 surtesjonlake3");
+
+        return values;
+    }
+
+    //5 SvarteMosse Lake
+    public static HashMap<String, String> getSvarteMosseLakeValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Update Values"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "svartemosselake1 svartemosselake2 svartemosselake3");
+
+        return values;
+    }
+
 
     // Lakes values END
 
