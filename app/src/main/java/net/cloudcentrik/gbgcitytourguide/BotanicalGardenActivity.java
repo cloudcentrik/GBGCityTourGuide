@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class BotanicalGardenActivity extends BaseActivity {
 
     public BotanicalGardenActivity(){
-        super("BotanicalGardenActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("BotanicalGardenActivity",R.layout.base_layout,StringsUtils.getBotanicalGardenValues());
     }
 
 }

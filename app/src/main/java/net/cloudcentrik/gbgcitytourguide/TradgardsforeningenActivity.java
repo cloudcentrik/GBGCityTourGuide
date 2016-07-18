@@ -6,7 +6,8 @@ package net.cloudcentrik.gbgcitytourguide;
 public class TradgardsforeningenActivity extends BaseActivity {
 
     public TradgardsforeningenActivity(){
-        super("TradgardsforeningenActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("TradgardsforeningenActivity",R.layout.base_layout,StringsUtils.getTradgardsforeningenValues());
     }
 
 }
+
