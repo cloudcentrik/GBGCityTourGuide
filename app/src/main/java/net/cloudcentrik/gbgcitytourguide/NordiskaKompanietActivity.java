@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class NordiskaKompanietActivity extends BaseActivity {
 
     public NordiskaKompanietActivity(){
-        super("NordiskaKompanietActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("NordiskaKompanietActivity",R.layout.base_layout,StringsUtils.getNordiskaValues());
     }
 
 }

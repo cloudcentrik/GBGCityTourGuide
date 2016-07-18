@@ -57,7 +57,7 @@ public class StringsUtils {
     }
 
 
-    // Gustaf Adlofs Square HPActivity
+    //1 Gustaf Adlofs Square HPActivity
     public static HashMap<String, String> getGustafAdlofsSquareHPHPValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -85,7 +85,7 @@ public class StringsUtils {
     }
 
 
-    // East India Company data
+    //2 East India Company data
     public static HashMap<String, String> getEastIndiaCompanyHPValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -120,7 +120,7 @@ public class StringsUtils {
         return values;
     }
 
-    // CarlstenFort HP Activity data
+    //3 CarlstenFort HP Activity data
     public static HashMap<String, String> getCarlstenFortHPActivity() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -147,7 +147,7 @@ public class StringsUtils {
     }
 
 
-    //Alvsborg Castle HP Activity data
+    //4 Alvsborg Castle HP Activity data
     public static HashMap<String, String> getAlvsborgCastleHPActivity() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -177,7 +177,9 @@ public class StringsUtils {
         return values;
     }
 
-    // VRANGÅ ISLAND INFORMATION
+
+    // ISLAND START
+    //1 VRANGÅ ISLAND INFORMATION
     public static HashMap<String, String> getVrangoIslandValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -230,7 +232,7 @@ public class StringsUtils {
         return values;
     }
 
-    // VINGA ISLAND INFORMATION
+    //2 VINGA ISLAND INFORMATION
     public static HashMap<String, String> getVingaIslandValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -283,7 +285,7 @@ public class StringsUtils {
         return values;
     }
 
-    // HÖNÖ ISLAND INFORMATION
+    //3 HÖNÖ ISLAND INFORMATION
     public static HashMap<String, String> getHonoIslandValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -337,7 +339,7 @@ public class StringsUtils {
         return values;
     }
 
-    // RÖRÖ ISLAND INFORMATION
+    //4 RÖRÖ ISLAND INFORMATION
     public static HashMap<String, String> getRoroIslandValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -390,7 +392,7 @@ public class StringsUtils {
         return values;
     }
 
-    // STYRSÖ ISLAND INFORMATION
+    //5 STYRSÖ ISLAND INFORMATION
     public static HashMap<String, String> getStyrsoIslandValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -445,7 +447,7 @@ public class StringsUtils {
     // Islands END
 
     // Restaurant Start
-    //Fiskekrogen_Restaurant values
+    //1 Fiskekrogen_Restaurant values
     public static HashMap<String, String> getFiskekrogen_RestaurantValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -465,6 +467,7 @@ public class StringsUtils {
         return values;
     }
 
+    //2 Olearys Restaurant values
     public static HashMap<String, String> getOlearysValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -512,6 +515,7 @@ public class StringsUtils {
 
     }
 
+    // 3 HardRock Cafe Values
     public static HashMap<String, String> getHardRockCafeValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -593,7 +597,7 @@ public class StringsUtils {
 
     }
 
-    //JohnScottsRestaurant
+    //4 JohnScotts Restaurant
     public static HashMap<String, String> getJohnScottsRestaurantValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -639,7 +643,7 @@ public class StringsUtils {
     }
 
 
-    //JoeFerellisRestaurant
+    //5 JoeFerellis Restaurant
     public static HashMap<String, String> getJoeFerellisRestaurantValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -701,25 +705,31 @@ public class StringsUtils {
         return values;
     }
 
-    // SHOPPING CENTRES
+    // SHOPPING CENTRES  START
 
-    // Nordstan Shopping Centre
+    // 1 Nordstan Shopping Centre
         public static HashMap<String, String> getNordstanValues() {
             HashMap<String, String> values = new HashMap<String, String>();
 
             values.put(
-                    "Overview",
+                    "OVERVIEW",
                     "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
                             "The largest collection is in fashion - clothing and shoes." +
                             "\n" +
                             "\n" +
                             "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
                             "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
-                            "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n"
+                            "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n" +
+                            "-----If you need assistance finding the right things you can pay the Tourist Centre a visit, " +
+                            "it's located in the centre of Nordstan. Here you get the best Gothenburg tips and get to know " +
+                            "what's going on in Nordstan, because there is always something going on. Fashion shows, " +
+                            "exhibitions, launches, contests and shows can be seen here annually. Around Christmas time and in " +
+                            "the summer the popular handicraft and design market is organized. It's easy and convenient to park in " +
+                            "the Nordstan parking garage, it's always open and has a lot of spaces."
             );
 
             values.put(
-                    "opening_hours",
+                    "OPENING_HOURS",
                     "\n" +
                             "Mon-Fri: 10-20\n" +
                             "Sat-Sun: 10-18\n\n"
@@ -728,7 +738,7 @@ public class StringsUtils {
 
 
             values.put(
-                    "contact",
+                    "CONTACT_INFO",
                     "\n" +
                             "Phone: +46317008660\n" +
                             "E-mail: info@nordstan.se\n" +
@@ -754,15 +764,13 @@ public class StringsUtils {
                     "Free Entry!\n" +
                             "\n"
             );
-            values.put(
-                    "key",
-                    "value"
-            );
+            values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+            values.put("GALLERY", "nordstan1 nordstan2 nordstan3");
 
             return values;
         }
 
-    // NORDISKA KOMPANIET(NK) Shopping Centre
+    // 2 NORDISKA KOMPANIET(NK) Shopping Centre
     public static HashMap<String, String> getNordiskaValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -778,7 +786,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Mon-Fri: 10-19\n" +
                         "Sat: 10-17\n"+
@@ -787,7 +795,7 @@ public class StringsUtils {
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Phone: +46317101000\n" +
                         "E-mail: servicecenter.gbg@nk.se\n" +
@@ -813,17 +821,15 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "nordiskakompaniet1 nordiskakompaniet2 nordiskakompaniet3");
 
         return values;
     }
 
 
 
-    // Frölunda Torg Shopping Centre
+    // 3 Frölunda Torg Shopping Centre
     public static HashMap<String, String> getFrolundaTorgValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -836,7 +842,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Mon-Fri: 10-20\n" +
                         "Sat: 10-18\n"+
@@ -844,7 +850,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Phone: +46317343560\n" +
                         "E-mail: info@frolundatorg.se\n" +
@@ -871,15 +877,73 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "frolundatorggbg1 frolundatorggbg2 frolundatorggbg3");
 
         return values;
     }
-    // Lakes values
-    // Delsjon Lake
+
+
+    // 4 Arkaden Shopping Centre
+    public static HashMap<String, String> getArkadenShopingCenterValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Arkaden opened in 1899. A lot has changed since then, but the mall is still a central part of the " +
+                        "Gothenburg fashion scene.\n" +
+                        "The gallery has 25 shops over three floors, with a focus on fashion, design and home decor. " +
+                        "Here you find the latest from trendy brands in shops like Topshop, Raglady, Zara, Beyond Retro, " +
+                        "MQ and The North Face.\n" +
+                        "-----If arrive by car, it's easy and convenient to park in the parking garage P-Hus City, Östra Larmgatan 3-7. Not included in the City Card. \n" +
+                        "\n" +
+                        "When you buy a Gothenburg City Card you get a book of discount coupons valid in Arkaden. " +
+                        "Pick up the vouchers at the Gothenburg Tourist Centre at Kungsportsplatsen or in Nordstan"
+        );
+
+        values.put(
+                "OPENING_HOURS",
+                "\n" +
+                        "Mon-Fri: 10-20\n " +
+                        "Sat: 10-18\n " +
+                        "Sun: 10-17\n\n"
+        );
+
+        values.put(
+                "CONTACT_INFO",
+                "\n" +
+                        "Phone: +46317434200\n" +
+                        "Website: http://www.arkaden.nu/\n"
+        );
+
+        values.put(
+                "ADDRESS",
+                "\n" +
+                        "Address: Fredsgatan 1\n"
+        );
+
+        values.put(
+                "TRAVEL_INFO",
+                "\n" +
+                        "Stop: Brunnsparken \n" +
+                        "It's just beside the tram stop.\n"
+
+        );
+
+        values.put(
+                "TICKET_PRICE",
+                "Free Entry!\n" +
+                        "\n"
+        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "arkaden1 arkaden2 arkaden3");
+
+        return values;
+    }
+    // SHOPPING CENTRES  END
+
+    // Lakes values start
+    //1 Delsjon Lake
     public static HashMap<String, String> getDelsjonValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -903,7 +967,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Phone: 010-224 40 00\n"
         );
@@ -936,7 +1000,7 @@ public class StringsUtils {
         return values;
     }
 
-    // Harlanda Tjarn Lake
+    //2 Harlanda Tjarn Lake
     public static HashMap<String, String> getHarlandaTjarnValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -957,7 +1021,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "NA\n"
         );
@@ -990,7 +1054,7 @@ public class StringsUtils {
     }
 
 
-    //  Aspen Lake
+    // 3 Aspen Lake
     public static HashMap<String, String> getAspenValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
@@ -1019,7 +1083,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Telephone:0302-711 66\n"
         );
@@ -1051,6 +1115,125 @@ public class StringsUtils {
 
         return values;
     }
+
+    // Lakes values END
+
+    // HOTELS START
+    // 1 VandrarHem Hotel
+    public static HashMap<String, String> getVandrarHemHotelValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Gothenburg Hostel is a family owned good standard hostel situated in central Gothenburg. We have bright, clean and cozy rooms. The hostel is open all year around and has approximately 200 beds in 47 rooms.\n" +
+                        "Showers and toilets can be found nearby the rooms, a couple of rooms have private showers and toilets. All showers and toilettes are totally refurnished in 2013. All romms have windows and four rooms have opening skylights.\n" +
+                        "\n" +
+                        "-----Free WiFi, TV lounge, guest kitchen with dining area and a large terrace where you can eat breakfast and sunbath.\n" +
+                        "\n" +
+                        "!!---Please note that the hostel is smoke and pet-free. \t\t \t "
+        );
+        values.put("OPENING_HOURS", "THE FRONT DESK IS OPEN:\n" +
+                            "Monday - Sunday 8am - 4pm\n" +
+                            "\n" +
+                            "CHECK-IN: 2-4pm.\n" +
+                            "Please contact us for late arrival!\n" +
+                            "CHECK-OUT: before 10:00 am");
+        values.put("TICKET_PRICE", "Contact VandrarHem");
+        values.put("TRAVEL_INFO", "Gothenburg Vandrarhem is located close to the south entrance of Liseberg amusement park. " +
+                "It only takes a few minutes to walk from the Universeum, Scandinavium, Ullevi Stadium and Avenyn.");
+        values.put("CONTACT_INFO", "Telefon +46 (0)31 401050 \t\t\t \t\t\tinfo@goteborgsvandrarhem.se\n" +
+                                    "http://www.goteborgsvandrarhem.se");
+        values.put("ADDRESS", "Göteborgs vandrarhem\n" +
+                                "Mölndalsvägen 23\n" +
+                                "412 63 Göteborg ");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    //2 Avalon Hotel
+    public static HashMap<String, String> getAvalonHotelValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    // 3 RadissonBlue Hotel
+    public static HashMap<String, String> getRadissonBlueHotelValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    // 4 Vanila Hotel
+    public static HashMap<String, String> getVanilaHotelValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+
+    // 5 ScandicEuropa Hotel
+    public static HashMap<String, String> getScandicEuropaHotelValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    // // HOTELS END
 }
 
 

@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class ArkadenShopingCenterActivity extends BaseActivity {
 
     public ArkadenShopingCenterActivity(){
-        super("ArkadenShopingCenterActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("ArkadenShopingCenterActivity",R.layout.base_layout,StringsUtils.getArkadenShopingCenterValues());
     }
 
 }
