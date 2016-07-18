@@ -72,13 +72,13 @@ public class StringsUtils {
                         "porcelain, precious stones and other distinctive luxury items."
         );
 
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time");
+        values.put("TICKET_PRICE", "Free Access");
+        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken");
+        values.put("CONTACT_INFO", "Not Available");
+        values.put("ADDRESS", "Gustaf Adolfs torg, 411 10 Göteborg");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.707027 11.967122 Gustaf Adlof'sSquare");
         values.put("GALLERY", "gustav_adolf_square1 gustav_adolf_square2 gustav_adolf_square3");
 
         return values;
@@ -112,7 +112,7 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken \n" +
                 "Or, You can walk for 6/7 minutes from Centralstation to there.\n\n");
         values.put("TICKET_PRICE", "40 Sek ");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706328 11.963463 East India_Company");
 
         values.put("GALLERY", "east_india_company_house1 east_india_company_house2 east_india_company_house3");
 
@@ -139,7 +139,7 @@ public class StringsUtils {
         values.put("OPENING_HOURS", "NA.\n\n");
         values.put("TRAVEL_INFO", "NA.");
         values.put("TICKET_PRICE", "NA\n\n");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.886635 11.578018 Carlsten Fortress");
 
         values.put("GALLERY", "carlstenfort1 carlstenfort2 carlstenfort3");
 
@@ -170,8 +170,7 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "The boat ride takes approximately 30 minutes one way and " +
                 "departs from Lilla Bommen 10.45, 12.00, 13.15, 14.30.");
         values.put("TICKET_PRICE", "200 Sek\n\n");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-     //   values.put("GALLERY", "value");
+        values.put("MAP", "57.685718 11.838562 Alvsborg Castle");
         values.put("GALLERY", "avsborgcast1 avsborgcast2 avsborgcast3");
 
         return values;
@@ -222,10 +221,10 @@ public class StringsUtils {
 
         values.put(
                 "ADDRESS",
-                "Vinga,Göteborg"
+                "Vrango,Göteborg"
         );
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.570634 11.791026 Vrango Island");
         values.put("GALLERY", "vrango1 vrango2 vrango3");
 
 
@@ -270,7 +269,7 @@ public class StringsUtils {
         );
         values.put(
                 "OPENING_HOURS",
-                "NA"
+                "Any time"
         );
 
         values.put(
@@ -278,7 +277,7 @@ public class StringsUtils {
                 "Vinga,Göteborg"
         );
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.633008 11.606685 Vinga Island");
         values.put("GALLERY", "vinga1 vinga2 vinga3");
 
 
@@ -324,15 +323,15 @@ public class StringsUtils {
         );
         values.put(
                 "OPENING_HOURS",
-                "NA"
+                "Any time"
         );
 
         values.put(
                 "ADDRESS",
-                "Vinga,Göteborg"
+                "Hono Island, Göteborg"
         );
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.690350 11.650757 Hono Island");
         values.put("GALLERY", "hono1 hono2 hono3");
 
 
@@ -382,10 +381,10 @@ public class StringsUtils {
 
         values.put(
                 "ADDRESS",
-                "Vinga,Göteborg"
+                "Roro Island ,Göteborg"
         );
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.771577 11.620462 Roro Island");
         values.put("GALLERY", "roro1 roro2 roro3");
 
 
@@ -435,10 +434,10 @@ public class StringsUtils {
 
         values.put(
                 "ADDRESS",
-                "Vinga,Göteborg"
+                "Styrso Island, Göteborg"
         );
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.611620 11.785106 Styrso Island");
         values.put("GALLERY", "styrso1 styrso2 styrso3");
 
 
@@ -455,13 +454,14 @@ public class StringsUtils {
                 "OVERVIEW",
                 "Fiskekrogen is the natural place to enjoy the treasures of the sea. Be enchanted by the fresh fish – straight from the sea, lobsters, langoustines, shrimps, mussels and oysters. It combine top-class cooking with advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will go on a journey of flavours that will last in your memory, because here we always serve “The best the sea has to offer”."
         );
-        values.put("ADDRESS", "value");
+        values.put("ADDRESS", "Lilla torget 1\n" +
+                "411 18 Göteborg");
         values.put("CONTACT_INFO", "value");
         values.put("OPENING_HOURS", "value");
         values.put("TRAVEL_INFO", "value");
         values.put("TICKET_PRICE", "value");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.705570 11.961317 Fiskekrogen Restaurant");
         values.put("GALLERY", "fiskekrogen1 fiskekrogen2 fiskekrogen3");
 
         return values;
@@ -508,7 +508,7 @@ public class StringsUtils {
                 "NA"
         );
         values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.701097 11.973467 Olearys Restaurant");
         values.put("GALLERY", "olearys1 olearys2 olearys3");
 
         return values;
@@ -590,7 +590,7 @@ public class StringsUtils {
                         "from central station.\n"
 
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.701289 11.974197 HardRock Cafe");
         values.put("GALLERY", "hardrockcafe1 hardrockcafe2 hardrockcafe3");
 
         return values;
@@ -635,7 +635,7 @@ public class StringsUtils {
         );
         values.put("TRAVEL_INFO", "3 min Walking distance from central station.\n  " +
                 "Close to brunnsparken tram stop");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706980 11.970779 JohnScotts Restaurant");
         values.put("GALLERY", "johnscott1 johnscott2 johnscott3");
 
         return values;
@@ -685,7 +685,7 @@ public class StringsUtils {
                 "7(destination:Tynnered),\n " +
                 "3(destination:Marklandsgatan) from central station.");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.701262 11.974533 JoeFerellis Restaurant");
         values.put("GALLERY", "joefarellis1 joefarellis2 joefarellis3");
 
         return values;
@@ -764,7 +764,7 @@ public class StringsUtils {
                     "Free Entry!\n" +
                             "\n"
             );
-            values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+            values.put("MAP", "57.708692 11.969067 Nordstan Shopping_Centre");
             values.put("GALLERY", "nordstan1 nordstan2 nordstan3");
 
             return values;
@@ -821,7 +821,7 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706350 11.969555 Nordiska Shopping_Centre");
         values.put("GALLERY", "nordiskakompaniet1 nordiskakompaniet2 nordiskakompaniet3");
 
         return values;
@@ -877,7 +877,7 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.652060 11.911981 Frolunda Torg");
         values.put("GALLERY", "frolundatorggbg1 frolundatorggbg2 frolundatorggbg3");
 
         return values;
@@ -935,7 +935,7 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706497 11.969985 Arkaden Shopping_Centre");
         values.put("GALLERY", "arkaden1 arkaden2 arkaden3");
 
         return values;
@@ -992,7 +992,7 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.688867 12.034804 Delsjon Lake");
         values.put("GALLERY", "delsjonlake1 delsjonlake2 delsjonlake3");
 
         return values;
@@ -1043,7 +1043,7 @@ public class StringsUtils {
                 "TICKET_PRICE",
                 "Free Entry!\n\n"
         );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.710019 12.053979 Harlanda Tjarn");
         values.put("GALLERY", "harlandatjarn1 harlandatjarn2 harlandatjarn3");
 
         return values;
@@ -1125,7 +1125,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.748679 12.064137 Berjson Lake");
         values.put("GALLERY", "berjsonlake1 berjsonlake2 berjsonlake3");
 
         return values;
@@ -1144,7 +1144,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.829139 12.033371 Surtesjon Lake");
         values.put("GALLERY", "surtesjonlake1 surtesjonlake2 surtesjonlake3");
 
         return values;
@@ -1201,7 +1201,7 @@ public class StringsUtils {
         values.put("ADDRESS", "Göteborgs vandrarhem\n" +
                                 "Mölndalsvägen 23\n" +
                                 "412 63 Göteborg ");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.689008 11.993930 VandrarHem Hotel");
         values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
 
         return values;
@@ -1227,7 +1227,7 @@ public class StringsUtils {
                             "http://www.avalonhotel.se/en/");
         values.put("ADDRESS", "Kungstorget 9, 411 17 Göteborg");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.704010 11.968196 Avalon Hotel");
         values.put("GALLERY", "avalonhotel1 avalonhotel2 avalonhotel3");
 
         return values;
@@ -1247,7 +1247,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706853 11.972809 RadissonBlue Hotel");
         values.put("GALLERY", "radissonbluehotel1 radissonbluehotel2 radissonbluehotel3");
 
         return values;
@@ -1277,7 +1277,7 @@ public class StringsUtils {
         values.put("ADDRESS", "Hotel Vanilla\n" +
                             "Kyrkogatan 38\n" +
                             "411 15 Göteborg");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.705172 11.966919 Vanila Hotel");
         values.put("GALLERY", "vanilahotel1 vanilahotel2 vanilahotel3");
 
         return values;
@@ -1298,7 +1298,7 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.708104 11.970235 ScandicEuropa Hotel");
         values.put("GALLERY", "scandiceuropahotel1 scandiceuropahotel2 scandiceuropahotel3");
 
         return values;
@@ -1333,7 +1333,7 @@ public class StringsUtils {
         values.put("ADDRESS", "Address: Carl Skottbergs Gata 22A\n" +
                             "Stop: Botaniska Trädgården");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.682979 11.950089 Botanical Garden");
         values.put("GALLERY", "botanicalgarden1 botanicalgarden2 botanicalgarden3");
 
         return values;
@@ -1370,7 +1370,7 @@ public class StringsUtils {
                             "Website: http://www.tradgardsforeningen.se");
         values.put("ADDRESS", "Address: Södra vägen");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.706395 11.976134 Tradgards foreningen");
         values.put("GALLERY", "tradgardsforeningen1 tradgardsforeningen2 tradgardsforeningen3");
 
         return values;
