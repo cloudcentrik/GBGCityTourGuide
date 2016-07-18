@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class RadissonBlueHotelActivity extends BaseActivity {
 
     public RadissonBlueHotelActivity(){
-        super("RadissonBlueHotelActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("RadissonBlueHotelActivity",R.layout.base_layout,StringsUtils.getRadissonBlueHotelValues());
     }
 
 }

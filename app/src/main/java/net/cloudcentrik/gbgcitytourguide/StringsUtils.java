@@ -1147,7 +1147,7 @@ public class StringsUtils {
                                 "Mölndalsvägen 23\n" +
                                 "412 63 Göteborg ");
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "hono_island styrso_island vinga_island");
+        values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
 
         return values;
     }
@@ -1158,16 +1158,22 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "Avalon Hotel is a feng-shui certified hotel where the decor, candles, scent and sound play a major role. The hotel is located at Kungsportsplatsen, right in the city center.\n" +
+                        "\n" +
+                        "First Hotel Avalon offers rooms in six different categories - Penthouse Suite, Suite, Deluxe, Superior, Business and Moderate. All rooms have the same high quality, it is the size of the room that determines which category the room belongs to.\n" +
+                        "\n" +
+                        "As a hotel guest you can enjoy a dip in the lovely outdoor pool."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Contact Avalon Hotel");
+        values.put("TICKET_PRICE", "Contact Avalon Hotel");
+        values.put("TRAVEL_INFO", "Stop: Kungsportsplatsen");
+        values.put("CONTACT_INFO", "Phone:031-751 02 00\n" +
+                            "info@avalonhotel.se\n" +
+                            "http://www.avalonhotel.se/en/");
+        values.put("ADDRESS", "Kungstorget 9, 411 17 Göteborg");
 
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "hono_island styrso_island vinga_island");
+        values.put("GALLERY", "avalonhotel1 avalonhotel2 avalonhotel3");
 
         return values;
     }
@@ -1178,7 +1184,7 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "Values need to be added!!!"
         );
         values.put("OPENING_HOURS", "DEMO opening hours");
         values.put("TICKET_PRICE", "DEMO ticket price");
@@ -1187,7 +1193,7 @@ public class StringsUtils {
         values.put("ADDRESS", "DEMO address");
 
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "hono_island styrso_island vinga_island");
+        values.put("GALLERY", "radissonbluehotel1 radissonbluehotel2 radissonbluehotel3");
 
         return values;
     }
@@ -1198,16 +1204,26 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "With walking distance to popular restaurants, shopping streets and sightseeing activities Hotel Vanilla offers comfort to all of you who appreciate the good things in life\n" +
+                        "\n" +
+                        "!---The hotel have 32 rooms with shower, WC, telephone, cable-TV, safety box and internet through wireless network on request.\n" +
+                        "\n" +
+                        "!---The hotel is situated in a 19th century building which has been carefully restored and is protected under the Swedish Heritage Conservation Act. The personal touch and familiar atmosphere will make you feel at home as soon as you step inside."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
-
+        values.put("OPENING_HOURS", "Contact Vanila Hotel");
+        values.put("TICKET_PRICE", "Room                       Price                              Weekend price \t \n" +
+                "Single room \tFrom 1195 SEK/Night  From 835 SEK/Night\t Double room \t\t From 1345 SEK/Night  From 1045 SEK/Night Family room                 From 1345 SEK/Night  From 1145 SEK/Night \t\t \t\t \n" +
+                "Extra bed 300 SEK/Night  \t\t\n" +
+                "Parking 150 SEK/Night");
+        values.put("TRAVEL_INFO", "Stop: Brunnsparken");
+        values.put("CONTACT_INFO", "Phone: +46317116220\n" +
+                            "E-mail: info@hotelvanilla.se\n" +
+                            "Website: http://www.hotelvanilla.se");
+        values.put("ADDRESS", "Hotel Vanilla\n" +
+                            "Kyrkogatan 38\n" +
+                            "411 15 Göteborg");
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "hono_island styrso_island vinga_island");
+        values.put("GALLERY", "vanilahotel1 vanilahotel2 vanilahotel3");
 
         return values;
     }
@@ -1219,7 +1235,7 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "Values need to be added!!!"
         );
         values.put("OPENING_HOURS", "DEMO opening hours");
         values.put("TICKET_PRICE", "DEMO ticket price");
@@ -1228,7 +1244,7 @@ public class StringsUtils {
         values.put("ADDRESS", "DEMO address");
 
         values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "hono_island styrso_island vinga_island");
+        values.put("GALLERY", "scandiceuropahotel1 scandiceuropahotel2 scandiceuropahotel3");
 
         return values;
     }

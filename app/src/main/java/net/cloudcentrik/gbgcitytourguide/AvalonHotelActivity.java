@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class AvalonHotelActivity extends BaseActivity {
 
     public AvalonHotelActivity(){
-        super("AvalonHotelActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("AvalonHotelActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class VandrarHemHotelActivity extends BaseActivity {
 
     public VandrarHemHotelActivity(){
-        super("VandrarHemHotelActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("VandrarHemHotelActivity",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
     }
 
 }

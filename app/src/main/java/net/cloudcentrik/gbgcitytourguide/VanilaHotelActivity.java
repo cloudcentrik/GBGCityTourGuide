@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class VanilaHotelActivity extends BaseActivity {
 
     public VanilaHotelActivity(){
-        super("VanilaHotelActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("VanilaHotelActivity",R.layout.base_layout,StringsUtils.getVanilaHotelValues());
     }
 
 }

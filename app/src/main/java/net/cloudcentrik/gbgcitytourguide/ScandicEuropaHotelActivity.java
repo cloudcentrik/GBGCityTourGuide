@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class ScandicEuropaHotelActivity extends BaseActivity {
 
     public ScandicEuropaHotelActivity(){
-        super("ScandicEuropaHotelActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("ScandicEuropaHotelActivity",R.layout.base_layout,StringsUtils.getScandicEuropaHotelValues());
     }
 
 }
