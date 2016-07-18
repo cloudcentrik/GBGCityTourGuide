@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class JoeFerellisRestaurantActivity extends BaseActivity {
 
     public JoeFerellisRestaurantActivity(){
-        super("JoeFerellisRestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("JoeFerellisRestaurantActivity",R.layout.base_layout,StringsUtils.getJoeFerellisRestaurantValues());
     }
 
 }

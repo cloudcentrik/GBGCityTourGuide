@@ -442,24 +442,25 @@ public class StringsUtils {
 
         return values;
     }
+    // Islands END
 
-
+    // Restaurant Start
     //Fiskekrogen_Restaurant values
     public static HashMap<String, String> getFiskekrogen_RestaurantValues() {
         HashMap<String, String> values = new HashMap<String, String>();
 
         values.put(
                 "OVERVIEW",
-                "The Gothenburg Fiskekrogen_Restaurant " +
-                        " go to sea without ever casting off."
+                "Fiskekrogen is the natural place to enjoy the treasures of the sea. Be enchanted by the fresh fish – straight from the sea, lobsters, langoustines, shrimps, mussels and oysters. It combine top-class cooking with advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will go on a journey of flavours that will last in your memory, because here we always serve “The best the sea has to offer”."
         );
         values.put("ADDRESS", "value");
-        values.put("contactInfo", "value");
+        values.put("CONTACT_INFO", "value");
         values.put("OPENING_HOURS", "value");
         values.put("TRAVEL_INFO", "value");
         values.put("TICKET_PRICE", "value");
 
-        values.put("GALLERY", "value");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "fiskekrogen1 fiskekrogen2 fiskekrogen3");
 
         return values;
     }
@@ -473,7 +474,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         " Monday:  16.00-24.00\n" +
                         "Tues-thus:16.00-01.00\n" +
@@ -484,7 +485,7 @@ public class StringsUtils {
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         " Address:Kungsportsavenyn 9\n" +
                         "Phone: +4631 7304900\n" +
@@ -503,10 +504,9 @@ public class StringsUtils {
                 "TICKET_PRICE",
                 "NA"
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "olearys1 olearys2 olearys3");
 
         return values;
 
@@ -522,7 +522,7 @@ public class StringsUtils {
         );
 
         values.put(
-                "opening_hours",
+                "OPENING_HOURS",
                 "\n" +
                         "Monday:" +
                         "\n" +
@@ -563,7 +563,7 @@ public class StringsUtils {
 
 
         values.put(
-                "contact",
+                "CONTACT_INFO",
                 "\n" +
                         "Phone: +46(0) 31 10 23 30\n" +
                         " Web: www.hardrock.se\n" +
@@ -586,14 +586,110 @@ public class StringsUtils {
                         "from central station.\n"
 
         );
-        values.put(
-                "key",
-                "value"
-        );
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "hardrockcafe1 hardrockcafe2 hardrockcafe3");
 
         return values;
 
     }
+
+    //JohnScottsRestaurant
+    public static HashMap<String, String> getJohnScottsRestaurantValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "John Scott's found in Linnaeus has a historical explanation. Linnegatan is named after Carl Linnaeus, who is best known for his knowledge of plants and animals. But Carl Linnaeus also had a great interest in beer, just as John Scott's has."
+        );
+
+        values.put(
+                "OPENING_HOURS",
+                "\n" +
+                        "Mon-Tue:   11:30 - 00:00\n" +
+                        "Wed-Fri    11:30 - 01:00\n" +
+                        "Sat-Sun    12:00 - 01:00\n"
+        );
+
+
+        values.put(
+                "CONTACT_INFO",
+                "\n" +
+                        " Telefon: 031-80 75 50\n" +
+                        "E-post: palace@johnscotts.se\n"
+        );
+
+        values.put(
+                "ADDRESS",
+                "\n" +
+                        " John Scott's Palace, Södra Hamngatan 2"
+
+        );
+
+        values.put(
+                "TICKET_PRICE",
+                "NA"
+        );
+        values.put("TRAVEL_INFO", "3 min Walking distance from central station.\n  " +
+                "Close to brunnsparken tram stop");
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "johnscott1 johnscott2 johnscott3");
+
+        return values;
+
+    }
+
+
+    //JoeFerellisRestaurant
+    public static HashMap<String, String> getJoeFerellisRestaurantValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Joe Farelli’s is a popular meeting place in the middle of Gothenburg’s main street, Kungsportsavenyn. the American-inspired kitchen serves everything from juicy steaks and burgers to pasta and authentic wood oven baked pizzas."
+        );
+
+        values.put(
+                "OPENING_HOURS",
+                "\n" +
+                        "Mon – Thu: 11.30 – 01.00\n" +
+                        "Fri :      11.30 – 02.00\n" +
+                        "Sat :      12.00 – 03.00\n" +
+                        "Sun :      12.00 – 01.00"
+        );
+
+
+        values.put(
+                "CONTACT_INFO",
+                "\n" +
+                        "Phone: +4631105826\n" +
+                        "E-mail: info@joefarelli.com\n" +
+                        "Website: http://www.joefarelli.com"
+        );
+
+        values.put(
+                "ADDRESS",
+                "\n" +
+                        "Kungsportsavenyn 12, Goteborg 41136"
+
+        );
+
+        values.put(
+                "TICKET_PRICE",
+                "NA"
+        );
+        values.put("TRAVEL_INFO", "Stop: Valand. Take trum no 4(destination:Möndal),\n " +
+                "7(destination:Tynnered),\n " +
+                "3(destination:Marklandsgatan) from central station.");
+
+        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("GALLERY", "joefarellis1 joefarellis2 joefarellis3");
+
+        return values;
+
+    }
+
+    // Restaurant END
+
 
     public static HashMap<String, String> getInfoCenterValues() {
         HashMap<String, String> values = new HashMap<String, String>();

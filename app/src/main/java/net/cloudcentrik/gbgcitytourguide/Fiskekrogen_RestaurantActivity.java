@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class Fiskekrogen_RestaurantActivity extends BaseActivity {
 
     public Fiskekrogen_RestaurantActivity(){
-        super("Fiskekrogen_RestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("Fiskekrogen_RestaurantActivity",R.layout.base_layout,StringsUtils.getFiskekrogen_RestaurantValues());
     }
 
 }
