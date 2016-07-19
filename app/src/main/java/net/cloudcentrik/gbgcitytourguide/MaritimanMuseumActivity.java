@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class MaritimanMuseumActivity extends BaseActivity {
 
     public MaritimanMuseumActivity(){
-        super("MaritimanMuseumActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("MaritimanMuseumActivity",R.layout.base_layout,StringsUtils.getMaritimanMuseumValues());
     }
 
 }

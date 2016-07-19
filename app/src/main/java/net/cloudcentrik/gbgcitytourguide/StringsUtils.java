@@ -32,6 +32,7 @@ public class StringsUtils {
     }
 
 
+    // Museum START
     //Stad mesuem values
     public static HashMap<String, String> getStadMesuemValues() {
         HashMap<String, String> values = new HashMap<String, String>();
@@ -56,7 +57,214 @@ public class StringsUtils {
         return values;
     }
 
+    // 1 Maritiman Museum
+    public static HashMap<String, String> getMaritimanMuseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
 
+        values.put(
+                "OVERVIEW",
+                "The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest " +
+                        "and best maritime centre.\n" +
+                        "Climb aboard and leave dry land behind you. Set sail for a brand new world offering you excitement, " +
+                        "adventure and discovery. Climb up the ladders and become a part of the old tales, with the salty sea spray " +
+                        "in your face and the smell of diesel in your nostrils. Look out over the harbour entrance. At Maritiman" +
+                        " you can go to sea without ever casting off."
+        );
+        values.put("OPENING_HOURS", "EASTER HOLIDAY\n" +
+                            "April 3-12 :11am - 4pm\n" +
+                            "APRIL :11AM - 4PM\n" +
+                            "Sat 18 - Sun 19\n" +
+                            "Sat 25 - Sun 26\n" +
+                            "MAY : 11AM - 5PM\n" +
+                            "Open daily\n" +
+                            "JUNE-AUGUST :10AM - 6PM\n" +
+                            "Open daily except for Midsummer's Eve the 19th of June when we close at 3pm\n" +
+                            "SEPTEMBER 11AM - 5PM\n" +
+                            "Open daily\n" +
+                            " AUTUMN HOLIDAY\n" +
+                            "Oct 24-Nov 1 :11am - 4pm");
+        values.put("TICKET_PRICE", "Adult 120 SEK\n" +
+                            "Children (5-15) 70 SEK\n" +
+                            "Family Ticket 350 SEK\n" +
+                            "(2 Adults & 2 Children)\n" +
+                            "Students & Senior Citizens 90 SEK");
+        values.put("TRAVEL_INFO", "Take trum no 1,2,3,4,7,11,9 from central station and take off Brunnsparken(Just one stoppage)." +
+                "Than take trum 5,10  or Buss 55, 19,18,42 from Platform B.Just take off one stoppage later named Lilla Bommen." +
+                "It is situated after next to the Goteborg Opera centre.");
+        values.put("CONTACT_INFO", "Phone: +4631105950\n" +
+                            "E-mail: info@maritiman.se\n" +
+                            "Website: http://www.maritiman.se");
+        values.put("ADDRESS", "Packhusplatsen 12, Gothenburg");
+
+        values.put("MAP", "57.712781 11.965876 Maritiman Museum");
+        values.put("GALLERY", "maritimanmuseum1 maritimanmuseum2 maritimanmuseum3");
+
+        return values;
+    }
+
+    // 2 NaturalHistory Museum
+    public static HashMap<String, String> getNaturalHistoryMuseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "The museum was founded on 31 October 1833 by the Royal Society science and scholarship in Gothenburg. " +
+                        "In 1923, the museum moved into its present premises.In the entrance area, see changing special place, " +
+                        "the upper floors, as well as the old buildings house the permanent exhibition. This is mainly to animal models, " +
+                        "where aquatic animals occupy a special position. The models include both dermoplastics , painted plaster casts, as well as liquid preparations conserved. Outstanding exhibits are the dermoplastics of 1865 stranded near Gothenburg, young blue whale and the one in 1948 killed in Angola elephants.You can see presentations of the Earth, life in the sea, as well as various kinds of environmental issues."
+        );
+        values.put("OPENING_HOURS", "Tuesday to Sunday 11:00-17:00.\n" +
+                            "Open late on wednesdays from March 10: 11:00–20:00.");
+        values.put("TICKET_PRICE", "Free admission < 25 years\n" +
+                            "Adults: 40 SEK annual and valid for some other museums");
+        values.put("TRAVEL_INFO", "By tram\n" +
+                            "Take line 1, 2 or 6 from central station and get off at the stop Linnéplatsen.\n" +
+                            "By bus\n" +
+                            "Several bus routes pass near the museum. Choose for example line 25, 52 from Brunnsparken and  " +
+                            "ROSA or BLUE express from Nordstan. Both Brunnsparken and Nordstan are close to central station.");
+        values.put("CONTACT_INFO", "Phone: +4610441401\n" +
+                            "E-mail: info.naturhistoriska@vgregion.se\n" +
+                            "Website: http://www.gnm.se");
+        values.put("ADDRESS", "Museivägen 10, Slottsskogen, Linnéplatsen");
+
+        values.put("MAP", "57.689907 11.949346 NaturalHistory Museum");
+        values.put("GALLERY", "naturhistoriskamuseet1 naturhistoriskamuseet2 naturhistoriskamuseet3");
+
+        return values;
+    }
+
+    // 3 City Museum
+    public static HashMap<String, String> getCityMuseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Explore the exciting pre-history, the 19th century life, the development of the modern industrial Gothenburg " +
+                        "and the only exhibited Viking ship in Sweden, Äskekärrsskeppet.The museum is located in the historic " +
+                        "East India Company building from the 18th century. Here you can study the remains of how people lived " +
+                        "in this part of Sweden 12,000 years ago and see why Gothenburg is called the Swedish Amsterdam."
+        );
+        values.put("OPENING_HOURS", "Tue and Thu-Sun 10.00-17.00. " +
+                            "Wed 10.00-20.00.");
+        values.put("TICKET_PRICE", "Free admission < 25 years\n" +
+                            "Adults: 40 SEK annual and valid for some other museums");
+        values.put("TRAVEL_INFO", "Take trum no 1,2,3,7,11,9 and take off Brunnsparken(Just one stoppage)." +
+                            "It is situated after next two building of Goteborg Stad Building ");
+        values.put("CONTACT_INFO", "Phone: +46313683600\n" +
+                            "E-mail: stadsmuseum@kultur.goteborg.se\n" +
+                            "Website: http://www.stadsmuseum.goteborg.se");
+        values.put("ADDRESS", "Norra Hamngatan 12");
+
+        values.put("MAP", "57.706333 11.963504 City Museum");
+        values.put("GALLERY", "citymuseum1 citymuseum2 citymuseum3");
+
+        return values;
+    }
+
+    // 4  Volvo Museum
+    public static HashMap<String, String> getVolvoMuseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "8000 square meters of cars, buses, machines, engines and unique concepts. All by the local car manufacturer Volvo.\n" +
+                        "\n" +
+                        "Apart from cars, buses and other vehicles the museum also have exhibitions on Volvo Ocean Race and Volvo Golf Experience."
+        );
+        values.put("OPENING_HOURS", "Tuesday-Friday 10.00-17.00 " +
+                            "and Saturday-Sunday 11.00-16.00. May-September also open Monday 10.00-17.00.");
+        values.put("TICKET_PRICE", "1 free admission with Göteborg City Card");
+        values.put("TRAVEL_INFO", "Stop: Arendal Skans\n" +
+                "At first: From Nordstan tram stop to Eketrägata By tram 6, 10 Or by buss 16, 24. \n" +
+                "\n" +
+                "Stop Eketrägatan, Läge E : Take buss 32 to Arendal Skans stop.");
+        values.put("CONTACT_INFO", "Phone: +46313655858\n" +
+                            "E-mail: tradgardsforeningen@ponf.goteborg.se\n" +
+                            "Website: http://www.tradgardsforeningen.se");
+        values.put("ADDRESS", "Volvo Arendal/Arendal Skans");
+
+        values.put("MAP", "57.694774 11.819454 Volvo Museum");
+        values.put("GALLERY", "volvomuseum1 volvomuseum2 volvomuseum3");
+
+        return values;
+    }
+
+    // 5 Universeum
+    public static HashMap<String, String> getUniverseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+
+        values.put("MAP", "57.695627 11.989224 Universeum Gothenburg");
+        values.put("GALLERY", "universeum1 universeum2 universeum3");
+
+        return values;
+    }
+
+    // 6 WorldCulture Museum
+    public static HashMap<String, String> getWorldCultureMuseumValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Exhibitions and programs about current questions in the world around us.\n" +
+                        "\n" +
+                        "In this award-winning building you'll meet the world and experience a mixture of international architecture, contemporary art, seriousness and exciting activities.\n" +
+                        "\n" +
+                        "The Museum of World Culture is a place for questions, big or small, and for curiosity and dialogue. The museum brings you historic and current issues, offering experiences for all ages. The unique architecture and central location makes the museum a natural meeting point and in Gothenburg.\n" +
+                        "Besides, the museum has a rich program with everything from film and theatre to seminars, festivals and performances and a special program with activities for kids and families.\n" +
+                        "The magnificent building, inaugurated in 2004, was designed by London based architects Cécile Brisac and Edgar Gonzales."
+        );
+        values.put("OPENING_HOURS", "Tus, Thu and Fri 12-17, " +
+                            "Wed 12-20 and Sat and Sun 11-17. ");
+        values.put("TICKET_PRICE", "Free admission < 25 years\n" +
+                            "Adults: 40 SEK annual and valid for some other museums");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "Stop: Korsvägen\n" +
+                            "Phone: +46104561200\n" +
+                            "E-mail: info@varldskulturmuseet.se\n" +
+                            "Website: http://www.varldskulturmuseet.se");
+        values.put("ADDRESS", "Södra Vägen 54, 412 54 Göteborg");
+
+        values.put("MAP", "57.694738 11.989337 WorldCulture Museum");
+        values.put("GALLERY", "worldculturemuseum1 worldculturemuseum2 worldculturemuseum3");
+
+        return values;
+    }
+
+    // 7 MuseumOfArt
+    public static HashMap<String, String> getMuseumOfArtValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "Free admission < 25 years\n" +
+                                   "Adults: 40 SEK annual and valid for some other museums");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "Götaplatsen 6\n" +
+                            "412 56 Göteborg");
+
+        values.put("MAP", "57.696477 11.980620 MuseumOf Art");
+        values.put("GALLERY", "museumofart1 museumofart2 museumofart3");
+
+        return values;
+    }
+
+    // Museum END
+
+    // Historical Place START
     //1 Gustaf Adlofs Square HPActivity
     public static HashMap<String, String> getGustafAdlofsSquareHPHPValues() {
         HashMap<String, String> values = new HashMap<String, String>();

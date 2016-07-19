@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class CityMuseumActivity extends BaseActivity {
 
     public CityMuseumActivity(){
-        super("CityMuseumActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("CityMuseumActivity",R.layout.base_layout,StringsUtils.getCityMuseumValues());
     }
 
 }
