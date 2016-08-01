@@ -391,13 +391,13 @@ public class StringsUtils {
                         "festival, life in the 1700's is reconstructed with prisoners, soldiers and the firing of cannons. " +
                         "Dinners, historical meals, conferences, historical re-enactmens etc are also arranged at the fort.\n"
         );
-        values.put("ADDRESS", "NA ");
-        values.put("CONTACT_INFO", "NA");
-        values.put("OPENING_HOURS", "NA.\n\n");
-        values.put("TRAVEL_INFO", "NA.");
+        values.put("ADDRESS", "Address: 442 67 Marstrand");
+        values.put("CONTACT_INFO", "(+46)303 602 65");
+        values.put("OPENING_HOURS", "OPEN ALL YEAR AROUND!");
+        values.put("TRAVEL_INFO", "Stop: Marstrands färjeläge . Go by Buss MEXP from Nils Ericson terminalen stop.");
         values.put("TICKET_PRICE", "NA\n\n");
         values.put("EMAIL", "Not Available");
-        values.put("PHONE", "Not Available");
+        values.put("PHONE", "(+46)303 602 65");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.886635, 11.578018, Carlsten, Fortress");
 
