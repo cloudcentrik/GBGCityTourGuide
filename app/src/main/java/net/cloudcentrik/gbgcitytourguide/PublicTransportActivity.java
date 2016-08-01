@@ -9,8 +9,16 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class PublicTransportActivity extends AppCompatActivity {
+public class PublicTransportActivity extends BaseActivity {
 
+    public PublicTransportActivity(){
+        super("PublicTransportActivity",R.layout.base_layout, StringsUtils.getTemValues());
+    }
+
+}
+
+
+/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,3 +89,4 @@ public class PublicTransportActivity extends AppCompatActivity {
         }
     }
 }
+*/

@@ -9,9 +9,18 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class AirportTransportActivity extends AppCompatActivity {
+public class AirportTransportActivity extends BaseActivity {
 
-    @Override
+    public AirportTransportActivity(){
+        super("AirportTransportActivity",R.layout.base_layout, StringsUtils.getTemValues());
+    }
+
+}
+
+
+
+
+ /*   @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_airport_transport);
@@ -82,3 +91,4 @@ public class AirportTransportActivity extends AppCompatActivity {
         }
     }
 }
+*/

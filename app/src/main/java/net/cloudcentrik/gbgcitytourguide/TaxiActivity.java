@@ -9,9 +9,16 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-public class TaxiActivity extends AppCompatActivity {
+public class TaxiActivity extends BaseActivity {
 
-    @Override
+    public TaxiActivity(){
+        super("TaxiActivity",R.layout.base_layout, StringsUtils.getTemValues());
+    }
+
+}
+
+
+   /* @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taxi);
@@ -31,12 +38,12 @@ public class TaxiActivity extends AppCompatActivity {
         });
 
     }
-    /*
+    *//*
     public void backBtn() {
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
     }
-    */
+    *//*
 
 
     @Override
@@ -83,3 +90,4 @@ public class TaxiActivity extends AppCompatActivity {
         }
     }
 }
+*/
