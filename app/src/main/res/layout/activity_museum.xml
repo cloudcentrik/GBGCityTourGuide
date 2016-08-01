@@ -198,7 +198,7 @@
             android:drawableLeft="@drawable/ic_museum_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
-            android:background="@color/button_colour_teal"/>
+            android:background="@color/button_colour_purple"/>
 
 
     </LinearLayout>
@@ -227,7 +227,7 @@
             android:drawableLeft="@drawable/ic_museum_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
-            android:background="@color/button_colour_pink"/>
+            android:background="@color/button_colour_brown"/>
 
 
     </LinearLayout>
@@ -240,84 +240,3 @@
 
 
 
-    <!--
-    <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@color/window_background"
-        tools:context=".MainActivity">
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:background="@color/my_primary"
-            android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
-
-        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_below="@+id/toolbar"
-            android:fillViewport="true" >
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="75dp"
-            android:gravity="center">
-
-
-            <Button
-                android:id="@+id/gbg_btn_maritiman_museum"
-                style="@style/gbg_button_style_second"
-                android:text="MARITIMAN MUSEUM"
-                android:layout_gravity="center_horizontal"
-                />
-
-            <Button
-                android:id="@+id/gbg_btn_natural_history_museum"
-                style="@style/gbg_button_style_second"
-                android:text="NATURAL HISTORY MUSEUM"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/gbg_btn_city_museum"
-                style="@style/gbg_button_style_second"
-                android:text="CITY MUSEUM"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/gbg_btn_volvo_museum"
-                style="@style/gbg_button_style_second"
-                android:text="Volvo Museum"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/gbg_btn_universeum"
-                style="@style/gbg_button_style_second"
-                android:text="Universeum"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/gbg_btn_world_culture_museum"
-                style="@style/gbg_button_style_second"
-                android:text="Museum of World Culture"
-                android:layout_gravity="center_horizontal"/>
-            <Button
-                android:id="@+id/gbg_btn_museum_of_art"
-                style="@style/gbg_button_style_second"
-                android:text="Museum of Art"
-                android:layout_gravity="center_horizontal"/>
-
-
-        </LinearLayout>
-
-        </ScrollView>
-
-    </RelativeLayout>-->

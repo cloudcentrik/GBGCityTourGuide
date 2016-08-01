@@ -8,7 +8,7 @@
 
     <!--app colors Start-->
     <color name="window_background">#E0F7FA</color>
-    <color name="my_primary">#00BCD4</color>
+    <color name="my_primary">#546E7A</color>
     <color name="my_primary_dark">#CC0000</color>
     <color name="my_primary_light">#B3E5FC</color>
     <color name="my_accent">#FF5722</color>
@@ -55,6 +55,7 @@
     <color name="button_colour_teal">#00bfa5</color>
     <color name="button_colour_orange">#dd2c00</color>
     <color name="button_colour_purple">#aa00ff</color>
+    <color name="button_colour_brown">#795548</color>
 
 
 </resources>
