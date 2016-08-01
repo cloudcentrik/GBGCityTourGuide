@@ -5,8 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_margin="16dp"
-    android:gravity="center"
-    android:weightSum="5"
+    android:gravity="top"
     >
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,11 +17,10 @@
     <!-- 1 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_lake_delsjon"
@@ -37,7 +35,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_lakes_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_teal"/>
@@ -48,11 +46,10 @@
     <!-- 2 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_lake_Surtesjon"
@@ -67,7 +64,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_lakes_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_pink"/>
@@ -78,11 +75,10 @@
     <!-- 3 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_lake_svartemosse"
@@ -97,7 +93,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_lakes_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_blue"/>
@@ -108,11 +104,10 @@
     <!-- 4 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_lake_Bergsjön"
@@ -127,7 +122,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_lakes_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_green"/>
@@ -138,11 +133,10 @@
     <!-- 5 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_lake_Harlanda"
@@ -157,7 +151,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_lakes_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_orange"/>

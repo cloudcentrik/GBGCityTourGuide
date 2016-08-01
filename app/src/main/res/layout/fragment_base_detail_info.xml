@@ -39,7 +39,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <TextView
-                android:id="@+id/txtStadMuseumTraveladdress"
+                android:id="@+id/txtAddress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Kunsgatan 1,41742 Göteborg."
@@ -80,7 +80,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <TextView
-                android:id="@+id/txtStadMuseumConatct"
+                android:id="@+id/txtEmail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="info@cloudcentrik.net"
@@ -121,7 +121,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content" />
             <TextView
-                android:id="@+id/txtStadMuseumPhone"
+                android:id="@+id/txtPhone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="info@cloudcentrik.net"

@@ -5,8 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_margin="16dp"
-    android:gravity="center"
-    android:weightSum="6"
+    android:gravity="top"
     >
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -17,11 +16,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_hotel_vandrarhem"
@@ -46,11 +44,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_hotel_avalon"
@@ -75,12 +72,12 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
+
         <Button
             android:id="@+id/btn_hotel_radissonblue"
             android:layout_width="match_parent"
@@ -104,11 +101,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_hotel_vanila"
@@ -133,11 +129,10 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_hotel_scandiceuropa"
@@ -159,35 +154,5 @@
 
 
     </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:elevation="4sp"
-        android:layout_marginTop="5dp"
-        android:layout_weight="1"
-        >
-        <Button
-            android:id="@+id/btn_hotel_scandiceuropa"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1.5"
-            android:text="Scandic Europa"
-            android:textSize="20dp"
-            android:typeface="monospace"
-            android:textStyle="bold"
-            android:paddingLeft="10dp"
-            android:paddingRight="1dp"
-            android:elevation="4sp"
-            android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
-            android:drawableRight="@drawable/ic_chevron_right_white_18dp"
-            android:textColor="@color/white"
-            android:background="@color/button_colour_orange"/>
-
-
-    </LinearLayout>
-
 
 </LinearLayout>

@@ -5,8 +5,7 @@
     android:layout_height="fill_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_margin="16dp"
-    android:gravity="center"
-    android:weightSum="5"
+    android:gravity="top"
     >
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -18,11 +17,10 @@
     <!-- 1 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_vrango_island"
@@ -37,7 +35,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_island_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_teal"/>
@@ -48,11 +46,10 @@
     <!-- 2 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_vinga_island"
@@ -67,7 +64,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_island_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_pink"/>
@@ -78,11 +75,10 @@
     <!-- 3 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_hönö_island"
@@ -97,7 +93,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_island_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_blue"/>
@@ -108,11 +104,10 @@
     <!-- 4 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_Rörö_island"
@@ -127,7 +122,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_island_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_green"/>
@@ -138,11 +133,10 @@
     <!-- 5 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="90dp"
         android:orientation="horizontal"
         android:elevation="4sp"
         android:layout_marginTop="5dp"
-        android:layout_weight="1"
         >
         <Button
             android:id="@+id/btn_styrsö_island"
@@ -157,83 +151,12 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_hotel_white_12dp"
+            android:drawableLeft="@drawable/icon_island_12dp"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_orange"/>
 
-
     </LinearLayout>
-
 
 </LinearLayout>
 
-
-
-
-
-
-
-
-
-    <!--
-    <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@color/window_background"
-        tools:context=".MainActivity">
-
-
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:background="@color/my_primary"
-            android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="75dp">
-
-
-            <Button
-                android:id="@+id/btn_vrango_island"
-                style="@style/gbg_button_style_second"
-                android:text="Vrångö"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/btn_vinga_island"
-                style="@style/gbg_button_style_second"
-                android:text="Vinga"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/btn_hönö_island"
-                style="@style/gbg_button_style_second"
-                android:text="Hönö"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/btn_Rörö_island"
-                style="@style/gbg_button_style_second"
-                android:text="Rörö"
-                android:layout_gravity="center_horizontal"/>
-
-            <Button
-                android:id="@+id/btn_styrsö_island"
-                style="@style/gbg_button_style_second"
-                android:text="Styrsö"
-                android:layout_gravity="center_horizontal"/>
-
-
-        </LinearLayout>
-
-
-    </RelativeLayout>-->

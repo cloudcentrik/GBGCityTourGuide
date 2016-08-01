@@ -50,7 +50,7 @@ public class BaseOverviewFragment extends Fragment {
     private void setOverviewContent(String overView){
 
         StringBuilder text=new StringBuilder();
-        text.append("<html><body bgcolor=\"#B2EBF2\" style=\"color:black;\"><p align=\"justify\">");
+        text.append("<html><body bgcolor=\"#eceff1\" style=\"color:black;\"><p align=\"justify\">");
         text.append(overView);
         text.append("</p></body></html>");
         txtOverviewContent.loadData(text.toString(), "text/html", " UTF-8");

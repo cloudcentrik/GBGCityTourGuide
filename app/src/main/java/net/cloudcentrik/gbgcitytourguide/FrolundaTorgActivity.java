@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class FrolundaTorgActivity extends BaseActivity {
 
     public FrolundaTorgActivity(){
-        super("FrolundaTorgActivity",R.layout.base_layout,StringsUtils.getFrolundaTorgValues());
+        super("FrolundaTorgActivity", R.layout.base_layout, StringsUtils.getFrolundaTorgValues());
     }
 
 }

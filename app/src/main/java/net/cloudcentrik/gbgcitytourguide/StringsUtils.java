@@ -24,8 +24,11 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "DEMO travel information");
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("MAP", "57.7067050,11.9690680,Brunnsparken,city center");
         values.put("GALLERY", "hono_island styrso_island vinga_island");
 
         return values;
@@ -50,7 +53,10 @@ public class StringsUtils {
         values.put("OPENING_HOURS", "value");
         values.put("TRAVEL_INFO", "value");
         values.put("TICKET_PRICE", "value");
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.7067050, 11.9690680, Brunnsparken, citycenter");
 
         values.put("GALLERY", "value");
 
@@ -71,32 +77,35 @@ public class StringsUtils {
                         " you can go to sea without ever casting off."
         );
         values.put("OPENING_HOURS", "EASTER HOLIDAY\n" +
-                            "April 3-12 :11am - 4pm\n" +
-                            "APRIL :11AM - 4PM\n" +
-                            "Sat 18 - Sun 19\n" +
-                            "Sat 25 - Sun 26\n" +
-                            "MAY : 11AM - 5PM\n" +
-                            "Open daily\n" +
-                            "JUNE-AUGUST :10AM - 6PM\n" +
-                            "Open daily except for Midsummer's Eve the 19th of June when we close at 3pm\n" +
-                            "SEPTEMBER 11AM - 5PM\n" +
-                            "Open daily\n" +
-                            " AUTUMN HOLIDAY\n" +
-                            "Oct 24-Nov 1 :11am - 4pm");
+                "April 3-12 :11am - 4pm\n" +
+                "APRIL :11AM - 4PM\n" +
+                "Sat 18 - Sun 19\n" +
+                "Sat 25 - Sun 26\n" +
+                "MAY : 11AM - 5PM\n" +
+                "Open daily\n" +
+                "JUNE-AUGUST :10AM - 6PM\n" +
+                "Open daily except for Midsummer's Eve the 19th of June when we close at 3pm\n" +
+                "SEPTEMBER 11AM - 5PM\n" +
+                "Open daily\n" +
+                " AUTUMN HOLIDAY\n" +
+                "Oct 24-Nov 1 :11am - 4pm");
         values.put("TICKET_PRICE", "Adult 120 SEK\n" +
-                            "Children (5-15) 70 SEK\n" +
-                            "Family Ticket 350 SEK\n" +
-                            "(2 Adults & 2 Children)\n" +
-                            "Students & Senior Citizens 90 SEK");
+                "Children (5-15) 70 SEK\n" +
+                "Family Ticket 350 SEK\n" +
+                "(2 Adults & 2 Children)\n" +
+                "Students & Senior Citizens 90 SEK");
         values.put("TRAVEL_INFO", "Take trum no 1,2,3,4,7,11,9 from central station and take off Brunnsparken(Just one stoppage)." +
                 "Than take trum 5,10  or Buss 55, 19,18,42 from Platform B.Just take off one stoppage later named Lilla Bommen." +
                 "It is situated after next to the Goteborg Opera centre.");
         values.put("CONTACT_INFO", "Phone: +4631105950\n" +
-                            "E-mail: info@maritiman.se\n" +
-                            "Website: http://www.maritiman.se");
+                "E-mail: info@maritiman.se\n" +
+                "Website: http://www.maritiman.se");
         values.put("ADDRESS", "Packhusplatsen 12, Gothenburg");
+        values.put("EMAIL", "info@maritiman.se");
+        values.put("PHONE", "+4631105950");
+        values.put("NAME", "Maritiman Museum");
 
-        values.put("MAP", "57.712781 11.965876 Maritiman Museum");
+        values.put("MAP", "57.712781, 11.965876, Maritiman, Museum");
         values.put("GALLERY", "maritimanmuseum1 maritimanmuseum2 maritimanmuseum3");
 
         return values;
@@ -114,20 +123,23 @@ public class StringsUtils {
                         "where aquatic animals occupy a special position. The models include both dermoplastics , painted plaster casts, as well as liquid preparations conserved. Outstanding exhibits are the dermoplastics of 1865 stranded near Gothenburg, young blue whale and the one in 1948 killed in Angola elephants.You can see presentations of the Earth, life in the sea, as well as various kinds of environmental issues."
         );
         values.put("OPENING_HOURS", "Tuesday to Sunday 11:00-17:00.\n" +
-                            "Open late on wednesdays from March 10: 11:00–20:00.");
+                "Open late on wednesdays from March 10: 11:00–20:00.");
         values.put("TICKET_PRICE", "Free admission < 25 years\n" +
-                            "Adults: 40 SEK annual and valid for some other museums");
+                "Adults: 40 SEK annual and valid for some other museums");
         values.put("TRAVEL_INFO", "By tram\n" +
-                            "Take line 1, 2 or 6 from central station and get off at the stop Linnéplatsen.\n" +
-                            "By bus\n" +
-                            "Several bus routes pass near the museum. Choose for example line 25, 52 from Brunnsparken and  " +
-                            "ROSA or BLUE express from Nordstan. Both Brunnsparken and Nordstan are close to central station.");
+                "Take line 1, 2 or 6 from central station and get off at the stop Linnéplatsen.\n" +
+                "By bus\n" +
+                "Several bus routes pass near the museum. Choose for example line 25, 52 from Brunnsparken and  " +
+                "ROSA or BLUE express from Nordstan. Both Brunnsparken and Nordstan are close to central station.");
         values.put("CONTACT_INFO", "Phone: +4610441401\n" +
-                            "E-mail: info.naturhistoriska@vgregion.se\n" +
-                            "Website: http://www.gnm.se");
+                "E-mail: info.naturhistoriska@vgregion.se\n" +
+                "Website: http://www.gnm.se");
         values.put("ADDRESS", "Museivägen 10, Slottsskogen, Linnéplatsen");
 
-        values.put("MAP", "57.689907 11.949346 NaturalHistory Museum");
+        values.put("EMAIL", "info.naturhistoriska@vgregion.se");
+        values.put("PHONE", "+4610441401");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.689907, 11.949346, NaturalHistory, Museum");
         values.put("GALLERY", "naturhistoriskamuseet1 naturhistoriskamuseet2 naturhistoriskamuseet3");
 
         return values;
@@ -145,17 +157,19 @@ public class StringsUtils {
                         "in this part of Sweden 12,000 years ago and see why Gothenburg is called the Swedish Amsterdam."
         );
         values.put("OPENING_HOURS", "Tue and Thu-Sun 10.00-17.00. " +
-                            "Wed 10.00-20.00.");
+                "Wed 10.00-20.00.");
         values.put("TICKET_PRICE", "Free admission < 25 years\n" +
-                            "Adults: 40 SEK annual and valid for some other museums");
+                "Adults: 40 SEK annual and valid for some other museums");
         values.put("TRAVEL_INFO", "Take trum no 1,2,3,7,11,9 and take off Brunnsparken(Just one stoppage)." +
-                            "It is situated after next two building of Goteborg Stad Building ");
+                "It is situated after next two building of Goteborg Stad Building ");
         values.put("CONTACT_INFO", "Phone: +46313683600\n" +
-                            "E-mail: stadsmuseum@kultur.goteborg.se\n" +
-                            "Website: http://www.stadsmuseum.goteborg.se");
+                "E-mail: stadsmuseum@kultur.goteborg.se\n" +
+                "Website: http://www.stadsmuseum.goteborg.se");
         values.put("ADDRESS", "Norra Hamngatan 12");
-
-        values.put("MAP", "57.706333 11.963504 City Museum");
+        values.put("EMAIL", "stadsmuseum@kultur.goteborg.se");
+        values.put("PHONE", "+46313683600");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706333, 11.963504, City, Museum");
         values.put("GALLERY", "citymuseum1 citymuseum2 citymuseum3");
 
         return values;
@@ -172,18 +186,20 @@ public class StringsUtils {
                         "Apart from cars, buses and other vehicles the museum also have exhibitions on Volvo Ocean Race and Volvo Golf Experience."
         );
         values.put("OPENING_HOURS", "Tuesday-Friday 10.00-17.00 " +
-                            "and Saturday-Sunday 11.00-16.00. May-September also open Monday 10.00-17.00.");
+                "and Saturday-Sunday 11.00-16.00. May-September also open Monday 10.00-17.00.");
         values.put("TICKET_PRICE", "1 free admission with Göteborg City Card");
         values.put("TRAVEL_INFO", "Stop: Arendal Skans\n" +
                 "At first: From Nordstan tram stop to Eketrägata By tram 6, 10 Or by buss 16, 24. \n" +
                 "\n" +
                 "Stop Eketrägatan, Läge E : Take buss 32 to Arendal Skans stop.");
         values.put("CONTACT_INFO", "Phone: +46313655858\n" +
-                            "E-mail: tradgardsforeningen@ponf.goteborg.se\n" +
-                            "Website: http://www.tradgardsforeningen.se");
+                "E-mail: tradgardsforeningen@ponf.goteborg.se\n" +
+                "Website: http://www.tradgardsforeningen.se");
         values.put("ADDRESS", "Volvo Arendal/Arendal Skans");
-
-        values.put("MAP", "57.694774 11.819454 Volvo Museum");
+        values.put("EMAIL", "tradgardsforeningen@ponf.goteborg.se");
+        values.put("PHONE", "+46313655858");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.694774, 11.819454, Volvo, Museum");
         values.put("GALLERY", "volvomuseum1 volvomuseum2 volvomuseum3");
 
         return values;
@@ -195,15 +211,28 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "Universeum is located in the heart of Gothenburg and is Scandinavia's largest science centre. Throughout its seven floors you can experience life-size dinosaurs, a tropical rainforest, huge aquariums and lots of exciting experiments – on your own or with the Universeum guides.\n" +
+                        "\n" +
+                        "Explore the Swedish wilderness with its fish and birds, visit our sharks and rays and step into a space station. You can also see snakes and other poisonous animals, go on safari among monkeys, sloths and caimans, learn how nature has inspired new technologies, let really young children try out their dream jobs at Job Land and a whole lot more.\n" +
+                        "\n" +
+                        "A 25 meter tall kapok tree with suspension bridges take you on adventures and offers impressive views of the rainforest.\n" +
+                        "\n" +
+                        "Experience the exotic birds, sloths, monkeys, frogs, butterflies and other known and unknown animals. Hike through the rain cave and explore everything from the thriving canyon up to the rainforest canopy.\n" +
+                        "Guides, animal keepers and divers make sure there are plenty of fun happening every day at Universeum science centre. See the website for programme events.\n" +
+                        "Altogether the Universeum aquariums houses over three million litres of water.\n"
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
-
-        values.put("MAP", "57.695627 11.989224 Universeum Gothenburg");
+        values.put("OPENING_HOURS", "Open daily 10.00-18.00, during summer (2 July–21 August) 10.00-20.00.");
+        values.put("TICKET_PRICE", "Free admission with Göteborg City Card \n" +
+                "They have different ticket prices!");
+        values.put("TRAVEL_INFO", "Stop: Korsvägen");
+        values.put("CONTACT_INFO", "Phone: +46313356450\n" +
+                "E-mail: info@universeum.se\n" +
+                "Website: http://www.universeum.se");
+        values.put("ADDRESS", "Address: Södra vägen 50");
+        values.put("EMAIL", "info@universeum.se");
+        values.put("PHONE", "+46313356450");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.695558, 11.989418, Universeum, Gothenburg");
         values.put("GALLERY", "universeum1 universeum2 universeum3");
 
         return values;
@@ -224,17 +253,19 @@ public class StringsUtils {
                         "The magnificent building, inaugurated in 2004, was designed by London based architects Cécile Brisac and Edgar Gonzales."
         );
         values.put("OPENING_HOURS", "Tus, Thu and Fri 12-17, " +
-                            "Wed 12-20 and Sat and Sun 11-17. ");
+                "Wed 12-20 and Sat and Sun 11-17. ");
         values.put("TICKET_PRICE", "Free admission < 25 years\n" +
-                            "Adults: 40 SEK annual and valid for some other museums");
+                "Adults: 40 SEK annual and valid for some other museums");
         values.put("TRAVEL_INFO", "DEMO travel information");
         values.put("CONTACT_INFO", "Stop: Korsvägen\n" +
-                            "Phone: +46104561200\n" +
-                            "E-mail: info@varldskulturmuseet.se\n" +
-                            "Website: http://www.varldskulturmuseet.se");
+                "Phone: +46104561200\n" +
+                "E-mail: info@varldskulturmuseet.se\n" +
+                "Website: http://www.varldskulturmuseet.se");
         values.put("ADDRESS", "Södra Vägen 54, 412 54 Göteborg");
-
-        values.put("MAP", "57.694738 11.989337 WorldCulture Museum");
+        values.put("EMAIL", "info@varldskulturmuseet.se");
+        values.put("PHONE", "+46104561200");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.694738, 11.989337, WorldCulture, Museum");
         values.put("GALLERY", "worldculturemuseum1 worldculturemuseum2 worldculturemuseum3");
 
         return values;
@@ -246,17 +277,31 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "DEMO overview"
+                "The art collection is one of the finest in Northern Europe with significant Nordic and international artwork.\n" +
+                        "\n" +
+                        "Among the collections you'll find masterpieces by Albert Edelfelt, Ernst Josephson, P.S. Krøyer, " +
+                        "Carl Larsson, Bruno Liljefors, Edvard Munch, Anders Zorn, Rembrandt, Rubens, Monet, Picasso Chagall " +
+                        "and others. The museum also offers temporary exhibitions, family activities, lectures, workshops, " +
+                        "guided tours and a shop.\n" +
+                        "Gothenburg Museum of Art has three stars in the Michelin Green Guide.\n" +
+                        "On the ground floor you'll find small shop and a café."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "Free admission < 25 years\n" +
-                                   "Adults: 40 SEK annual and valid for some other museums");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("OPENING_HOURS", "Tuseday, Thursday 11.00, Wednesday 11.00-20.00 and Friday-Sunday 11.00-17.00. \n" +
+                "The museum is closed during Christmas Eve, Christmas Day, New Years Eve, New Years Day, Good Friday," +
+                " Easter Eve, May 1, June 6, Midsummer's Eve and Midsummer's Day.");
+        values.put("TICKET_PRICE", "Free admission with Göteborg City Card " +
+                "Free admission < 25 years\n" +
+                "Adults: 40 SEK annual and valid for some other museums");
+        values.put("TRAVEL_INFO", "Stop: Götaplatsen");
+        values.put("CONTACT_INFO", "Phone: +46313683500\n" +
+                "E-mail: info.konstmuseum@kultur.goteborg.se\n" +
+                "Website: http://www.konstmuseum.goteborg.se");
         values.put("ADDRESS", "Götaplatsen 6\n" +
-                            "412 56 Göteborg");
-
-        values.put("MAP", "57.696477 11.980620 MuseumOf Art");
+                "412 56 Göteborg");
+        values.put("EMAIL", "info.konstmuseum@kultur.goteborg.se");
+        values.put("PHONE", "+46313683500");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.696477, 11.980620, MuseumOf, Art");
         values.put("GALLERY", "museumofart1 museumofart2 museumofart3");
 
         return values;
@@ -285,8 +330,10 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken");
         values.put("CONTACT_INFO", "Not Available");
         values.put("ADDRESS", "Gustaf Adolfs torg, 411 10 Göteborg");
-
-        values.put("MAP", "57.707027 11.967122 Gustaf Adlof'sSquare");
+        values.put("EMAIL", "Not Available");
+        values.put("PHONE", "Not Available");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.707027, 11.967122, Gustaf Adlof's, Square");
         values.put("GALLERY", "gustav_adolf_square1 gustav_adolf_square2 gustav_adolf_square3");
 
         return values;
@@ -320,10 +367,12 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken \n" +
                 "Or, You can walk for 6/7 minutes from Centralstation to there.\n\n");
         values.put("TICKET_PRICE", "40 Sek ");
-        values.put("MAP", "57.706328 11.963463 East India_Company");
+        values.put("EMAIL", "stadsmuseum@kultur.goteborg.se");
+        values.put("PHONE", "+46313683600");
+        values.put("NAME", "DEMO Name");
 
+        values.put("MAP", "57.706328, 11.963463, East India, Company");
         values.put("GALLERY", "east_india_company_house1 east_india_company_house2 east_india_company_house3");
-
 
         return values;
     }
@@ -347,7 +396,10 @@ public class StringsUtils {
         values.put("OPENING_HOURS", "NA.\n\n");
         values.put("TRAVEL_INFO", "NA.");
         values.put("TICKET_PRICE", "NA\n\n");
-        values.put("MAP", "57.886635 11.578018 Carlsten Fortress");
+        values.put("EMAIL", "Not Available");
+        values.put("PHONE", "Not Available");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.886635, 11.578018, Carlsten, Fortress");
 
         values.put("GALLERY", "carlstenfort1 carlstenfort2 carlstenfort3");
 
@@ -378,8 +430,46 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "The boat ride takes approximately 30 minutes one way and " +
                 "departs from Lilla Bommen 10.45, 12.00, 13.15, 14.30.");
         values.put("TICKET_PRICE", "200 Sek\n\n");
-        values.put("MAP", "57.685718 11.838562 Alvsborg Castle");
+        values.put("EMAIL", "info@strommaskargardsbatar.se");
+        values.put("PHONE", "+4631609670");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.685718, 11.838562, Alvsborg, Castle");
         values.put("GALLERY", "avsborgcast1 avsborgcast2 avsborgcast3");
+
+        return values;
+    }
+
+    // 5 Skansen Kronan
+    public static HashMap<String, String> getSkansenKronanValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Skansen Kronan is a redoubt built in the later half of the 17th century according to the plans of Erik Dahlberg. " +
+                        "Skansen Kronan was introduced in 1698 and was fitted with 23 guns. The roof was not completed until 1700. " +
+                        "Skansen has 4-5 metre thick walls made of granite, gneiss and diabase. Skansen Kronan was never attacked and " +
+                        "the cannons on the inside have never been used.\n" +
+                        "\n" +
+                        "The fortress - originally built outside the city walls - is today situated in the city centre of Gothenburg " +
+                        "on a hill in the city district of Haga. It was used as a military museum until 2004. Today Skansen Kronan is " +
+                        "a private facility for conferences and private parties."
+        );
+        values.put("OPENING_HOURS", "Opened \n" +
+                "August 11 to October 13  \n" +
+                "Thursdays and Fridays 10.00- 15:00  \n" +
+                "Guided tours during summer in cooperation with Walknet. Large groups can pre-book all year round. " +
+                "Please go to http://www.skansenkronan.se/ for more information.");
+        values.put("TICKET_PRICE", "Free admission ");
+        values.put("TRAVEL_INFO", "Stop: Prinsgatan . Tram 1, 6 and Bus 60");
+        values.put("CONTACT_INFO", "Phone: +46317113033\n" +
+                "E-mail: bokning@skansenkronan.se\n" +
+                "Website: http://www.skansenkronan.se/");
+        values.put("ADDRESS", "Skansberget");
+        values.put("EMAIL", "bokning@skansenkronan.se");
+        values.put("PHONE", "+46317113033");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.696052, 11.955292, Skansen, Kronan");
+        values.put("GALLERY", "skansen_kronan1 skansen_kronan2 skansen_kronan3");
 
         return values;
     }
@@ -431,8 +521,10 @@ public class StringsUtils {
                 "ADDRESS",
                 "Vrango,Göteborg"
         );
-
-        values.put("MAP", "57.570634 11.791026 Vrango Island");
+        values.put("EMAIL", "info@walona.se");
+        values.put("PHONE", "+46317113450");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.570634, 11.791026, Vrango, Island");
         values.put("GALLERY", "vrango1 vrango2 vrango3");
 
 
@@ -484,10 +576,12 @@ public class StringsUtils {
                 "ADDRESS",
                 "Vinga,Göteborg"
         );
+        values.put("EMAIL", "info@walona.se");
+        values.put("PHONE", "+46317113450");
+        values.put("NAME", "DEMO Name");
 
-        values.put("MAP", "57.633008 11.606685 Vinga Island");
+        values.put("MAP", "57.633008, 11.606685, Vinga, Island");
         values.put("GALLERY", "vinga1 vinga2 vinga3");
-
 
         return values;
     }
@@ -539,7 +633,10 @@ public class StringsUtils {
                 "Hono Island, Göteborg"
         );
 
-        values.put("MAP", "57.690350 11.650757 Hono Island");
+        values.put("EMAIL", "info@walona.se");
+        values.put("PHONE", "+46317113450");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.690350, 11.650757, Hono, Island");
         values.put("GALLERY", "hono1 hono2 hono3");
 
 
@@ -591,8 +688,10 @@ public class StringsUtils {
                 "ADDRESS",
                 "Roro Island ,Göteborg"
         );
-
-        values.put("MAP", "57.771577 11.620462 Roro Island");
+        values.put("EMAIL", "info@walona.se");
+        values.put("PHONE", "+46317113450");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.771577, 11.620462, Roro, Island");
         values.put("GALLERY", "roro1 roro2 roro3");
 
 
@@ -644,8 +743,11 @@ public class StringsUtils {
                 "ADDRESS",
                 "Styrso Island, Göteborg"
         );
+        values.put("EMAIL", "info@walona.se");
+        values.put("PHONE", "+46317113450");
+        values.put("NAME", "DEMO Name");
 
-        values.put("MAP", "57.611620 11.785106 Styrso Island");
+        values.put("MAP", "57.611620, 11.785106, Styrso, Island");
         values.put("GALLERY", "styrso1 styrso2 styrso3");
 
 
@@ -668,7 +770,9 @@ public class StringsUtils {
         values.put("OPENING_HOURS", "value");
         values.put("TRAVEL_INFO", "value");
         values.put("TICKET_PRICE", "value");
-
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
         values.put("MAP", "57.705570 11.961317 Fiskekrogen Restaurant");
         values.put("GALLERY", "fiskekrogen1 fiskekrogen2 fiskekrogen3");
 
@@ -716,7 +820,10 @@ public class StringsUtils {
                 "NA"
         );
         values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("MAP", "57.701097 11.973467 Olearys Restaurant");
+        values.put("EMAIL", "avenyn@olearys.se");
+        values.put("PHONE", "+4631 7304900");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.701097, 11.973467, Olearys, Restaurant");
         values.put("GALLERY", "olearys1 olearys2 olearys3");
 
         return values;
@@ -798,7 +905,10 @@ public class StringsUtils {
                         "from central station.\n"
 
         );
-        values.put("MAP", "57.701289 11.974197 HardRock Cafe");
+        values.put("EMAIL", "booking@hardrock.se");
+        values.put("PHONE", "+46(0) 31 10 23 30");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.701289, 11.974197, HardRock, Cafe");
         values.put("GALLERY", "hardrockcafe1 hardrockcafe2 hardrockcafe3");
 
         return values;
@@ -843,7 +953,11 @@ public class StringsUtils {
         );
         values.put("TRAVEL_INFO", "3 min Walking distance from central station.\n  " +
                 "Close to brunnsparken tram stop");
-        values.put("MAP", "57.706980 11.970779 JohnScotts Restaurant");
+        values.put("EMAIL", "palace@johnscotts.se");
+        values.put("PHONE", "031-80 75 50");
+        values.put("NAME", "DEMO Name");
+
+        values.put("MAP", "57.706980, 11.970779, JohnScotts, Restaurant");
         values.put("GALLERY", "johnscott1 johnscott2 johnscott3");
 
         return values;
@@ -893,7 +1007,10 @@ public class StringsUtils {
                 "7(destination:Tynnered),\n " +
                 "3(destination:Marklandsgatan) from central station.");
 
-        values.put("MAP", "57.701262 11.974533 JoeFerellis Restaurant");
+        values.put("EMAIL", "info@joefarelli.com");
+        values.put("PHONE", "+4631105826");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.701262, 11.974533, JoeFerellis, Restaurant");
         values.put("GALLERY", "joefarellis1 joefarellis2 joefarellis3");
 
         return values;
@@ -916,67 +1033,70 @@ public class StringsUtils {
     // SHOPPING CENTRES  START
 
     // 1 Nordstan Shopping Centre
-        public static HashMap<String, String> getNordstanValues() {
-            HashMap<String, String> values = new HashMap<String, String>();
+    public static HashMap<String, String> getNordstanValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
 
-            values.put(
-                    "OVERVIEW",
-                    "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
-                            "The largest collection is in fashion - clothing and shoes." +
-                            "\n" +
-                            "\n" +
-                            "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
-                            "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
-                            "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n" +
-                            "-----If you need assistance finding the right things you can pay the Tourist Centre a visit, " +
-                            "it's located in the centre of Nordstan. Here you get the best Gothenburg tips and get to know " +
-                            "what's going on in Nordstan, because there is always something going on. Fashion shows, " +
-                            "exhibitions, launches, contests and shows can be seen here annually. Around Christmas time and in " +
-                            "the summer the popular handicraft and design market is organized. It's easy and convenient to park in " +
-                            "the Nordstan parking garage, it's always open and has a lot of spaces."
-            );
+        values.put(
+                "OVERVIEW",
+                "In Scandinavia's leading shopping centre are 200 shops offering the latest in all possible areas. " +
+                        "The largest collection is in fashion - clothing and shoes." +
+                        "\n" +
+                        "\n" +
+                        "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
+                        "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
+                        "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n" +
+                        "-----If you need assistance finding the right things you can pay the Tourist Centre a visit, " +
+                        "it's located in the centre of Nordstan. Here you get the best Gothenburg tips and get to know " +
+                        "what's going on in Nordstan, because there is always something going on. Fashion shows, " +
+                        "exhibitions, launches, contests and shows can be seen here annually. Around Christmas time and in " +
+                        "the summer the popular handicraft and design market is organized. It's easy and convenient to park in " +
+                        "the Nordstan parking garage, it's always open and has a lot of spaces."
+        );
 
-            values.put(
-                    "OPENING_HOURS",
-                    "\n" +
-                            "Mon-Fri: 10-20\n" +
-                            "Sat-Sun: 10-18\n\n"
+        values.put(
+                "OPENING_HOURS",
+                "\n" +
+                        "Mon-Fri: 10-20\n" +
+                        "Sat-Sun: 10-18\n\n"
 
-            );
-
-
-            values.put(
-                    "CONTACT_INFO",
-                    "\n" +
-                            "Phone: +46317008660\n" +
-                            "E-mail: info@nordstan.se\n" +
-                            "Website: http://www.nordstan.se\n"
-            );
-
-            values.put(
-                    "ADDRESS",
-                    "\n" +
-                            " Norra Hamngatan\n");
+        );
 
 
-            values.put(
-                    "TRAVEL_INFO",
-                    "\n" +
-                            "Tram Stop: Brunnsparken  \n" +
-                            "Or, walk for 3 minutes from Centralstation.\n\n"
+        values.put(
+                "CONTACT_INFO",
+                "\n" +
+                        "Phone: +46317008660\n" +
+                        "E-mail: info@nordstan.se\n" +
+                        "Website: http://www.nordstan.se\n"
+        );
 
-            );
+        values.put(
+                "ADDRESS",
+                "\n" +
+                        " Norra Hamngatan\n");
 
-            values.put(
-                    "TICKET_PRICE",
-                    "Free Entry!\n" +
-                            "\n"
-            );
-            values.put("MAP", "57.708692 11.969067 Nordstan Shopping_Centre");
-            values.put("GALLERY", "nordstan1 nordstan2 nordstan3");
 
-            return values;
-        }
+        values.put(
+                "TRAVEL_INFO",
+                "\n" +
+                        "Tram Stop: Brunnsparken  \n" +
+                        "Or, walk for 3 minutes from Centralstation.\n\n"
+
+        );
+
+        values.put(
+                "TICKET_PRICE",
+                "Free Entry!\n" +
+                        "\n"
+        );
+        values.put("EMAIL", "info@nordstan.se");
+        values.put("PHONE", "+46317008660");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.708692,11.969067, Nordstan, Shopping Centre");
+        values.put("GALLERY", "nordstan1 nordstan2 nordstan3");
+
+        return values;
+    }
 
     // 2 NORDISKA KOMPANIET(NK) Shopping Centre
     public static HashMap<String, String> getNordiskaValues() {
@@ -1026,10 +1146,13 @@ public class StringsUtils {
 
         values.put(
                 "TICKET_PRICE",
-                "Free Entry!\n" +
-                        "\n"
+                "Free Entry!\n"
+
         );
-        values.put("MAP", "57.706350 11.969555 Nordiska Shopping_Centre");
+        values.put("EMAIL", "servicecenter.gbg@nk.se");
+        values.put("PHONE", "+46317101000");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706350, 11.969555, Nordiska, Shopping Centre");
         values.put("GALLERY", "nordiskakompaniet1 nordiskakompaniet2 nordiskakompaniet3");
 
         return values;
@@ -1085,7 +1208,10 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.652060 11.911981 Frolunda Torg");
+        values.put("EMAIL", "info@frolundatorg.se");
+        values.put("PHONE", "+46317343560");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.652060, 11.911981, Frolunda, Torg");
         values.put("GALLERY", "frolundatorggbg1 frolundatorggbg2 frolundatorggbg3");
 
         return values;
@@ -1143,7 +1269,10 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.706497 11.969985 Arkaden Shopping_Centre");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "+46317434200");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706497, 11.969985, Arkaden, Shopping Centre");
         values.put("GALLERY", "arkaden1 arkaden2 arkaden3");
 
         return values;
@@ -1200,7 +1329,10 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("MAP", "57.688867 12.034804 Delsjon Lake");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "010-224 40 00");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.688867, 12.034804, Delsjon, Lake");
         values.put("GALLERY", "delsjonlake1 delsjonlake2 delsjonlake3");
 
         return values;
@@ -1251,74 +1383,77 @@ public class StringsUtils {
                 "TICKET_PRICE",
                 "Free Entry!\n\n"
         );
-        values.put("MAP", "57.710019 12.053979 Harlanda Tjarn");
+        values.put("EMAIL", "NA");
+        values.put("PHONE", "NA");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.710019, 12.053979, Harlanda, Tjarn");
         values.put("GALLERY", "harlandatjarn1 harlandatjarn2 harlandatjarn3");
 
         return values;
     }
 
-/*
+    /*
 
-    // 3 Aspen Lake
-    public static HashMap<String, String> getAspenValues() {
-        HashMap<String, String> values = new HashMap<String, String>();
+        // 3 Aspen Lake
+        public static HashMap<String, String> getAspenValues() {
+            HashMap<String, String> values = new HashMap<String, String>();
 
-        values.put(
-                "OVERVIEW",
-                "Aspen is a lake of Botkyrka Municipality, Södermanland, Sweden.[1] The lake is crossed by the European " +
-                        "route E4/European route E20 and is located about 20 kilometres southwest of Stockholm, the Swedish " +
-                        "capital. It has an area of 1,847 km².[citation needed]\n" +
-                        "During the Stone Age, Aspen was in the ocean, but was uplifted by the time of the Bronze Age. " +
-                        "Bronze Age settlements grew up around the lake and for some thousand years Iron Age farms were around " +
-                        "the lake. The area developed during this period.[2] A graveyard from that period is preserved in the area.\n" +
-                        "Skrävsta Ekholmen nature reserve is in the vicinity of the lake with about sixty large oak trees, " +
-                        "half of which are centuries old. There are large bats and many other rare animal and plant species. Around the lake is a nature trail at 7½ km length. The path leads through the woods, high above the marsh.\n" +
-                        "Surface elevation: 18 m\n" +
-                        "Area: 1,847 km²\n" +
-                        "Length: 3.5 km\n" +
-                        "Width: 950 m\n" +
-                        "Catchment area: 7.97 km²\n" +
-                        "Shore length: 11.95 km\n"
-        );
+            values.put(
+                    "OVERVIEW",
+                    "Aspen is a lake of Botkyrka Municipality, Södermanland, Sweden.[1] The lake is crossed by the European " +
+                            "route E4/European route E20 and is located about 20 kilometres southwest of Stockholm, the Swedish " +
+                            "capital. It has an area of 1,847 km².[citation needed]\n" +
+                            "During the Stone Age, Aspen was in the ocean, but was uplifted by the time of the Bronze Age. " +
+                            "Bronze Age settlements grew up around the lake and for some thousand years Iron Age farms were around " +
+                            "the lake. The area developed during this period.[2] A graveyard from that period is preserved in the area.\n" +
+                            "Skrävsta Ekholmen nature reserve is in the vicinity of the lake with about sixty large oak trees, " +
+                            "half of which are centuries old. There are large bats and many other rare animal and plant species. Around the lake is a nature trail at 7½ km length. The path leads through the woods, high above the marsh.\n" +
+                            "Surface elevation: 18 m\n" +
+                            "Area: 1,847 km²\n" +
+                            "Length: 3.5 km\n" +
+                            "Width: 950 m\n" +
+                            "Catchment area: 7.97 km²\n" +
+                            "Shore length: 11.95 km\n"
+            );
 
-        values.put(
-                "OPENING_HOURS",
-                "\n" +
-                        "Any time you can visit there.\n\n"
-        );
+            values.put(
+                    "OPENING_HOURS",
+                    "\n" +
+                            "Any time you can visit there.\n\n"
+            );
 
-        values.put(
-                "CONTACT_INFO",
-                "\n" +
-                        "Telephone:0302-711 66\n"
-        );
+            values.put(
+                    "CONTACT_INFO",
+                    "\n" +
+                            "Telephone:0302-711 66\n"
+            );
 
-        values.put(
-                "ADDRESS",
-                "\n" +
-                        "Seglarvägen 25, 443 30 Lerum\n"
-        );
+            values.put(
+                    "ADDRESS",
+                    "\n" +
+                            "Seglarvägen 25, 443 30 Lerum\n"
+            );
 
-        values.put(
-                "TRAVEL_INFO",
-                "\n" +
-                        "By car \n" +
-                        "or by train from Centralstation to Jonsered. " +
-                        "It will take 20 minutes to go there. \n"
+            values.put(
+                    "TRAVEL_INFO",
+                    "\n" +
+                            "By car \n" +
+                            "or by train from Centralstation to Jonsered. " +
+                            "It will take 20 minutes to go there. \n"
 
-        );
+            );
 
-        values.put(
-                "TICKET_PRICE",
-                "Train ticket 40 kr. " +
-                        "Centralstation to Jonsered!\n\n"
-        );
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
-        values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
+            values.put(
+                    "TICKET_PRICE",
+                    "Train ticket 40 kr. " +
+                            "Centralstation to Jonsered!\n\n"
+            );
+            values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+            values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
 
-        return values;
-    }
-*/
+            return values;
+        }
+    */
     //3 Berjson Lake
     public static HashMap<String, String> getBerjsonLakeValues() {
         HashMap<String, String> values = new HashMap<String, String>();
@@ -1333,7 +1468,10 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.748679 12.064137 Berjson Lake");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.748679, 12.064137, Berjson, Lake");
         values.put("GALLERY", "berjsonlake1 berjsonlake2 berjsonlake3");
 
         return values;
@@ -1352,7 +1490,10 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.829139 12.033371 Surtesjon Lake");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.829139, 12.033371, Surtesjon, Lake");
         values.put("GALLERY", "surtesjonlake1 surtesjonlake2 surtesjonlake3");
 
         return values;
@@ -1372,7 +1513,10 @@ public class StringsUtils {
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "DEMO address");
 
-        values.put("MAP", "57.7067050 11.9690680 Brunnsparken citycenter");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.7067050, 11.9690680, Brunnsparken, citycenter");
         values.put("GALLERY", "svartemosselake1 svartemosselake2 svartemosselake3");
 
         return values;
@@ -1396,20 +1540,23 @@ public class StringsUtils {
                         "!!---Please note that the hostel is smoke and pet-free. \t\t \t "
         );
         values.put("OPENING_HOURS", "THE FRONT DESK IS OPEN:\n" +
-                            "Monday - Sunday 8am - 4pm\n" +
-                            "\n" +
-                            "CHECK-IN: 2-4pm.\n" +
-                            "Please contact us for late arrival!\n" +
-                            "CHECK-OUT: before 10:00 am");
+                "Monday - Sunday 8am - 4pm\n" +
+                "\n" +
+                "CHECK-IN: 2-4pm.\n" +
+                "Please contact us for late arrival!\n" +
+                "CHECK-OUT: before 10:00 am");
         values.put("TICKET_PRICE", "Contact VandrarHem");
         values.put("TRAVEL_INFO", "Gothenburg Vandrarhem is located close to the south entrance of Liseberg amusement park. " +
                 "It only takes a few minutes to walk from the Universeum, Scandinavium, Ullevi Stadium and Avenyn.");
-        values.put("CONTACT_INFO", "Telefon +46 (0)31 401050 \t\t\t \t\t\tinfo@goteborgsvandrarhem.se\n" +
-                                    "http://www.goteborgsvandrarhem.se");
+        values.put("CONTACT_INFO", "Telefon +46 (0)31 401050 \t\t\t \t\t\t info@goteborgsvandrarhem.se\n" +
+                "http://www.goteborgsvandrarhem.se");
         values.put("ADDRESS", "Göteborgs vandrarhem\n" +
-                                "Mölndalsvägen 23\n" +
-                                "412 63 Göteborg ");
-        values.put("MAP", "57.689008 11.993930 VandrarHem Hotel");
+                "Mölndalsvägen 23\n" +
+                "412 63 Göteborg ");
+        values.put("EMAIL", "info@goteborgsvandrarhem.se");
+        values.put("PHONE", "+46 (0)31 401050");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.689008, 11.993930, VandrarHem, Hotel");
         values.put("GALLERY", "vandrarhemhotel1 vandrarhemhotel2 vandrarhemhotel3");
 
         return values;
@@ -1431,11 +1578,14 @@ public class StringsUtils {
         values.put("TICKET_PRICE", "Contact Avalon Hotel");
         values.put("TRAVEL_INFO", "Stop: Kungsportsplatsen");
         values.put("CONTACT_INFO", "Phone:031-751 02 00\n" +
-                            "info@avalonhotel.se\n" +
-                            "http://www.avalonhotel.se/en/");
+                "info@avalonhotel.se\n" +
+                "http://www.avalonhotel.se/en/");
         values.put("ADDRESS", "Kungstorget 9, 411 17 Göteborg");
 
-        values.put("MAP", "57.704010 11.968196 Avalon Hotel");
+        values.put("EMAIL", "info@avalonhotel.se");
+        values.put("PHONE", "031-751 02 00");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.704010, 11.968196, Avalon, Hotel");
         values.put("GALLERY", "avalonhotel1 avalonhotel2 avalonhotel3");
 
         return values;
@@ -1447,15 +1597,32 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Values need to be added!!!"
+                "Stay within walking distance of the Opera House and the Gothenburg Museum of Art when you reserve a room at the " +
+                        "Radisson Blu Scandinavia Hotel, Gothenburg. Our position in the city center places guests right across " +
+                        "the street from excellent shopping at Nordstaden Mall and also the train station. In addition to a " +
+                        "prime location, our hotel features sophisticated style with modern amenities. Each of our 349 rooms and " +
+                        "suites includes niceties like a mini bar and Free high-speed, wireless Internet. Order room service or enjoy " +
+                        "an upscale dining experience onsite at Atrium Bar & Restaurant. We also offer access to our fitness center " +
+                        "with a Jacuzzi, sauna, solarium and swimming pool. If you’re in the city for business and need a convenient " +
+                        "meeting venue, choose from 16 aesthetic conference rooms suitable for both corporate and social gatherings.\n"
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time.");
+        values.put("TICKET_PRICE", "Contact Radisson blu.");
+        values.put("TRAVEL_INFO", "Stop: Centralstation or Nordstan. A 2-minute walk from the nearest tram stop.");
+        values.put("CONTACT_INFO", "Tel: +46 31 758 5000\n" +
+                "Fax: +46 31 758 5001\n" +
+                "https://www.radissonblu.com/en/hotel-gothenburg\n" +
+                "Email: info.scandinavia.gothenburg@radissonblu.com\n" +
+                "Email: reservations.scandinavia.gothenburg@radissonblu.com");
+        values.put("ADDRESS", "Södra Hamngatan 59\n" +
+                "P.O. Box 288\n" +
+                "S-401 24 Göteborg, Sweden");
 
-        values.put("MAP", "57.706853 11.972809 RadissonBlue Hotel");
+        values.put("EMAIL", "Email: info.scandinavia.gothenburg@radissonblu.com \n" +
+                "Email: reservations.scandinavia.gothenburg@radissonblu.com");
+        values.put("PHONE", "+46 31 758 5000");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706853, 11.972809, RadissonBlue, Hotel");
         values.put("GALLERY", "radissonbluehotel1 radissonbluehotel2 radissonbluehotel3");
 
         return values;
@@ -1480,12 +1647,15 @@ public class StringsUtils {
                 "Parking 150 SEK/Night");
         values.put("TRAVEL_INFO", "Stop: Brunnsparken");
         values.put("CONTACT_INFO", "Phone: +46317116220\n" +
-                            "E-mail: info@hotelvanilla.se\n" +
-                            "Website: http://www.hotelvanilla.se");
+                "E-mail: info@hotelvanilla.se\n" +
+                "Website: http://www.hotelvanilla.se");
         values.put("ADDRESS", "Hotel Vanilla\n" +
-                            "Kyrkogatan 38\n" +
-                            "411 15 Göteborg");
-        values.put("MAP", "57.705172 11.966919 Vanila Hotel");
+                "Kyrkogatan 38\n" +
+                "411 15 Göteborg");
+        values.put("EMAIL", "info@hotelvanilla.se");
+        values.put("PHONE", "+46317116220");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.705172, 11.966919, Vanila, Hotel");
         values.put("GALLERY", "vanilahotel1 vanilahotel2 vanilahotel3");
 
         return values;
@@ -1498,15 +1668,33 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Values need to be added!!!"
+                "Stay just steps away from the central station, right in the heart of the urban vibe and next door to the shopping streets. " +
+                        "HAK restaurant and bar lives and breathes creativity, where live music and photo exhibitions blend with great people" +
+                        " to create a wonderful entertainment venue.\n" +
+                        "HAK restaurant and bar sets the tone for our hotel, with its welcoming hotel bar, social " +
+                        "gatherings, art exhibitions and delicious, imaginative menu. Come and dine here, or hang out at our bar. " +
+                        "The next day you can swim a few laps in our pool, work out in our gym or relax in our sauna before you head out " +
+                        "into town. You can also break free from the monotony of everyday life by booking a conference in one of our " +
+                        "12 meeting rooms. We'll add an element of surprise with a delicious coffee break, lunch or perhaps dinner to " +
+                        "round it all off.\n" +
+                        "Scandic Europa is within walking distance of the vibrant shopping hub in Nordstan, as well as the quieter cobbled " +
+                        "streets with cafés and exclusive shops. Outside our hotel, you can take tram 5 straight to Gothenburg's most " +
+                        "entertaining district with Liseberg amusement park, Universum science centre and Museum of World Culture all on " +
+                        "the same street. If you still have energy to spare, Avenyn is just 10 minutes from our hotel with shops, cafés and " +
+                        "restaurants and the majority of Gothenburg's nightlife. When it’s time to travel, central station is right opposite " +
+                        "our hotel, where you’ll find the airport shuttle to Landvetter Airport."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time.");
+        values.put("TICKET_PRICE", "Contact Scandic Europa.");
+        values.put("TRAVEL_INFO", "Stop: Centralstation or Nordstan. A 2-minute walk from the nearest tram stop.");
+        values.put("CONTACT_INFO", "+46 31 7516500\n" +
+                "https://www.scandichotels.com/hotels/sweden/gothenburg/scandic-europa");
+        values.put("ADDRESS", "Nils Ericsonsgatan 21\n" + "Göteborg");
 
-        values.put("MAP", "57.708104 11.970235 ScandicEuropa Hotel");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "+46 31 7516500");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.708104, 11.970235, ScandicEuropa, Hotel");
         values.put("GALLERY", "scandiceuropahotel1 scandiceuropahotel2 scandiceuropahotel3");
 
         return values;
@@ -1527,21 +1715,23 @@ public class StringsUtils {
                         "- - - Inside garden there a a restaurant. You can have your lunch there. "
         );
         values.put("OPENING_HOURS", "The garden is open daily from 09.00-21.00 and the greenhouses are open daily in May-August 10.00-17.00, the rest of the year 10.00-16.00.\n" +
-                            "GÖTEBORG CITY CARD\n" +
-                            "Göteborg City Card gives you 1 free admission to the greenhouses.");
+                "GÖTEBORG CITY CARD\n" +
+                "Göteborg City Card gives you 1 free admission to the greenhouses.");
         values.put("TICKET_PRICE", "Free Entry / maybe 20 Sek");
         values.put("TRAVEL_INFO", "Stop: Botaniska Trädgården\n" +
-                            "By Tram:From Centralstation by Tram 1, 2, 7 to Botaniska Trädgården stop. " +
-                            "It will take arround 13-17 minutes!");
+                "By Tram:From Centralstation by Tram 1, 2, 7 to Botaniska Trädgården stop. " +
+                "It will take arround 13-17 minutes!");
         values.put("CONTACT_INFO", "Address: Carl Skottbergs Gata 22A\n" +
-                            "Stop: Botaniska Trädgården\n" +
-                            "Phone: +46317411101\n" +
-                            "E-mail: botaniska.tradgarden@vgregion.se\n" +
-                            "Website: http://www.botaniska.se/");
+                "Stop: Botaniska Trädgården\n" +
+                "Phone: +46317411101\n" +
+                "E-mail: botaniska.tradgarden@vgregion.se\n" +
+                "Website: http://www.botaniska.se/");
         values.put("ADDRESS", "Address: Carl Skottbergs Gata 22A\n" +
-                            "Stop: Botaniska Trädgården");
-
-        values.put("MAP", "57.682979 11.950089 Botanical Garden");
+                "Stop: Botaniska Trädgården");
+        values.put("EMAIL", "botaniska.tradgarden@vgregion.se");
+        values.put("PHONE", "+46317411101");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.682979, 11.950089, Botanical, Garden");
         values.put("GALLERY", "botanicalgarden1 botanicalgarden2 botanicalgarden3");
 
         return values;
@@ -1564,26 +1754,130 @@ public class StringsUtils {
                         "!---The Garden Society of Gothenburg also has a popular playground."
         );
         values.put("OPENING_HOURS", "Parken är öppen (dagligen):\n" +
-                            "Maj-september: 07.00-20.00\n" +
-                            "Oktober-april: 07.00-18.00\n" +
-                            "Palmhuset är öppet (dagligen):\n" +
-                            "Juni-augusti: 10.00-20.00\n" +
-                            "September-maj: 10.00-16.00");
+                "Maj-september: 07.00-20.00\n" +
+                "Oktober-april: 07.00-18.00\n" +
+                "Palmhuset är öppet (dagligen):\n" +
+                "Juni-augusti: 10.00-20.00\n" +
+                "September-maj: 10.00-16.00");
         values.put("TICKET_PRICE", "Free Entry to  parken och Palmhuset.");
         values.put("TRAVEL_INFO", "Stop: Centralstationen or Kungsportsplatsen");
         values.put("CONTACT_INFO", "Address: Södra vägen\n" +
-                            "Stop: Kungsportsplatsen\n" +
-                            "Phone: +46313655858\n" +
-                            "E-mail: tradgardsforeningen@ponf.goteborg.se" +
-                            "Website: http://www.tradgardsforeningen.se");
+                "Stop: Kungsportsplatsen\n" +
+                "Phone: +46313655858\n" +
+                "E-mail: tradgardsforeningen@ponf.goteborg.se" +
+                "Website: http://www.tradgardsforeningen.se");
         values.put("ADDRESS", "Address: Södra vägen");
-
-        values.put("MAP", "57.706395 11.976134 Tradgards foreningen");
+        values.put("EMAIL", "tradgardsforeningen@ponf.goteborg.se");
+        values.put("PHONE", "+46313655858");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706395, 11.976134, Tradgards, foreningen");
         values.put("GALLERY", "tradgardsforeningen1 tradgardsforeningen2 tradgardsforeningen3");
 
         return values;
     }
-    // Graden END  TEST ADD
+    // Graden END
+
+
+    // Park START
+    // 1 Lisaberg Park
+    public static HashMap<String, String> getLisabergParkValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Liseberg is an amusement park located in Gothenburg, Sweden, that opened in 1923. It is one of the most visited" +
+                        " amusement parks in Scandinavia, attracting about three million visitors annually. Among the noteworthy " +
+                        "attractions is the wooden roller coaster Balder, twice (2003 and 2005) voted as the Best Wooden Tracked Roller " +
+                        "Coaster in the world in a major international poll.[1] The park itself has also been chosen as one of the top ten" +
+                        " amusement parks in the world (2005) by Forbes magazine.\n" +
+                        "\n\n" +
+                        "Additional to the summer season, the park is also open during November and December, albeit with fewer rides " +
+                        "operating, hosting a Halloween season with various house of horros and a Christmas market with traditional Swedish " +
+                        "cuisine such as mulled wine and specialties such as döner kebab made from reindeer meat.\n" +
+                        "The official colors of Liseberg are pink and green as can be seen on the entrance and the older houses in the park, " +
+                        "the colors were also adopted for the logo, which was introduced in the 1980s, but changed in 2013 to the current logo."
+        );
+        values.put("OPENING_HOURS", "PREMIERE DATE:\n" +
+                "Summer season April 23, October 21 Halloween and Christmas at Liseberg 18 November.\n" +
+                "Mon-Fri: 11-23 Sun: 11-22");
+        values.put("TICKET_PRICE", "Entry: 95 Sek, It has different offers for the rides.");
+        values.put("TRAVEL_INFO", "Stop: Liseberg Or Korsvagen ");
+        values.put("CONTACT_INFO", "Phone: +46 31-400 100\n" +
+                "E-mail: kontakt@liseberg.se\n" +
+                "http://www.liseberg.com/en/home/");
+        values.put("ADDRESS", "Address: Orgrytevägen 5, 402 22 Gothenberg");
+        values.put("EMAIL", "kontakt@liseberg.se");
+        values.put("PHONE", "+46 31-400 100");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.695541, 11.991520, Lisaberg, Park");
+        values.put("GALLERY", "liseberg1 liseberg2 liseberg3");
+
+        return values;
+    }
+
+
+    // 2 Slotsskogen Park
+    public static HashMap<String, String> getSlotsskogenParkValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "A large park and recreation area in the city. This is Gothenburg's main park. See elks, Gotland ponies, " +
+                        "Gute sheep and other Nordic animals in the park zoo. In the summer, there is a petting zoo with piglets and " +
+                        "kid goats. Don't miss feeding time for the seals and penguins.\n" +
+                        "\n" +
+                        "Much of the park is given over to natural parkland with native trees such as linden, beech, maple and various " +
+                        "species of oak. The Dawn Redwood and stately Serbian spruce are a few examples of the more exotic plants on display. " +
+                        "The azaleas are not native but have become famous in Slottskogen. The petting zoo and pony rides are open from April " +
+                        "to September. The large playground Plikta is a favourite for families with children and reason enough for a daytrip. " +
+                        "The facilities includes a 15-metre whale to climb on and scheduled activities take place in the park on certain hours.\n"
+        );
+        values.put("OPENING_HOURS", "Any Time");
+        values.put("TICKET_PRICE", "Free entry");
+        values.put("TRAVEL_INFO", "Stop: Linnéplatsen");
+        values.put("CONTACT_INFO", "Phone: +46313655823\n" +
+                "E-mail: parkonatur@ponf.goteborg.se\n" +
+                "Website: http://www.goteborg.se/slottsskogen");
+        values.put("ADDRESS", "Address: Slottsskogen");
+        values.put("EMAIL", "parkonatur@ponf.goteborg.se");
+        values.put("PHONE", "+46313655823");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.685893, 11.948587, Slotsskogen, Park");
+        values.put("GALLERY", "slotss slottsskogen2 slottsskogen3");
+
+        return values;
+    }
+
+
+    // 3 LindholmenPark
+    public static HashMap<String, String> getLindholmenParkValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "Lindholmen Science Park is an international collaborative environment for research, innovation and education within the areas Transport, ICT and Media.\n" +
+                        "Lindholmen Science Park offers a neutral development environment where industry, academy and public sector can run research and development projects. For almost 15 years we have been creating successful collaborations and innovations. \n" +
+                        "Open Arena Lindholmen is an environment and our concept of running collaborative projects. People working within Lindholmen Science Park's focus areas meet at Open Arena. There are scientists, project managers, business managers, vehicle specialists, EU experts, students, designers, artists, specialist, entrepreneurs and politicians. \n" +
+                        "Lindholmen is Gothenburg's most knowledge-intensive and growing area. Today 21 000 people work, study or live at Lindholmen. Our vision is that the figure shall be 30 000 people by 2020.\n"
+        );
+        values.put("OPENING_HOURS", "You can visit outside anytime!");
+        values.put("TICKET_PRICE", "NA");
+        values.put("TRAVEL_INFO", "Stop: Lindholmen");
+        values.put("CONTACT_INFO", "Lindholmen Science Park AB\n" +
+                "Phone: +46 (0)31-764 70 00\n" +
+                "Fax: +46 (0)31-764 70 49\n" +
+                "Email: info@lindholmen.se");
+        values.put("ADDRESS", "Lindholmspiren 5, 417 56 Gothenberg");
+        values.put("EMAIL", "info@lindholmen.se");
+        values.put("PHONE", "+46 (0)31-764 70 00");
+        values.put("NAME", "DEMO Name");
+        values.put("MAP", "57.706830, 11.935716, Lindholmen, Park");
+        values.put("GALLERY", "lindholmen1 lindholmen2 lindholmen3");
+
+        return values;
+    }
+
+    // Park END ABCD ADDED !!
 
 }
 

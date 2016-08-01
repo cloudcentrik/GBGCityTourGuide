@@ -19,16 +19,28 @@ public class BaseDetailInfoFragment extends Fragment {
     private String ticketPrice;
     private String travelInfo;
 
+    private String address;
+    private String email;
+    private String phone;
+
     private TextView textOpeningHours;
     private TextView textTicketPrice;
     private TextView textTravelInfo;
 
-    public static BaseDetailInfoFragment newInstance(String openingHours,String ticketPrice,String travelInfo) {
+    private TextView textAddress;
+    private TextView textEmail;
+    private TextView textPhone;
+
+    public static BaseDetailInfoFragment newInstance(String openingHours,String ticketPrice,
+                                                     String travelInfo, String address, String email, String phone) {
         BaseDetailInfoFragment fragment = new BaseDetailInfoFragment();
         Bundle args = new Bundle();
         args.putString("OPENING_HOURS",openingHours);
         args.putString("TICKET_PRICE",ticketPrice);
         args.putString("TRAVEL_INFO",travelInfo);
+        args.putString("ADDRESS",address);
+        args.putString("EMAIL",email);
+        args.putString("PHONE",phone);
         fragment.setArguments(args);
         return fragment;
     }
@@ -42,6 +54,9 @@ public class BaseDetailInfoFragment extends Fragment {
         this.openingHours = getArguments().getString("OPENING_HOURS", "");
         this.ticketPrice = getArguments().getString("TICKET_PRICE", "");
         this.travelInfo = getArguments().getString("TRAVEL_INFO", "");
+        this.address = getArguments().getString("ADDRESS", "");
+        this.email = getArguments().getString("EMAIL", "");
+        this.phone = getArguments().getString("PHONE", "");
 
         textOpeningHours = (TextView) rootView.findViewById(R.id.txtStadMuseumOpeningHours);
 
@@ -50,6 +65,10 @@ public class BaseDetailInfoFragment extends Fragment {
 
 
         textTravelInfo = (TextView) rootView.findViewById(R.id.txtStadMuseumTravelInfo);
+
+        textAddress = (TextView) rootView.findViewById(R.id.txtAddress);
+        textEmail = (TextView) rootView.findViewById(R.id.txtEmail);
+        textPhone = (TextView) rootView.findViewById(R.id.txtPhone);
 
         this.setTextDetailsInfo();
 
@@ -64,5 +83,9 @@ public class BaseDetailInfoFragment extends Fragment {
                 textOpeningHours.setText(this.openingHours);
                 textTicketPrice.setText(this.ticketPrice);
                 textTravelInfo.setText(this.travelInfo);
+                textAddress.setText(this.address);
+                textEmail.setText(this.email);
+                textPhone.setText(this.phone);
+
     }
 }

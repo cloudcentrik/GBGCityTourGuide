@@ -18,6 +18,9 @@ public class BaseTabsPagerAdapter extends FragmentStatePagerAdapter {
     private String travelInfo;
 
     private String address;
+    private String email;
+    private String phone;
+
     private String contactInfo;
     private String mapId;
 
@@ -34,6 +37,9 @@ public class BaseTabsPagerAdapter extends FragmentStatePagerAdapter {
         this.travelInfo=values.get("TRAVEL_INFO");
 
         this.address=values.get("ADDRESS");
+        this.email=values.get("EMAIL");
+        this.phone=values.get("PHONE");
+
         this.contactInfo=values.get("CONTACT_INFO");
         this.mapId=values.get("MAP");
 
@@ -50,7 +56,7 @@ public class BaseTabsPagerAdapter extends FragmentStatePagerAdapter {
                 BaseOverviewFragment tab1 = BaseOverviewFragment.newInstance(this.overView);
                 return tab1;
             case 1:
-                BaseDetailInfoFragment tab2 = BaseDetailInfoFragment.newInstance(this.openingHours,this.ticketPrice,this.travelInfo);
+                BaseDetailInfoFragment tab2 = BaseDetailInfoFragment.newInstance(this.openingHours,this.ticketPrice,this.travelInfo, this.address, this.email, this.phone);
                 return tab2;
             case 2:
                 //BaseVisitFragment tab3 = BaseVisitFragment.newInstance(this.address,this.contactInfo,this.mapId);

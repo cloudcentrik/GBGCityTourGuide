@@ -72,10 +72,12 @@ public class BaseMapFragment extends Fragment{
         mapController.setZoom(15);
 
         this.mapInfo = getArguments().getString("MAP", "");
-        String mapDetails[]= TextUtils.split(this.mapInfo," ");
+        String mapDetails[]= TextUtils.split(this.mapInfo,",");
 
         Double lad=Double.parseDouble(mapDetails[0]); //lad
         Double lan=Double.parseDouble(mapDetails[1]);
+
+
 
         GeoPoint startPoint = new GeoPoint(lad,lan);
         mapController.setCenter(startPoint);
