@@ -9,18 +9,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class AirportTransportActivity extends BaseActivity {
+public class AirportTransportActivity extends AppCompatActivity {
 
-    public AirportTransportActivity(){
-        super("AirportTransportActivity",R.layout.base_layout, StringsUtils.getAirportTransportValues());
-    }
-
-}
-
-
-
-
- /*   @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_airport_transport);
@@ -31,7 +22,7 @@ public class AirportTransportActivity extends BaseActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Info Center");
+        topToolBar.setTitle("Airport Transport");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -41,9 +32,6 @@ public class AirportTransportActivity extends BaseActivity {
                 onBackPressed();
             }
         });
-
-
-
 
     }
 
@@ -91,4 +79,3 @@ public class AirportTransportActivity extends BaseActivity {
         }
     }
 }
-*/
