@@ -1887,6 +1887,78 @@ public class StringsUtils {
 
     // Park END TEST
 
+    // Travel Info START
+    // 1 Airport Transport
+    public static HashMap<String, String> getAirportTransportValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+
+        values.put("MAP", "57.7067050,11.9690680,Brunnsparken,city center");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    // 2 PublicTransport
+    public static HashMap<String, String> getPublicTransportValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+
+        values.put("MAP", "57.7067050,11.9690680,Brunnsparken,city center");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+    // 3 TaxiActivity
+    public static HashMap<String, String> getTaxiActivityValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "DEMO overview"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+
+        values.put("MAP", "57.7067050,11.9690680,Brunnsparken,city center");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
+
+
 }
 
 

@@ -12,7 +12,7 @@ import android.view.View;
 public class TaxiActivity extends BaseActivity {
 
     public TaxiActivity(){
-        super("TaxiActivity",R.layout.base_layout, StringsUtils.getTemValues());
+        super("TaxiActivity",R.layout.base_layout, StringsUtils.getTaxiActivityValues());
     }
 
 }

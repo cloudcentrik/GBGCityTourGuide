@@ -12,7 +12,7 @@ import android.widget.Button;
 public class AirportTransportActivity extends BaseActivity {
 
     public AirportTransportActivity(){
-        super("AirportTransportActivity",R.layout.base_layout, StringsUtils.getTemValues());
+        super("AirportTransportActivity",R.layout.base_layout, StringsUtils.getAirportTransportValues());
     }
 
 }

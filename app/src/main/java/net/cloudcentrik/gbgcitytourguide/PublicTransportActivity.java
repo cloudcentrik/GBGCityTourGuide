@@ -12,7 +12,7 @@ import android.widget.Button;
 public class PublicTransportActivity extends BaseActivity {
 
     public PublicTransportActivity(){
-        super("PublicTransportActivity",R.layout.base_layout, StringsUtils.getTemValues());
+        super("PublicTransportActivity",R.layout.base_layout, StringsUtils.getPublicTransportValues());
     }
 
 }
