@@ -514,7 +514,7 @@ public class StringsUtils {
         );
         values.put(
                 "OPENING_HOURS",
-                "NA"
+                "Any Time!"
         );
 
         values.put(
@@ -736,7 +736,7 @@ public class StringsUtils {
         );
         values.put(
                 "OPENING_HOURS",
-                "NA"
+                "Any Time!"
         );
 
         values.put(
@@ -1319,7 +1319,7 @@ public class StringsUtils {
                 "TRAVEL_INFO",
                 "\n" +
                         "Tram Stop: Töpelsgatan \n" +
-                        "From tram stop you have to walk about 2o minutes to Delsjön\n"+
+                        "From tram stop you have to walk about 20 minutes to Delsjön\n"+
                         "Take Tram 5 from Brunnsparken stop to Ästra kjuhuset direction \n"
 
         );
@@ -1329,7 +1329,7 @@ public class StringsUtils {
                 "Free Entry!\n" +
                         "\n"
         );
-        values.put("EMAIL", "DEMO email");
+        values.put("EMAIL", "Not Available!");
         values.put("PHONE", "010-224 40 00");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.688867, 12.034804, Delsjon, Lake");
@@ -1361,8 +1361,7 @@ public class StringsUtils {
         values.put(
                 "CONTACT_INFO",
                 "\n" +
-                        "NA\n"
-        );
+                        "Not Available!");
 
         values.put(
                 "ADDRESS",
@@ -1383,8 +1382,9 @@ public class StringsUtils {
                 "TICKET_PRICE",
                 "Free Entry!\n\n"
         );
-        values.put("EMAIL", "NA");
-        values.put("PHONE", "NA");
+        values.put("EMAIL", "Not Available!");
+        values.put("PHONE", "Not Available!" +
+                "You may contact Information Centre!!");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.710019, 12.053979, Harlanda, Tjarn");
         values.put("GALLERY", "harlandatjarn1 harlandatjarn2 harlandatjarn3");
@@ -1460,16 +1460,18 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Update Values"
+                "A beautiful lake area north-east of the city centre.Bergsjön is a forest lake with nice rocks, " +
+                        "bathing platforms and a diving tower. "
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time you can visit there.");
+        values.put("TICKET_PRICE", "Free Entry!");
+        values.put("TRAVEL_INFO", "Stop: Atmosfärgatan");
+        values.put("CONTACT_INFO", "Not Available!");
+        values.put("ADDRESS", "Atmosfärgatan 15");
 
-        values.put("EMAIL", "DEMO email");
-        values.put("PHONE", "DEMO phone");
+        values.put("EMAIL", "Not Available!");
+        values.put("PHONE", "Not Available!" +
+                "You may contact Information Centre!!");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.748679, 12.064137, Berjson, Lake");
         values.put("GALLERY", "berjsonlake1 berjsonlake2 berjsonlake3");
@@ -1482,16 +1484,20 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Update Values"
+                "A relatively large lake with two swimming areas. Included in Vättlefjälls nature reserve with sandy beaches, " +
+                        "rocky beaches, flat lawns and barbecue. Take a walk around the lake and experience the wilderness just " +
+                        "around town. Here you can also rent a canoe. From June 4 to August 31 are bathing hosts at Surtesjön.Equipment: " +
+                        "Jetty, barbecue. Two outdoor toilets open from 15 May to 15 September. Nearest stop: Persiljegatan. " +
+                        "From the bus stop is 515 meters to the swimming area."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time you can visit there.");
+        values.put("TICKET_PRICE", "Free Entry!");
+        values.put("TRAVEL_INFO", "Stop: Persiljegatan");
+        values.put("CONTACT_INFO", "031-365 00 00");
+        values.put("ADDRESS", "Persiljegatan");
 
-        values.put("EMAIL", "DEMO email");
-        values.put("PHONE", "DEMO phone");
+        values.put("EMAIL", "Not Available!");
+        values.put("PHONE", "(+46)31 365 00 00");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.829139, 12.033371, Surtesjon, Lake");
         values.put("GALLERY", "surtesjonlake1 surtesjonlake2 surtesjonlake3");
@@ -1505,16 +1511,18 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Update Values"
+                "Svarte Mosse naturområde ligger i Biskopsgården, på Hisingen. Här finns hällmarker, kärr och tjärnar." +
+                        " Det är ett rekreationsområde med löpspår och naturstigar. Här finns många skyddsvärda arter samt " +
+                        "Stora Vette fornborg från år 500. Svarte Mosse, vattenområdet som gett namn till området, är en välbesökt fågellokal."
         );
-        values.put("OPENING_HOURS", "DEMO opening hours");
-        values.put("TICKET_PRICE", "DEMO ticket price");
-        values.put("TRAVEL_INFO", "DEMO travel information");
-        values.put("CONTACT_INFO", "DEMO contact information");
-        values.put("ADDRESS", "DEMO address");
+        values.put("OPENING_HOURS", "Any time you can visit there.");
+        values.put("TICKET_PRICE", "Free Entry!");
+        values.put("TRAVEL_INFO", "Stop: Temperaturgatan, Väderilsgatan.");
+        values.put("CONTACT_INFO", "(+46) 31 365 00 00");
+        values.put("ADDRESS", "Temperaturgatan, Väderilsgatan.");
 
-        values.put("EMAIL", "DEMO email");
-        values.put("PHONE", "DEMO phone");
+        values.put("EMAIL", "Not Available!");
+        values.put("PHONE", "(+46) 31 365 00 00");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.7067050, 11.9690680, Brunnsparken, citycenter");
         values.put("GALLERY", "svartemosselake1 svartemosselake2 svartemosselake3");
@@ -1870,15 +1878,14 @@ public class StringsUtils {
         values.put("ADDRESS", "Lindholmspiren 5, 417 56 Gothenberg");
         values.put("EMAIL", "info@lindholmen.se");
         values.put("PHONE", "+46 (0)31-764 70 00");
-        values.put("NAME", "DEMO Name");
+        values.put("NAME", "LindholmenPark");
         values.put("MAP", "57.706830, 11.935716, Lindholmen, Park");
         values.put("GALLERY", "lindholmen1 lindholmen2 lindholmen3");
 
         return values;
     }
 
-    // Park END ABCD ADDED !!
-    // ADDED MORE
+    // Park END
 
 }
 
