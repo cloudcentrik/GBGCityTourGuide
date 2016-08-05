@@ -4,75 +4,226 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="match_parent"
-    android:background="@color/window_background"
+    android:background="#eceff1"
     tools:context=".MainActivity">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:background="@color/my_primary"
-        android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_below="@+id/toolbar"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="75dp">
+        android:background="#eceff1"
+        android:gravity="top">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:background="@color/my_primary"
+            android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
-        <TextView
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:drawablePadding="8dp"
-            android:text="Tourist Information Center"
-            style="@style/infocenter_heading_text"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="5dp"
-            android:text="Description"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
-            android:textSize="12dp"
-            />
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_info_outline_black_18dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Tourist Center"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The tourist centres at Kungsportsplatsen is open almost every day of the year. Book accommodation or tours with authourised guides, buy your City Card or find cool souvenirs."
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            style="@style/fragement_heading_text"
-            android:text="Contact"
-            />
+            </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="Email:info@gbg.se"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:textSize="12dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Opening Hours"
-            style="@style/fragement_heading_text"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Man-Fri 11:00-16:00"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_place_black_18dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Address"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kungsportsplatsen 2, Göteborg."
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_mail_outline_black_18dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Email"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="turistinfo@goteborg.com"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_phone_black_18dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Phone"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+46313684200"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_access_time_black_18dp"
+                android:paddingLeft="20dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Opening Hours"
+                    android:textColor="@color/black"
+                    android:layout_gravity="center"
+                    android:textSize="20dp"
+                    android:textStyle="normal"
+                    android:typeface="sans"
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/txtStadMuseumOpeningHours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Monday - Friday: 09.30 - 17.00. Saturday: 10.00 - 14.00."
+                    android:paddingLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#757575"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
 
     </LinearLayout>
 
