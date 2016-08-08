@@ -766,14 +766,20 @@ public class StringsUtils {
         );
         values.put("ADDRESS", "Lilla torget 1\n" +
                 "411 18 Göteborg");
-        values.put("CONTACT_INFO", "value");
-        values.put("OPENING_HOURS", "value");
-        values.put("TRAVEL_INFO", "value");
-        values.put("TICKET_PRICE", "value");
-        values.put("EMAIL", "DEMO email");
-        values.put("PHONE", "DEMO phone");
-        values.put("NAME", "DEMO Name");
-        values.put("MAP", "57.705570 11.961317 Fiskekrogen Restaurant");
+        values.put("CONTACT_INFO", "Lilla torget 1, 411 18 Göteborg\n" +
+                "Telefon: 031-10 10 05\n" +
+                "E-post: info@fiskekrogen.se");
+        values.put("OPENING_HOURS", "Mon-Thu: 17.30-22.00\n" +
+                "Fri:            17.00-0100\n" +
+                "Sat:           12.00-02.00\n" +
+                "Sun:          Closed");
+        values.put("TRAVEL_INFO", "Take trum no 11 and 9(destination-saltholmen). Stopp: Domkyrkan.\n" +
+                "We can strongly recommend Taxi Göteborg that will take you here or home after your visit, you can reach them on +46(0)31-650 000");
+        values.put("TICKET_PRICE", "Not Aplicable");
+        values.put("EMAIL", "info@fiskekrogen.se");
+        values.put("PHONE", "(+46)031-10 10 05");
+        values.put("NAME", "Fiskekrogen");
+        values.put("MAP", "57.705570, 11.961317, Fiskekrogen, Restaurant");
         values.put("GALLERY", "fiskekrogen1 fiskekrogen2 fiskekrogen3");
 
         return values;
@@ -954,7 +960,7 @@ public class StringsUtils {
         values.put("TRAVEL_INFO", "3 min Walking distance from central station.\n  " +
                 "Close to brunnsparken tram stop");
         values.put("EMAIL", "palace@johnscotts.se");
-        values.put("PHONE", "031-80 75 50");
+        values.put("PHONE", "031-80 75 50*");
         values.put("NAME", "DEMO Name");
 
         values.put("MAP", "57.706980, 11.970779, JohnScotts, Restaurant");
