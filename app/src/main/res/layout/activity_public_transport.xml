@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
-    android:layout_height="match_parent"
-    android:background="@color/window_background"
-    tools:context=".MainActivity">
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#eceff1"
+    android:fillViewport="false"
+    android:orientation="vertical"
+    android:padding="10dp">-->
 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eceff1"
+    android:gravity="top"
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -16,248 +22,285 @@
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar">
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#eceff1"
+        android:fillViewport="false"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_below="@+id/toolbar"
-            android:layout_marginLeft="16dp"
-            android:layout_marginTop="75dp">
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_margin="0dp"
+            android:gravity="top"
+            >
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:drawablePadding="8dp"
-                android:text="Buss"
-                style="@style/infocenter_heading_text"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="Description"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000"
-                android:textSize="12dp"
-                />
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                style="@style/fragement_heading_text"
-                android:text="Time"
-                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_directions_bus_black_18dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Airport Coaches/flygbussarna"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtStadMuseumTravelInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="The Airport Coaches offers transfer between the Göteborg Landvetter Airport and Gothenburg with departures up to every fifteen minutes."
+                        android:textColor="#757575" />
+
+                    <ImageView
+                        android:layout_width="226dp"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="20dp"
+                        android:src="@drawable/flygbussarna" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="Email:info@gbg.se"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="12dp"
-                />
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_euro_symbol_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Ticket Price"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtStadMuseumTicketPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="The most convenient ways are to buy your ticket directly on the internet in our webshop. You can also buy tickets at Cityterminalen, the airport, at resellers or on board with a charge card.
+                    Adult 99 SEK (One way), 185 Sek (return); Youth: 79 Sek "
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_access_time_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Stops"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtStadMuseumOpeningHours"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Landvetter-Göteborg Nils Ericson Terminalen Kungsportsplatsen Berzeliigatan Korsvägen / Svenska Mässan Göteborg Landvetter Airport"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_place_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Web Address"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="https://www.flygbussarna.se/en/landvetter"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
 
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Info"
-                style="@style/fragement_heading_text"
-                android:autoText="false" />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:drawablePadding="8dp"
-                android:text="Taxi"
-                style="@style/infocenter_heading_text"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="Description"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000"
-                android:textSize="12dp"
-                />
+            </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                style="@style/fragement_heading_text"
-                android:text="Taxi1"
-                />
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="++++++++"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="12dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Price"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Info"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                style="@style/fragement_heading_text"
-                android:text="Mini Taxi"
-                />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_phone_black_18dp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="++++++++"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="12dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Price"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Info"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:drawablePadding="8dp"
-                android:paddingTop="10dp"
-                android:text="Boat/Ferry"
-                style="@style/infocenter_heading_text"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="5dp"
-                android:text="Description"
-                android:layout_gravity="center_horizontal"
-                android:textColor="#000000"
-                android:textSize="12dp"
-                />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                style="@style/fragement_heading_text"
-                android:text="Time"
-                />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Phone"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
 
-            <TextView
-                android:layout_width="wrap_content"
+                    <TextView
+                        android:id="@+id/txtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="0771- 51 52 52"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:layout_marginTop="10dp"
-                android:text="Email:info@gbg.se"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"
-                android:textSize="12dp"
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Tickit Price"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Contact Info"
-                style="@style/fragement_heading_text"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:text="Man-Fri 11:00-16:00"
-                android:layout_gravity="center_horizontal"
-                android:textColor="@color/black"/>
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_mail_outline_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="info@flygbussarna.se"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
 
 
         </LinearLayout>
-
-
-
     </ScrollView>
-
-
-
-
-</RelativeLayout>
+</LinearLayout>

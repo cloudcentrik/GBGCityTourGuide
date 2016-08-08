@@ -9,16 +9,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class PublicTransportActivity extends BaseActivity {
+public class PublicTransportActivity extends AppCompatActivity {
 
-    public PublicTransportActivity(){
-        super("PublicTransportActivity",R.layout.base_layout, StringsUtils.getPublicTransportValues());
-    }
-
-}
-
-
-/*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,7 +22,7 @@ public class PublicTransportActivity extends BaseActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Info Center");
+        topToolBar.setTitle("Public Transport");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -40,8 +32,6 @@ public class PublicTransportActivity extends BaseActivity {
                 onBackPressed();
             }
         });
-
-
 
     }
 
@@ -89,4 +79,3 @@ public class PublicTransportActivity extends BaseActivity {
         }
     }
 }
-*/

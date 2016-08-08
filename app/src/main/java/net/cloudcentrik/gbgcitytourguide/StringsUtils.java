@@ -762,7 +762,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Fiskekrogen is the natural place to enjoy the treasures of the sea. Be enchanted by the fresh fish – straight from the sea, lobsters, langoustines, shrimps, mussels and oysters. It combine top-class cooking with advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will go on a journey of flavours that will last in your memory, because here we always serve “The best the sea has to offer”."
+                "Fiskekrogen is the natural place to enjoy the treasures of the sea. Be enchanted by the fresh fish straight " +
+                        "from the sea, lobsters, langoustines, shrimps, mussels and oysters. It combine top-class cooking with " +
+                        "advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will go on a journey of flavours that will last in your memory, because here we always serve “The best the sea has to offer”."
         );
         values.put("ADDRESS", "Lilla torget 1\n" +
                 "411 18 Göteborg");

@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="wrap_content"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/window_background"
-    tools:context=".MainActivity">
-
+    android:background="#eceff1"
+    android:gravity="top"
+    android:orientation="vertical">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -16,131 +14,252 @@
         android:minHeight="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
 
     <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-        android:id="@+id/scrollbar"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/toolbar">
-
-
-    </ScrollView>
-
-    <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:background="#eceff1"
+        android:fillViewport="false"
         android:orientation="vertical"
-        android:layout_alignBottom="@+id/scrollbar"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginRight="292dp"
-        android:layout_marginEnd="292dp"
-        android:layout_marginBottom="388dp">
+        android:padding="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:drawablePadding="8dp"
-            android:text="Taxi"
-            style="@style/infocenter_heading_text"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="5dp"
-            android:text="Description"
-            android:layout_gravity="center_horizontal"
-            android:textColor="#000000"
-            android:textSize="12dp"
-            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_margin="0dp"
+            android:gravity="top"
+            >
+            <!--1-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            style="@style/taxi_sub_heading_text"
-            android:text="Taxi1"
-            />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_directions_bus_black_18dp" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="++++++++"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:textSize="12dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Price"
-            style="@style/fragement_heading_text"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Man-Fri 11:00-16:00"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact Info"
-            style="@style/fragement_heading_text"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Man-Fri 11:00-16:00"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            style="@style/taxi_sub_heading_text"
-            android:text="Mini Taxi"
-            />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="++++++++"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"
-            android:textSize="12dp"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Price"
-            style="@style/fragement_heading_text"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Man-Fri 11:00-16:00"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Contact Info"
-            style="@style/fragement_heading_text"/>
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:paddingTop="10dp"
-            android:text="Man-Fri 11:00-16:00"
-            android:layout_gravity="center_horizontal"
-            android:textColor="@color/black"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Taxi Goteborg"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
 
-    </LinearLayout>
+                    <TextView
+                        android:id="@+id/txtStadMuseumTravelInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Taxi Göteborg is the largest taxi company in western Sweden. We operate from Göteborg, Lerum, Kungälv, Alingsås, Trollhättan and Vänersborg. We serve: Companies, Business travellers, Cities, Private persons"
+                        android:textColor="#757575" />
 
-</RelativeLayout>
+                    <ImageView
+                        android:layout_width="250dp"
+                        android:layout_height="150dp"
+                        android:paddingLeft="10dp"
+                        android:src="@drawable/taxigbg2" />
+
+                </LinearLayout>
+
+            <!--1-->
+            </LinearLayout>
+
+            <!--2-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_euro_symbol_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Fare"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtStadMuseumTicketPrice"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Standard fares for 1-4 persons: Tariff 1(Weekdays 9 am - 3 pm):
+Start fee:47 SEK, Distance:13,21 SEK/km, Time: 498 SEK/hour, Comparable fare:304 SEK.\n
+Tariff 2(All other days and time periods):
+Start fee:47 SEK Distance:15,44 SEK/km;  Time: 505 SEK/hour; Comparable fare:328 SEK
+ Standard fares for 5-8 persons, mini van
+Please check website!
+We offer fixed fares to and from Landvetter Airport and Gothenburg City Airport. "
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!--4-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_place_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Web Address"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="http://www.taxigoteborg.se/En/Home"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            <!--5-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_phone_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Phone"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtPhone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Taxi reservations +46 (0)31 650 000
+                                    Customer complaints +46 (0)31 651 560"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:src="@drawable/ic_mail_outline_black_18dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Email"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="normal"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/txtEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="boka@taxigoteborg.se"
+                        android:textColor="#757575" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

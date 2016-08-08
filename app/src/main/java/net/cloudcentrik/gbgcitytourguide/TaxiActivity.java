@@ -2,49 +2,38 @@ package net.cloudcentrik.gbgcitytourguide;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
-public class TaxiActivity extends BaseActivity {
+public class TaxiActivity extends AppCompatActivity {
 
-    public TaxiActivity(){
-        super("TaxiActivity",R.layout.base_layout, StringsUtils.getTaxiActivityValues());
-    }
-
-}
-
-
-   /* @Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_taxi);
 
+        //Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        //setSupportActionBar(toolbar);
+
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Info Center");
+        topToolBar.setTitle("Taxi Transport");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        topToolBar.setNavigationOnClickListener(new View.OnClickListener(){
+        topToolBar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick( View v) {
+            public void onClick(View v) {
                 onBackPressed();
             }
         });
 
     }
-    *//*
-    public void backBtn() {
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-    }
-    *//*
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -90,4 +79,3 @@ public class TaxiActivity extends BaseActivity {
         }
     }
 }
-*/
