@@ -83,7 +83,7 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:layout_width="226dp"
                         android:layout_height="150dp"
                         android:paddingLeft="20dp"
-                        android:src="@drawable/flygbussarna" />
+                        android:src="@drawable/vasttrafik_publictransport" />
 
                 </LinearLayout>
 
@@ -143,7 +143,7 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:paddingLeft="20dp"
-                    android:src="@drawable/ic_access_time_black_18dp" />
+                    android:src="@drawable/ic_directions_black_18dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -156,20 +156,17 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:paddingLeft="20dp"
-                        android:text="Stops"
+                        android:text="Route Network Map"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="normal"
                         android:typeface="sans" />
 
-                    <TextView
-                        android:id="@+id/txtStadMuseumOpeningHours"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
+                    <ImageView
+                        android:layout_width="226dp"
+                        android:layout_height="250dp"
                         android:paddingLeft="20dp"
-                        android:text="Landvetter-Göteborg Nils Ericson Terminalen Kungsportsplatsen Berzeliigatan Korsvägen / Svenska Mässan Göteborg Landvetter Airport"
-                        android:textColor="#757575" />
+                        android:src="@drawable/vasttrafik" />
 
                 </LinearLayout>
 
@@ -186,7 +183,7 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:paddingLeft="20dp"
-                    android:src="@drawable/ic_place_black_18dp" />
+                    android:src="@drawable/ic_smartphone_black_18dp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -199,7 +196,7 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:layout_gravity="center"
                         android:layout_marginTop="10dp"
                         android:paddingLeft="20dp"
-                        android:text="Web Address"
+                        android:text="Vasttrafik APPS"
                         android:textColor="@color/black"
                         android:textSize="20dp"
                         android:textStyle="normal"
@@ -211,102 +208,53 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
                         android:paddingLeft="20dp"
-                        android:text="https://www.flygbussarna.se/en/landvetter"
+                        android:text="To Go"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue" />
+
+                    <TextView
+                        android:id="@+id/txtDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="You can buy all ticket using this app"
                         android:textColor="#757575" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingLeft="20dp"
+                        android:src="@drawable/togo" />
+
+                    <TextView
+                        android:id="@+id/txtAddress2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="Reseplaneraren"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue" />
+
+                    <TextView
+                        android:id="@+id/txtDescription3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="20dp"
+                        android:text="You can search all travel information using reseplaneraren app"
+                        android:textColor="#757575" />
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:paddingLeft="20dp"
+                        android:src="@drawable/reseplaneraren_logo" />
+
 
                 </LinearLayout>
 
 
             </LinearLayout>
-
-            <!--5-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
-                    android:src="@drawable/ic_phone_black_18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:paddingLeft="20dp"
-                        android:text="Phone"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        android:textStyle="normal"
-                        android:typeface="sans" />
-
-                    <TextView
-                        android:id="@+id/txtPhone"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:paddingLeft="20dp"
-                        android:text="0771- 51 52 52"
-                        android:textColor="#757575" />
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <!--6-->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:paddingTop="10dp">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:paddingLeft="20dp"
-                    android:src="@drawable/ic_mail_outline_black_18dp" />
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginTop="10dp"
-                        android:paddingLeft="20dp"
-                        android:text="Email"
-                        android:textColor="@color/black"
-                        android:textSize="20dp"
-                        android:textStyle="normal"
-                        android:typeface="sans" />
-
-                    <TextView
-                        android:id="@+id/txtEmail"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="10dp"
-                        android:paddingLeft="20dp"
-                        android:text="info@flygbussarna.se"
-                        android:textColor="#757575" />
-
-                </LinearLayout>
-
-
-            </LinearLayout>
-
 
         </LinearLayout>
     </ScrollView>
