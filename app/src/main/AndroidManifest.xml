@@ -255,7 +255,7 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".InfoCenterActivity"
-            android:label="@string/title_activity_infocenter"
+            android:label="Tourist Center"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".ShoppingCentreActivity"

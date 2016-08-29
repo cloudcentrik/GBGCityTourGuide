@@ -69,7 +69,7 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world’s biggest " +
+                "The Gothenburg Maritime Centre Foundation was established in 1985 with the aim of creating the world's biggest " +
                         "and best maritime centre.\n" +
                         "Climb aboard and leave dry land behind you. Set sail for a brand new world offering you excitement, " +
                         "adventure and discovery. Climb up the ladders and become a part of the old tales, with the salty sea spray " +
@@ -118,9 +118,12 @@ public class StringsUtils {
         values.put(
                 "OVERVIEW",
                 "The museum was founded on 31 October 1833 by the Royal Society science and scholarship in Gothenburg. " +
-                        "In 1923, the museum moved into its present premises.In the entrance area, see changing special place, " +
+                        "In 1923, the museum moved into its present premises. In the entrance area, see changing special place, " +
                         "the upper floors, as well as the old buildings house the permanent exhibition. This is mainly to animal models, " +
-                        "where aquatic animals occupy a special position. The models include both dermoplastics , painted plaster casts, as well as liquid preparations conserved. Outstanding exhibits are the dermoplastics of 1865 stranded near Gothenburg, young blue whale and the one in 1948 killed in Angola elephants.You can see presentations of the Earth, life in the sea, as well as various kinds of environmental issues."
+                        "where aquatic animals occupy a special position. The models include both dermoplastics, painted plaster casts, as well " +
+                        "as liquid preparations conserved. Outstanding exhibits are the dermoplastics of 1865 stranded near Gothenburg, " +
+                        "young blue whale and the one in 1948 killed in Angola elephants. " +
+                        "You can see presentations of the Earth, life in the sea, as well as various kinds of environmental issues."
         );
         values.put("OPENING_HOURS", "Tuesday to Sunday 11:00-17:00.\n" +
                 "Open late on wednesdays from March 10: 11:00–20:00.");
@@ -152,7 +155,7 @@ public class StringsUtils {
         values.put(
                 "OVERVIEW",
                 "Explore the exciting pre-history, the 19th century life, the development of the modern industrial Gothenburg " +
-                        "and the only exhibited Viking ship in Sweden, Äskekärrsskeppet.The museum is located in the historic " +
+                        "and the only exhibited Viking ship in Sweden, &Auml;skek&auml;rrsskeppet.The museum is located in the historic " +
                         "East India Company building from the 18th century. Here you can study the remains of how people lived " +
                         "in this part of Sweden 12,000 years ago and see why Gothenburg is called the Swedish Amsterdam."
         );
@@ -213,7 +216,9 @@ public class StringsUtils {
                 "OVERVIEW",
                 "Universeum is located in the heart of Gothenburg and is Scandinavia's largest science centre. Throughout its seven floors you can experience life-size dinosaurs, a tropical rainforest, huge aquariums and lots of exciting experiments – on your own or with the Universeum guides.\n" +
                         "\n" +
-                        "Explore the Swedish wilderness with its fish and birds, visit our sharks and rays and step into a space station. You can also see snakes and other poisonous animals, go on safari among monkeys, sloths and caimans, learn how nature has inspired new technologies, let really young children try out their dream jobs at Job Land and a whole lot more.\n" +
+                        "Explore the Swedish wilderness with its fish and birds, visit our sharks and rays and step into a space station. You can " +
+                        "also see snakes and other poisonous animals, go on safari among monkeys, sloths and caimans, learn how nature has inspired " +
+                        "new technologies, let really young children try out their dream jobs at Job Land and a whole lot more.\n" +
                         "\n" +
                         "A 25 meter tall kapok tree with suspension bridges take you on adventures and offers impressive views of the rainforest.\n" +
                         "\n" +
@@ -248,8 +253,11 @@ public class StringsUtils {
                         "\n" +
                         "In this award-winning building you'll meet the world and experience a mixture of international architecture, contemporary art, seriousness and exciting activities.\n" +
                         "\n" +
-                        "The Museum of World Culture is a place for questions, big or small, and for curiosity and dialogue. The museum brings you historic and current issues, offering experiences for all ages. The unique architecture and central location makes the museum a natural meeting point and in Gothenburg.\n" +
-                        "Besides, the museum has a rich program with everything from film and theatre to seminars, festivals and performances and a special program with activities for kids and families.\n" +
+                        "The Museum of World Culture is a place for questions, big or small, and for curiosity and dialogue. The museum brings you " +
+                        "historic and current issues, offering experiences for all ages. The unique architecture and central location makes the museum " +
+                        "a natural meeting point and in Gothenburg.\n" +
+                        "Besides, the museum has a rich program with everything from film and theatre to seminars, festivals and performances and a " +
+                        "special program with activities for kids and families.\n" +
                         "The magnificent building, inaugurated in 2004, was designed by London based architects Cécile Brisac and Edgar Gonzales."
         );
         values.put("OPENING_HOURS", "Tus, Thu and Fri 12-17, " +
@@ -284,7 +292,7 @@ public class StringsUtils {
                         "and others. The museum also offers temporary exhibitions, family activities, lectures, workshops, " +
                         "guided tours and a shop.\n" +
                         "Gothenburg Museum of Art has three stars in the Michelin Green Guide.\n" +
-                        "On the ground floor you'll find small shop and a café."
+                        "On the ground floor you'll find small shop and a cafe."
         );
         values.put("OPENING_HOURS", "Tuseday, Thursday 11.00, Wednesday 11.00-20.00 and Friday-Sunday 11.00-17.00. \n" +
                 "The museum is closed during Christmas Eve, Christmas Day, New Years Eve, New Years Day, Good Friday," +
@@ -384,7 +392,7 @@ public class StringsUtils {
         values.put(
                 "OVERVIEW",
                 "At the top of the Marstrand island rests Carlsten Fortress. For more than 300 years, this huge security " +
-                        "guard have protected the wooden town below.Today, the fortress is a fascinating and extraordinary " +
+                        "guard have protected the wooden town below. Today, the fortress is a fascinating and extraordinary " +
                         "experience. Welcome to Marstrand's biggest attraction.\n\n The Carlsten Fort and it´s dramatic " +
                         "history are best experienced on a guided tour. Those who climb up to the roof of the tower are " +
                         "rewarded by a magnificent view of the whole Marstrand archipelago! During the traditional fort " +
@@ -413,9 +421,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Älvsborg, also Elfsborg Fortress, is a sea fortress situated on the mouth of the Göta Älv river. It served to protect " +
+                "&Auml;lvsborg, also Elfsborg Fortress, is a sea fortress situated on the mouth of the G&ouml;ta &Auml;lv river. It served to protect " +
                         "Sweden's access to the Atlantic Ocean and the nearby settlement of today's Gothenburg and its four predecessors. The " +
-                        "fortress was relocated in the 17th century, this New Älvsborg Fortress is still maintained. Of the Old Älvsborg " +
+                        "fortress was relocated in the 17th century, this New &Auml;lvsborg Fortress is still maintained. Of the Old &Auml;lvsborg " +
                         "Fortress, only few ruins are visible today in the vicinity of the Carnegie-pier. The new fortress was founded " +
                         "in 1621 by Gustavus Adolphus of Sweden."
         );
@@ -482,7 +490,10 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Vrango is the most southerly island of the Gothenburg archipelago. Around 380 people live there the whole year round. The island contains a post office, shops, and schools, among other things. Fishing is still an important industry and the there are six working fishing boats on the island. The island is most famous for its beautiful nature reserves and excellent sandy beaches."
+                "Vr&aring;ng&ouml; is the most southerly island of the Gothenburg archipelago. " +
+                        "Around 380 people live there the whole year round. The island contains a post office, shops, and schools, " +
+                        "among other things. Fishing is still an important industry and the there are six working fishing boats on the island. " +
+                        "The island is most famous for its beautiful nature reserves and excellent sandy beaches."
         );
 
 
@@ -537,7 +548,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Vinga, Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "Vinga, Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a " +
+                        "visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's " +
+                        "best waters."
         );
 
 
@@ -593,7 +606,10 @@ public class StringsUtils {
         values.put(
                 "OVERVIEW",
                 "A popular island with restaurants, shops and activities.\n" +
-                        "In the northern part of the archipelago lies Hönö which has a popular marina and a wide range of activities such as scuba diving and kayaking. For those who are interested in fishing history a visit to the Fishing Museum is recommended. There are several dining options, both pizzerias, cafes and restaurants."
+                        "In the northern part of the archipelago lies H&ouml;n&ouml; which has a popular marina and a wide range " +
+                        "of activities such as scuba diving and kayaking. For those who are interested in fishing history a visit " +
+                        "to the Fishing Museum is recommended. There are several dining options, both pizzerias, cafes and " +
+                        "restaurants."
         );
 
 
@@ -649,7 +665,10 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Rörö is located at the northern end of the archipelago. The island's beautiful nature reserves invite you to walk along their trails. The harbor is one of the better among the islands. In the summer, there is a café, supermarket and marina. You can rent sea kayaks by the hour, day or week. Fishing has characterized Rörö since the 1600s."
+                "R&ouml;r&ouml; is located at the northern end of the archipelago. The island's beautiful nature reserves invite " +
+                        "you to walk along their trails. The harbor is one of the better among the islands. In the summer, " +
+                        "there is a cafe, supermarket and marina. You can rent sea kayaks by the hour, day or week. Fishing has " +
+                        "characterized R&ouml;r&ouml; since the 1600s."
         );
 
 
@@ -704,7 +723,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                " Styrsö Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                " Styrs&ouml; Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well " +
+                        "worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the " +
+                        "west coast's best waters."
         );
 
 
@@ -764,7 +785,9 @@ public class StringsUtils {
                 "OVERVIEW",
                 "Fiskekrogen is the natural place to enjoy the treasures of the sea. Be enchanted by the fresh fish straight " +
                         "from the sea, lobsters, langoustines, shrimps, mussels and oysters. It combine top-class cooking with " +
-                        "advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will go on a journey of flavours that will last in your memory, because here we always serve “The best the sea has to offer”."
+                        "advanced knowledge about fish and shellfish, they also have one of the most initiated wine menus in Sweden. With a love " +
+                        "for our product we enjoy serving a simple shellfish plateau as well as a sophisticated tasting menu. At Fiskekrogen you will " +
+                        "go on a journey of flavours that will last in your memory, because here we always serve -The best the sea has to offer."
         );
         values.put("ADDRESS", "Lilla torget 1\n" +
                 "411 18 Göteborg");
@@ -793,7 +816,8 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "O'Learys is one of Sweden's strongest and most well-known brands with satisfied staff members and profitable franchise operators. Up to 3 million people visit our restaurants every year."
+                "O'Learys is one of Sweden's strongest and most well-known brands with satisfied staff members and profitable " +
+                        "franchise operators. Up to 3 million people visit our restaurants every year."
         );
 
         values.put(
@@ -845,7 +869,9 @@ public class StringsUtils {
         values.put(
                 "OVERVIEW",
                 "\n" +
-                        "With a massive global presence, Hard Rock International is one of the world's most globally recognized brands. Hard Rock is also known for its collectible fashion and music-related merchandise, memorable dining experiences, Hard Rock Live performance venues.\n"
+                        "With a massive global presence, Hard Rock International is one of the world's most globally recognized " +
+                        "brands. Hard Rock is also known for its collectible fashion and music-related merchandise, memorable " +
+                        "dining experiences, Hard Rock Live performance venues.\n"
         );
 
         values.put(
@@ -929,7 +955,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "John Scott's found in Linnaeus has a historical explanation. Linnegatan is named after Carl Linnaeus, who is best known for his knowledge of plants and animals. But Carl Linnaeus also had a great interest in beer, just as John Scott's has."
+                "John Scott's found in Linnaeus has a historical explanation. Linnegatan is named after Carl Linnaeus, who is " +
+                        "best known for his knowledge of plants and animals. But Carl Linnaeus also had a great interest in beer, " +
+                        "just as John Scott's has."
         );
 
         values.put(
@@ -979,7 +1007,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Joe Farelli’s is a popular meeting place in the middle of Gothenburg’s main street, Kungsportsavenyn. the American-inspired kitchen serves everything from juicy steaks and burgers to pasta and authentic wood oven baked pizzas."
+                "Joe Farelli's is a popular meeting place in the middle of Gothenburg's main street, Kungsportsavenyn. the " +
+                        "American-inspired kitchen serves everything from juicy steaks and burgers to pasta and authentic wood " +
+                        "oven baked pizzas."
         );
 
         values.put(
@@ -1033,7 +1063,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "HÖNÖ Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the west coast's best waters."
+                "H&Ouml;N&Ouml; Gothenburg's most westerly point. The childhood home of swedish music legend Evert Taube and " +
+                        "well worth a visit for it's stunning nature. See the lighthouse and Taube Museum, and swim in some of the " +
+                        "west coast's best waters."
         );
         return values;
     }
@@ -1053,7 +1085,7 @@ public class StringsUtils {
                         "\n\n" + "You will also find cosmetics, consumer electronics, sport shops, flowers, toys, home " +
                         "furnishings, banks, liquors, restaurants, pharmacy and much more.The shopping centre is " +
                         "composed of eight blocks under one roof, which really can be nice on a rainy and windy day.\n" +
-                        "-----If you need assistance finding the right things you can pay the Tourist Centre a visit, " +
+                        "---If you need assistance finding the right things you can pay the Tourist Centre a visit, " +
                         "it's located in the centre of Nordstan. Here you get the best Gothenburg tips and get to know " +
                         "what's going on in Nordstan, because there is always something going on. Fashion shows, " +
                         "exhibitions, launches, contests and shows can be seen here annually. Around Christmas time and in " +
@@ -1112,7 +1144,7 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Situated in the heart of the city, NK’s four storeys and 45 departments of fashion, beauty and interior " +
+                "Situated in the heart of the city, NK's four storeys and 45 departments of fashion, beauty and interior " +
                         "design is one of Gothenburg's biggest shopping venues. Here you can find a mix of leading Swedish " +
                         "and international brands.\n" +
                         "The store has many departments: children, ladies, men, books and stationery, sport, lingerie, " +
@@ -1174,10 +1206,11 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "At Frölunda Torg shopping center there's a mix of large retailers and small upcoming and trendy " +
+                "At Fr&ouml;lunda Torg shopping center there's a mix of large retailers and small upcoming and trendy " +
                         "shops selling everything from fashion and home furnishing to sports and cosmetics.\n" +
                         "For thoes interested in food there's a market square where you'll find italian delicacies, " +
-                        "coffée. fresh fish and seafood. Frölunda Torg has all of this under one roof with free parking just outside.\n"
+                        "coffee, fresh fish and seafood. Fr&ouml;lunda Torg has all of this under one roof with free parking " +
+                        "just outside.\n"
         );
 
         values.put(
@@ -1237,7 +1270,8 @@ public class StringsUtils {
                         "The gallery has 25 shops over three floors, with a focus on fashion, design and home decor. " +
                         "Here you find the latest from trendy brands in shops like Topshop, Raglady, Zara, Beyond Retro, " +
                         "MQ and The North Face.\n" +
-                        "-----If arrive by car, it's easy and convenient to park in the parking garage P-Hus City, Östra Larmgatan 3-7. Not included in the City Card. \n" +
+                        "-----If arrive by car, it's easy and convenient to park in the parking garage P-Hus City, " +
+                        "&Ouml;stra Larmgatan 3-7. Not included in the City Card. \n" +
                         "\n" +
                         "When you buy a Gothenburg City Card you get a book of discount coupons valid in Arkaden. " +
                         "Pick up the vouchers at the Gothenburg Tourist Centre at Kungsportsplatsen or in Nordstan"
@@ -1294,15 +1328,15 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Delsjön is a huge area with a variety of lakes and lots of forest. The forest seems never-ending and you " +
-                        "can walk without seeing anyone else once you get off the main tracks. Swim in Delsjön (or ice skate " +
+                "Delsj&ouml;n is a huge area with a variety of lakes and lots of forest. The forest seems never-ending and you " +
+                        "can walk without seeing anyone else once you get off the main tracks. Swim in Delsj&ouml;n (or ice skate " +
                         "on it in winter) or rent canoes and kayaks. There are two good cafes - Lyktan which is just near the " +
                         "main parking area and Bertilssons Cafe which you can also drive to. It is lovely in the spring when " +
                         "the flowers are in bloom and the trees are just turning green.\n" +
                         "\n" +
-                        "Delsjön consist of two coherent lakes, Stora Delsjön and Lilla Delsjön, located in eastern Gothenburg, " +
-                        "in the Delsjöområdet nature reserve. They serve as a reservoir for the city, receiving water from the " +
-                        "Göta River. At the shore of Stora Delsjön there is a popular beach.  \n"
+                        "Delsj&ouml;n consist of two coherent lakes, Stora Delsj&ouml;n and Lilla Delsj&ouml;n, located in eastern Gothenburg, " +
+                        "in the Delsj&ouml;omr&aring;det nature reserve. They serve as a reservoir for the city, receiving water from the " +
+                        "G&ouml;ta River. At the shore of Stora Delsj&ouml;n there is a popular beach.  \n"
         );
 
         values.put(
@@ -1352,11 +1386,11 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Harlanda Tjarn is a small lake, stretching on the territory of Sävenäs , Kålltorp and Delsjön " +
+                "H&auml;rlanda Tj&auml;rn is a small lake, stretching on the territory of S&auml;ven&auml;s, K&aring;lltorp and Delsj&ouml;n " +
                         "in eastern Gothenburg. In the summer, this is a popular swimming spot for families with " +
                         "children residing in the three neighborhoods listed above.\n" +
-                        "Aside swimming areas, Härlanda Tjärn offers excellent facilities, including beach, showers, " +
-                        "playground, kiosk and public toilets. This shallow swimming area is also known as the “pee Gulf”" +
+                        "Aside swimming areas, H&auml;rlanda Tj&auml;rn offers excellent facilities, including beach, showers, " +
+                        "playground, kiosk and public toilets. This shallow swimming area is also known as the -pee Gulf" +
                         " as many many families come here with their toddlers, and the small kiddies wee in the water. \n"
         );
 
@@ -1468,7 +1502,7 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "A beautiful lake area north-east of the city centre.Bergsjön is a forest lake with nice rocks, " +
+                "A beautiful lake area north-east of the city centre.Bergsj&ouml;n is a forest lake with nice rocks, " +
                         "bathing platforms and a diving tower. "
         );
         values.put("OPENING_HOURS", "Any time you can visit there.");
@@ -1492,9 +1526,9 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "A relatively large lake with two swimming areas. Included in Vättlefjälls nature reserve with sandy beaches, " +
+                "A relatively large lake with two swimming areas. Included in V&auml;ttlefj&auml;lls nature reserve with sandy beaches, " +
                         "rocky beaches, flat lawns and barbecue. Take a walk around the lake and experience the wilderness just " +
-                        "around town. Here you can also rent a canoe. From June 4 to August 31 are bathing hosts at Surtesjön.Equipment: " +
+                        "around town. Here you can also rent a canoe. From June 4 to August 31 are bathing hosts at Surtesj&ouml;n.Equipment: " +
                         "Jetty, barbecue. Two outdoor toilets open from 15 May to 15 September. Nearest stop: Persiljegatan. " +
                         "From the bus stop is 515 meters to the swimming area."
         );
@@ -1519,9 +1553,10 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Svarte Mosse naturområde ligger i Biskopsgården, på Hisingen. Här finns hällmarker, kärr och tjärnar." +
-                        " Det är ett rekreationsområde med löpspår och naturstigar. Här finns många skyddsvärda arter samt " +
-                        "Stora Vette fornborg från år 500. Svarte Mosse, vattenområdet som gett namn till området, är en välbesökt fågellokal."
+                "Svarte Mosse naturomr&aring;de ligger i Biskopsg&aring;rden, p&aring; Hisingen. H&auml;r finns h&auml;llmarker, k&auml;rr och tj&auml;rnar." +
+                        " Det &auml;r ett rekreationsomr&aring;de med l&ouml;psp&aring;r och naturstigar. H&auml;r finns m&aring;nga skyddsv&auml;rda arter samt " +
+                        "Stora Vette fornborg fr&aring;n &aring;r 500. Svarte Mosse, vattenomr&aring;det som gett namn till omr&aring;det," +
+                        " &auml;r en välbes&ouml;kt f&aring;gellokal."
         );
         values.put("OPENING_HOURS", "Any time you can visit there.");
         values.put("TICKET_PRICE", "Free Entry!");
@@ -1696,9 +1731,9 @@ public class StringsUtils {
                         "Scandic Europa is within walking distance of the vibrant shopping hub in Nordstan, as well as the quieter cobbled " +
                         "streets with cafés and exclusive shops. Outside our hotel, you can take tram 5 straight to Gothenburg's most " +
                         "entertaining district with Liseberg amusement park, Universum science centre and Museum of World Culture all on " +
-                        "the same street. If you still have energy to spare, Avenyn is just 10 minutes from our hotel with shops, cafés and " +
-                        "restaurants and the majority of Gothenburg's nightlife. When it’s time to travel, central station is right opposite " +
-                        "our hotel, where you’ll find the airport shuttle to Landvetter Airport."
+                        "the same street. If you still have energy to spare, Avenyn is just 10 minutes from our hotel with shops, cafes and " +
+                        "restaurants and the majority of Gothenburg's nightlife. When it's time to travel, central station is right opposite " +
+                        "our hotel, where you'll find the airport shuttle to Landvetter Airport."
         );
         values.put("OPENING_HOURS", "Any time.");
         values.put("TICKET_PRICE", "Contact Scandic Europa.");
@@ -1725,9 +1760,13 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "The greenhouses have the largest collection of tropical orchids in Sweden, carnivorous plants and the rare Easter Island tree, which is extinct in its natural environment. A series of exhibitions are held in the greenhouses every year and the garden has a comprehensive schedule of activities all year round.\n" +
-                        "The garden is close to the nature reserve Änggårdsbergen, where the scientific tree collection, the arboretum, is located. \n" +
-                        "The Botanical Garden has two stars in the Michelin Green Guide and guided tours are arranged daily during the summer season." +
+                "The greenhouses have the largest collection of tropical orchids in Sweden, carnivorous plants and the rare Easter Island " +
+                        "tree, which is extinct in its natural environment. A series of exhibitions are held in the greenhouses every year " +
+                        "and the garden has a comprehensive schedule of activities all year round.\n" +
+                        "The garden is close to the nature reserve &Auml;ngg&aring;rdsbergen, where the scientific tree collection, the arboretum, " +
+                        "is located. \n" +
+                        "The Botanical Garden has two stars in the Michelin Green Guide and guided tours are arranged daily during " +
+                        "the summer season." +
                         "- - - Inside garden there a a restaurant. You can have your lunch there. "
         );
         values.put("OPENING_HOURS", "The garden is open daily from 09.00-21.00 and the greenhouses are open daily in May-August 10.00-17.00, the rest of the year 10.00-16.00.\n" +
@@ -1759,12 +1798,12 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "A beautiful garden located in the heart of the city. The Garden Society of Gothenburg, Trädgårdsföreningen, " +
+                "A beautiful garden located in the heart of the city. The Garden Society of Gothenburg, Tr&auml;dg&aring;rdsf&ouml;reningen, " +
                         "is one of the best preserved 19th century parks in Europe. Here you can find thousands of roses, carpet " +
                         "beddings and lush woodlands. The palm house from 1878 houses exotic plants in a Mediterranean climate.\n" +
                         "\n" +
                         "The park was the first in Sweden to be appointed a historic building in 1992 and has a star in the Michelin Green Guide.\n" +
-                        "Thanks to reverend Göte Haglund’s donation of his collection of roses the park was able in 1987 to pride itself in " +
+                        "Thanks to reverend Göte Haglund's donation of his collection of roses the park was able in 1987 to pride itself in " +
                         "becoming one of the leading rosaria of Northern Europe. The glass and cast iron of the Palmhouse constitute a " +
                         "glittering work of art in the middle of the park, inspired by Crystal Palace in London.\n" +
                         "!---The Garden Society of Gothenburg also has a popular playground."

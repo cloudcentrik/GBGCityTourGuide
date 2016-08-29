@@ -18,7 +18,7 @@
             android:id="@+id/gbg_btn_info_center"
             android:background="@color/button_colour_blue"
             android:drawableTop="@drawable/ic_info_white_18dp"
-            android:text="Tourist Information"
+            android:text="Tourist Center"
             android:elevation="5dp"
             style="@style/AppTheme.Button"
             />

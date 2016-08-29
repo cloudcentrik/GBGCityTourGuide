@@ -46,7 +46,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1.5"
-            android:text="Alvsborg Castle"
+            android:text="Älvsborg Castle"
             android:textSize="20dp"
             android:typeface="monospace"
             android:textStyle="bold"
