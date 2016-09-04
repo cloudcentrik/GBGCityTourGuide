@@ -21,7 +21,7 @@ public class ResturentActivity extends AppCompatActivity {
         // Toolbar
         Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(topToolBar);
-        topToolBar.setTitle("GBG Resturent");
+        topToolBar.setTitle("Restaurant");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);

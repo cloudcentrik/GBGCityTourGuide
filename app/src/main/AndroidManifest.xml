@@ -212,7 +212,7 @@
         <!-- Restaurant activities Here -->
         <activity
             android:name=".ResturentActivity"
-            android:label="@string/title_activity_resturent"
+            android:label="Restaurant"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".OlearysResturentActivity"
