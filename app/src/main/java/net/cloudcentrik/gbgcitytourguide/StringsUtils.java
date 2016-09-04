@@ -1848,7 +1848,7 @@ public class StringsUtils {
                         "\n\n" +
                         "Additional to the summer season, the park is also open during November and December, albeit with fewer rides " +
                         "operating, hosting a Halloween season with various house of horros and a Christmas market with traditional Swedish " +
-                        "cuisine such as mulled wine and specialties such as döner kebab made from reindeer meat.\n" +
+                        "cuisine such as mulled wine and specialties such as d&ouml;ner kebab made from reindeer meat.\n" +
                         "The official colors of Liseberg are pink and green as can be seen on the entrance and the older houses in the park, " +
                         "the colors were also adopted for the logo, which was introduced in the 1980s, but changed in 2013 to the current logo."
         );
