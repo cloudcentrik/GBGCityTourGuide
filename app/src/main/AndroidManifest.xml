@@ -52,11 +52,11 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".RadissonBlueHotelActivity"
-            android:label="Radisson Blue"
+            android:label="Radisson Blue Hotel"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".ScandicEuropaHotelActivity"
-            android:label="Scandic Europa"
+            android:label="Scandic Europa Hotel"
             android:theme="@style/AppTheme" />
         <!-- Hotels End -->
 
