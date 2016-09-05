@@ -2,8 +2,8 @@
     <string name="app_name">Gothenburg City Tour Guide</string>
     <string name="title_activity_park"> GBG Test </string>
 
-    <!--GBG Museum-->
-    <string name="title_activity_museum"> GBG Museum </string>
+    <!--GBG Museums-->
+    <string name="title_activity_museum">Museums</string>
     <string name="title_activity_stad_museum">Stad Museum</string>
     <string name="title_activity_maritiman_museum">Maritiman Museum</string>
     <string name="title_activity_natural_history_museum">Natural History Museum</string>
@@ -12,7 +12,6 @@
     <string name="title_activity_world_culture_museum">Museum of World Culture</string>
     <string name="title_activity_museum_of_art">Museum of Art</string>
     <string name="title_activity_universeum">Universeum</string>
-
 
     <!--GBG Museum End-->
 
@@ -32,10 +31,10 @@
     <string name="title_tourist_spot">Tourist Spots</string>
 
 
-    <string name="headingtext_infocenter_nordstan">Nordstan Info Centert</string>
-    <string name="headingtext_infocenter_kungsports">Kungsportspl Info Centert</string>
+    <string name="headingtext_infocenter_nordstan">Nordstan Info Center</string>
+    <string name="headingtext_infocenter_kungsports">Kungsportspl Info Center</string>
     <string name="title_activity_historical_place">Historical Places</string>
-    <string name="title_activity_island">Island</string>
+    <string name="title_activity_island">Islands</string>
     <string name="title_activity_stad_museam">GBG Historical Place</string>
     <string name="title_activity_gallary">Stad museam</string>
 
@@ -48,10 +47,10 @@
     <string name="title_activity_JoeFerellis_restaurant">Joe Ferellis Restaurant</string>
 
     <!--GBG Historical Places-->
-    <string name="title_activity_alvsborgCastle_hp">Alvsborg Castle</string>
+    <string name="title_activity_alvsborgCastle_hp">Älvsborg Castle</string>
     <string name="title_activity_east_india_company_hp">East India Company</string>
     <string name="title_activity_carlsten_fort_hp">Carlsten Fort</string>
-    <string name="title_activity_GustafAdlofsSquare_hp">Gustaf Adlofs Square</string>
+    <string name="title_activity_GustafAdlofsSquare_hp">Gustaf Adolfs Square</string>
     <string name="title_activity_skansenkrona_hp">Skansen Kronan</string>
     <!--GBG Historical Places End-->
 
@@ -76,6 +75,6 @@
     <!-- Garden Activity-->
     <string name="title_activity_garden">Gardens</string>
     <string name="title_activity_botanical_garden">Botanical Garden</string>
-    <string name="title_activity_tradgardsforeningen">Tradgardsforeningen</string>
+    <string name="title_activity_tradgardsforeningen">Trädgårdsföreningen</string>
     <!-- Garden Activity End-->
 </resources>

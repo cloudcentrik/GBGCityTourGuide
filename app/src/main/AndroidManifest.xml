@@ -77,7 +77,7 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".VrangoIslandActivity"
-            android:label="Varngo Island"
+            android:label="Vrångö Island"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".VingaIslandActivity"
@@ -110,17 +110,17 @@
 
         <activity
             android:name=".BerjsonLakeActivity"
-            android:label="Berjön"
+            android:label="Bergsjön"
             android:theme="@style/AppTheme" />
 
         <activity
             android:name=".SurtesjonLakeActivity"
-            android:label="Suresjön"
+            android:label="Surtesjön"
             android:theme="@style/AppTheme" />
 
         <activity
             android:name=".HarlandaLakeActivity"
-            android:label="Härlanda"
+            android:label="Härlanda Tjärn"
             android:theme="@style/AppTheme" />
 
         <activity
@@ -133,7 +133,7 @@
         <!-- Park START-->
         <activity
             android:name=".ParkActivity"
-            android:label="Park"
+            android:label="Parks"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".LindholmenParkActivity"
@@ -141,11 +141,11 @@
             android:theme="@style/AppTheme" />
         <activity
             android:name=".LisabergParkActivity"
-            android:label="Lisaberg Amusement Park"
+            android:label="Liseberg Amusement Park"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".SlotsskogenParkActivity"
-            android:label="Slotsskogen Park"
+            android:label="Slottsskogen Park"
             android:theme="@style/AppTheme" />
         <!-- PARK END-->
 
