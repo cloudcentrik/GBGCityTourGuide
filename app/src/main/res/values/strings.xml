@@ -40,7 +40,7 @@
     <string name="title_activity_gallary">Stad museam</string>
 
     <!-- Restaurant -->
-    <string name="title_activity_resturent">Restaurant</string>
+    <string name="title_activity_resturent">Restaurants</string>
     <string name="title_activity_olearys_resturent">Olearrys Resturent</string>
     <string name="title_activity_hardrockcafe">HardRockCafe Resturent</string>
     <string name="title_activity_fiskekrogen__restaurant">Fiskekrogen Restaurant</string>
@@ -68,10 +68,10 @@
 
 
     <!-- Shopping Centres Activity-->
-    <string name="title_activity_shopping_centre">Shopping Centres</string>
-    <string name="title_activity_nordstan_sc">Nordstan Shopping Centre</string>
-    <string name="title_activity_frolundatory_sc">Frolunda Torg Shopping Centre</string>
-    <string name="title_activity_nordiska_sc">Nordiska Kompaniet Shopping Centre</string>
+    <string name="title_activity_shopping_centre">Shopping Centers</string>
+    <string name="title_activity_nordstan_sc">Nordstan Shopping Center</string>
+    <string name="title_activity_frolundatory_sc">Frölunda Torg Shopping Center</string>
+    <string name="title_activity_nordiska_sc">Nordiska Kompaniet Shopping Center</string>
 
     <!-- Garden Activity-->
     <string name="title_activity_garden">Gardens</string>

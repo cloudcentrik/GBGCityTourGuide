@@ -49,7 +49,7 @@
             android:id="@+id/gbg_btn_restaurent"
             android:background="@color/button_colour_purple"
             android:drawableTop="@drawable/ic_restaurant_menu_white_18dp"
-            android:text="Restaurant"
+            android:text="Restaurants"
             style="@style/AppTheme.Button"
             />
 
@@ -64,7 +64,7 @@
             android:id="@+id/gbg_btn_shoping_center"
             android:background="@color/button_colour_orange"
             android:drawableTop="@drawable/ic_local_mall_white_18dp"
-            android:text="Shoping center"
+            android:text="Shopping Centers"
             style="@style/AppTheme.Button"
             />
         <Button
