@@ -35,6 +35,10 @@
 
         <!-- Hotels start -->
         <activity
+            android:name=".HotelActivityNew"
+            android:label="@string/title_activity_hotel"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".HotelActivity"
             android:label="@string/title_activity_hotel"
             android:theme="@style/AppTheme" />

@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
         buttonHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent4 = new Intent(MainActivity.this, HotelActivity.class);
+                Intent intent4 = new Intent(MainActivity.this, HotelActivityNew.class);
                 startActivity(intent4);
             }
         });
