@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         buttonResturent.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent4 = new Intent(MainActivity.this, ResturentActivity.class);
+                Intent intent4 = new Intent(MainActivity.this, RestaurantActivityNew.class);
                 startActivity(intent4);
 
 

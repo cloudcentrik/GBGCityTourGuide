@@ -215,6 +215,10 @@
 
         <!-- Restaurant activities Here -->
         <activity
+            android:name=".RestaurantActivityNew"
+            android:label="Restaurants"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".ResturentActivity"
             android:label="Restaurants"
             android:theme="@style/AppTheme" />
