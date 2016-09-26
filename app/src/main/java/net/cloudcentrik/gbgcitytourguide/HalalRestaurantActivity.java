@@ -9,44 +9,42 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
-public class RestaurantActivityNew extends AppCompatActivity {
+public class HalalRestaurantActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant_new);
+        setContentView(R.layout.activity_halal_restaurant);
+
 
 
         // Toolbar
-        Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Restaurant");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Hotel ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        topToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
 
-        // olearys resturent btn
-        final Button button = (Button) findViewById(R.id.btn_halal_restaurant);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        // Youth Hostels
+        final Button buttonYouthHostels = (Button) findViewById(R.id.btn_halal_restaurant_laithai);
+        buttonYouthHostels.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, HalalRestaurantActivity.class);
+                Intent intent = new Intent(HalalRestaurantActivity.this, LaithaiHalalRestaurantActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
-
-
-
-
 
     }
 
@@ -93,6 +91,4 @@ public class RestaurantActivityNew extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-
 }
