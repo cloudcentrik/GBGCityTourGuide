@@ -58,6 +58,18 @@ public class HotelActivityNew extends AppCompatActivity {
             }
         });
 
+        // Stars Hotels
+        final Button buttonStarHotel = (Button) findViewById(R.id.btn_stars_hotel);
+        buttonStarHotel.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HotelActivityNew.this, StartHotelsActivity.class); //need to be update
+                startActivity(intent);
+
+
+            }
+        });
+
     }
 
     @Override

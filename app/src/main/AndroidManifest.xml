@@ -50,7 +50,10 @@
             android:name=".BedandBreakfatActivity"
             android:label="Bed &amp; Breakfast"
             android:theme="@style/AppTheme" />
-
+        <activity
+            android:name=".StartHotelsActivity"
+            android:label="Star Hotels"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".AvalonHotelActivity"
             android:label="@string/title_activity_avalon_hotel"

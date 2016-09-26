@@ -54,7 +54,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_teal"/>
@@ -83,7 +83,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_pink"/>
@@ -112,7 +112,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_blue"/>
@@ -141,7 +141,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_green"/>
@@ -170,7 +170,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_orange"/>
