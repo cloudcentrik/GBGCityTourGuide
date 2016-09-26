@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Youth Hotel 1"
+                    android:text="Slottsskogens Youth Hostel"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -54,7 +54,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_teal"/>
@@ -71,11 +71,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_vinga_island"
+                    android:id="@+id/btn_backpackers_goteborg"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Youth Hotel 2"
+                    android:text="Backpackers Göteborg"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -83,7 +83,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_pink"/>
@@ -100,11 +100,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_hönö_island"
+                    android:id="@+id/btn_stf_vandrarhem_stigbergsliden"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Youth Hotel 3"
+                    android:text="STF Vandrarhem Stigbergsliden"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -112,7 +112,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_blue"/>
@@ -129,11 +129,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_Rörö_island"
+                    android:id="@+id/btn_linneplatsens_hotel_and_hostel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Youth Hotel 4"
+                    android:text="Linnéplatsens Hotel &amp; Hostel"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -141,7 +141,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_green"/>
@@ -158,11 +158,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_styrsö_island"
+                    android:id="@+id/btn_kvibergs_hostel_and_cabins"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Youth Hotel 5"
+                    android:text="Kvibergs Hostel and Cabins"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -170,7 +170,7 @@
                     android:paddingRight="1dp"
                     android:elevation="4sp"
                     android:gravity="center"
-                    android:drawableLeft="@drawable/icon_island_12dp"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
                     android:drawableRight="@drawable/ic_chevron_right_white_18dp"
                     android:textColor="@color/white"
                     android:background="@color/button_colour_orange"/>
