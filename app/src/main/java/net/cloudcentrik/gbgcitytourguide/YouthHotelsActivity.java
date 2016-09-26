@@ -9,19 +9,21 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-public class HotelActivity extends AppCompatActivity {
+/**
+ * Created by Packard Bell on 2016-09-26.
+ */
+public class YouthHotelsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hotel_new);
-
+        setContentView(R.layout.activity_youth_hotels);
 
 
         // Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Hotel ");
+        toolbar.setTitle("Youth Hotel ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -33,16 +35,17 @@ public class HotelActivity extends AppCompatActivity {
         });
 
         // avalon hotel
-        final Button buttonAvalonHotel = (Button) findViewById(R.id.btn_hotel_avalon);
-        buttonAvalonHotel.setOnClickListener(new View.OnClickListener() {
+        final Button buttonYouthHotel1 = (Button) findViewById(R.id.btn_youth_hostel_1);
+        buttonYouthHotel1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, YouthHotelsActivity.class);
+                Intent intent = new Intent(YouthHotelsActivity.this, VandrarHemHotelActivity.class);
                 startActivity(intent);
 
             }
         });
 
+        /*
         // Vandrarhem hotel
         final Button vandrarHemHotel = (Button) findViewById(R.id.btn_hotel_vandrarhem);
         vandrarHemHotel.setOnClickListener(new View.OnClickListener() {
@@ -59,7 +62,7 @@ public class HotelActivity extends AppCompatActivity {
         buttonVanilaHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, YouthHotelsActivity.class);
+                Intent intent = new Intent(HotelActivity.this, VanilaHotelActivity.class);
                 startActivity(intent);
 
 
@@ -89,50 +92,53 @@ public class HotelActivity extends AppCompatActivity {
 
             }
         });
+        */
 
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main_menu, menu);
-        return true;
-    }
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle item selection
-        switch (item.getItemId()) {
-            case R.id.action_infocenter:
-                Intent infoCenter = new Intent(this,InfoCenterActivity.class);
-                startActivity(infoCenter);
-                return true;
-            case R.id.action_hotel:
-                Intent hotel = new Intent(this,HotelActivity.class);
-                startActivity( hotel);
-                return true;
-            case R.id.action_restuarent:
-                Intent restaurant = new Intent(this,ResturentActivity.class);
-                startActivity(restaurant);
-                return true;
-            case R.id.action_tourist_spots:
-                Intent touristSpot = new Intent(this,TouristSpotsActivity.class);
-                startActivity(touristSpot);
-                return true;
+        @Override
+        public boolean onCreateOptionsMenu(Menu menu) {
+            getMenuInflater().inflate(R.menu.main_menu, menu);
+            return true;
+        }
 
-            case R.id.action_travelinfo:
-                Intent travelInfo = new Intent(this,TravelInfoActivity.class);
-                startActivity(travelInfo);
-                return true;
-            case R.id.action_shoping_center:
-                Intent shopingCenter = new Intent(this,ShoppingCentreActivity.class);
-                startActivity(shopingCenter);
-                return true;
-            case R.id.action_home:
-                Intent mainScreen = new Intent(this,MainActivity.class);
-                startActivity(mainScreen);
-                return true;
-            default:
-                return super.onOptionsItemSelected(item);
+        @Override
+        public boolean onOptionsItemSelected (MenuItem item){
+            // Handle item selection
+            switch (item.getItemId()) {
+                case R.id.action_infocenter:
+                    Intent infoCenter = new Intent(this, InfoCenterActivity.class);
+                    startActivity(infoCenter);
+                    return true;
+                case R.id.action_hotel:
+                    Intent hotel = new Intent(this, HotelActivity.class);
+                    startActivity(hotel);
+                    return true;
+                case R.id.action_restuarent:
+                    Intent restaurant = new Intent(this, ResturentActivity.class);
+                    startActivity(restaurant);
+                    return true;
+                case R.id.action_tourist_spots:
+                    Intent touristSpot = new Intent(this, TouristSpotsActivity.class);
+                    startActivity(touristSpot);
+                    return true;
+
+                case R.id.action_travelinfo:
+                    Intent travelInfo = new Intent(this, TravelInfoActivity.class);
+                    startActivity(travelInfo);
+                    return true;
+                case R.id.action_shoping_center:
+                    Intent shopingCenter = new Intent(this, ShoppingCentreActivity.class);
+                    startActivity(shopingCenter);
+                    return true;
+                case R.id.action_home:
+                    Intent mainScreen = new Intent(this, MainActivity.class);
+                    startActivity(mainScreen);
+                    return true;
+                default:
+                    return super.onOptionsItemSelected(item);
+            }
         }
     }
-}
+
