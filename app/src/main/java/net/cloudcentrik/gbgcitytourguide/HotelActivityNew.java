@@ -46,6 +46,18 @@ public class HotelActivityNew extends AppCompatActivity {
             }
         });
 
+        // Bed and Breakfast
+        final Button buttonBedandBreakfast = (Button) findViewById(R.id.btn_bed_and_breakfast);
+        buttonBedandBreakfast.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(HotelActivityNew.this, BedandBreakfatActivity.class); //need to be update
+                startActivity(intent);
+
+
+            }
+        });
+
     }
 
     @Override

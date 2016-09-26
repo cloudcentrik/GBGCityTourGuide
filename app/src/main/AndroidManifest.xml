@@ -42,10 +42,13 @@
             android:name=".HotelActivity"
             android:label="@string/title_activity_hotel"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".YouthHotelsActivity"
             android:label="Youth Hotels"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BedandBreakfatActivity"
+            android:label="Bed &amp; Breakfast"
             android:theme="@style/AppTheme" />
 
         <activity
