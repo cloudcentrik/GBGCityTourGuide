@@ -224,6 +224,14 @@
 
         <!-- Restaurant activities Here -->
         <activity
+            android:name=".HalalRestaurantActivity"
+            android:label="Halal Restaurants"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LaithaiHalalRestaurantActivity"
+            android:label="Lai Thai Gamlastan"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".RestaurantActivityNew"
             android:label="Restaurants"
             android:theme="@style/AppTheme" />
