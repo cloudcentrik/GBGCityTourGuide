@@ -226,6 +226,8 @@
 
 
         <!-- Restaurant activities Here -->
+
+        <!-- Halal start -->
         <activity
             android:name=".HalalRestaurantActivity"
             android:label="Halal Restaurants"
@@ -234,6 +236,26 @@
             android:name=".LaithaiHalalRestaurantActivity"
             android:label="Lai Thai Gamlastan"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".HjalboPizariaHalalRestaurantActivity"
+            android:label="Hjälbo Pizzeria"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SarayHalalRestaurantActivity"
+            android:label="Saray Grill"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DivanHalalRestaurantActivity"
+            android:label="Divan Restaurant"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".LebanesHalalRestaurantActivity"
+            android:label="Lebanes Grill House"
+            android:theme="@style/AppTheme" />
+
+        <!-- Halal end -->
+
         <activity
             android:name=".RestaurantActivityNew"
             android:label="Restaurants"
