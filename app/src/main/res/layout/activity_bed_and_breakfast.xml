@@ -46,7 +46,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Bed &amp; Breakfast 1"
+                    android:text="Good Morning+ Göteborg City"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -71,11 +71,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_vinga_island"
+                    android:id="@+id/btn_le_mat_bandb_goteborg_city"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Bed &amp; Breakfast 2"
+                    android:text="Le Mat B&amp;B Göteborg City"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -100,11 +100,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_hönö_island"
+                    android:id="@+id/btn_ans_bedand_breakfast"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Bed &amp; Breakfast 3"
+                    android:text="5:ans Bed &amp; Breakfast"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -129,11 +129,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_Rörö_island"
+                    android:id="@+id/btn_goteborgs_mini_hotel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Bed &amp; Breakfast 4"
+                    android:text="Göteborgs Mini-Hotel"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -150,6 +150,7 @@
             </LinearLayout>
 
             <!-- 5 -->
+            <!--
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
@@ -176,7 +177,7 @@
                     android:background="@color/button_colour_orange"/>
 
             </LinearLayout>
-
+-->
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

@@ -70,12 +70,97 @@
                 android:elevation="4sp"
                 android:layout_marginTop="5dp"
                 >
+
                 <Button
-                    android:id="@+id/btn_vinga_island"
+                    android:id="@+id/btn_hotel_radissonblue"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Star Hotel 2"
+                    android:text="Radisson Blue"
+                    android:textSize="20dp"
+                    android:typeface="monospace"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="1dp"
+                    android:elevation="4sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
+                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+                    android:textColor="@color/white"
+                    android:background="@color/button_colour_blue"/>
+
+
+            </LinearLayout>
+            <!-- 3 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:elevation="4sp"
+                android:layout_marginTop="5dp"
+                >
+                <Button
+                    android:id="@+id/btn_hotel_vanila"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="Vanila Hotel"
+                    android:textSize="20dp"
+                    android:typeface="monospace"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="1dp"
+                    android:elevation="4sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
+                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+                    android:textColor="@color/white"
+                    android:background="@color/button_colour_green"/>
+
+
+            </LinearLayout>
+            <!-- 4 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:elevation="4sp"
+                android:layout_marginTop="5dp"
+                >
+                <Button
+                    android:id="@+id/btn_hotel_scandiceuropa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="Scandic Europa"
+                    android:textSize="20dp"
+                    android:typeface="monospace"
+                    android:textStyle="bold"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="1dp"
+                    android:elevation="4sp"
+                    android:gravity="center"
+                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
+                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
+                    android:textColor="@color/white"
+                    android:background="@color/button_colour_orange"/>
+
+
+            </LinearLayout>
+            <!-- 5 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:orientation="horizontal"
+                android:elevation="4sp"
+                android:layout_marginTop="5dp"
+                >
+                <Button
+                    android:id="@+id/btn_hotel_avalon"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.5"
+                    android:text="Avalon Hotel"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"
@@ -91,91 +176,7 @@
 
             </LinearLayout>
 
-            <!-- 3 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:elevation="4sp"
-                android:layout_marginTop="5dp"
-                >
-                <Button
-                    android:id="@+id/btn_hönö_island"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1.5"
-                    android:text="Star Hotel 3"
-                    android:textSize="20dp"
-                    android:typeface="monospace"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="1dp"
-                    android:elevation="4sp"
-                    android:gravity="center"
-                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
-                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
-                    android:textColor="@color/white"
-                    android:background="@color/button_colour_blue"/>
 
-
-            </LinearLayout>
-
-            <!-- 4 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:elevation="4sp"
-                android:layout_marginTop="5dp"
-                >
-                <Button
-                    android:id="@+id/btn_Rörö_island"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1.5"
-                    android:text="Star Hotel 4"
-                    android:textSize="20dp"
-                    android:typeface="monospace"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="1dp"
-                    android:elevation="4sp"
-                    android:gravity="center"
-                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
-                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
-                    android:textColor="@color/white"
-                    android:background="@color/button_colour_green"/>
-
-
-            </LinearLayout>
-
-            <!-- 5 -->
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:elevation="4sp"
-                android:layout_marginTop="5dp"
-                >
-                <Button
-                    android:id="@+id/btn_styrsö_island"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1.5"
-                    android:text="Star Hotel 5"
-                    android:textSize="20dp"
-                    android:typeface="monospace"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="1dp"
-                    android:elevation="4sp"
-                    android:gravity="center"
-                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
-                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
-                    android:textColor="@color/white"
-                    android:background="@color/button_colour_orange"/>
-
-            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
