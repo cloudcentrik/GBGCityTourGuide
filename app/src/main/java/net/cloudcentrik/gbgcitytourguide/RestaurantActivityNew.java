@@ -32,12 +32,24 @@ public class RestaurantActivityNew extends AppCompatActivity {
             }
         });
 
-        // olearys resturent btn
+        // Halal restaurant button
         final Button button = (Button) findViewById(R.id.btn_halal_restaurant);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
                 Intent intent = new Intent(RestaurantActivityNew.this, HalalRestaurantActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
+        // Fast food button
+        final Button buttonFastFood = (Button) findViewById(R.id.btn_fast_food);
+        buttonFastFood.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(RestaurantActivityNew.this, FastFoodActivity.class);
                 startActivity(intent);
 
 
