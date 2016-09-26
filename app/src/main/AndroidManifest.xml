@@ -256,6 +256,12 @@
 
         <!-- Halal end -->
 
+        <!-- fast food -->
+        <activity
+            android:name=".FastFoodActivity"
+            android:label="Fast Food"
+            android:theme="@style/AppTheme" />
+
         <activity
             android:name=".RestaurantActivityNew"
             android:label="Restaurants"
