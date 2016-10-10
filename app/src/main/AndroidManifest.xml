@@ -332,6 +332,27 @@
 
         <!-- cofee shop end -->
 
+        <!-- Pub start -->
+        <activity
+            android:name=".PubActivity"
+            android:label="Pub"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".JohnscottPubActivity"
+            android:label="John Scott"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BishoparmPubActivity"
+            android:label="Bishop Arms"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".DublinerPubActivity"
+            android:label="Dubliner"
+            android:theme="@style/AppTheme" />
+
+        <!-- Pub end -->
+
         <!-- fast food -->
         <activity
             android:name=".FastFoodActivity"
