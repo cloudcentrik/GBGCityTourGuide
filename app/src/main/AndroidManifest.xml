@@ -103,6 +103,24 @@
             android:label="Kvibergs Vandrarhem"
             android:theme="@style/AppTheme" />
 
+        <!-- B&B-->
+        <activity
+            android:name=".GoodMorningGoteborgCityActivity"
+            android:label="Good Morning+ Göteborg City"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LeMatBandBGoteborgCityActivity"
+            android:label="Le Mat B&amp;B Goteborg City"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AnsBedandBreakfastActivity"
+            android:label="5:Ans Bed &amp; Breakfast"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".GoteborgsMiniHotelActivity"
+            android:label="Göteborgs Mini Hotel"
+            android:theme="@style/AppTheme" />
+
 
         <!-- Hotels End -->
 
