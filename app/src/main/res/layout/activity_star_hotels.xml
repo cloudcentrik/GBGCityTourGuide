@@ -42,11 +42,11 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_stars_hotel_1"
+                    android:id="@+id/btn_gothia_towers_hotel"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
-                    android:text="Star Hotel 1"
+                    android:text="Gothia Towers Hotel"
                     android:textSize="20dp"
                     android:typeface="monospace"
                     android:textStyle="bold"

@@ -63,6 +63,10 @@
             android:label="Star Hotels"
             android:theme="@style/AppTheme" />
         <activity
+            android:name=".GothiaTowersHotelActivity"
+            android:label="Gothia Towers Hotel"
+            android:theme="@style/AppTheme" />
+        <activity
             android:name=".AvalonHotelActivity"
             android:label="@string/title_activity_avalon_hotel"
             android:theme="@style/AppTheme" />

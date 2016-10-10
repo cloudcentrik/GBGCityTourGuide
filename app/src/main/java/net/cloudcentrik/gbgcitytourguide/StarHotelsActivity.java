@@ -35,11 +35,11 @@ public class StarHotelsActivity extends AppCompatActivity {
         });
 
         // avalon hotel
-        final Button buttonStarHotel_1 = (Button) findViewById(R.id.btn_stars_hotel_1);
-        buttonStarHotel_1.setOnClickListener(new View.OnClickListener() {
+        final Button buttonGothiaTowersHotel = (Button) findViewById(R.id.btn_gothia_towers_hotel);
+        buttonGothiaTowersHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(StarHotelsActivity.this, VandrarHemHotelActivity.class);   // Change  here
+                Intent intent = new Intent(StarHotelsActivity.this, GothiaTowersHotelActivity.class);
                 startActivity(intent);
 
             }
