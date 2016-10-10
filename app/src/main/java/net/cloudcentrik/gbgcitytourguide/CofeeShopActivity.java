@@ -34,60 +34,60 @@ public class CofeeShopActivity extends AppCompatActivity {
 
 
 
-        // Laithai
-        final Button buttonLaithiRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_laithai);
-        buttonLaithiRestaurant.setOnClickListener(new View.OnClickListener() {
+        // condeco
+        final Button buttonCondecoCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_condeco);
+        buttonCondecoCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(CofeeShopActivity.this, LaithaiHalalRestaurantActivity.class); //need to be update
+                Intent intent = new Intent(CofeeShopActivity.this, CondecoCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Saray
-        final Button buttonSarayRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_saray);
-        buttonSarayRestaurant.setOnClickListener(new View.OnClickListener() {
+        // Espresso house
+        final Button buttonEspressoHouseCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_espresso_house);
+        buttonEspressoHouseCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(CofeeShopActivity.this, SarayHalalRestaurantActivity.class); //need to be update
+                Intent intent = new Intent(CofeeShopActivity.this, EspressoHouseCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Divan
-        final Button buttonDivanRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_divan);
-        buttonDivanRestaurant.setOnClickListener(new View.OnClickListener() {
+        // Le pain francis
+        final Button buttonLepainfrancisCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_lepainfrancais);
+        buttonLepainfrancisCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(CofeeShopActivity.this, DivanHalalRestaurantActivity.class); //need to be update
+                Intent intent = new Intent(CofeeShopActivity.this, LepainfrancisCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Hjälbo Pizzeria
-        final Button buttonHjalboPizzeriaRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_Hjällbo_Pizzeria);
-        buttonHjalboPizzeriaRestaurant.setOnClickListener(new View.OnClickListener() {
+        // starbucks
+        final Button buttonStarbucksCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_starbucks);
+        buttonStarbucksCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(CofeeShopActivity.this, HjalboPizariaHalalRestaurantActivity.class); //need to be update
+                Intent intent = new Intent(CofeeShopActivity.this, StarbucksCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Lebanes
-        final Button buttonLebanesRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_lebanes);
-        buttonLebanesRestaurant.setOnClickListener(new View.OnClickListener() {
+        // Da mattio
+        final Button buttonDamattioCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_damatteo);
+        buttonDamattioCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(CofeeShopActivity.this, LebanesHalalRestaurantActivity.class); //need to be update
+                Intent intent = new Intent(CofeeShopActivity.this, DamattioCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
