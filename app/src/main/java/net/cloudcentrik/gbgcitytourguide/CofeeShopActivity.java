@@ -9,79 +9,90 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
-public class RestaurantActivityNew extends AppCompatActivity {
+public class CofeeShopActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant_new);
+        setContentView(R.layout.activity_cofeeshop);
+
 
 
         // Toolbar
-        Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Restaurant");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Hotel ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        topToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
 
-        // Halal restaurant button
-        final Button button = (Button) findViewById(R.id.btn_halal_restaurant);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        // condeco
+        final Button buttonCondecoCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_condeco);
+        buttonCondecoCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, HalalRestaurantActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, CondecoCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fast food button
-        final Button buttonFastFood = (Button) findViewById(R.id.btn_fast_food);
-        buttonFastFood.setOnClickListener(new View.OnClickListener() {
+        // Espresso house
+        final Button buttonEspressoHouseCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_espresso_house);
+        buttonEspressoHouseCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FastFoodActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, EspressoHouseCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fine dyning button
-        final Button buttonFineDyning = (Button) findViewById(R.id.btn_fine_dining);
-        buttonFineDyning.setOnClickListener(new View.OnClickListener() {
+        // Le pain francis
+        final Button buttonLepainfrancisCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_lepainfrancais);
+        buttonLepainfrancisCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FineDyningResturentActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, LepainfrancisCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // cofee shop button
-        final Button buttonCofeeShop = (Button) findViewById(R.id.btn_cofee_shop);
-        buttonCofeeShop.setOnClickListener(new View.OnClickListener() {
+        // starbucks
+        final Button buttonStarbucksCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_starbucks);
+        buttonStarbucksCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, CofeeShopActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, StarbucksCofeeShopActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
+        // Da mattio
+        final Button buttonDamattioCofeeShop = (Button) findViewById(R.id.btn_cofee_shop_damatteo);
+        buttonDamattioCofeeShop.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(CofeeShopActivity.this, DamattioCofeeShopActivity.class); //need to be update
+                startActivity(intent);
 
 
+            }
+        });
 
 
     }
@@ -129,6 +140,4 @@ public class RestaurantActivityNew extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-
 }

@@ -304,6 +304,34 @@
 
         <!-- Halal end -->
 
+        <!-- cofee shop start -->
+        <activity
+            android:name=".CofeeShopActivity"
+            android:label="Cofee Shop"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".CondecoCofeeShopActivity"
+            android:label="Condeco"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LepainfrancisCofeeShopActivity"
+            android:label="Le pain Francis"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".EspressoHouseCofeeShopActivity"
+            android:label="Espresso House"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DamattioCofeeShopActivity"
+            android:label="Da Mattio"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StarbucksCofeeShopActivity"
+            android:label="Starbucks"
+            android:theme="@style/AppTheme" />
+
+        <!-- cofee shop end -->
+
         <!-- fast food -->
         <activity
             android:name=".FastFoodActivity"
