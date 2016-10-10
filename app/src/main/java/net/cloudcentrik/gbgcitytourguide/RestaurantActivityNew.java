@@ -69,7 +69,7 @@ public class RestaurantActivityNew extends AppCompatActivity {
         });
 
         // cofee shop button
-        final Button buttonCofeeShop = (Button) findViewById(R.id.btn_fine_dining);
+        final Button buttonCofeeShop = (Button) findViewById(R.id.btn_cofee_shop);
         buttonCofeeShop.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
