@@ -47,7 +47,7 @@ public class FastFoodActivity extends Activity {
 
         //your items
         ArrayList<OverlayItem> items = new ArrayList<OverlayItem>();
-        items.add(new OverlayItem("Titel","Description", new GeoPoint(38.883333, -77.016667))); // Lat/Lon decimal degrees
+        items.add(new OverlayItem("Macdoland Nordstan","Description", new GeoPoint(38.883333, -77.016667))); // Lat/Lon decimal degrees
         items.add(new OverlayItem("Titel 2","Description 2", new GeoPoint(39.916667, 116.383333)));
 
         DefaultResourceProxyImpl mResourceProxy = new DefaultResourceProxyImpl(getApplicationContext());

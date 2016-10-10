@@ -88,7 +88,7 @@ public class TravelInfoActivity extends AppCompatActivity {
                 startActivity( hotel);
                 return true;
             case R.id.action_restuarent:
-                Intent restaurant = new Intent(this,ResturentActivity.class);
+                Intent restaurant = new Intent(this,FineDyningResturentActivity.class);
                 startActivity(restaurant);
                 return true;
             case R.id.action_tourist_spots:

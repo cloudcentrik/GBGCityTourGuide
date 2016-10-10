@@ -34,6 +34,30 @@ public class StringsUtils {
         return values;
     }
 
+    // halal values
+    public static HashMap<String, String> getHalaThaiValues() {
+        HashMap<String, String> values = new HashMap<String, String>();
+
+        values.put(
+                "OVERVIEW",
+                "A popular island with restaurants, shops and activities.\n" +
+                        "In the northern part of the archipelago lies Hönö which has a popular marina"
+        );
+        values.put("OPENING_HOURS", "DEMO opening hours");
+        values.put("TICKET_PRICE", "DEMO ticket price");
+        values.put("TRAVEL_INFO", "DEMO travel information");
+        values.put("CONTACT_INFO", "DEMO contact information");
+        values.put("ADDRESS", "DEMO address");
+        values.put("EMAIL", "DEMO email");
+        values.put("PHONE", "DEMO phone");
+        values.put("NAME", "DEMO Name");
+
+        values.put("MAP", "57.7067050,11.9690680,Brunnsparken,city center");
+        values.put("GALLERY", "hono_island styrso_island vinga_island");
+
+        return values;
+    }
+
 
     // Museum START
     //Stad mesuem values
