@@ -34,29 +34,30 @@ public class YouthHotelsActivity extends AppCompatActivity {
             }
         });
 
-        // avalon hotel
-        final Button buttonYouthHotel1 = (Button) findViewById(R.id.btn_youth_hostel_1);
-        buttonYouthHotel1.setOnClickListener(new View.OnClickListener() {
+        // Slottsskogen Youth Hostel
+        final Button buttonSlottsskogenYouthHostel = (Button) findViewById(R.id.btn_youth_hostel_1);
+        buttonSlottsskogenYouthHostel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(YouthHotelsActivity.this, VandrarHemHotelActivity.class);
+                Intent intent = new Intent(YouthHotelsActivity.this, SlottsskogenYouthHostelActivity.class);
+                startActivity(intent);
+
+            }
+        });
+
+
+        // Backpackers Youth Hostel
+        final Button btnBackpackersYouthHostel = (Button) findViewById(R.id.btn_backpackers_goteborg);
+        btnBackpackersYouthHostel.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(YouthHotelsActivity.this, BackpackersYouthHostelActivity.class);
                 startActivity(intent);
 
             }
         });
 
         /*
-        // Vandrarhem hotel
-        final Button vandrarHemHotel = (Button) findViewById(R.id.btn_hotel_vandrarhem);
-        vandrarHemHotel.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, VandrarHemHotelActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
         // vanila hotel
         final Button buttonVanilaHotel = (Button) findViewById(R.id.btn_hotel_vanila);
         buttonVanilaHotel.setOnClickListener(new View.OnClickListener() {

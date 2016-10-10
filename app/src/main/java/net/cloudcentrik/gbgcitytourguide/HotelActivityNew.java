@@ -63,7 +63,7 @@ public class HotelActivityNew extends AppCompatActivity {
         buttonStarHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivityNew.this, StartHotelsActivity.class); //need to be update
+                Intent intent = new Intent(HotelActivityNew.this, StarHotelsActivity.class); //need to be update
                 startActivity(intent);
 
 

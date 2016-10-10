@@ -59,7 +59,7 @@
             android:label="Bed &amp; Breakfast"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".StartHotelsActivity"
+            android:name=".StarHotelsActivity"
             android:label="Star Hotels"
             android:theme="@style/AppTheme" />
         <activity
@@ -82,6 +82,15 @@
             android:name=".ScandicEuropaHotelActivity"
             android:label="Scandic Europa Hotel"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".SlottsskogenYouthHostelActivity"
+            android:label="Slottsskogen Youth Hostel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".BackpackersYouthHostelActivity"
+            android:label="Backpackers Youth Hostel"
+            android:theme="@style/AppTheme" />
+
         <!-- Hotels End -->
 
         <activity
