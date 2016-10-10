@@ -12,7 +12,7 @@ import android.widget.Button;
 /**
  * Created by Packard Bell on 2016-09-26.
  */
-public class StartHotelsActivity extends AppCompatActivity {
+public class StarHotelsActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class StartHotelsActivity extends AppCompatActivity {
         // Toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        toolbar.setTitle("Youth Hotel ");
+        toolbar.setTitle("Star Hotels ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
@@ -39,14 +39,13 @@ public class StartHotelsActivity extends AppCompatActivity {
         buttonStarHotel_1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(StartHotelsActivity.this, VandrarHemHotelActivity.class);   // Change  here
+                Intent intent = new Intent(StarHotelsActivity.this, VandrarHemHotelActivity.class);   // Change  here
                 startActivity(intent);
 
             }
         });
 
-        /*
-        // Vandrarhem hotel
+        /*// Vandrarhem hotel
         final Button vandrarHemHotel = (Button) findViewById(R.id.btn_hotel_vandrarhem);
         vandrarHemHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -56,13 +55,13 @@ public class StartHotelsActivity extends AppCompatActivity {
 
             }
         });
-
+*/
         // vanila hotel
         final Button buttonVanilaHotel = (Button) findViewById(R.id.btn_hotel_vanila);
         buttonVanilaHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, VanilaHotelActivity.class);
+                Intent intent = new Intent(StarHotelsActivity.this, VanilaHotelActivity.class);
                 startActivity(intent);
 
 
@@ -74,7 +73,7 @@ public class StartHotelsActivity extends AppCompatActivity {
         scandicEuropaHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, ScandicEuropaHotelActivity.class);
+                Intent intent = new Intent(StarHotelsActivity.this, ScandicEuropaHotelActivity.class);
                 startActivity(intent);
 
 
@@ -86,13 +85,23 @@ public class StartHotelsActivity extends AppCompatActivity {
         radissonBlueHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, RadissonBlueHotelActivity.class);
+                Intent intent = new Intent(StarHotelsActivity.this, RadissonBlueHotelActivity.class);
                 startActivity(intent);
 
 
             }
         });
-        */
+
+        // avalon hotel
+        final Button buttonAvalonHotel = (Button) findViewById(R.id.btn_hotel_avalon);
+        buttonAvalonHotel.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(StarHotelsActivity.this, AvalonHotelActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 
