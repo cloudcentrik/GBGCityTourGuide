@@ -10,12 +10,12 @@ import android.view.View;
 import android.widget.Button;
 
 
-public class ResturentActivity extends AppCompatActivity {
+public class FineDyningResturentActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resturent);
+        setContentView(R.layout.activity_fine_dyning_resturent);
 
 
         // Toolbar
@@ -37,7 +37,7 @@ public class ResturentActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(ResturentActivity.this, OlearysResturentActivity.class);
+                Intent intent = new Intent(FineDyningResturentActivity.this, OlearysResturentActivity.class);
                 startActivity(intent);
 
 
@@ -48,7 +48,7 @@ public class ResturentActivity extends AppCompatActivity {
         btn_Fiskekrogen.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intentFisk = new Intent(ResturentActivity.this, Fiskekrogen_RestaurantActivity.class);
+                Intent intentFisk = new Intent(FineDyningResturentActivity.this, Fiskekrogen_RestaurantActivity.class);
                 startActivity(intentFisk);
 
 
@@ -60,7 +60,7 @@ public class ResturentActivity extends AppCompatActivity {
         hrcbutton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(ResturentActivity.this, HardRockCafeActivity.class);
+                Intent intent = new Intent(FineDyningResturentActivity.this, HardRockCafeActivity.class);
                 startActivity(intent);
 
 
@@ -72,7 +72,7 @@ public class ResturentActivity extends AppCompatActivity {
         johnScottbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(ResturentActivity.this, JohnScottsRestaurantActivity.class);
+                Intent intent = new Intent(FineDyningResturentActivity.this, JohnScottsRestaurantActivity.class);
                 startActivity(intent);
 
 
@@ -84,7 +84,7 @@ public class ResturentActivity extends AppCompatActivity {
         joeFerellisbtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(ResturentActivity.this, JoeFerellisRestaurantActivity.class);
+                Intent intent = new Intent(FineDyningResturentActivity.this, JoeFerellisRestaurantActivity.class);
                 startActivity(intent);
 
 
@@ -114,7 +114,7 @@ public class ResturentActivity extends AppCompatActivity {
                 startActivity( hotel);
                 return true;
             case R.id.action_restuarent:
-                Intent restaurant = new Intent(this,ResturentActivity.class);
+                Intent restaurant = new Intent(this,FineDyningResturentActivity.class);
                 startActivity(restaurant);
                 return true;
             case R.id.action_tourist_spots:

@@ -56,6 +56,18 @@ public class RestaurantActivityNew extends AppCompatActivity {
             }
         });
 
+        // Fast food button
+        final Button buttonFineDyning = (Button) findViewById(R.id.btn_fine_dining);
+        buttonFineDyning.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(RestaurantActivityNew.this, FineDyningResturentActivity.class);
+                startActivity(intent);
+
+
+            }
+        });
+
 
 
 
@@ -81,7 +93,7 @@ public class RestaurantActivityNew extends AppCompatActivity {
                 startActivity( hotel);
                 return true;
             case R.id.action_restuarent:
-                Intent restaurant = new Intent(this,ResturentActivity.class);
+                Intent restaurant = new Intent(this,FineDyningResturentActivity.class);
                 startActivity(restaurant);
                 return true;
             case R.id.action_tourist_spots:
