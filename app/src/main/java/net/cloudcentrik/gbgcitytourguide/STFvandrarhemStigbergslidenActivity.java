@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class STFvandrarhemStigbergslidenActivity extends BaseActivity {
 
     public STFvandrarhemStigbergslidenActivity(){
-        super("STFvandrarhemStigbergslidenActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("STFvandrarhemStigbergslidenActivity",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
     }
 
 }

@@ -90,6 +90,19 @@
             android:name=".BackpackersYouthHostelActivity"
             android:label="Backpackers Youth Hostel"
             android:theme="@style/AppTheme" />
+        <activity
+            android:name=".STFvandrarhemStigbergslidenActivity"
+            android:label="STF Vandrarhem Stigbergsliden"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".LinneplatsensHotelandHostelActivity"
+            android:label="Linneplatsens Hotel and Hostel"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".KvibergsVandrarhemActivity"
+            android:label="Kvibergs Vandrarhem"
+            android:theme="@style/AppTheme" />
+
 
         <!-- Hotels End -->
 
