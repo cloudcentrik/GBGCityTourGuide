@@ -9,79 +9,90 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
-public class RestaurantActivityNew extends AppCompatActivity {
+public class CofeeShopActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant_new);
+        setContentView(R.layout.activity_cofeeshop);
+
 
 
         // Toolbar
-        Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Restaurant");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Hotel ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        topToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
 
-        // Halal restaurant button
-        final Button button = (Button) findViewById(R.id.btn_halal_restaurant);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        // Laithai
+        final Button buttonLaithiRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_laithai);
+        buttonLaithiRestaurant.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, HalalRestaurantActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, LaithaiHalalRestaurantActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fast food button
-        final Button buttonFastFood = (Button) findViewById(R.id.btn_fast_food);
-        buttonFastFood.setOnClickListener(new View.OnClickListener() {
+        // Saray
+        final Button buttonSarayRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_saray);
+        buttonSarayRestaurant.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FastFoodActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, SarayHalalRestaurantActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fine dyning button
-        final Button buttonFineDyning = (Button) findViewById(R.id.btn_fine_dining);
-        buttonFineDyning.setOnClickListener(new View.OnClickListener() {
+        // Divan
+        final Button buttonDivanRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_divan);
+        buttonDivanRestaurant.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FineDyningResturentActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, DivanHalalRestaurantActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // cofee shop button
-        final Button buttonCofeeShop = (Button) findViewById(R.id.btn_fine_dining);
-        buttonCofeeShop.setOnClickListener(new View.OnClickListener() {
+        // Hjälbo Pizzeria
+        final Button buttonHjalboPizzeriaRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_Hjällbo_Pizzeria);
+        buttonHjalboPizzeriaRestaurant.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, CofeeShopActivity.class);
+                Intent intent = new Intent(CofeeShopActivity.this, HjalboPizariaHalalRestaurantActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
+        // Lebanes
+        final Button buttonLebanesRestaurant = (Button) findViewById(R.id.btn_halal_restaurant_lebanes);
+        buttonLebanesRestaurant.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(CofeeShopActivity.this, LebanesHalalRestaurantActivity.class); //need to be update
+                startActivity(intent);
 
 
+            }
+        });
 
 
     }
@@ -129,6 +140,4 @@ public class RestaurantActivityNew extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-
 }
