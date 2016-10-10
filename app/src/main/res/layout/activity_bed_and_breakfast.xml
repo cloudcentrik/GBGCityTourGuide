@@ -42,7 +42,7 @@
                 android:layout_marginTop="5dp"
                 >
                 <Button
-                    android:id="@+id/btn_bed_and_breakfast_1"
+                    android:id="@+id/btn_goodmorning_gbg_city"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1.5"
@@ -149,35 +149,7 @@
 
             </LinearLayout>
 
-            <!-- 5 -->
-            <!--
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="90dp"
-                android:orientation="horizontal"
-                android:elevation="4sp"
-                android:layout_marginTop="5dp"
-                >
-                <Button
-                    android:id="@+id/btn_styrsö_island"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_weight="1.5"
-                    android:text="Bed &amp; Breakfast 5"
-                    android:textSize="20dp"
-                    android:typeface="monospace"
-                    android:textStyle="bold"
-                    android:paddingLeft="10dp"
-                    android:paddingRight="1dp"
-                    android:elevation="4sp"
-                    android:gravity="center"
-                    android:drawableLeft="@drawable/ic_hotel_white_12dp"
-                    android:drawableRight="@drawable/ic_chevron_right_white_18dp"
-                    android:textColor="@color/white"
-                    android:background="@color/button_colour_orange"/>
 
-            </LinearLayout>
--->
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
