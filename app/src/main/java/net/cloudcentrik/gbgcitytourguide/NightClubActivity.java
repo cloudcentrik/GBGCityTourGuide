@@ -9,101 +9,77 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
-
-public class RestaurantActivityNew extends AppCompatActivity {
+public class NightClubActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_restaurant_new);
+        setContentView(R.layout.activity_nightclub);
+
 
 
         // Toolbar
-        Toolbar topToolBar = (Toolbar) findViewById(R.id.toolbar);
-        setSupportActionBar(topToolBar);
-        topToolBar.setTitle("Restaurant");
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setTitle("Hotel ");
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayShowHomeEnabled(true);
-        topToolBar.setNavigationOnClickListener(new View.OnClickListener() {
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 onBackPressed();
             }
         });
 
-        // Halal restaurant button
-        final Button button = (Button) findViewById(R.id.btn_halal_restaurant);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        // parklane
+        final Button buttonParklane = (Button) findViewById(R.id.btn_night_club_park_lane);
+        buttonParklane.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, HalalRestaurantActivity.class);
+                Intent intent = new Intent(NightClubActivity.this, ParklaneNightClubActivity.class); //need to be update
+                startActivity(intent);
+
+            }
+        });
+
+        // Excet
+        final Button buttonExcet = (Button) findViewById(R.id.btn_night_club_excet);
+        buttonExcet.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Perform action on click
+                Intent intent = new Intent(NightClubActivity.this, ExcetNightClubActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fast food button
-        final Button buttonFastFood = (Button) findViewById(R.id.btn_fast_food);
-        buttonFastFood.setOnClickListener(new View.OnClickListener() {
+        // yakadi
+        final Button buttonYakadi = (Button) findViewById(R.id.btn_night_club_yakida);
+        buttonYakadi.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FastFoodActivity.class);
+                Intent intent = new Intent(NightClubActivity.this, YakidaNightClubActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Fine dyning button
-        final Button buttonFineDyning = (Button) findViewById(R.id.btn_fine_dining);
-        buttonFineDyning.setOnClickListener(new View.OnClickListener() {
+        // stickyfinger
+        final Button buttonStickyfinger = (Button) findViewById(R.id.btn_night_club_stickyfingers);
+        buttonStickyfinger.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, FineDyningResturentActivity.class);
+                Intent intent = new Intent(NightClubActivity.this, StickyfingersNightClubActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
-
-        // cofee shop button
-        final Button buttonCofeeShop = (Button) findViewById(R.id.btn_cofee_shop);
-        buttonCofeeShop.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, CofeeShopActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        // pub
-        final Button buttonPub = (Button) findViewById(R.id.btn_pub);
-        buttonPub.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, PubActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        // nightclub
-        final Button buttonNightclub = (Button) findViewById(R.id.btn_night_club);
-        buttonNightclub.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(RestaurantActivityNew.this, NightClubActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-
-
-
 
     }
 
@@ -150,6 +126,4 @@ public class RestaurantActivityNew extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
     }
-
-
 }

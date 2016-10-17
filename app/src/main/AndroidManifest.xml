@@ -357,6 +357,32 @@
 
         <!-- Pub end -->
 
+        <!-- Nightclub start -->
+        <activity
+            android:name=".NightClubActivity"
+            android:label="Night Clubs"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".StickyfingersNightClubActivity"
+            android:label="Sticky Fingers"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".YakidaNightClubActivity"
+            android:label="Yaka-Di"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ParklaneNightClubActivity"
+            android:label="Park Lane Klub"
+            android:theme="@style/AppTheme" />
+
+        <activity
+            android:name=".ExcetNightClubActivity"
+            android:label="Excet"
+            android:theme="@style/AppTheme" />
+
+        <!-- Nightclub end -->
+
         <!-- fast food -->
         <activity
             android:name=".FastFoodActivity"
