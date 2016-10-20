@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.cloudcentrik.gbgcitytourguide">
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -14,9 +15,6 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/SplashTheme">
@@ -26,7 +24,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:label="Main Activity"
@@ -38,8 +35,8 @@
         <activity
             android:name=".GardenActivity"
             android:label="@string/title_activity_garden"
-            android:theme="@style/AppTheme"
-            android:parentActivityName="net.cloudcentrik.gbgcitytourguide.TouristSpotsActivity" />
+            android:parentActivityName=".TouristSpotsActivity"
+            android:theme="@style/AppTheme" />
 
         <!-- Hotels start -->
         <activity
@@ -107,7 +104,7 @@
             android:label="Kvibergs Vandrarhem"
             android:theme="@style/AppTheme" />
 
-        <!-- B&B-->
+        <!-- B&B -->
         <activity
             android:name=".GoodMorningGoteborgCityActivity"
             android:label="Good Morning+ Göteborg City"
@@ -125,14 +122,12 @@
             android:label="Göteborgs Mini Hotel"
             android:theme="@style/AppTheme" />
 
-
         <!-- Hotels End -->
 
         <activity
             android:name=".BaseTestActivity"
             android:label="@string/title_activity_base_Test"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"
@@ -165,40 +160,37 @@
             android:theme="@style/AppTheme" />
         <!-- ISLAND END -->
 
-        <!-- LAKE START-->
+
+        <!-- LAKE START -->
         <activity
             android:name=".LakesActivity"
             android:label="Lakes"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".DelsjonLakeActivity"
             android:label="Delsjön"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".BerjsonLakeActivity"
             android:label="Bergsjön"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".SurtesjonLakeActivity"
             android:label="Surtesjön"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".HarlandaLakeActivity"
             android:label="Härlanda Tjärn"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".SvarteMosseLakeActivity"
             android:label="Svarte Mosse"
             android:theme="@style/AppTheme" />
 
-        <!-- LAKE END-->
+        <!-- LAKE END -->
 
-        <!-- Park START-->
+
+        <!-- Park START -->
         <activity
             android:name=".ParkActivity"
             android:label="Parks"
@@ -215,9 +207,10 @@
             android:name=".SlotsskogenParkActivity"
             android:label="Slottsskogen Park"
             android:theme="@style/AppTheme" />
-        <!-- PARK END-->
+        <!-- PARK END -->
 
-        <!--Museum activities-->
+
+        <!-- Museum activities -->
         <activity
             android:name=".MaritimanMuseumActivity"
             android:label="@string/title_activity_maritiman_museum"
@@ -242,14 +235,12 @@
             android:name=".MuseumOfArtActivity"
             android:label="@string/title_activity_museum_of_art"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".UniverseumActivity"
             android:label="@string/title_activity_universeum"
             android:theme="@style/AppTheme" />
 
-        <!--Museum activities END-->
-
+        <!-- Museum activities END -->
 
         <activity
             android:name=".HistoricalPlaceActivity"
@@ -276,8 +267,8 @@
             android:label="@string/title_activity_skansenkrona_hp"
             android:theme="@style/AppTheme" />
 
-
         <!-- Restaurant activities Here -->
+
 
         <!-- Halal start -->
         <activity
@@ -300,13 +291,13 @@
             android:name=".DivanHalalRestaurantActivity"
             android:label="Divan Restaurant"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".LebanesHalalRestaurantActivity"
             android:label="Lebanes Grill House"
             android:theme="@style/AppTheme" />
 
         <!-- Halal end -->
+
 
         <!-- cofee shop start -->
         <activity
@@ -336,6 +327,7 @@
 
         <!-- cofee shop end -->
 
+
         <!-- Pub start -->
         <activity
             android:name=".PubActivity"
@@ -349,13 +341,13 @@
             android:name=".BishoparmPubActivity"
             android:label="Bishop Arms"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".DublinerPubActivity"
             android:label="Dubliner"
             android:theme="@style/AppTheme" />
 
         <!-- Pub end -->
+
 
         <!-- Nightclub start -->
         <activity
@@ -370,12 +362,10 @@
             android:name=".YakidaNightClubActivity"
             android:label="Yaka-Di"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".ParklaneNightClubActivity"
             android:label="Park Lane Klub"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".ExcetNightClubActivity"
             android:label="Excet"
@@ -383,12 +373,12 @@
 
         <!-- Nightclub end -->
 
+
         <!-- fast food -->
         <activity
             android:name=".FastFoodActivity"
             android:label="Fast Food"
             android:theme="@style/AppTheme" />
-
         <activity
             android:name=".RestaurantActivityNew"
             android:label="Restaurants"
@@ -417,9 +407,6 @@
             android:name=".JoeFerellisRestaurantActivity"
             android:label="@string/title_activity_JoeFerellis_restaurant"
             android:theme="@style/AppTheme" />
-
-
-
         <activity
             android:name=".TravelInfoActivity"
             android:label="@string/title_activity_travelinfo"
@@ -449,34 +436,46 @@
         <activity
             android:name=".NordstanSCActivity"
             android:label="@string/title_activity_nordstan_sc"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".FrolundaTorgActivity"
             android:label="@string/title_activity_frolundatory_sc"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
-        android:name=".NordiskaKompanietActivity"
-        android:label="@string/title_activity_nordiska_sc"
-        android:theme="@style/AppTheme"></activity>
-
+            android:name=".NordiskaKompanietActivity"
+            android:label="@string/title_activity_nordiska_sc"
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".ArkadenShopingCenterActivity"
             android:label="Arkaden Shoping Center"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
 
-        <!-- Garden Activities-->
+        <!-- Garden Activities -->
 
         <activity
             android:name=".BotanicalGardenActivity"
             android:label="@string/title_activity_botanical_garden"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".TradgardsforeningenActivity"
             android:label="@string/title_activity_tradgardsforeningen"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
 
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
 
-
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
     </application>
 
 </manifest>
