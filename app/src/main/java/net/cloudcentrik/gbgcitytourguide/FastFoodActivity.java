@@ -4,28 +4,24 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import org.osmdroid.DefaultResourceProxyImpl;
-import org.osmdroid.api.IMapController;
-import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
-import org.osmdroid.util.GeoPoint;
-import org.osmdroid.views.MapView;
-import org.osmdroid.views.overlay.ItemizedIconOverlay;
-import org.osmdroid.views.overlay.ItemizedOverlayWithFocus;
-import org.osmdroid.views.overlay.MyLocationOverlay;
-import org.osmdroid.views.overlay.OverlayItem;
-import org.osmdroid.views.overlay.mylocation.GpsMyLocationProvider;
-import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
+import android.support.v4.app.FragmentActivity;
 
-import java.util.ArrayList;
 
-public class FastFoodActivity extends Activity {
+import com.google.android.gms.maps.CameraUpdateFactory;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-    MyLocationNewOverlay mLocationOverlay=null;
+public class FastFoodActivity extends FragmentActivity implements OnMapReadyCallback {
+
+    private GoogleMap mMap;
 
     @Override public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fast_food);
-        //important! set your user agent to prevent getting banned from the osm servers
+        /*//important! set your user agent to prevent getting banned from the osm servers
         org.osmdroid.tileprovider.constants.OpenStreetMapTileProviderConstants.setUserAgentValue(BuildConfig.APPLICATION_ID);
 
         MapView map = (MapView) findViewById(R.id.fast_food_map);
@@ -67,7 +63,27 @@ public class FastFoodActivity extends Activity {
                 }, mResourceProxy);
         mOverlay.setFocusItemsOnTap(true);
 
-        map.getOverlays().add(mOverlay);
+        map.getOverlays().add(mOverlay);*/
 
+        // Obtain the SupportMapFragment and get notified when the map is ready to be used.
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
+        mapFragment.getMapAsync(this);
+
+    }
+
+    @Override
+    public void onMapReady(GoogleMap googleMap) {
+        mMap = googleMap;
+
+        // Add a marker in Sydney and move the camera
+        LatLng sydney = new LatLng(57.7,11.966667);
+        //LatLng sydney1 = new LatLng(39.916667, 116.383333);
+        //mMap.setMinZoomPreference(6.0f);
+        //mMap.setMaxZoomPreference(14.0f);
+
+        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        //mMap.addMarker(new MarkerOptions().position(sydney1).title("Marker in Sydney1"));
+        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
