@@ -94,6 +94,16 @@ public class BaseGoogleMapFragment extends Fragment implements OnMapReadyCallbac
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(marker,15));
         map.getUiSettings().setZoomControlsEnabled(true);
         map.getUiSettings().setCompassEnabled(true);
+        enableMyLocation(map);
+    }
+
+    private void enableMyLocation(GoogleMap map) {
+        if (ContextCompat.checkSelfPermission(this.getContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            map.setMyLocationEnabled(true);
+        } else {
+            // Show rationale and request permission.
+        }
     }
 
 
