@@ -8,6 +8,7 @@ import android.*;
 import android.Manifest;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
@@ -30,6 +31,8 @@ import com.google.android.gms.maps.UiSettings;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.android.gms.maps.model.Polyline;
+import com.google.android.gms.maps.model.PolylineOptions;
 
 public class BaseGoogleMapFragment extends Fragment implements OnMapReadyCallback,ActivityCompat.OnRequestPermissionsResultCallback{
 
@@ -91,9 +94,22 @@ public class BaseGoogleMapFragment extends Fragment implements OnMapReadyCallbac
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
         );
 
+        LatLng currentPosition = new LatLng(lad+0.002,lan-0.001);
+        map.addMarker(new MarkerOptions()
+                .position(currentPosition)
+                .title("MY Location")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
+        );
+
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(marker,15));
         map.getUiSettings().setZoomControlsEnabled(true);
         map.getUiSettings().setCompassEnabled(true);
+
+        Polyline line = map.addPolyline(new PolylineOptions()
+                .add(new LatLng(lad+0.002,lan-0.001), new LatLng(lad, lan))
+                .width(5)
+                .color(Color.RED));
+
         enableMyLocation(map);
     }
 
