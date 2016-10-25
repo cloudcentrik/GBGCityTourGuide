@@ -3,13 +3,17 @@ package net.cloudcentrik.gbgcitytourguide;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AppCompatActivity;
 import android.text.SpannableString;
 import android.text.style.ForegroundColorSpan;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import android.Manifest;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -20,10 +24,12 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
-public class FastFoodActivity extends FragmentActivity implements OnMapReadyCallback {
+public class FastFoodActivity extends AppCompatActivity implements OnMapReadyCallback,ActivityCompat.OnRequestPermissionsResultCallback {
 
     private GoogleMap mMap;
     private Marker marker1;
+    private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
+    private boolean mPermissionDenied = false;
 
 
     @Override public void onCreate(Bundle savedInstanceState) {
@@ -125,6 +131,10 @@ public class FastFoodActivity extends FragmentActivity implements OnMapReadyCall
 
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(macdolandNordstan, 12));
 
+        enableMyLocation();
+
+
+
 
 
         /*final LatLng MELBOURNE = new LatLng(-37.813, 144.962);
@@ -134,6 +144,18 @@ public class FastFoodActivity extends FragmentActivity implements OnMapReadyCall
                 .snippet("Population: 4,137,400")
                 .icon(BitmapDescriptorFactory.fromResource(R.drawable.ic_location_on_black_18dp)));*/
 
+    }
+
+    private void enableMyLocation() {
+        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            // Permission to access the location is missing.
+            PermissionUtils.requestPermission(this, LOCATION_PERMISSION_REQUEST_CODE,
+                    Manifest.permission.ACCESS_FINE_LOCATION, true);
+        } else if (mMap != null) {
+            // Access to the location has been granted to the app.
+            mMap.setMyLocationEnabled(true);
+        }
     }
 
     //custom infowindow
