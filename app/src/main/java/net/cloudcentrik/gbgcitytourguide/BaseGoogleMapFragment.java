@@ -94,21 +94,21 @@ public class BaseGoogleMapFragment extends Fragment implements OnMapReadyCallbac
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
         );
 
-        LatLng currentPosition = new LatLng(lad+0.002,lan-0.001);
+        /*LatLng currentPosition = new LatLng(lad+0.002,lan-0.001);
         map.addMarker(new MarkerOptions()
                 .position(currentPosition)
                 .title("MY Location")
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
-        );
+        );*/
 
         map.moveCamera(CameraUpdateFactory.newLatLngZoom(marker,15));
         map.getUiSettings().setZoomControlsEnabled(true);
         map.getUiSettings().setCompassEnabled(true);
 
-        Polyline line = map.addPolyline(new PolylineOptions()
+        /*Polyline line = map.addPolyline(new PolylineOptions()
                 .add(new LatLng(lad+0.002,lan-0.001), new LatLng(lad, lan))
                 .width(5)
-                .color(Color.RED));
+                .color(Color.RED));*/
 
         enableMyLocation(map);
     }
