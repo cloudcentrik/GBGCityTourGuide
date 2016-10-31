@@ -34,7 +34,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_garden_white_18dp"
+            android:drawableLeft="@drawable/ic_garden_new_24"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_green"/>
@@ -62,7 +62,7 @@
             android:paddingRight="1dp"
             android:elevation="4sp"
             android:gravity="center"
-            android:drawableLeft="@drawable/ic_garden_white_18dp"
+            android:drawableLeft="@drawable/ic_garden_new_24"
             android:drawableRight="@drawable/ic_chevron_right_white_18dp"
             android:textColor="@color/white"
             android:background="@color/button_colour_orange"/>

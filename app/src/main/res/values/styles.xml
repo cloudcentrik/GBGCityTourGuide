@@ -18,7 +18,7 @@
         <item name="android:textColorSecondary">@color/my_secondary_text</item>
 
 
-        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowBackground">@color/fragement_background</item>
     </style>
     <!--app Theme End-->
 
