@@ -64,23 +64,8 @@ public class TravelInfoActivity extends AppCompatActivity {
                 // Perform action on click
                 Intent intent = new Intent(TravelInfoActivity.this, TaxiActivity.class);
                 startActivity(intent);
-
-
             }
         });
-
-        // Map Button
-        final Button buttonMap = (Button) findViewById(R.id.gbg_btn_google_map);
-        buttonMap.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(TravelInfoActivity.this, MapsActivity.class);
-                startActivity(intent);
-
-
-            }
-        });
-
     }
 
     @Override
