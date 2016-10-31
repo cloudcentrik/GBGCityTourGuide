@@ -4,39 +4,38 @@ package net.cloudcentrik.gbgcitytourguide;
  * Created by Packard Bell on 2016-04-04.
  */
 
+import android.Manifest;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-//import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.MapView;
+import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-import org.osmdroid.DefaultResourceProxyImpl;
-import org.osmdroid.api.IMapController;
-import org.osmdroid.tileprovider.tilesource.TileSourceFactory;
-import org.osmdroid.util.GeoPoint;
-import org.osmdroid.views.MapView;
-import org.osmdroid.views.overlay.ItemizedIconOverlay;
-import org.osmdroid.views.overlay.ItemizedOverlayWithFocus;
-import org.osmdroid.views.overlay.OverlayItem;
-import org.osmdroid.views.overlay.ScaleBarOverlay;
-import org.osmdroid.views.overlay.SimpleLocationOverlay;
+public class BaseMapFragment extends Fragment implements OnMapReadyCallback,ActivityCompat.OnRequestPermissionsResultCallback{
 
-import java.util.ArrayList;
-
-public class BaseMapFragment extends Fragment{
-
-    private MapView mapView;
-    private IMapController mapController;
-    private SimpleLocationOverlay mMyLocationOverlay;
-    private ScaleBarOverlay mScaleBarOverlay;
-    private ItemizedIconOverlay<OverlayItem> currentLocationOverlay;
-    private DefaultResourceProxyImpl resourceProxy;
     private String mapInfo;
+
+    private MapView mMapView;
+    private Bundle mBundle;
+
+    private Double lad,lan;
+
+    private static final int LOCATION_PERMISSION_REQUEST_CODE = 1;
+    private boolean mPermissionDenied = false;
 
     public static BaseMapFragment newInstance(String address, String contactInfo, String mapId) {
         BaseMapFragment fragment = new BaseMapFragment();
@@ -53,61 +52,90 @@ public class BaseMapFragment extends Fragment{
         super.onDetach();
     }
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fragment_map, container, false);
+        View rootView = inflater.inflate(R.layout.fragment_google_map, container, false);
 
-
-        //map
-        MapView map = (MapView) rootView.findViewById(R.id.openmap);
-        map.setTileSource(TileSourceFactory.MAPNIK);
-        map.setBuiltInZoomControls(true);
-        map.setMultiTouchControls(true);
-
-        IMapController mapController = map.getController();
-        mapController.setZoom(15);
 
         this.mapInfo = getArguments().getString("MAP", "");
         String mapDetails[]= TextUtils.split(this.mapInfo,",");
 
-        Double lad=Double.parseDouble(mapDetails[0]); //lad
-        Double lan=Double.parseDouble(mapDetails[1]);
+        lad=Double.parseDouble(mapDetails[0]); //lad
+        lan=Double.parseDouble(mapDetails[1]);
 
-
-
-        GeoPoint startPoint = new GeoPoint(lad,lan);
-        mapController.setCenter(startPoint);
-
-        //your items
-        ArrayList<OverlayItem> items = new ArrayList<OverlayItem>();
-        items.add(new OverlayItem(mapDetails[2], mapDetails[3], new GeoPoint(lad,lan))); // Lat/Lon decimal degrees
-        DefaultResourceProxyImpl mResourceProxy = new DefaultResourceProxyImpl(getContext());
-
-        //the overlay
-        ItemizedOverlayWithFocus<OverlayItem> mOverlay = new ItemizedOverlayWithFocus<OverlayItem>(items,
-                new ItemizedIconOverlay.OnItemGestureListener<OverlayItem>() {
-                    @Override
-                    public boolean onItemSingleTapUp(final int index, final OverlayItem item) {
-                        //do something
-                        return true;
-                    }
-                    @Override
-                    public boolean onItemLongPress(final int index, final OverlayItem item) {
-                        return false;
-                    }
-                }, mResourceProxy);
-        mOverlay.setFocusItemsOnTap(true);
-
-        map.getOverlays().add(mOverlay);
+        //map
+        mMapView = (MapView) rootView.findViewById(R.id.mymap);
+        mMapView.getMapAsync(this);
+        mMapView.onCreate(mBundle);
 
         return rootView;
+    }
+
+    @Override
+    public void onMapReady(GoogleMap map)
+    {
+        LatLng marker = new LatLng(lad,lan);
+        map.addMarker(new MarkerOptions()
+                .position(marker)
+                .title(getActivity().getTitle().toString())
+                .snippet(getArguments().getString("ADDRESS",""))
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE))
+        );
+
+        /*LatLng currentPosition = new LatLng(lad+0.002,lan-0.001);
+        map.addMarker(new MarkerOptions()
+                .position(currentPosition)
+                .title("MY Location")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_RED))
+        );*/
+
+        map.moveCamera(CameraUpdateFactory.newLatLngZoom(marker,15));
+        map.getUiSettings().setZoomControlsEnabled(true);
+        map.getUiSettings().setCompassEnabled(true);
+
+        /*Polyline line = map.addPolyline(new PolylineOptions()
+                .add(new LatLng(lad+0.002,lan-0.001), new LatLng(lad, lan))
+                .width(5)
+                .color(Color.RED));*/
+
+        enableMyLocation(map);
+    }
+
+    private void enableMyLocation(GoogleMap map) {
+        if (ContextCompat.checkSelfPermission(this.getContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+                == PackageManager.PERMISSION_GRANTED) {
+            map.setMyLocationEnabled(true);
+        } else {
+            // Show rationale and request permission.
+        }
+    }
+
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        mBundle = savedInstanceState;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        mMapView.onResume();
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        mMapView.onPause();
+    }
+
+    @Override
+    public void onDestroy() {
+        mMapView.onDestroy();
+        super.onDestroy();
     }
 
     private int convertStringToId(String id) {

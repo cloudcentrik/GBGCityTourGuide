@@ -206,7 +206,6 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:textColor="@color/blue" />
 
                     <TextView
-                        android:id="@+id/txtDescription"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -220,7 +219,6 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:src="@drawable/togo" />
 
                     <TextView
-                        android:id="@+id/txtAddress2"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"
@@ -230,7 +228,6 @@ Don’t forget to download the travel planning app Reseplaneraren, available on 
                         android:textColor="@color/blue" />
 
                     <TextView
-                        android:id="@+id/txtDescription3"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="10dp"

@@ -1,6 +1,7 @@
 package net.cloudcentrik.gbgcitytourguide;
 
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -14,7 +15,8 @@ public class HotelActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_hotel_new);
+        setContentView(R.layout.activity_hotel_new_design);
+        setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
 
 
 
@@ -32,58 +34,38 @@ public class HotelActivity extends AppCompatActivity {
             }
         });
 
-        // avalon hotel
-        final Button buttonAvalonHotel = (Button) findViewById(R.id.btn_hotel_avalon);
-        buttonAvalonHotel.setOnClickListener(new View.OnClickListener() {
+
+
+        // Youth Hostels
+        final Button buttonYouthHostels = (Button) findViewById(R.id.btn_youth_hostels);
+        buttonYouthHostels.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, YouthHotelsActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        // Vandrarhem hotel
-        final Button vandrarHemHotel = (Button) findViewById(R.id.btn_hotel_vandrarhem);
-        vandrarHemHotel.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, VandrarHemHotelActivity.class);
-                startActivity(intent);
-
-            }
-        });
-
-        // vanila hotel
-        final Button buttonVanilaHotel = (Button) findViewById(R.id.btn_hotel_vanila);
-        buttonVanilaHotel.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, YouthHotelsActivity.class);
+                Intent intent = new Intent(HotelActivity.this, YouthHotelsActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Scandic Europa hotel
-        final Button scandicEuropaHotel = (Button) findViewById(R.id.btn_hotel_scandiceuropa);
-        scandicEuropaHotel.setOnClickListener(new View.OnClickListener() {
+        // Bed and Breakfast
+        final Button buttonBedandBreakfast = (Button) findViewById(R.id.btn_bed_and_breakfast);
+        buttonBedandBreakfast.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, ScandicEuropaHotelActivity.class);
+                Intent intent = new Intent(HotelActivity.this, BedandBreakfatActivity.class); //need to be update
                 startActivity(intent);
 
 
             }
         });
 
-        // Radisson Blue hotel
-        final Button radissonBlueHotel = (Button) findViewById(R.id.btn_hotel_radissonblue);
-        radissonBlueHotel.setOnClickListener(new View.OnClickListener() {
+        // Stars Hotels
+        final Button buttonStarHotel = (Button) findViewById(R.id.btn_stars_hotel);
+        buttonStarHotel.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Perform action on click
-                Intent intent = new Intent(HotelActivity.this, RadissonBlueHotelActivity.class);
+                Intent intent = new Intent(HotelActivity.this, StarHotelsActivity.class); //need to be update
                 startActivity(intent);
 
 

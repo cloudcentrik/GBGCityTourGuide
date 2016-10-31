@@ -1,10 +1,8 @@
 <resources>
     <string name="app_name">Gothenburg City Tour Guide</string>
-    <string name="title_activity_park"> GBG Test </string>
 
     <!--GBG Museums-->
     <string name="title_activity_museum">Museums</string>
-    <string name="title_activity_stad_museum">Stad Museum</string>
     <string name="title_activity_maritiman_museum">Maritiman Museum</string>
     <string name="title_activity_natural_history_museum">Natural History Museum</string>
     <string name="title_activity_city_museum">City Museum</string>
@@ -15,31 +13,14 @@
 
     <!--GBG Museum End-->
 
-    <string-array name="stad_museam">
-        <item>Category one
-        Category two</item>
-        <item>History
-        History two</item>
-        <item>Address</item>
-        <item>Contact Info</item>
-        <item>Opening Hours</item>
-        <item>Travel Info</item>
-        <item>Ticket Price</item>
-    </string-array>
-
 
     <string name="title_tourist_spot">Tourist Spots</string>
 
 
-    <string name="headingtext_infocenter_nordstan">Nordstan Info Center</string>
-    <string name="headingtext_infocenter_kungsports">Kungsportspl Info Center</string>
     <string name="title_activity_historical_place">Historical Places</string>
     <string name="title_activity_island">Islands</string>
-    <string name="title_activity_stad_museam">GBG Historical Place</string>
-    <string name="title_activity_gallary">Stad museam</string>
 
     <!-- Restaurant -->
-    <string name="title_activity_resturent">Restaurants</string>
     <string name="title_activity_olearys_resturent">O\'learys Restaurant</string>
     <string name="title_activity_hardrockcafe">HardRock Cafe</string>
     <string name="title_activity_fiskekrogen__restaurant">Fiskekrogen Restaurant</string>
@@ -55,11 +36,9 @@
     <!--GBG Historical Places End-->
 
 
-    <string name="title_activity_base_Test">Base Test</string>
     <string name="title_activity_travelinfo">Travel Information </string>
     <string name="title_activity_publictransport">Public Transport </string>
     <string name="title_activity_airporttransport">Airport Transport </string>
-    <string name="title_activity_infocenter">Info Center</string>
 
     <string name="title_activity_hotel">Hotels</string>
     <string name="title_activity_avalon_hotel">Avalon Hotel</string>
@@ -76,7 +55,6 @@
     <string name="title_activity_garden">Gardens</string>
     <string name="title_activity_botanical_garden">Botanical Garden</string>
     <string name="title_activity_tradgardsforeningen">Trädgårdsföreningen</string>
-    <string name="title_activity_maps">Map</string>
     <!-- Garden Activity End-->
     <!--    Permissions    -->
     <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>

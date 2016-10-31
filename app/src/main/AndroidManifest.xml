@@ -41,10 +41,6 @@
 
         <!-- Hotels start -->
         <activity
-            android:name=".HotelActivityNew"
-            android:label="@string/title_activity_hotel"
-            android:theme="@style/AppTheme" />
-        <activity
             android:name=".HotelActivity"
             android:label="@string/title_activity_hotel"
             android:theme="@style/AppTheme" />
@@ -125,10 +121,6 @@
 
         <!-- Hotels End -->
 
-        <activity
-            android:name=".BaseTestActivity"
-            android:label="@string/title_activity_base_Test"
-            android:theme="@style/AppTheme" />
         <activity
             android:name=".MuseumActivity"
             android:label="@string/title_activity_museum"
@@ -381,7 +373,7 @@
             android:label="Fast Food"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".RestaurantActivityNew"
+            android:name=".RestaurantActivity"
             android:label="Restaurants"
             android:theme="@style/AppTheme" />
         <activity
@@ -474,9 +466,6 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps"></activity>
     </application>
 
 </manifest>

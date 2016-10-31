@@ -67,7 +67,6 @@
                     android:layout_marginTop="10dp"
                     android:layout_height="wrap_content" />
                 <TextView
-                    android:id="@+id/txtDescription"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="The tourist centres at Kungsportsplatsen is open almost every day of the year. Book accommodation or tours with authourised guides, buy your City Card or find cool souvenirs. At the tourist centre you can also pick up your copy of the city guide, get a map  or ask for handpicked recommendations from the staff."

@@ -1,7 +1,6 @@
 package net.cloudcentrik.gbgcitytourguide;
 
 
-import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
@@ -61,7 +60,7 @@ public class BaseTabsPagerAdapter extends FragmentStatePagerAdapter {
             case 2:
                 //BaseVisitFragment tab3 = BaseVisitFragment.newInstance(this.address,this.contactInfo,this.mapId);
                 //BaseMapFragment tab3 = BaseMapFragment.newInstance(this.address,this.contactInfo,this.mapId);
-                BaseGoogleMapFragment tab3 = BaseGoogleMapFragment.newInstance(this.address,this.contactInfo,this.mapId);
+                BaseMapFragment tab3 = BaseMapFragment.newInstance(this.address,this.contactInfo,this.mapId);
                 return tab3;
             case 3:
                 BaseGalleryFragment tab4 = BaseGalleryFragment.newInstance(this.galleryImageId);

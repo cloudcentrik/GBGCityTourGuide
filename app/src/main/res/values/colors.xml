@@ -1,42 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="textColorPrimary">#FFFFFF</color>
 
 
     <!--app colors Start-->
-    <color name="window_background">#E0F7FA</color>
     <color name="my_primary">#546E7A</color>
-    <color name="my_primary_dark">#CC0000</color>
-    <color name="my_primary_light">#B3E5FC</color>
     <color name="my_accent">#FF5722</color>
     <color name="my_primary_text">#ffffff</color>
     <color name="my_secondary_text">#ffffff</color>
-    <color name="my_icons">#FFFFFF</color>
-    <color name="my_divider">#B6B6B6</color>
-    <color name="my_infocenter">#000000</color>
     <!--app colors End-->
 
     <!--button colors start-->
     <color name="btn_white">#FFFFFF</color>
     <color name="btn_shadow">#FFFFFF</color>
-    <color name="btn_bg">#00BCD4</color>
-    <color name="btn_bg_presed">#80DEEA</color>
-    <color name="btn_border">#FFFFFF</color>
-    <color name="btn_bg_presed_second">#B2EBF2</color>
 
     <!--button colors End-->
     <!-- Fragement color -->
     <color name="fragement_background">#eceff1</color>
     <color name="fragement_text_color">#000000</color>
-    <color name="fragement_heading_text_color">#000000</color>
 
     <!-- Gallary color -->
-    <color name="gallary_border1">#B2EBF2</color>
-    <color name="gallary_border2">#00abea</color>
-    <color name="gallary_border3">#000000</color>
 
     <!-- Toolbar colors -->
     <color name="toolbar_background">#00838F</color>
