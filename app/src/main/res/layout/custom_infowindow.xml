@@ -3,16 +3,18 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/map_marker_background"
-    android:layout_margin="10dp">
+    android:layout_margin="5dp">
     <ImageView
         android:id="@+id/fast_food_image"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_margin="2dp"/>
     <TextView
         android:id="@+id/fast_food_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"/>
+        android:layout_gravity="center"
+        android:layout_margin="2dp"/>
 
 </LinearLayout>

@@ -29,7 +29,7 @@
 
     <!--button colors End-->
     <!-- Fragement color -->
-    <color name="fragement_background">#B2EBF2</color>
+    <color name="fragement_background">#eceff1</color>
     <color name="fragement_text_color">#000000</color>
     <color name="fragement_heading_text_color">#000000</color>
 

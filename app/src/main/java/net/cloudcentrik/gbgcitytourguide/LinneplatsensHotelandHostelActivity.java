@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LinneplatsensHotelandHostelActivity extends BaseActivity {
 
 public LinneplatsensHotelandHostelActivity(){
-        super("LinneplatsensHotelandHostelActivity",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
+        super("Linneplatsens Hotel and Hostel",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
         }
 
         }

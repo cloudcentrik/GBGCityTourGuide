@@ -4,21 +4,14 @@
     android:layout_height="match_parent"
     android:background="@drawable/splashscreen_background" >
 
-    <ImageView
-        android:id="@+id/imgLogo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:src="@drawable/ic_directions_bus_black_18dp" />
-
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:textSize="36dp"
         android:textColor="@color/btn_white"
-        android:gravity="center_horizontal"
-        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:layout_centerInParent="true"
         android:text="Gothenburg City Tour Guide" />
 
 </RelativeLayout>
