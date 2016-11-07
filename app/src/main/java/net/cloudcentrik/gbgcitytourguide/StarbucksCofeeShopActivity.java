@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class StarbucksCofeeShopActivity extends BaseActivity {
 
     public StarbucksCofeeShopActivity(){
-        super("StarbucksCofeeShopActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Starbucks Cofee Shop",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

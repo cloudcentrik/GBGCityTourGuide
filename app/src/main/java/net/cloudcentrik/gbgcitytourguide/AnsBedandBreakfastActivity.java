@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class AnsBedandBreakfastActivity extends BaseActivity {
 
     public AnsBedandBreakfastActivity(){
-        super("AnsBedandBreakfastActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("5:Ans Bed and Breakfast",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

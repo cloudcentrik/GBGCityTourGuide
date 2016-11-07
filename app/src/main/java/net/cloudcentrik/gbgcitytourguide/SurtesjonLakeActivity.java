@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SurtesjonLakeActivity extends BaseActivity {
 
     public SurtesjonLakeActivity(){
-        super("SurtesjonLakeActivity",R.layout.base_layout,StringsUtils.getSurtesjonLakeValues());
+        super("Surtesjön Lake",R.layout.base_layout,StringsUtils.getSurtesjonLakeValues());
     }
 
 }

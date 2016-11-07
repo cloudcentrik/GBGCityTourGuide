@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class GoteborgsMiniHotelActivity extends BaseActivity {
 
     public GoteborgsMiniHotelActivity(){
-        super("GoteborgsMiniHotelActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("Goteborgs Mini Hotel",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

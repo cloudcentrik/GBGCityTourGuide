@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LaithaiHalalRestaurantActivity extends BaseActivity {
 
     public LaithaiHalalRestaurantActivity(){
-        super("LaithaiHalalRestaurantActivity",R.layout.base_layout,StringsUtilsHotel.getLaithaiValues());
+        super("Lai Thai Restaurant",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class CarlstenFortHPActivity extends BaseActivity {
 
     public CarlstenFortHPActivity(){
-        super("CarlstenFortHPActivity",R.layout.base_layout,StringsUtils.getCarlstenFortHPActivity());
+        super("Carlsten Fort",R.layout.base_layout,StringsUtils.getCarlstenFortHPActivity());
     }
 
 }

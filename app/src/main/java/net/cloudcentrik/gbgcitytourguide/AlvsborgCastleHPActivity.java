@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class AlvsborgCastleHPActivity extends BaseActivity {
 
     public AlvsborgCastleHPActivity(){
-        super("AlvsborgCastleHPActivity",R.layout.base_layout,StringsUtils.getAlvsborgCastleHPActivity());
+        super("Älvsborg Castle",R.layout.base_layout,StringsUtils.getAlvsborgCastleHPActivity());
     }
 
 }

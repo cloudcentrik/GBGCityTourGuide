@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class JohnscottPubActivity extends BaseActivity {
 
     public JohnscottPubActivity(){
-        super("JohnscottPubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("John Scotts",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

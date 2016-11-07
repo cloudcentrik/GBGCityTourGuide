@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class BackpackersYouthHostelActivity extends BaseActivity {
 
     public BackpackersYouthHostelActivity(){
-        super("BackpackersYouthHostelActivity",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
+        super("Backpackers Goteborg",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
     }
 
 }

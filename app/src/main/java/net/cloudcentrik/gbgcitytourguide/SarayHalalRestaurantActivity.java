@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SarayHalalRestaurantActivity extends BaseActivity {
 
     public SarayHalalRestaurantActivity(){
-        super("SarayHalalRestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("Saray Grill Restaurant",R.layout.base_layout,StringsUtils.getTemValues());
     }
 
 }

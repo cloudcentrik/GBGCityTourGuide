@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class VingaIslandActivity extends BaseActivity {
 
     public VingaIslandActivity(){
-        super("VingaIslandActivity",R.layout.base_layout,StringsUtils.getVingaIslandValues());
+        super("Vinga Island",R.layout.base_layout,StringsUtils.getVingaIslandValues());
     }
 
 }

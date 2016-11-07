@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class UniverseumActivity extends BaseActivity {
 
     public UniverseumActivity(){
-        super("UniverseumActivity",R.layout.base_layout,StringsUtils.getUniverseumValues());
+        super("Universeum",R.layout.base_layout,StringsUtils.getUniverseumValues());
     }
 
 }

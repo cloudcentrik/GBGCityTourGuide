@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class YakidaNightClubActivity extends BaseActivity {
 
     public YakidaNightClubActivity(){
-        super("YakidaNightClubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Yakida Night Club",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

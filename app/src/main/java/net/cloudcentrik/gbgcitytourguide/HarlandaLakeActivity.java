@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class HarlandaLakeActivity extends BaseActivity {
 
     public HarlandaLakeActivity(){
-        super("HarlandaLakeActivity",R.layout.base_layout,StringsUtils.getHarlandaTjarnValues());
+        super("Härlandatjärn Lake",R.layout.base_layout,StringsUtils.getHarlandaTjarnValues());
     }
 
 }

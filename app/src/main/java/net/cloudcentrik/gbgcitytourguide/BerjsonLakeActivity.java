@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class BerjsonLakeActivity extends BaseActivity {
 
     public BerjsonLakeActivity(){
-        super("BerjsonLakeActivity",R.layout.base_layout,StringsUtils.getBerjsonLakeValues());
+        super("Berjsön Lake",R.layout.base_layout,StringsUtils.getBerjsonLakeValues());
     }
 
 }

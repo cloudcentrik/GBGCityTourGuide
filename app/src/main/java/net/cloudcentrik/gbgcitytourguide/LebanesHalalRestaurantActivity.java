@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LebanesHalalRestaurantActivity extends BaseActivity {
 
     public LebanesHalalRestaurantActivity(){
-        super("LebanesHalalRestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("Lebanes Grill House",R.layout.base_layout,StringsUtils.getTemValues());
     }
 
 }

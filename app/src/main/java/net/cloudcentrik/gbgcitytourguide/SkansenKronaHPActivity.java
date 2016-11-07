@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SkansenKronaHPActivity extends BaseActivity {
 
     public SkansenKronaHPActivity(){
-        super("SkansenKronaHPActivity",R.layout.base_layout,StringsUtils.getSkansenKronanValues());
+        super("Skansen Krona",R.layout.base_layout,StringsUtils.getSkansenKronanValues());
     }
 
 }

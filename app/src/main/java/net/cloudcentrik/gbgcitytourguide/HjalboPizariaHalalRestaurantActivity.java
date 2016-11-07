@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class HjalboPizariaHalalRestaurantActivity extends BaseActivity {
 
     public HjalboPizariaHalalRestaurantActivity(){
-        super("HjalboPizariaHalalRestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("Hjallbo Pizzeria",R.layout.base_layout,StringsUtils.getTemValues());
     }
 
 }

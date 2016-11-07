@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LeMatBandBGoteborgCityActivity extends BaseActivity {
 
     public LeMatBandBGoteborgCityActivity(){
-        super("LeMatBandBGoteborgCityActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("Le Mat B&B Goteborg",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }
