@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class DivanHalalRestaurantActivity extends BaseActivity {
 
     public DivanHalalRestaurantActivity(){
-        super("DivanHalalRestaurantActivity",R.layout.base_layout,StringsUtils.getTemValues());
+        super("Divan Halal Restaurant",R.layout.base_layout,StringsUtils.getTemValues());
     }
 
 }

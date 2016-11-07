@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class GothiaTowersHotelActivity extends BaseActivity {
 
     public GothiaTowersHotelActivity(){
-        super("GothiaTowersHotelActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("Gothia Towers Hotel",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

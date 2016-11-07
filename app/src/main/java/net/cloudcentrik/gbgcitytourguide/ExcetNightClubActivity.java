@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class ExcetNightClubActivity extends BaseActivity {
 
     public ExcetNightClubActivity(){
-        super("ExcetNightClubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Excet Night Club",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

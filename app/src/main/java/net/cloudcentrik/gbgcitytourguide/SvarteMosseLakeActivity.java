@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SvarteMosseLakeActivity extends BaseActivity {
 
     public SvarteMosseLakeActivity(){
-        super("SvarteMosseLakeActivity",R.layout.base_layout,StringsUtils.getSvarteMosseLakeValues());
+        super("Svarte Mosse Lake",R.layout.base_layout,StringsUtils.getSvarteMosseLakeValues());
     }
 
 }

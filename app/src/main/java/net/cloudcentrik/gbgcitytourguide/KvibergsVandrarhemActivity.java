@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class KvibergsVandrarhemActivity extends BaseActivity {
 
     public KvibergsVandrarhemActivity(){
-        super("KvibergsVandrarhemActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("Kvibergs Vandrarhem",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

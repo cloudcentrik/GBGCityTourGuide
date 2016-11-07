@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class WorldCultureMuseumActivity extends BaseActivity {
 
     public WorldCultureMuseumActivity(){
-        super("WorldCultureMuseumActivity",R.layout.base_layout,StringsUtils.getWorldCultureMuseumValues());
+        super("World Culture Museum",R.layout.base_layout,StringsUtils.getWorldCultureMuseumValues());
     }
 
 }

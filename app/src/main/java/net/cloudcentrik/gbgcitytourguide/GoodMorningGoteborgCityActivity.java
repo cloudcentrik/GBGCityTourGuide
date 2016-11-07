@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class GoodMorningGoteborgCityActivity extends BaseActivity {
 
     public GoodMorningGoteborgCityActivity(){
-        super("GoodMorningGoteborgCityActivity",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
+        super("Good Morning Goteborg",R.layout.base_layout,StringsUtils.getAvalonHotelValues());
     }
 
 }

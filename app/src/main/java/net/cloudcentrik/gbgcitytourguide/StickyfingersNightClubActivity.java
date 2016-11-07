@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class StickyfingersNightClubActivity extends BaseActivity {
 
     public StickyfingersNightClubActivity(){
-        super("StickyfingersNightClubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Sticky Fingers Night Club",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

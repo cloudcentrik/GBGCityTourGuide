@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class DamattioCofeeShopActivity extends BaseActivity {
 
     public DamattioCofeeShopActivity(){
-        super("DamattioCofeeShopActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Da Mattio Cofee Shop",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

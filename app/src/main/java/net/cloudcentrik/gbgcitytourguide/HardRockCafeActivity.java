@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class HardRockCafeActivity extends BaseActivity {
 
     public HardRockCafeActivity(){
-        super("HardRockCafeActivity",R.layout.base_layout,StringsUtils.getHardRockCafeValues());
+        super("Hard Rock Cafe",R.layout.base_layout,StringsUtils.getHardRockCafeValues());
     }
 
 }

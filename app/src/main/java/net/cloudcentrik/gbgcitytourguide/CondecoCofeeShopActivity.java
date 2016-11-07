@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class CondecoCofeeShopActivity extends BaseActivity {
 
     public CondecoCofeeShopActivity(){
-        super("CondecoCofeeShopActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Condeco Cofee Shop",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

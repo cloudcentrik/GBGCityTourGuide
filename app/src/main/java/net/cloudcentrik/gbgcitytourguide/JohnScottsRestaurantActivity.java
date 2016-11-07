@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class JohnScottsRestaurantActivity extends BaseActivity {
 
     public JohnScottsRestaurantActivity(){
-        super("JohnScottsRestaurantActivity",R.layout.base_layout,StringsUtils.getJohnScottsRestaurantValues());
+        super("John Scotts Restaurant",R.layout.base_layout,StringsUtils.getJohnScottsRestaurantValues());
     }
 
 }

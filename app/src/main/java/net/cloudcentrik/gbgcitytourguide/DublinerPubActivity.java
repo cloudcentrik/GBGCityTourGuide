@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class DublinerPubActivity extends BaseActivity {
 
     public DublinerPubActivity(){
-        super("DublinerPubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("The Dubliner Pub",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

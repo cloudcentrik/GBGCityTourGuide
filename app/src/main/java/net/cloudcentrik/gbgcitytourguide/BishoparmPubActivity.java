@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class BishoparmPubActivity extends BaseActivity {
 
     public BishoparmPubActivity(){
-        super("BishoparmPubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("The Bishop's Arm Pub",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

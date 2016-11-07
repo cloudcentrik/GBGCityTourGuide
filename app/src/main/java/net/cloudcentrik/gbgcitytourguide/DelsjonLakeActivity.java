@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class DelsjonLakeActivity extends BaseActivity {
 
     public DelsjonLakeActivity(){
-        super("DelsjonLakeActivity",R.layout.base_layout,StringsUtils.getDelsjonValues());
+        super("Delsjön Lake",R.layout.base_layout,StringsUtils.getDelsjonValues());
     }
 
 }

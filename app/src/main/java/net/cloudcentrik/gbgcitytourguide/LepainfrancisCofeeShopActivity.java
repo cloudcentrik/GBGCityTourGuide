@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LepainfrancisCofeeShopActivity extends BaseActivity {
 
     public LepainfrancisCofeeShopActivity(){
-        super("LepainfrancisCofeeShopActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Le Pain Francis Coffee Shop",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

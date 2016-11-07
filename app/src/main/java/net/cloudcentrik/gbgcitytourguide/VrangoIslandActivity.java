@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class VrangoIslandActivity extends BaseActivity {
 
     public VrangoIslandActivity(){
-        super("VrangoIslandActivity",R.layout.base_layout,StringsUtils.getVrangoIslandValues());
+        super("Vrångö Island",R.layout.base_layout,StringsUtils.getVrangoIslandValues());
     }
 
 }

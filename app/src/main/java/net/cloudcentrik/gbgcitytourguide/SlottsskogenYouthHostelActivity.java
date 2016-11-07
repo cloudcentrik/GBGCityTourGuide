@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SlottsskogenYouthHostelActivity extends BaseActivity {
 
     public SlottsskogenYouthHostelActivity(){
-        super("SlottsskogenYouthHostelActivity",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
+        super("Slottsskogen Youth Hostel",R.layout.base_layout,StringsUtils.getVandrarHemHotelValues());
     }
 
 }

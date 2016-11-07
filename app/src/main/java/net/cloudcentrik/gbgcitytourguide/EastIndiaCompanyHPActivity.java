@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class EastIndiaCompanyHPActivity extends BaseActivity {
 
     public EastIndiaCompanyHPActivity(){
-        super("EastIndiaCompanyHPActivity",R.layout.base_layout,StringsUtils.getEastIndiaCompanyHPValues());
+        super("East India Company",R.layout.base_layout,StringsUtils.getEastIndiaCompanyHPValues());
     }
 
 }
