@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LindholmenParkActivity extends BaseActivity {
 
     public LindholmenParkActivity(){
-        super("LindholmenParkActivity",R.layout.base_layout,StringsUtils.getLindholmenParkValues());
+        super("Lindholmen Science Park",R.layout.base_layout,StringsUtils.getLindholmenParkValues());
     }
 
 }

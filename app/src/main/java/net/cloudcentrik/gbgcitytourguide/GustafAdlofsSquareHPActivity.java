@@ -6,7 +6,6 @@ package net.cloudcentrik.gbgcitytourguide;
 public class GustafAdlofsSquareHPActivity extends BaseActivity {
 
     public GustafAdlofsSquareHPActivity(){
-        super("Gustaf Adlofs Square",R.layout.base_layout,StringsUtils.getGustafAdlofsSquareHPHPValues());
+        super("Gustaf Adolfs Square",R.layout.base_layout,StringsUtils.getGustafAdlofsSquareHPHPValues());
     }
-
 }

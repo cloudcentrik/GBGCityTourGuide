@@ -7,7 +7,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class NordstanSCActivity extends BaseActivity {
 
     public NordstanSCActivity(){
-        super("NordstanSCActivity",R.layout.base_layout,StringsUtils.getNordstanValues());
+        super("Nordstan Shopping Center",R.layout.base_layout,StringsUtils.getNordstanValues());
     }
 
 }

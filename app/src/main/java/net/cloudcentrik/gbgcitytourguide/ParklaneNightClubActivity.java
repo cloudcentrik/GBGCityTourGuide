@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class ParklaneNightClubActivity extends BaseActivity {
 
     public ParklaneNightClubActivity(){
-        super("ParklaneNightClubActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Parklane Night Club",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }

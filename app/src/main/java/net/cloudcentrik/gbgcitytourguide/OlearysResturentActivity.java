@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class OlearysResturentActivity extends BaseActivity {
 
     public OlearysResturentActivity(){
-        super("OlearysResturentActivity",R.layout.base_layout,StringsUtils.getOlearysValues());
+        super("Olearys Resturent",R.layout.base_layout,StringsUtils.getOlearysValues());
     }
 
 }
