@@ -139,6 +139,30 @@ public class FastFoodActivity extends AppCompatActivity implements OnMapReadyCal
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))
         );
 
+        LatLng subwayCentralstation = new LatLng(57.739627,10.507651);
+        mMap.addMarker(new MarkerOptions()
+                .position(subwayCentralstation)
+                .title("Subway")
+                .snippet("Nils Ericsonplatsen")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        );
+
+        LatLng subwayKunsportsplatsen = new LatLng(57.704994, 11.969941);
+        mMap.addMarker(new MarkerOptions()
+                .position(subwayKunsportsplatsen)
+                .title("Subway")
+                .snippet("Ostra Larmgatan 15")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        );
+
+        LatLng subwayLilabomen = new LatLng(57.709960, 11.968092);
+        mMap.addMarker(new MarkerOptions()
+                .position(subwayLilabomen)
+                .title("Subway")
+                .snippet("Lilla Kladpressaregatan 7")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN))
+        );
+
 
 
         //mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(burgerking, 14));
@@ -207,8 +231,10 @@ public class FastFoodActivity extends AppCompatActivity implements OnMapReadyCal
 
             if(marker.getTitle().equals("Macdoland")){
                 ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.mcdonalds);
-            }else{
+            }else if(marker.getTitle().equals("Burgerking")){
                 ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.burgerking);
+            }else{
+                ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.subway);
             }
 
 
