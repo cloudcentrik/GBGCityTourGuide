@@ -139,7 +139,7 @@ public class FastFoodActivity extends AppCompatActivity implements OnMapReadyCal
                 .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_YELLOW))
         );
 
-        LatLng subwayCentralstation = new LatLng(57.739627,10.507651);
+        LatLng subwayCentralstation = new LatLng(57.710330, 11.972350);
         mMap.addMarker(new MarkerOptions()
                 .position(subwayCentralstation)
                 .title("Subway")
@@ -234,7 +234,7 @@ public class FastFoodActivity extends AppCompatActivity implements OnMapReadyCal
             }else if(marker.getTitle().equals("Burgerking")){
                 ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.burgerking);
             }else{
-                ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.subway);
+                ((ImageView) view.findViewById(R.id.fast_food_image)).setImageResource(R.drawable.subway1);
             }
 
 
