@@ -348,20 +348,33 @@ public class StringsUtils {
 
         values.put(
                 "OVERVIEW",
-                "Gustaf Adlofs Square ------------" +
-                        "chants were not part of the lucrative dealings of the English, so Scot Colin Campbell, in association " +
-                        "with Niclas Sahlgren in Gothenburg, devised an idea for a Swedish East India Company, which would be Sweden's " +
-                        "first international trading company.\n\n" +
-                        "The company started up in 1731, and the next year the first ship set off for the Far East. This made Gothenburg " +
-                        "a European centre of trade in products from China and the East. The main goods were silk, tea, furniture, " +
-                        "porcelain, precious stones and other distinctive luxury items."
+                "Gustaf Adolf's square is a located in central Gothenburg. It was named Stortorget (the Big square) until 1854 " +
+                        "when a statue was raised over the founding father of Gothenburg, king Gustavus Adolphus of Sweden.\n\n" +
+                        "Surrounding the square you can find Gothenburg City Hall, the law court (by Gunnar Asplund), and the " +
+                        "main canal of Gothenburg. The City Hall is designed by Bengt Wilhelm Carlberg and completed in 1759. The " +
+                        "former stock exchange building was on the northeast side of square was built between 1844-1859 and functions" +
+                        " today as administrative building of the Gothenburg municipality. The massive G&ouml;ta palace was completed in 1912. " +
+                        "There is also a statue of Gustavus Adolphus of Sweden erected in 1854\n\n" +
+                        "The Statue Gustav II Adolf:\n" +
+                        "The Statue is made after the legend about the foundation of Gothenburg. The King should have ridden up the mountain " +
+                        "Stora Otterhällan and with a big grasious gesture pointed out over the fields of Gullbergs by the canal and should " +
+                        "have said. \"The City shall be placed here\". So the pointed finger on the statue is made after his gesture.\n" +
+                        "\n\n" +
+                        "One thing that is a little bit odd with the statue is that the King looks really old in the face, the King was " +
+                        "only 24 years old when he said that the city shall be placed here."
         );
 
         values.put("OPENING_HOURS", "Any time");
         values.put("TICKET_PRICE", "Free Access");
-        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken");
+        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken\n" +
+                "Tram: 1,2,3,4,5,6,7,9,11,13 \n" +
+                "Bus: 16, 17, 18, 19, 50 \n" +
+                "You can go there by one of the suitable Bus or Tram from your position inside Gothenburg!");
         values.put("CONTACT_INFO", "Not Available");
-        values.put("ADDRESS", "Gustaf Adolfs torg, 411 10 Göteborg");
+        values.put("ADDRESS", "Gustaf Adolfs torg, 411 10 Göteborg\n" +
+                "The square is sorrounded by four streets. At the north side, " +
+                "Köpmansgatan and at the west side, Torggatan. At the south side, " +
+                "Norra Hamngatan and Östra Hamngatan at the east side. ");
         values.put("EMAIL", "Not Available");
         values.put("PHONE", "Not Available");
         values.put("NAME", "DEMO Name");
@@ -388,7 +401,8 @@ public class StringsUtils {
                         "porcelain, precious stones and other distinctive luxury items."
         );
 
-        values.put("ADDRESS", "Address: Norra Hamngatan 12, 411 14 Göteborg ");
+        values.put("ADDRESS", "Address: Norra Hamngatan 12\n " +
+                "411 14 Göteborg ");
         values.put("CONTACT_INFO", "Address: Norra Hamngatan 12\n" +
                 "Stop: Brunnsparken\n" +
                 "Phone: +46313683600\n" +
@@ -396,8 +410,10 @@ public class StringsUtils {
                 "Website: http://www.stadsmuseum.goteborg.se");
         values.put("OPENING_HOURS", "Tuesday and Thursday-Sunday: 10.00-17.00. \n" +
                 "Wednesday: 10.00-20.00\n\n");
-        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken \n" +
-                "Or, You can walk for 6/7 minutes from Centralstation to there.\n\n");
+        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken\n" +
+                "Tram: 1,2,3,4,5,6,7,9,11,13 \n" +
+                "Bus: 16, 17, 18, 19, 50 \n" +
+                "You can go there by one of the suitable Bus or Tram from your position inside Gothenburg!");
         values.put("TICKET_PRICE", "40 Sek ");
         values.put("EMAIL", "stadsmuseum@kultur.goteborg.se");
         values.put("PHONE", "+46313683600");
@@ -423,12 +439,16 @@ public class StringsUtils {
                         "festival, life in the 1700's is reconstructed with prisoners, soldiers and the firing of cannons. " +
                         "Dinners, historical meals, conferences, historical re-enactmens etc are also arranged at the fort.\n"
         );
-        values.put("ADDRESS", "Address: 442 67 Marstrand");
+        values.put("ADDRESS", "Address: Carlstens fästning\n" +
+                "Marstrand\n" +
+                "44030 Marstrand");
         values.put("CONTACT_INFO", "(+46)303 602 65");
         values.put("OPENING_HOURS", "OPEN ALL YEAR AROUND!");
-        values.put("TRAVEL_INFO", "Stop: Marstrands färjeläge . Go by Buss MEXP from Nils Ericson terminalen stop.");
+        values.put("TRAVEL_INFO", "Stop: Marstrands färjeläge \n" +
+                "Go by Buss MEXP from Nils Ericson terminalen stop which is just beside of Centralstation." +
+                " Bus ticket is valid for 180 minutes and cost 65 Sek");
         values.put("TICKET_PRICE", "NA\n\n");
-        values.put("EMAIL", "Not Available");
+        values.put("EMAIL", "info@carlsten.se");
         values.put("PHONE", "(+46)303 602 65");
         values.put("NAME", "DEMO Name");
         values.put("MAP", "57.886635, 11.578018, Carlsten, Fortress");
@@ -449,7 +469,9 @@ public class StringsUtils {
                         "Sweden's access to the Atlantic Ocean and the nearby settlement of today's Gothenburg and its four predecessors. The " +
                         "fortress was relocated in the 17th century, this New &Auml;lvsborg Fortress is still maintained. Of the Old &Auml;lvsborg " +
                         "Fortress, only few ruins are visible today in the vicinity of the Carnegie-pier. The new fortress was founded " +
-                        "in 1621 by Gustavus Adolphus of Sweden."
+                        "in 1621 by Gustavus Adolphus of Sweden. During the war with Denmark in 1717 to 1719 the fortress was attacked time " +
+                        "after time without being occupied. Today it is one of the most popular outings in Gothenburg. Str&ouml;mma archipelago " +
+                        "boats take you to the island."
         );
         values.put("ADDRESS", "On the mouth of the Göta Älv river. \n" +
                 "413 01 Gothenburg");
@@ -458,10 +480,16 @@ public class StringsUtils {
                 "Phone: +4631609670\n" +
                 "E-mail: info@strommaskargardsbatar.se\n" +
                 "Website: http://www.stromma.se/sv/Goteborg/Turer/Stromma-Skargardsbatar/Batutflykter/Alvsborgs-fastning");
-        values.put("OPENING_HOURS", "Daily 1 July-9 August.\n\n");
-        values.put("TRAVEL_INFO", "The boat ride takes approximately 30 minutes one way and " +
-                "departs from Lilla Bommen 10.45, 12.00, 13.15, 14.30.");
-        values.put("TICKET_PRICE", "200 Sek\n\n");
+        values.put("OPENING_HOURS", "Daily 7 July - 20 August.\n" +
+                "The boat ride takes approximately 30 minutes one way and departs from Lilla Bommen 11.00, 12.30, 14.00.");
+        values.put("TRAVEL_INFO", "The boat trip to the fortress with Str&ouml;mma archipelago boats include a dramatized guided " +
+                "tour, which takes you through a surprising trip back in time from the 1600s to today.\n" +
+                "The tour is given in Swedish and English.");
+        values.put("TICKET_PRICE", "Departs from: Lilla Bommen\n" +
+                "adult: 180 Sek\n" +
+                "Children 6-15 yrs: Half price\n" +
+                "Children 0-5 yrs: Free of charge\n" +
+                "Family Ticket: 495 SEK. Valid for 2 adults and 2 children. This ticket can only be purchased on board.");
         values.put("EMAIL", "info@strommaskargardsbatar.se");
         values.put("PHONE", "+4631609670");
         values.put("NAME", "DEMO Name");
@@ -484,19 +512,26 @@ public class StringsUtils {
                         "\n" +
                         "The fortress - originally built outside the city walls - is today situated in the city centre of Gothenburg " +
                         "on a hill in the city district of Haga. It was used as a military museum until 2004. Today Skansen Kronan is " +
-                        "a private facility for conferences and private parties."
+                        "a private facility for conferences and private parties. Skansen Kronan is a national memorial since year " +
+                        "1935 and belong to the national cultural heritage."
         );
-        values.put("OPENING_HOURS", "Opened \n" +
-                "August 11 to October 13  \n" +
-                "Thursdays and Fridays 10.00- 15:00  \n" +
+        values.put("OPENING_HOURS", "18 August - 18 November. \n" +
+                "Thursdays and Fridays 10:00 to 15:00  \n" +
+                "We welcome visitors for the traditional  \n" +
+                "\"Swedish coffee\", homemade waffles That you make your selfe. \n" +
+                "Sunday Brunch swedish style from 27 th November. \n" +
+                "Free entrance  \n\n" +
                 "Guided tours during summer in cooperation with Walknet. Large groups can pre-book all year round. " +
-                "Please go to http://www.skansenkronan.se/ for more information.");
+                "Please go to \n" +
+                "http://www.skansenkronan.se/\n" +
+                "for more information.");
         values.put("TICKET_PRICE", "Free admission ");
-        values.put("TRAVEL_INFO", "Stop: Prinsgatan . Tram 1, 6 and Bus 60");
+        values.put("TRAVEL_INFO", "Stop: Prinsgatan.\n" +
+                "Tram 1, 6 and Bus 60");
         values.put("CONTACT_INFO", "Phone: +46317113033\n" +
                 "E-mail: bokning@skansenkronan.se\n" +
                 "Website: http://www.skansenkronan.se/");
-        values.put("ADDRESS", "Skansberget");
+        values.put("ADDRESS", "Risåsberget (also called Skansberget), Ryssåsen in Haga");
         values.put("EMAIL", "bokning@skansenkronan.se");
         values.put("PHONE", "+46317113033");
         values.put("NAME", "DEMO Name");
