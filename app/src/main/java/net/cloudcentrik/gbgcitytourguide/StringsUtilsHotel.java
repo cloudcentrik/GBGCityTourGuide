@@ -38,7 +38,7 @@ public class StringsUtilsHotel {
         );
         values.put("OPENING_HOURS", "11AM - 8 PM");
         values.put("TICKET_PRICE", "NA");
-        values.put("TRAVEL_INFO", "Nearest tram stop SKF. Tram 6, 7, 11 and Bbuss 58, 519 go through SKF");
+        values.put("TRAVEL_INFO", "Nearest tram stop SKF. Tram 6, 7, 11 and buss 58, 519 go through SKF");
         values.put("CONTACT_INFO", "DEMO contact information");
         values.put("ADDRESS", "Artillerigatan 8, 415 03 Göteborg");
         values.put("EMAIL", "kaniz.laithai@gmail.com");
