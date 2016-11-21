@@ -232,7 +232,7 @@
             android:orientation="vertical">
             <TextView
                 android:layout_width="match_parent"
-                android:text="Travle Information"
+                android:text="Travel Information"
                 android:textColor="@color/black"
                 android:layout_gravity="center"
                 android:textSize="20dp"
