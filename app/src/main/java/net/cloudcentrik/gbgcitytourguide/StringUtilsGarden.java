@@ -15,33 +15,20 @@ public class StringUtilsGarden {
 
         values.put(
                 "OVERVIEW",
-                "The greenhouses have the largest collection of tropical orchids in Sweden, carnivorous plants and the rare Easter Island " +
-                        "tree, which is extinct in its natural environment. A series of exhibitions are held in the greenhouses every year " +
-                        "and the garden has a comprehensive schedule of activities all year round.\n" +
-                        "The garden is close to the nature reserve &Auml;ngg&aring;rdsbergen, where the scientific tree collection, the arboretum, " +
-                        "is located. \n" +
-                        "The Botanical Garden has two stars in the Michelin Green Guide and guided tours are arranged daily during " +
-                        "the summer season." +
-                        "- - - Inside garden there a a restaurant. You can have your lunch there. "
+                "The Gothenburg Botanical Garden (Swedish: Göteborgs botaniska trädgård) is located in Gothenburg, Sweden, and is one of the larger botanical gardens in Europe. The area in total is 175 hectares (ca 430 acres), of which most constitutes a nature reserve including the arboretum. The garden proper is about 40 hectars and here grow something like 16,000 different species and cultivars in various parts of it. Among many fascinating parts of the garden are The Rhododendron Valley, The Japanese Glade and The Rockgarden with it's waterfall. In the Greenhouses you will find about 4,000 various species and cultivars, including some 1,500 orchids, a remarkable travertine department and the rare Eastern Island Tree."
         );
-        values.put("OPENING_HOURS", "The garden is open daily from 09.00-21.00 and the greenhouses are open daily in May-August 10.00-17.00, the rest of the year 10.00-16.00.\n" +
-                "GÖTEBORG CITY CARD\n" +
-                "Göteborg City Card gives you 1 free admission to the greenhouses.");
-        values.put("TICKET_PRICE", "Free Entry / maybe 20 Sek");
+        values.put("OPENING_HOURS", "The garden is open odaily 9 am to 9 pm");
+        values.put("TICKET_PRICE", "Volontary admission fee SEK 20");
         values.put("TRAVEL_INFO", "Nearest Stop: Botaniska Trädgården\n" +
                 "Tram: 1, 2, 7 \n" +
                 "Bus:  \n" +
                 "You can go there by one of the Bus or Tram");
-        values.put("CONTACT_INFO", "Address: Carl Skottbergs Gata 22A\n" +
-                "Stop: Botaniska Trädgården\n" +
-                "Phone: +46317411101\n" +
-                "E-mail: botaniska.tradgarden@vgregion.se\n" +
-                "Website: http://www.botaniska.se/");
-        values.put("ADDRESS", "Address: Carl Skottbergs Gata 22A\n" +
-                "Stop: Botaniska Trädgården");
+        values.put("ADDRESS", "Carl Skottsbergs Gata 22A\n" +
+                "SE-413 19 Göteborg\n" +
+                "http://www.botaniska.se/");
         values.put("EMAIL", "botaniska.tradgarden@vgregion.se");
-        values.put("PHONE", "+46317411101");
-        values.put("NAME", "DEMO Name");
+        values.put("PHONE", "+46 (0)10-4737777");
+        values.put("NAME", "Gothenburg Botanical Garden");
         values.put("MAP", "57.682979, 11.950089, Botanical, Garden");
         values.put("GALLERY", "botanicalgarden1 botanicalgarden2 botanicalgarden3");
 
