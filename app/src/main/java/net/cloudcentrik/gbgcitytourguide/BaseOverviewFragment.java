@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.TextView;
 
@@ -37,7 +38,10 @@ public class BaseOverviewFragment extends Fragment {
         this.overView = getArguments().getString("over view", "");
 
         txtOverviewContent = (WebView) rootView.findViewById(R.id.textOverviewContent);
-        txtOverviewContent.getSettings();
+
+        WebSettings settings = txtOverviewContent.getSettings();
+        settings.setDefaultTextEncodingName("utf-8");
+
         txtOverviewContent.setBackgroundColor(Color.TRANSPARENT);
 
 
@@ -53,7 +57,7 @@ public class BaseOverviewFragment extends Fragment {
         text.append("<html><body bgcolor=\"#eceff1\" style=\"color:black;\"><p align=\"justify\">");
         text.append(overView);
         text.append("</p></body></html>");
-        txtOverviewContent.loadData(text.toString(), "text/html", " UTF-8");
+        txtOverviewContent.loadData(text.toString(), "text/html; charset=utf-8",null);
 
     }
 
