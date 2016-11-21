@@ -410,10 +410,10 @@ public class StringsUtils {
                 "Website: http://www.stadsmuseum.goteborg.se");
         values.put("OPENING_HOURS", "Tuesday and Thursday-Sunday: 10.00-17.00. \n" +
                 "Wednesday: 10.00-20.00\n\n");
-        values.put("TRAVEL_INFO", "Tran Stop: Brunnsparken\n" +
+        values.put("TRAVEL_INFO", "Nearest Stop: Brunnsparken\n" +
                 "Tram: 1,2,3,4,5,6,7,9,11,13 \n" +
                 "Bus: 16, 17, 18, 19, 50 \n" +
-                "You can go there by one of the suitable Bus or Tram from your position inside Gothenburg!");
+                "You can go there by one of the Bus or Tram");
         values.put("TICKET_PRICE", "40 Sek ");
         values.put("EMAIL", "stadsmuseum@kultur.goteborg.se");
         values.put("PHONE", "+46313683600");
