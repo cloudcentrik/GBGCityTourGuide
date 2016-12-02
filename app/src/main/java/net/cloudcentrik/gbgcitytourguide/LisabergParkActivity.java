@@ -6,6 +6,6 @@ package net.cloudcentrik.gbgcitytourguide;
 public class LisabergParkActivity extends BaseActivity {
 
     public LisabergParkActivity(){
-        super("Liseberg Amusement Park",R.layout.base_layout,StringsUtils.getLisabergParkValues());
+        super("Liseberg Amusement Park",R.layout.base_layout,StringUtilsPark.getLisabergParkValues());
     }
 }

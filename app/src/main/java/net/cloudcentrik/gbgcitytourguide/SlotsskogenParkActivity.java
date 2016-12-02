@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class SlotsskogenParkActivity extends BaseActivity {
 
     public SlotsskogenParkActivity(){
-        super("Slottsskogen Park",R.layout.base_layout,StringsUtils.getSlotsskogenParkValues());
+        super("Slottsskogen Park",R.layout.base_layout,StringUtilsPark.getSlotsskogenParkValues());
     }
 
 }
