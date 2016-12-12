@@ -111,18 +111,19 @@ public class StringUtilsPark {
         values.put(
                 "OVERVIEW",
                 "Lindholmen Science Park is an international collaborative environment for research, innovation and education within the areas Transport, ICT and Media.\n" +
-                        "Lindholmen Science Park offers a neutral development environment where industry, academy and public sector can run research and development projects. For almost 15 years we have been creating successful collaborations and innovations. \n" +
-                        "Open Arena Lindholmen is an environment and our concept of running collaborative projects. People working within Lindholmen Science Park's focus areas meet at Open Arena. There are scientists, project managers, business managers, vehicle specialists, EU experts, students, designers, artists, specialist, entrepreneurs and politicians. \n" +
-                        "Lindholmen is Gothenburg's most knowledge-intensive and growing area. Today 21 000 people work, study or live at Lindholmen. Our vision is that the figure shall be 30 000 people by 2020.\n"
+                        "It offers a neutral development environment where industry, academy and public sector can run research and development projects."
         );
         values.put("OPENING_HOURS", "You can visit outside anytime!");
-        values.put("TICKET_PRICE", "NA");
-        values.put("TRAVEL_INFO", "Stop: Lindholmen");
+        values.put("TICKET_PRICE", "N/A");
+        values.put("TRAVEL_INFO", "Nearest Stop: Lindolmen\n" +
+                    "Bus: 16,45,99,55,121,402\n" +
+                    "You can go there by one of the bus");
         values.put("CONTACT_INFO", "Lindholmen Science Park AB\n" +
                 "Phone: +46 (0)31-764 70 00\n" +
                 "Fax: +46 (0)31-764 70 49\n" +
                 "Email: info@lindholmen.se");
-        values.put("ADDRESS", "Lindholmspiren 5, 417 56 Gothenberg");
+        values.put("ADDRESS", "Lindholmspiren 5, 417 56 Gothenberg\n" +
+                    "http://www.lindholmen.se/en");
         values.put("EMAIL", "info@lindholmen.se");
         values.put("PHONE", "+46 (0)31-764 70 00");
         values.put("NAME", "LindholmenPark");
