@@ -133,28 +133,29 @@ public class StringUtilsMuseum {
                         "\n" +
                         "Apart from cars, buses and other vehicles the museum also have exhibitions on Volvo Ocean Race and Volvo Golf Experience."
         );
-        values.put("OPENING_HOURS", "Monday-Friday:10am-5pm\n" +
-                    "Saturday-Sunday:11am-4pm");
+        values.put("OPENING_HOURS", "Tuesday-Friday 10.00-17.00\n" +
+                "Saturday-Sunday 11.00-16.00\n" +
+                "May-September also open Monday 10.00-17.00.");
         values.put("TICKET_PRICE", "Adults: 100 SEK\n" +
-                    "Youth: 16-19: 50 SEK\n" +
-                    "Children: 6-15: 25 SEK\n" +
-                    "Family ticket:2 adults +x children =>19 : 200 SEK\n" +
-                    "Group ticket: (20 or more): 75 SEK / person\n" +
-                    "Senior citizens: 65+ and Students with ID: 80 SEK\n" +
-                    "Schools: 20 SEK p.p.");
-        values.put("TRAVEL_INFO", "Stop: Arendal Skans\n" +
-                "At first: From Nordstan tram stop to Eketrägata By tram 6, 10 Or by buss 16, 24. \n" +
+                "Youth: 16-19: 50 SEK\n" +
+                "Children: 6-15: 25 SEK\n" +
+                "Family ticket:2 adults +x children =>19 : 200 SEK\n" +
+                "Group ticket: (20 or more): 75 SEK / person\n" +
+                "Senior citizens: 65+ and Students with ID: 80 SEK\n" +
+                "Schools: 20 SEK p.p.");
+        values.put("TRAVEL_INFO", "Nearest Stop: Arendal Skans\n" +
+                "At first: From Nordstan stop to Eketrägatan By tram 6, 10 Or by buss 16, 24\n" +
                 "\n" +
                 "Stop Eketrägatan, Läge E : Take buss 32 to Arendal Skans stop.");
-        values.put("CONTACT_INFO", "Phone: +46313655858\n" +
-                "E-mail: tradgardsforeningen@ponf.goteborg.se\n" +
-                "Website: http://www.tradgardsforeningen.se");
+        values.put("CONTACT_INFO", "Phone: +4631664814\n" +
+                "E-mail: museum@volvo.com\n" +
+                "Website: http://www.volvomuseum.se");
         values.put("ADDRESS", "Arendal Skans \n" +
                     "405 08 Göteborg");
-        values.put("EMAIL", "tradgardsforeningen@ponf.goteborg.se");
-        values.put("PHONE", "+46313655858");
+        values.put("EMAIL", "museum@volvo.com");
+        values.put("PHONE", "+4631664814");
         values.put("NAME", "DEMO Name");
-        values.put("MAP", "57.694774, 11.819454, Volvo, Museum");
+        values.put("MAP", "57.695453, 11.820012, Volvo, Museum");
         values.put("GALLERY", "volvomuseum1 volvomuseum2 volvomuseum3");
 
         return values;

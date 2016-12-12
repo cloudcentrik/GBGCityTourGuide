@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class NaturalHistoryMuseumActivity extends BaseActivity {
 
     public NaturalHistoryMuseumActivity(){
-        super("Natural History Museum",R.layout.base_layout,StringsUtils.getNaturalHistoryMuseumValues());
+        super("Natural History Museum",R.layout.base_layout,StringUtilsMuseum.getNaturalHistoryMuseumValues());
     }
 
 }

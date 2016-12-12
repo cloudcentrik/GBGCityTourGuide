@@ -6,7 +6,7 @@ package net.cloudcentrik.gbgcitytourguide;
 public class VolvoMuseumActivity extends BaseActivity {
 
     public VolvoMuseumActivity(){
-        super("Volvo Museum",R.layout.base_layout,StringsUtils.getVolvoMuseumValues());
+        super("Volvo Museum",R.layout.base_layout,StringUtilsMuseum.getVolvoMuseumValues());
     }
 
 }
